@@ -1,0 +1,92 @@
+export const teachersPage = {
+  hero: {
+    eyebrow: 'Öğretmenlerimiz',
+    title: 'Uzman Eğitmen Kadromuz',
+    description:
+      'Hurra Lingo’nun kalbi, ilham veren öğretmenlerimizdir. Alanında uzman ve uluslararası deneyime sahip eğitmen kadromuzla, her yaş grubuna özel kişiselleştirilmiş bir öğrenme deneyimi sunuyoruz.',
+    subtitle:
+      'Modern yöntemleri ve teknolojiyi etkin kullanan rehberlerimizle, sadece dil öğretmiyor; öğrencilerimizin özgüvenle pratik yapabileceği, motivasyon odaklı bir ortam yaratıyoruz. Bizimle dil öğrenmek, akademik bir süreçten öte, profesyonel ve kültürel bir yolculuktur.',
+  },
+  groups: [
+    {
+      id: 'english',
+      label: 'İngilizce',
+      role: 'İngilizce Öğretmeni',
+      teachers: [
+        { name: 'Adam Büyükbiçer', videoId: 'OphGHPvVxFA', photo: 'adam-buyukbicer' },
+        { name: 'Adeniyi Peace', videoId: 'SYyTgT3BqNo', photo: 'adeniyi-peace' },
+        { name: 'Ayberk Savaş', videoId: 'iTzOE8CGc6Y', photo: 'ayberk-savas' },
+        { name: 'Ayşegül Eskikurt', videoId: '3D7uFkHjKXg', photo: 'aysegul-eskikurt' },
+        { name: 'Ayşegül Santur', videoId: 'GCQyyIkvY18', photo: 'aysegul-santur' },
+        { name: 'Ayşın Yaşa', videoId: 'KqtK7HUlDCU', photo: 'aysin-yasa' },
+        { name: 'Bengü Kesen', videoId: '20OcUH10I5M', photo: 'bengu-kesen' },
+        { name: 'Betül Beyza', videoId: 'NURA_fbp_qM', photo: 'betul-beyza' },
+        { name: 'Büşra Sürekçi', videoId: 'JT7dvczYHzY', photo: 'busra-surekci' },
+        { name: 'Ghazaleh Ghazalifard', videoId: 'LrP0AmyXojU', photo: 'ghazaleh-ghazalifard' },
+        { name: 'Burak Santur', videoId: 'RWjnD6rnZFc' },
+        { name: 'Deniz Özlü', videoId: 'NY56nvWlaO8', photo: 'deniz-ozlu' },
+        { name: 'Gizem Kenez', videoId: 'nNs4IVVkSqw', photo: 'gizem-kenez' },
+        { name: 'Kayra Ağır', videoId: 'gkhi30_MURY', photo: 'kayra-agir' },
+        { name: 'Kübra Toral', videoId: 'HWHfO2KWez8', photo: 'kubra-toral' },
+        { name: 'Mustafa Hakan', videoId: 'yX3QDIar4jo', photo: 'mustafa-hakan-yanar' },
+        { name: 'Neslihan Kızılbayır', videoId: 'rMaytZ5-KMQ', photo: 'neslihan-kizilbayir' },
+        { name: 'Parisa Khalegni', videoId: 'Fs1KBeJbP64', photo: 'parisa-khalegni' },
+        { name: 'Saskia Douglas', videoId: 'aIg6H72Uj80' },
+        { name: 'Sedef Şen', videoId: 'ClXb15HaesM', photo: 'sedef-sen' },
+        { name: 'Yağmur Irmak Özarslan', videoId: 'GhvJ_2j7l4I', photo: 'yagmur-irmak-ozarslan' },
+        { name: 'Yasemin Ürer', videoId: 'Mivbsx_CYBA', photo: 'yasemin-urer' },
+        { name: 'Yolandi Bezuidenhout', videoId: 'Knynxk8wbjw', photo: 'yolandi-bezuidenhout' },
+        { name: 'Zeynep Akgül', videoId: 'bZKC1q_X5mI', photo: 'zeynep-akgul' },
+        { name: 'Zeynep Sarıibrahimoğlu', videoId: 'Ym-CcxHqTOM', photo: 'zeynep-sariibrahimoglu' },
+        { name: 'Deniz Okumuş', videoId: 'T0GvdIXozow', photo: 'deniz-okumus' },
+        { name: 'Müge Tınaz', videoId: 'M0sDozWnDr8', photo: 'muge-tinaz' },
+        { name: 'Duru Melek', videoId: 'xFOrJ4y0i4U', photo: 'duru-melek' },
+      ],
+    },
+    {
+      id: 'spanish',
+      label: 'İspanyolca',
+      role: 'İspanyolca Öğretmeni',
+      teachers: [
+        { name: 'Alexandra Çavuş', videoId: 'cJHBPL6z0Ls', photo: 'alexandra-cavus' },
+        { name: 'J. Luis Fernandez Salazar', videoId: 'l4aCQnXYlBc' },
+      ],
+    },
+    {
+      id: 'french',
+      label: 'Fransızca',
+      role: 'Fransızca Öğretmeni',
+      teachers: [{ name: 'Büşra Ağca', videoId: 'D8Zk4RLERGA', photo: 'busra-agca' }],
+    },
+    {
+      id: 'german',
+      label: 'Almanca',
+      role: 'Almanca Öğretmeni',
+      teachers: [
+        { name: 'Mehtap Taşçıoğlu', videoId: 'Zc0wA7bA7d0', photo: 'mehtap-tascioglu' },
+        { name: 'Nesrin Yılmaz', videoId: 'SJoL5aU5lOo', photo: 'nesrin-yilmaz' },
+        { name: 'Sibel Bulut', videoId: 'dpyMWlqom4k', photo: 'sibel-bulut' },
+        { name: 'Elif Gizem Kaya', videoId: 'oVwEHeGhAuI', photo: 'elif-gizem-kaya' },
+      ],
+    },
+    {
+      id: 'russian',
+      label: 'Rusça',
+      role: 'Rusça Öğretmeni',
+      teachers: [{ name: 'Ayzade Kahya', videoId: 'Tjfen023Dyo', photo: 'ayzade-kahya' }],
+    },
+    {
+      id: 'chinese',
+      label: 'Çince',
+      role: 'Çince Öğretmeni',
+      teachers: [{ name: 'Yanshan Lin', photo: 'yanshan-lin' }],
+    },
+  ],
+  career: {
+    eyebrow: 'Kariyer',
+    title: 'Haydi Sen de Hurra Lingo Ekibine Katıl',
+    description:
+      'Yabancı dil eğitiminde tecrübeli, ekibimize sinerji katacak adayları, Nesibe Aydın Eğitim Kurumları güvencesiyle çalışmak üzere Hurra Lingo ekibimize katılmaya davet ediyoruz.',
+    cta: 'ŞİMDİ BAŞVUR!',
+  },
+}

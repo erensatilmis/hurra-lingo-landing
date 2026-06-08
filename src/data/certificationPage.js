@@ -1,0 +1,124 @@
+export const certificationPage = {
+  hero: {
+    eyebrow: 'Sertifikasyon',
+    title: 'Gelişiminizi takip edin, başarınızı belgeleyin',
+    description:
+      'Hurra Lingo’da dil gelişimini akademik ve pratik kazanım odaklı izliyor; CEFR uyumlu uluslararası sertifikalarla öğrenme yolculuğunuzu resmileştiriyoruz.',
+  },
+  pillars: [
+    {
+      id: 'tracking',
+      title: 'Gelişim ve Takip Sistemi',
+      description:
+        'Her öğrencimizin dil gelişimini akademik ve pratik kazanım odaklı olarak titizlikle takip ediyoruz.',
+      points: [
+        {
+          label: 'Kişiselleştirilmiş Raporlama',
+          text: 'Öğrenme çıktılarını, yaş grubuna ve bireysel hedeflere göre analiz ederek düzenli geri bildirim sunuyoruz.',
+        },
+        {
+          label: 'Öğrenci Karnesi',
+          text: 'Her eğitim dönemi sonunda elde edilen kazanımları ve bir sonraki seviye hedeflerini detaylı bir karne ile raporluyoruz.',
+        },
+        {
+          label: 'Motivasyon ve Destek',
+          text: 'Düzenli bilgilendirmelerle öğrenci motivasyonunu artırıyor, gelişim sürecini şeffaf bir şekilde yönetiyoruz.',
+        },
+      ],
+    },
+    {
+      id: 'self-assessment',
+      title: 'Öz Değerlendirme Modeli',
+      description:
+        'Öğrencilerimizin kendi öğrenme süreçlerini fark etmeleri, kalıcı başarının anahtarıdır.',
+      points: [
+        {
+          label: 'Farkındalık',
+          text: 'Ders içi öz değerlendirme yöntemlerimizle öğrencilerimizin güçlü yönlerini keşfetmelerini sağlıyoruz.',
+        },
+        {
+          label: 'Aktif Katılım',
+          text: 'Sürece etkin katılımlarını destekleyerek dil öğreniminde özgüven kazanmalarına yardımcı oluyoruz.',
+        },
+      ],
+    },
+    {
+      id: 'certification',
+      title: 'Uluslararası Standartlarda Sertifikasyon',
+      description:
+        'Eğitim programlarımızı başarıyla tamamlayan öğrencilerimiz, Ankara Üniversitesi iş birliğiyle hazırlanan CEFR uyumlu İngilizce Dil Yeterlilik Sertifikası almaya hak kazanır.',
+      points: [
+        {
+          label: 'Resmi Geçerlilik',
+          text: 'Dil becerilerinizi uluslararası düzeyde belgeleyerek akademik başvurularda güvenilir bir referans sunar.',
+        },
+        {
+          label: 'Somut Kazanım',
+          text: 'Okul kabullerinde ve kariyer yolculuğunuzda dil eğitiminizi somut bir akademik kazanıma dönüştürün.',
+        },
+      ],
+    },
+  ],
+  pdf: {
+    label: 'Sertifika programı ve sınav süreci hakkında detaylı bilgi',
+    button: 'Bilgilendirme PDF’ini İndir',
+    href: 'https://www.hurralingo.com/wp-content/uploads/2025/12/Ingilizce-Sertifika-Programlari-veli-bilgilendirme-metni-2025-v4-1-1.pdf',
+  },
+  testimonial: {
+    title: 'Leyla F. — TÖMER Sertifika Yorumu',
+    role: 'Yiğit R.’nin Velisi',
+    text: 'Öncelikle sürecin her aşamasında aldığımız destek son derece profesyoneldi, bunun için tekrardan teşekkür ederim. Sınav içerik ve yöntem olarak çoktan seçmeli, doğru yanlış, boşluk doldurma vb. soru tiplerini barındırdığı için bence ölçücülüğü güzeldi. Anlama ve anlatma becerilerini ölçmeye yönelik bir sınav olduğunu söyleyebilirim. Oğlum açısından bende yarattığı en önemli farkındalık writing konusunda oldu. Yıllardır konuşma ve anlama üzerinde etkinlikler ve dersler yaptığımızı fark ettirdi, yazma konusunda da desteklenmesi gerektiğini gördüm. Genel izlenimim son derece olumlu. Yıl içinde performansını ve öğrenim düzeyini ölçmek için ara ara bu sınavı yenilemeyi düşünüyorum. Hem oğlum günümüzde var olan, gelecekte de bence yaygınlığı artacak olan online sınav kavramını öğrenir ve daha başarılı sonuçlar alır hem de dil edinim sürecini somut olarak takip etmiş olurum diye düşünüyorum. Her şey için tekrar teşekkür ederim.',
+  },
+  cta: {
+    eyebrow: 'Hurra Lingo ile Yabancı Dil Öğren',
+    title: 'Yeni bir dili keşfedin',
+    description:
+      'Uzman öğretmenler ve akıllı teknolojilerle desteklenen öğrenme deneyimine hemen adım atın.',
+    cta: 'Ücretsiz Deneyin',
+    variant: 'primary',
+  },
+  certificates: {
+    eyebrow: 'Hurra Lingo’da',
+    title: 'İngilizce Dil Sertifikaları',
+    subtitle: 'Uluslararası Dil Sertifikası',
+    levels: ['A1', 'A2', 'B1.1', 'B1.2'],
+    image:
+      'https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB1.png',
+    description:
+      'Sertifika programlarımız, CEFR (Avrupa Ortak Dil Çerçevesi) standartlarına uygun olarak başlangıç ve orta düzey yeterlilik seviyelerini kapsamaktadır. Bu kapsamda, başlangıç seviyesi olarak kabul edilen A1 ve A2 ile orta seviye yeterliliklerini temsil eden B1.1 ve B1.2 düzeylerinde belgelendirme sağlıyoruz.',
+    details: [
+      'Öğrencilerimizin gelişim süreçleri uzman eğitmenlerimiz tarafından titizlikle izlenmekte olup, Hurra Lingo eğitim müfredatı CEFR kazanımlarıyla tam uyumlu şekilde yapılandırılmıştır.',
+      'İngilizce Dil Yeterlilik Sertifikası sahibi olmak için uzman eğitmenler gözetiminde, öğrenme motivasyonunu destekleyecek şekilde tasarlanmış online dil sınavlarına katılım sağlanmaktadır.',
+      '4 yaş ve üzerindeki tüm öğrencilerimizin katılabildiği bu sınavlarda; 4-5 yaş grubunda dinleme ve konuşma becerileri, 6 yaş ve üzerindeki tüm yaş gruplarında ise okuma, yazma, konuşma ve dinleme becerileri kapsamlı bir şekilde ölçülmektedir.',
+    ],
+  },
+  partnerships: [
+    {
+      id: 'ankara',
+      eyebrow: 'Akademik İş Birliği',
+      title: 'Ankara Üniversitesi ile Stratejik İş Birliği',
+      image:
+        'https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB3-1.png',
+      paragraphs: [
+        'Dil yetkinliğinizi uluslararası geçerliliği olan resmi bir sertifika ile taçlandırmak ister misiniz? Ankara Üniversitesi ile yürüttüğümüz akademik iş birliği çerçevesinde, Hurra Lingo öğrencilerine İngilizce Dil Yeterlilik Sertifikası alma ayrıcalığı sunuyoruz.',
+        'Sunduğumuz bu sertifikalar, yurt içindeki tüm eğitim ve kamu kurumları tarafından tanınmaktadır. Öğrencilerimiz, bu belge ile uluslararası alanda katılacakları her türlü eğitim, değişim programı veya profesyonel platformda dil yeterlilik düzeylerini resmi olarak kanıtlama imkanına sahip olurlar.',
+      ],
+    },
+    {
+      id: 'cefr',
+      eyebrow: 'Uluslararası Akreditasyon',
+      title: 'CEFR Uyumlu ve Uluslararası Akredite Belge',
+      image:
+        'https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB2.png',
+      paragraphs: [
+        'Hurra Lingo tarafından sunulan dil yeterlilik sertifikaları tam kapsamlı uluslararası akreditasyona sahiptir. Belgelerimiz, Avrupa Ortak Dil Çerçevesi (CEFR) kapsamında Avrupa Konseyi tarafından uluslararası düzeyde akredite edilmiştir.',
+        'Ölçme, değerlendirme ve yöntem geliştirme süreçlerimiz, Avrupa Dil Sınavları Derneği (ALTE) tarafından belirlenen yüksek kalite standartlarını karşılamaktadır.',
+      ],
+    },
+  ],
+  examCta: {
+    title: 'Sınavlara Katılım İçin',
+    button: 'Tıklayınız',
+    href: '/iletisim',
+  },
+}
