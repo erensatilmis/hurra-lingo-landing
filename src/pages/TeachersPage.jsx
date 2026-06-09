@@ -9,12 +9,12 @@ import { assets } from "../assets";
 import { teachersPage } from "../data/teachersPage";
 
 const flagByGroup = {
-  english: assets.languageFlags[0],
-  german: assets.languageFlags[1],
-  french: assets.languageFlags[2],
-  spanish: assets.languageFlags[3],
-  russian: assets.languageFlags[4],
-  chinese: assets.languageFlags[5],
+  english: assets.languageFlags[1],
+  german: assets.languageFlags[2],
+  french: assets.languageFlags[3],
+  spanish: assets.languageFlags[4],
+  russian: assets.languageFlags[5],
+  chinese: assets.languageFlags[6],
 };
 
 export default function TeachersPage() {

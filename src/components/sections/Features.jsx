@@ -96,7 +96,6 @@ export default function Features() {
                 className={spanByIndex[index]}
               >
                 <SpotlightCard className="group relative h-full overflow-hidden rounded-3xl border border-slate-200/70 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-200 hover:shadow-xl hover:shadow-primary-100/50">
-                  <span className="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-linear-to-r from-primary-500 to-secondary-500 transition-transform duration-300 group-hover:scale-x-100" />
                   <span className="pointer-events-none absolute -right-1 -top-5 select-none text-7xl font-black text-slate-100 transition-colors duration-300 group-hover:text-primary-100">
                     {String(index + 1).padStart(2, "0")}
                   </span>
@@ -110,6 +109,7 @@ export default function Features() {
                     <p className="mt-3 text-sm leading-7 text-slate-600">
                       {feature.description}
                     </p>
+                    <span className="mt-4 block h-1 origin-left scale-x-0 rounded-full bg-linear-to-r from-primary-500 to-secondary-500 transition-transform duration-300 group-hover:scale-x-100" />
                   </div>
                 </SpotlightCard>
               </Reveal>

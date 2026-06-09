@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const variants = {
   primary:
     'bg-primary-600 text-white shadow-lg shadow-primary-600/25 hover:bg-primary-700 focus-visible:ring-primary-500',
@@ -20,10 +22,19 @@ export default function Button({
   variant = 'primary',
   size = 'md',
   href,
+  to,
   className = '',
   ...props
 }) {
   const classes = `inline-flex items-center justify-center rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${variants[variant]} ${sizes[size]} ${className}`
+
+  if (to) {
+    return (
+      <Link to={to} className={classes} {...props}>
+        {children}
+      </Link>
+    )
+  }
 
   if (href) {
     return (

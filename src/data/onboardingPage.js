@@ -47,13 +47,13 @@ export const onboardingPage = {
       'Ödemeniz alındı ve talebiniz bize ulaştı. Ekibimiz en kısa sürede sizinle iletişime geçerek programınızı başlatacak.',
   },
   languages: [
+    { id: 'tr', name: 'Türkçe', native: 'Türkçe', flag: turkish },
     { id: 'en', name: 'İngilizce', native: 'English', flag: english },
     { id: 'de', name: 'Almanca', native: 'Deutsch', flag: german },
     { id: 'fr', name: 'Fransızca', native: 'Français', flag: french },
     { id: 'es', name: 'İspanyolca', native: 'Español', flag: spanish },
     { id: 'ru', name: 'Rusça', native: 'Русский', flag: russian },
     { id: 'zh', name: 'Çince', native: '中文', flag: chinese },
-    { id: 'tr', name: 'Türkçe', native: 'Türkçe', flag: turkish },
   ],
   audiences: [
     {

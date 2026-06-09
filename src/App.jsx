@@ -9,6 +9,7 @@ import PricingPage from './pages/PricingPage'
 import CertificationPage from './pages/CertificationPage'
 import FaqPage from './pages/FaqPage'
 import ReferencesPage from './pages/ReferencesPage'
+import LanguageDetailPage from './pages/LanguageDetailPage'
 import OnboardingPage from './pages/OnboardingPage'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="sertifikasyon" element={<CertificationPage />} />
         <Route path="sss" element={<FaqPage />} />
         <Route path="referanslar" element={<ReferencesPage />} />
+        <Route path="diller/:langId" element={<LanguageDetailPage />} />
         <Route path="iletisim" element={<ContactPage />} />
       </Route>
       <Route path="onboarding" element={<OnboardingPage />} />

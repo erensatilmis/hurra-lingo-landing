@@ -35,7 +35,7 @@ export const assets = {
   logo: logoLingo,
   heroIllustration: null,
   missionDecor: [],
-  languageFlags: [english, german, french, spanish, russian, chinese, turkish],
+  languageFlags: [turkish, english, german, french, spanish, russian, chinese],
   teacherPhotos: [
     getTeacherPhoto('adeniyi-peace'),
     getTeacherPhoto('busra-agca'),

@@ -49,13 +49,13 @@ export const mission = {
   title:
     'Öğrencilerimize en az bir yabancı dilde etkin iletişim kurma becerisi kazandırmaktır.',
   offeredLanguages: [
+    { id: 'tr', name: 'Türkçe', nativeName: 'Türkçe' },
     { id: 'en', name: 'İngilizce', nativeName: 'English' },
     { id: 'de', name: 'Almanca', nativeName: 'Deutsch' },
     { id: 'fr', name: 'Fransızca', nativeName: 'Français' },
     { id: 'es', name: 'İspanyolca', nativeName: 'Español' },
     { id: 'ru', name: 'Rusça', nativeName: 'Русский' },
     { id: 'zh', name: 'Çince', nativeName: '中文' },
-    { id: 'tr', name: 'Türkçe', nativeName: 'Türkçe' },
   ],
 }
 
