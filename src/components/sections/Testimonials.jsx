@@ -39,7 +39,7 @@ function TestimonialCard({ position, item, handleMove, cardSize }) {
     >
       <div
         onClick={() => handleMove(position)}
-        className={`relative h-full w-full cursor-pointer border-2 border-black p-6 transition-colors duration-500 ease-in-out sm:p-8 ${
+        className={`relative flex h-full w-full cursor-pointer flex-col border-2 border-black p-6 transition-colors duration-500 ease-in-out sm:p-8 ${
           isCenter ? "text-white" : "bg-white text-slate-900"
         }`}
         style={{
@@ -57,7 +57,7 @@ function TestimonialCard({ position, item, handleMove, cardSize }) {
         />
 
         <div
-          className={`mb-4 flex h-14 w-12 items-center justify-center text-base font-bold ${
+          className={`mb-4 shrink-0 flex h-14 w-12 items-center justify-center text-base font-bold ${
             isCenter ? "bg-white" : "text-white"
           }`}
           style={{
@@ -72,7 +72,7 @@ function TestimonialCard({ position, item, handleMove, cardSize }) {
         <h3
           onMouseEnter={() => isCenter && setHovered(true)}
           onMouseLeave={() => setHovered(false)}
-          className={`line-clamp-6 text-base font-medium leading-7 sm:text-lg ${
+          className={`min-h-0 flex-1 line-clamp-4 text-base font-medium leading-7 sm:line-clamp-6 sm:text-lg ${
             isCenter ? "text-white" : "text-slate-700"
           }`}
         >
@@ -80,7 +80,7 @@ function TestimonialCard({ position, item, handleMove, cardSize }) {
         </h3>
 
         <p
-          className={`absolute bottom-6 left-6 right-6 text-sm italic sm:bottom-8 sm:left-8 sm:right-8 ${
+          className={`mt-4 shrink-0 text-sm italic ${
             isCenter ? "text-primary-100" : "text-slate-400"
           }`}
         >
