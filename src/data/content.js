@@ -253,24 +253,42 @@ export const teachers = {
   items: [
     {
       id: '1',
+      name: 'Ghazaleh Ghazalifard',
+      role: 'İngilizce Öğretmeni',
+      videoId: 'LrP0AmyXojU',
+      photo: 'ghazaleh-ghazalifard',
+      isForeign: true,
+      highlights: [
+        'Anadili İngilizce',
+        'Uluslararası eğitim deneyimi',
+        'Yüksek öğrenci memnuniyeti',
+      ],
+    },
+    {
+      id: '2',
       name: 'Adeniyi Peace',
       role: 'İngilizce Öğretmeni',
       videoId: 'SYyTgT3BqNo',
       photo: 'adeniyi-peace',
-    },
-    {
-      id: '2',
-      name: 'Büşra Ağca',
-      role: 'Fransızca Öğretmeni',
-      videoId: 'D8Zk4RLERGA',
-      photo: 'busra-agca',
+      isForeign: true,
+      highlights: [
+        'Anadili İngilizce',
+        'Uluslararası öğretmen',
+        'Yüksek öğrenci memnuniyeti',
+      ],
     },
     {
       id: '3',
-      name: 'Sibel Bulut',
-      role: 'Almanca Öğretmeni',
-      videoId: 'dpyMWlqom4k',
-      photo: 'sibel-bulut',
+      name: 'Yolandi Bezuidenhout',
+      role: 'İngilizce Öğretmeni',
+      videoId: 'Knynxk8wbjw',
+      photo: 'yolandi-bezuidenhout',
+      isForeign: true,
+      highlights: [
+        'Anadili İngilizce',
+        'Çok dilli eğitmen',
+        'Deneyimli konuşma koçu',
+      ],
     },
   ],
 }

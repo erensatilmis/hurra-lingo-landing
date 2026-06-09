@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Briefcase } from "lucide-react";
 import Container from "../components/ui/Container";
 import Card from "../components/ui/Card";
@@ -7,6 +7,10 @@ import Badge from "../components/ui/Badge";
 import TeacherVideoCard from "../components/teachers/TeacherVideoCard";
 import { assets } from "../assets";
 import { teachersPage } from "../data/teachersPage";
+import {
+  INITIAL_TEACHERS_VISIBLE,
+  getVisibleTeachers,
+} from "../lib/teachers";
 
 const flagByGroup = {
   english: assets.languageFlags[1],
@@ -20,10 +24,15 @@ const flagByGroup = {
 export default function TeachersPage() {
   const [activeGroup, setActiveGroup] = useState("all");
   const [activeVideoId, setActiveVideoId] = useState(null);
+  const [expandedGroups, setExpandedGroups] = useState({});
   const visibleGroups =
     activeGroup === "all"
       ? teachersPage.groups
       : teachersPage.groups.filter((group) => group.id === activeGroup);
+
+  useEffect(() => {
+    setExpandedGroups({});
+  }, [activeGroup]);
 
   return (
     <main>
@@ -106,7 +115,10 @@ export default function TeachersPage() {
               </div>
 
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-                {group.teachers.map((teacher) => (
+                {getVisibleTeachers(
+                  group.teachers,
+                  expandedGroups[group.id],
+                ).map((teacher) => (
                   <TeacherVideoCard
                     key={teacher.name}
                     teacher={teacher}
@@ -117,6 +129,25 @@ export default function TeachersPage() {
                   />
                 ))}
               </div>
+
+              {group.teachers.length > INITIAL_TEACHERS_VISIBLE && (
+                <div className="mt-8 text-center">
+                  <Button
+                    type="button"
+                    variant="outline"
+                    onClick={() =>
+                      setExpandedGroups((current) => ({
+                        ...current,
+                        [group.id]: !current[group.id],
+                      }))
+                    }
+                  >
+                    {expandedGroups[group.id]
+                      ? teachersPage.showLessLabel
+                      : teachersPage.showAllLabel}
+                  </Button>
+                </div>
+              )}
             </div>
           ))}
         </Container>

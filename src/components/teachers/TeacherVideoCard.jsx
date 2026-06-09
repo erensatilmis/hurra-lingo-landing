@@ -2,6 +2,7 @@ import { Play } from 'lucide-react'
 import Card from '../ui/Card'
 import YouTubeModal from '../ui/YouTubeModal'
 import { getTeacherPhoto } from '../../assets'
+import { getTeacherHighlights } from '../../lib/teachers'
 
 function getInitials(name) {
   return name
@@ -40,13 +41,19 @@ function TeacherMedia({ name, videoId, photoSrc, onPlay }) {
         type="button"
         onClick={() => onPlay(videoId)}
         className={`${containerClass} block`}
-        aria-label={`${name} videosunu izle`}
+        aria-label={`${name} ile tanışın`}
       >
         {mediaContent}
-        <div className="absolute inset-0 bg-slate-950/0 transition-colors duration-300 group-hover:bg-slate-950/35" />
-        <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-all duration-300 group-hover:opacity-100 group-focus-within:opacity-100">
-          <span className="flex h-16 w-16 scale-90 items-center justify-center rounded-full bg-white/95 text-primary-600 shadow-lg transition-transform duration-300 group-hover:scale-100">
-            <Play className="ml-1 h-7 w-7 fill-current" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/75 via-slate-950/20 to-transparent" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span className="flex h-14 w-14 items-center justify-center rounded-full bg-white/95 text-primary-600 shadow-lg ring-4 ring-white/25 transition-transform duration-300 group-hover:scale-105">
+            <Play className="ml-1 h-6 w-6 fill-current" />
+          </span>
+        </div>
+        <div className="absolute inset-x-0 bottom-0 px-3 pb-3">
+          <span className="flex w-full items-center justify-center gap-1.5 rounded-lg bg-white/95 px-3 py-2 text-xs font-semibold text-slate-800 shadow-sm">
+            <Play className="h-3.5 w-3.5 fill-primary-600 text-primary-600" />
+            Öğretmenimizle Tanış
           </span>
         </div>
       </button>
@@ -66,6 +73,7 @@ export default function TeacherVideoCard({
   const { name, videoId, photo } = teacher
   const isOpen = activeVideoId === videoId
   const photoSrc = photo ? getTeacherPhoto(photo) : null
+  const highlights = getTeacherHighlights(teacher, role)
 
   return (
     <>
@@ -76,9 +84,20 @@ export default function TeacherVideoCard({
           photoSrc={photoSrc}
           onPlay={onPlay}
         />
-        <div className="px-5 py-5 text-center">
-          <h3 className="text-lg font-semibold text-slate-900">{name}</h3>
-          <p className="mt-1.5 text-sm font-medium text-primary-600">{role}</p>
+        <div className="px-5 py-5">
+          <h3 className="text-center text-lg font-semibold text-slate-900">{name}</h3>
+          <p className="mt-1.5 text-center text-sm font-medium text-primary-600">{role}</p>
+          <ul className="mt-4 space-y-1.5 border-t border-slate-100 pt-4">
+            {highlights.map((item) => (
+              <li
+                key={item}
+                className="flex items-start gap-2 text-xs leading-5 text-slate-600"
+              >
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary-400" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </Card>
 

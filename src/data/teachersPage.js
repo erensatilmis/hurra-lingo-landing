@@ -7,14 +7,60 @@ export const teachersPage = {
     subtitle:
       'Modern yöntemleri ve teknolojiyi etkin kullanan rehberlerimizle, sadece dil öğretmiyor; öğrencilerimizin özgüvenle pratik yapabileceği, motivasyon odaklı bir ortam yaratıyoruz. Bizimle dil öğrenmek, akademik bir süreçten öte, profesyonel ve kültürel bir yolculuktur.',
   },
+  showAllLabel: 'Tümünü Gör',
+  showLessLabel: 'Daha Az Göster',
   groups: [
     {
       id: 'english',
       label: 'İngilizce',
       role: 'İngilizce Öğretmeni',
       teachers: [
-        { name: 'Adam Büyükbiçer', videoId: 'OphGHPvVxFA', photo: 'adam-buyukbicer' },
-        { name: 'Adeniyi Peace', videoId: 'SYyTgT3BqNo', photo: 'adeniyi-peace' },
+        {
+          name: 'Ghazaleh Ghazalifard',
+          videoId: 'LrP0AmyXojU',
+          photo: 'ghazaleh-ghazalifard',
+          isForeign: true,
+          highlights: [
+            'Anadili İngilizce',
+            'Uluslararası eğitim deneyimi',
+            'Yüksek öğrenci memnuniyeti',
+          ],
+        },
+        {
+          name: 'Adeniyi Peace',
+          videoId: 'SYyTgT3BqNo',
+          photo: 'adeniyi-peace',
+          isForeign: true,
+          highlights: [
+            'Anadili İngilizce',
+            'Uluslararası öğretmen',
+            'Yüksek öğrenci memnuniyeti',
+          ],
+        },
+        {
+          name: 'Yolandi Bezuidenhout',
+          videoId: 'Knynxk8wbjw',
+          photo: 'yolandi-bezuidenhout',
+          isForeign: true,
+          highlights: [
+            'Anadili İngilizce',
+            'Çok dilli eğitmen',
+            'Deneyimli konuşma koçu',
+          ],
+        },
+        {
+          name: 'Adam Büyükbiçer',
+          videoId: 'OphGHPvVxFA',
+          photo: 'adam-buyukbicer',
+          isForeign: true,
+        },
+        {
+          name: 'Parisa Khalegni',
+          videoId: 'Fs1KBeJbP64',
+          photo: 'parisa-khalegni',
+          isForeign: true,
+        },
+        { name: 'Saskia Douglas', videoId: 'aIg6H72Uj80', isForeign: true },
         { name: 'Ayberk Savaş', videoId: 'iTzOE8CGc6Y', photo: 'ayberk-savas' },
         { name: 'Ayşegül Eskikurt', videoId: '3D7uFkHjKXg', photo: 'aysegul-eskikurt' },
         { name: 'Ayşegül Santur', videoId: 'GCQyyIkvY18', photo: 'aysegul-santur' },
@@ -22,7 +68,6 @@ export const teachersPage = {
         { name: 'Bengü Kesen', videoId: '20OcUH10I5M', photo: 'bengu-kesen' },
         { name: 'Betül Beyza', videoId: 'NURA_fbp_qM', photo: 'betul-beyza' },
         { name: 'Büşra Sürekçi', videoId: 'JT7dvczYHzY', photo: 'busra-surekci' },
-        { name: 'Ghazaleh Ghazalifard', videoId: 'LrP0AmyXojU', photo: 'ghazaleh-ghazalifard' },
         { name: 'Burak Santur', videoId: 'RWjnD6rnZFc' },
         { name: 'Deniz Özlü', videoId: 'NY56nvWlaO8', photo: 'deniz-ozlu' },
         { name: 'Gizem Kenez', videoId: 'nNs4IVVkSqw', photo: 'gizem-kenez' },
@@ -30,12 +75,9 @@ export const teachersPage = {
         { name: 'Kübra Toral', videoId: 'HWHfO2KWez8', photo: 'kubra-toral' },
         { name: 'Mustafa Hakan', videoId: 'yX3QDIar4jo', photo: 'mustafa-hakan-yanar' },
         { name: 'Neslihan Kızılbayır', videoId: 'rMaytZ5-KMQ', photo: 'neslihan-kizilbayir' },
-        { name: 'Parisa Khalegni', videoId: 'Fs1KBeJbP64', photo: 'parisa-khalegni' },
-        { name: 'Saskia Douglas', videoId: 'aIg6H72Uj80' },
         { name: 'Sedef Şen', videoId: 'ClXb15HaesM', photo: 'sedef-sen' },
         { name: 'Yağmur Irmak Özarslan', videoId: 'GhvJ_2j7l4I', photo: 'yagmur-irmak-ozarslan' },
         { name: 'Yasemin Ürer', videoId: 'Mivbsx_CYBA', photo: 'yasemin-urer' },
-        { name: 'Yolandi Bezuidenhout', videoId: 'Knynxk8wbjw', photo: 'yolandi-bezuidenhout' },
         { name: 'Zeynep Akgül', videoId: 'bZKC1q_X5mI', photo: 'zeynep-akgul' },
         { name: 'Zeynep Sarıibrahimoğlu', videoId: 'Ym-CcxHqTOM', photo: 'zeynep-sariibrahimoglu' },
         { name: 'Deniz Okumuş', videoId: 'T0GvdIXozow', photo: 'deniz-okumus' },
@@ -48,8 +90,17 @@ export const teachersPage = {
       label: 'İspanyolca',
       role: 'İspanyolca Öğretmeni',
       teachers: [
+        {
+          name: 'J. Luis Fernandez Salazar',
+          videoId: 'l4aCQnXYlBc',
+          isForeign: true,
+          highlights: [
+            'Anadili İspanyolca',
+            'Uluslararası eğitim deneyimi',
+            'Yüksek öğrenci memnuniyeti',
+          ],
+        },
         { name: 'Alexandra Çavuş', videoId: 'cJHBPL6z0Ls', photo: 'alexandra-cavus' },
-        { name: 'J. Luis Fernandez Salazar', videoId: 'l4aCQnXYlBc' },
       ],
     },
     {
@@ -79,7 +130,18 @@ export const teachersPage = {
       id: 'chinese',
       label: 'Çince',
       role: 'Çince Öğretmeni',
-      teachers: [{ name: 'Yanshan Lin', photo: 'yanshan-lin' }],
+      teachers: [
+        {
+          name: 'Yanshan Lin',
+          photo: 'yanshan-lin',
+          isForeign: true,
+          highlights: [
+            'Anadili Çince',
+            'Uluslararası eğitim deneyimi',
+            'Yüksek öğrenci memnuniyeti',
+          ],
+        },
+      ],
     },
   ],
   career: {
