@@ -1,30 +1,21 @@
-import { Phone } from 'lucide-react'
 import Container from '../ui/Container'
-import { socialBrandStyles, socialIconMap } from '../icons/SocialIcons'
-import { contact, socialLinks } from '../../data/content'
+import { socialBrandStyles, socialIconMap, WhatsAppIcon } from '../icons/SocialIcons'
+import { socialLinks, whatsappUrl } from '../../data/content'
 
 export default function TopBar() {
   return (
     <div className="border-b border-slate-200/80 bg-white/90">
       <Container>
-        <div className="flex flex-wrap items-center justify-center gap-4 py-2 sm:justify-between">
-          <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-slate-600">
-            <a
-              href={`tel:${contact.mobile.replace(/\s/g, '')}`}
-              className="inline-flex items-center gap-2 transition-colors hover:text-primary-700"
-            >
-              <Phone className="h-4 w-4 text-primary-600" />
-              {contact.mobile}
-            </a>
-            <span className="hidden h-4 w-px bg-slate-200 sm:block" />
-            <a
-              href={`tel:${contact.landline.replace(/\s/g, '')}`}
-              className="inline-flex items-center gap-2 transition-colors hover:text-primary-700"
-            >
-              <Phone className="h-4 w-4 text-primary-600" />
-              {contact.landline}
-            </a>
-          </div>
+        <div className="flex items-center justify-between gap-4 py-2">
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="WhatsApp ile iletişime geç"
+            className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#25D366] text-white transition-colors hover:bg-[#20BD5A]"
+          >
+            <WhatsAppIcon className="h-6 w-6" />
+          </a>
 
           <div className="flex items-center gap-1.5">
             {socialLinks.map((item) => {
