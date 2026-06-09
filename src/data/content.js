@@ -296,6 +296,9 @@ export const teachers = {
 export const blog = {
   eyebrow: 'Hurra Lingo Blog',
   title: 'Hurra Lingo Güncel Blog Yazılarını Takip Edin!',
+  description:
+    'Dil öğrenimi, eğitim yöntemleri ve motivasyon üzerine güncel blog yazılarımızı keşfedin.',
+  cta: 'Tüm Blog Yazılarını Gör',
   items: [
     {
       id: '1',

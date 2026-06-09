@@ -11,6 +11,7 @@ import FaqPage from './pages/FaqPage'
 import ReferencesPage from './pages/ReferencesPage'
 import LanguageDetailPage from './pages/LanguageDetailPage'
 import OnboardingPage from './pages/OnboardingPage'
+import BlogPage from './pages/BlogPage'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="referanslar" element={<ReferencesPage />} />
         <Route path="diller/:langId" element={<LanguageDetailPage />} />
         <Route path="iletisim" element={<ContactPage />} />
+        <Route path="blog" element={<BlogPage />} />
       </Route>
       <Route path="onboarding" element={<OnboardingPage />} />
     </Routes>
