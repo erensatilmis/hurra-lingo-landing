@@ -4,7 +4,7 @@ import CountUp from "../ui/CountUp";
 import TiltCard from "../ui/TiltCard";
 import Parallax from "../ui/Parallax";
 import HeroIllustration from "../illustrations/HeroIllustration";
-import { hero, trialRequestUrl } from "../../data/content";
+import { hero } from "../../data/content";
 import turkishFlag from "../../assets/languages/turkish.svg";
 import englishFlag from "../../assets/languages/english.svg";
 import germanFlag from "../../assets/languages/german.svg";
@@ -101,13 +101,10 @@ export default function Hero() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Button
-                href={trialRequestUrl}
+                to="/onboarding"
                 size="lg"
                 className="hover:-translate-y-0.5 hover:scale-[1.03] hover:shadow-xl hover:shadow-primary-600/30"
               >
-                {hero.cta}
-              </Button>
-              <Button href="#egitim" variant="outline" size="lg">
                 Programları Keşfet
               </Button>
             </div>
