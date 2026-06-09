@@ -352,6 +352,18 @@ export const footerCta = {
   cta: 'Ücretsiz Deneyin',
 }
 
+export const mobileAppBanner = {
+  label: 'Mobil Uygulamayı İndir',
+  shortLabel: 'Uygulamayı İndir',
+}
+
+export const mobileAppModal = {
+  title: 'Yakında Sizlerle!',
+  description:
+    'Hurra Lingo mobil uygulaması çok yakında App Store ve Google Play\'de sizlerle olacak. Dil öğrenimini her an, her yerde yaşayın!',
+  cta: 'Tamam',
+}
+
 export const socialLinks = [
   { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/HurraLingo/' },
   { id: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/HurraLingo/' },
