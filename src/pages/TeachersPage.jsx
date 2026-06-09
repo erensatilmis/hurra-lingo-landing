@@ -81,15 +81,6 @@ export default function TeachersPage() {
                   className="h-4 w-4 rounded-full object-cover"
                 />
                 {group.label}
-                <span
-                  className={`rounded-full px-2 py-0.5 text-xs ${
-                    activeGroup === group.id
-                      ? "bg-white/20 text-white"
-                      : "bg-white text-slate-500"
-                  }`}
-                >
-                  {group.teachers.length}
-                </span>
               </button>
             ))}
           </div>
@@ -110,9 +101,6 @@ export default function TeachersPage() {
                   <h2 className="text-2xl font-bold text-slate-900">
                     {group.label}
                   </h2>
-                  <p className="text-sm text-slate-500">
-                    {group.teachers.length} öğretmen
-                  </p>
                 </div>
                 <Badge className="ml-auto">{group.role}</Badge>
               </div>
