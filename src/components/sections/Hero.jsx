@@ -105,7 +105,7 @@ export default function Hero() {
                 size="lg"
                 className="hover:-translate-y-0.5 hover:scale-[1.03] hover:shadow-xl hover:shadow-primary-600/30"
               >
-                Programları Keşfet
+                Eğitime Başla
               </Button>
             </div>
 
