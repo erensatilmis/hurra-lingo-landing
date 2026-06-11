@@ -1,4 +1,5 @@
 import logoLingo from './logo_lingo.png'
+import hurraLingoKids from './brand/hurra-lingo-kids.png'
 import english from './languages/english.svg'
 import german from './languages/german.svg'
 import french from './languages/french.svg'
@@ -33,6 +34,7 @@ export const languageFlagByCode = {
 
 export const assets = {
   logo: logoLingo,
+  hurraLingoKids,
   heroIllustration: null,
   missionDecor: [],
   languageFlags: [turkish, english, german, french, spanish, russian, chinese],

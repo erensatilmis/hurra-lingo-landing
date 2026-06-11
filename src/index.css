@@ -111,11 +111,27 @@
   }
 }
 
+@keyframes kids-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-kids-bounce {
+  transform-origin: bottom center;
+  animation: kids-bounce 2s linear infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animate-hero-flow-up,
   .animate-marquee-x,
   .animate-gradient-pan,
-  .animate-float {
+  .animate-float,
+  .animate-kids-bounce {
     animation: none !important;
   }
 }

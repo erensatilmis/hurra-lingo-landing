@@ -4,7 +4,8 @@ import CountUp from "../ui/CountUp";
 import TiltCard from "../ui/TiltCard";
 import Parallax from "../ui/Parallax";
 import HeroIllustration from "../illustrations/HeroIllustration";
-import { hero } from "../../data/content";
+import { assets } from "../../assets";
+import { hero, hurraLingoKidsUrl } from "../../data/content";
 import turkishFlag from "../../assets/languages/turkish.svg";
 import englishFlag from "../../assets/languages/english.svg";
 import germanFlag from "../../assets/languages/german.svg";
@@ -56,6 +57,24 @@ export default function Hero() {
           speed={-0.2}
           className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-secondary-400/20 blur-3xl"
         />
+      </div>
+
+      <div className="absolute left-2 top-1/2 z-20 hidden -translate-y-1/2 md:left-4 lg:block xl:left-8">
+        <a
+          href={hurraLingoKidsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Hurra Lingo Kids"
+          className="block animate-kids-bounce transition-transform hover:scale-105"
+        >
+          <img
+            src={assets.hurraLingoKids}
+            alt="Hurra Lingo Kids"
+            width={104}
+            height={116}
+            className="h-auto w-22 drop-shadow-xl xl:w-26"
+          />
+        </a>
       </div>
 
       <div

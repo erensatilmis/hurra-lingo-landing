@@ -1,6 +1,8 @@
 export const whatsappUrl =
   'https://api.whatsapp.com/send/?phone=905395167070&text&type=phone_number&app_absent=0'
 
+export const hurraLingoKidsUrl = 'https://kids.hurralingo.com/tr/'
+
 export const authUrls = {
   login: 'https://www.hurralingo.app/login?lng=tr',
   signup: 'https://www.hurralingo.app/signup?lng=tr',
