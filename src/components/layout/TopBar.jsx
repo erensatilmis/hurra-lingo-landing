@@ -2,11 +2,8 @@ import { useState } from "react";
 import { Download, Smartphone } from "lucide-react";
 import Container from "../ui/Container";
 import AppComingSoonModal from "../ui/AppComingSoonModal";
-import {
-  socialBrandStyles,
-  socialIconMap,
-  WhatsAppIcon,
-} from "../icons/SocialIcons";
+import { WhatsAppIcon } from "../icons/SocialIcons";
+import { SocialIconButton } from "../icons/SocialLink";
 import {
   mobileAppBanner,
   mobileAppModal,
@@ -45,25 +42,9 @@ export default function TopBar() {
                 <WhatsAppIcon className="h-6 w-6" />
               </a>
 
-              {socialLinks.map((item) => {
-                const Icon = socialIconMap[item.id];
-
-                return (
-                  <a
-                    key={item.id}
-                    href={item.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={item.label}
-                    className={`inline-flex h-8 w-8 items-center justify-center rounded-full transition-colors ${
-                      socialBrandStyles[item.id] ??
-                      "text-slate-500 hover:bg-slate-100"
-                    }`}
-                  >
-                    {Icon ? <Icon /> : null}
-                  </a>
-                );
-              })}
+              {socialLinks.map((item) => (
+                <SocialIconButton key={item.id} item={item} />
+              ))}
             </div>
           </div>
         </Container>

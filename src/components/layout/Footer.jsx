@@ -1,5 +1,6 @@
 import Container from '../ui/Container'
 import CtaBand from '../sections/CtaBand'
+import { SocialTextLink } from '../icons/SocialLink'
 import { assets } from '../../assets'
 import { footer, footerCta } from '../../data/content'
 
@@ -61,14 +62,7 @@ export default function Footer() {
               <ul className="mt-4 space-y-2">
                 {footer.social.map((item) => (
                   <li key={item.label}>
-                    <a
-                      href={item.href}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-sm text-slate-600 transition-colors hover:text-primary-700"
-                    >
-                      {item.label}
-                    </a>
+                    <SocialTextLink item={item} />
                   </li>
                 ))}
               </ul>
