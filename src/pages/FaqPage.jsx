@@ -73,7 +73,7 @@ export default function FaqPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">
-                      Hâlâ sorunuz mu var?
+                      Detaylı bilgi almak ister misiniz?
                     </p>
                     <p className="mt-2 text-sm leading-7 text-slate-600">
                       Ekibimiz size yardımcı olmaktan memnuniyet duyar.
