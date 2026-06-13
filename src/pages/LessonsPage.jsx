@@ -16,7 +16,11 @@ import SectionHeading from "../components/ui/SectionHeading";
 import Card from "../components/ui/Card";
 import Badge from "../components/ui/Badge";
 import ImageSlot from "../components/ui/ImageSlot";
-import { experiencePillarImages, lessonTypeImages } from "../data/metadata";
+import {
+  beyondLiveImages,
+  experiencePillarImages,
+  lessonTypeImages,
+} from "../data/metadata";
 
 const lessonIcons = [User, UsersRound, Users];
 const pillarIcons = [Sparkles, Cpu, MessageCircle];
@@ -173,28 +177,42 @@ export default function LessonsPage() {
               const Icon = beyondIcons[index];
 
               return (
-                <Card key={item.title} className="h-full">
-                  <div className="mb-4 inline-flex rounded-2xl bg-primary-50 p-3 text-primary-600">
-                    <Icon className="h-6 w-6" />
+                <Card
+                  key={item.title}
+                  hover={false}
+                  padded={false}
+                  className="flex h-full flex-col overflow-hidden"
+                >
+                  <div className="relative aspect-4/3 shrink-0 overflow-hidden">
+                    <ImageSlot
+                      src={beyondLiveImages[index]}
+                      alt={item.title}
+                      label={t("imageAlt", { title: item.title })}
+                      fit="cover"
+                      className="object-center"
+                    />
                   </div>
-                  <h3 className="text-xl font-semibold leading-8 text-slate-900">
-                    {item.title}
-                  </h3>
-                  <p className="mt-2 text-sm font-medium text-primary-600">
-                    {item.subtitle}
-                  </p>
-                  {item.skills && (
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      {item.skills.map((skill) => (
-                        <Badge key={skill}>{skill}</Badge>
+                  <div className="flex flex-1 flex-col p-6">
+                    <Badge className="mb-4 gap-2 self-start rounded-2xl px-4 py-2.5 text-sm normal-case tracking-normal">
+                      <Icon className="h-5 w-5 shrink-0" />
+                      {item.title}
+                    </Badge>
+                    <p className="text-sm font-medium text-primary-600">
+                      {item.subtitle}
+                    </p>
+                    {item.skills && (
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {item.skills.map((skill) => (
+                          <Badge key={skill}>{skill}</Badge>
+                        ))}
+                      </div>
+                    )}
+                    <ul className="mt-5 space-y-3">
+                      {item.points.map((point) => (
+                        <HighlightItem key={point} text={point} />
                       ))}
-                    </div>
-                  )}
-                  <ul className="mt-5 space-y-3">
-                    {item.points.map((point) => (
-                      <HighlightItem key={point} text={point} />
-                    ))}
-                  </ul>
+                    </ul>
+                  </div>
                 </Card>
               );
             })}

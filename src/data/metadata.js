@@ -78,6 +78,13 @@ export const experiencePillarImages = [
   '/lessons/egitmen-kalitesi.jpg',
 ]
 
+export const beyondLiveImages = [
+  '/lessons/asla-geri-kalmayin.jpg',
+  '/lessons/interaktif-derslerle.jpg',
+  '/lessons/cebindeki-oyun.jpg',
+  '/lessons/ai-destekli.jpg',
+]
+
 export const socialHrefs = {
   instagram: 'https://www.instagram.com/HurraLingo/',
   facebook: 'https://www.facebook.com/HurraLingo/',
