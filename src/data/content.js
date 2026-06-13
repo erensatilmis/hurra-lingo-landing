@@ -559,6 +559,7 @@ export const lessonsPage = {
     {
       id: 'individual',
       badge: 'Birebir',
+      image: '/lessons/bireysel.jpg',
       title: 'Bireysel Derslerimiz',
       description:
         'Kişiselleştirilmiş Birebir Eğitim: Öğrenme hızınıza ve hedeflerinize göre şekillenen bireysel derslerimizde; çocuklar için oyun tabanlı, yetişkinler için ise profesyonel odaklı bir müfredat uygulanır. Öğrencilerimiz, yabancı dili sadece teoride bırakmaz; günlük hayatta ve iş dünyasında özgüvenle kullanmayı öğrenirler.',
@@ -566,6 +567,7 @@ export const lessonsPage = {
     {
       id: 'mini-group',
       badge: '2–4 kişi',
+      image: '/lessons/mini.jpg',
       title: 'Mini Grup Derslerimiz',
       description:
         'Butik Eğitim ile Maksimum Verim: 2 ila 4 kişilik mini gruplarımızda, her öğrenciye ayrılan konuşma süresini maksimize ediyoruz. 1 aydan 10 aya kadar uzanan avantajlı üyelik paketleri ve grubun ihtiyacına göre planlanan haftalık ders programlarıyla, sosyal bir ortamda interaktif dil öğrenimi sunuyoruz.',
@@ -573,6 +575,7 @@ export const lessonsPage = {
     {
       id: 'group',
       badge: '5–8 kişi',
+      image: '/lessons/grup.jpg',
       title: 'Grup Derslerimiz',
       description:
         'Dinamik ve Sosyal Öğrenme Ortamı: 5 ila 8 kişilik grup derslerimizde, farklı bakış açılarıyla zenginleşen bir sınıf ortamı sağlıyoruz. 3 veya 6 aylık ekonomik üyelik seçenekleri ile bütçenize uygun, sürdürülebilir bir eğitim planlıyoruz. Haftalık ders yoğunluğunu, grubun gelişim hızına ve hedeflerine göre optimize ediyoruz.',

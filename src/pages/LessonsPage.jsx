@@ -14,6 +14,7 @@ import Container from "../components/ui/Container";
 import SectionHeading from "../components/ui/SectionHeading";
 import Card from "../components/ui/Card";
 import Badge from "../components/ui/Badge";
+import ImageSlot from "../components/ui/ImageSlot";
 import { lessonsPage } from "../data/content";
 
 const lessonIcons = [User, UsersRound, Users];
@@ -68,19 +69,32 @@ export default function LessonsPage() {
               const Icon = lessonIcons[index];
 
               return (
-                <Card key={lesson.id} className="flex h-full flex-col">
-                  <div className="mb-5 flex items-center justify-between gap-3">
-                    <div className="inline-flex rounded-2xl bg-primary-50 p-3 text-primary-600">
-                      <Icon className="h-6 w-6" />
-                    </div>
-                    <Badge>{lesson.badge}</Badge>
+                <Card
+                  key={lesson.id}
+                  padded={false}
+                  className="flex h-full flex-col overflow-hidden"
+                >
+                  <div className="relative h-56 shrink-0 overflow-hidden sm:h-64 md:h-72">
+                    <ImageSlot
+                      src={lesson.image}
+                      alt={lesson.title}
+                      label={`${lesson.title} görseli`}
+                      fit="cover"
+                      className="object-center"
+                    />
+                    <span className="absolute right-3 top-3">
+                      <Badge>{lesson.badge}</Badge>
+                    </span>
                   </div>
-                  <h2 className="text-xl font-semibold text-slate-900">
-                    {lesson.title}
-                  </h2>
-                  <p className="mt-4 flex-1 text-sm leading-7 text-slate-600">
-                    {lesson.description}
-                  </p>
+                  <div className="flex flex-1 flex-col p-6">
+                    <Badge className="mb-4 gap-2 self-start rounded-2xl px-4 py-2.5 text-sm normal-case tracking-normal">
+                      <Icon className="h-5 w-5 shrink-0" />
+                      {lesson.title}
+                    </Badge>
+                    <p className="flex-1 text-sm leading-7 text-slate-600">
+                      {lesson.description}
+                    </p>
+                  </div>
                 </Card>
               );
             })}
