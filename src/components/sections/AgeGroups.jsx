@@ -10,6 +10,7 @@ import Container from "../ui/Container";
 import SectionHeading from "../ui/SectionHeading";
 import Card from "../ui/Card";
 import Badge from "../ui/Badge";
+import ImageSlot from "../ui/ImageSlot";
 import Reveal from "../ui/Reveal";
 import ParallaxBlobs from "../ui/ParallaxBlobs";
 import { ageGroups } from "../../data/content";
@@ -20,6 +21,56 @@ const groupIcons = {
   "13-18": GraduationCap,
   "18+": Briefcase,
 };
+
+function AgeGroupPhoto({ src, alt, label, variant = "desktop" }) {
+  const isDesktop = variant === "desktop";
+
+  const imageMask = isDesktop
+    ? "linear-gradient(to right, transparent 0%, transparent 2%, rgba(0,0,0,0.03) 6%, rgba(0,0,0,0.08) 10%, rgba(0,0,0,0.14) 14%, rgba(0,0,0,0.22) 18%, rgba(0,0,0,0.32) 22%, rgba(0,0,0,0.45) 26%, rgba(0,0,0,0.6) 30%, rgba(0,0,0,0.76) 34%, rgba(0,0,0,0.9) 38%, black 42%)"
+    : "linear-gradient(to right, transparent 0%, transparent 3%, rgba(0,0,0,0.04) 7%, rgba(0,0,0,0.1) 11%, rgba(0,0,0,0.18) 15%, rgba(0,0,0,0.28) 19%, rgba(0,0,0,0.4) 23%, rgba(0,0,0,0.55) 27%, rgba(0,0,0,0.72) 31%, rgba(0,0,0,0.86) 35%, black 40%)";
+
+  const blendOverlay = isDesktop
+    ? "linear-gradient(to right, transparent 0%, transparent 12%, rgba(91, 33, 182, 0.004) 16%, rgba(91, 33, 182, 0.01) 20%, rgba(91, 33, 182, 0.016) 24%, rgba(109, 40, 217, 0.012) 28%, rgba(109, 40, 217, 0.006) 32%, rgba(109, 40, 217, 0.002) 36%, transparent 42%)"
+    : "linear-gradient(to right, transparent 0%, transparent 10%, rgba(255, 255, 255, 0.04) 14%, rgba(255, 255, 255, 0.08) 18%, rgba(255, 255, 255, 0.12) 22%, rgba(255, 255, 255, 0.08) 26%, rgba(255, 255, 255, 0.04) 30%, rgba(255, 255, 255, 0.015) 34%, transparent 40%)";
+
+  return (
+    <div
+      className={
+        isDesktop
+          ? "pointer-events-none absolute inset-y-0 right-0 w-[50%] min-w-[9rem] overflow-visible"
+          : "pointer-events-none absolute inset-y-0 right-0 w-[50%] min-w-[7rem] overflow-visible"
+      }
+    >
+      <div
+        className={
+          isDesktop
+            ? "absolute inset-y-0 -left-10 right-0 md:-left-12"
+            : "absolute inset-y-0 -left-8 right-0 sm:-left-10"
+        }
+      >
+        <div
+          className="h-full w-full"
+          style={{
+            maskImage: imageMask,
+            WebkitMaskImage: imageMask,
+          }}
+        >
+          <ImageSlot
+            src={src}
+            alt={alt}
+            label={label}
+            fit="cover"
+            className="object-[62%_center]"
+          />
+        </div>
+        <div
+          className="pointer-events-none absolute inset-0"
+          style={{ background: blendOverlay }}
+        />
+      </div>
+    </div>
+  );
+}
 
 export default function AgeGroups() {
   const [activeId, setActiveId] = useState(ageGroups.groups[0].id);
@@ -41,7 +92,7 @@ export default function AgeGroups() {
           />
         </Reveal>
 
-        <div className="mt-12 hidden gap-6 lg:grid lg:grid-cols-[0.95fr_1.35fr]">
+        <div className="mt-12 hidden gap-6 lg:grid lg:grid-cols-[0.95fr_1.35fr] lg:items-stretch">
           <Reveal className="space-y-3">
             {ageGroups.groups.map((group) => {
               const Icon = groupIcons[group.id] ?? Baby;
@@ -88,27 +139,25 @@ export default function AgeGroups() {
             })}
           </Reveal>
 
-          <Reveal>
+          <Reveal className="h-full">
             <div
               key={activeId}
-              className="animate-fade-in relative h-full overflow-hidden rounded-3xl bg-linear-to-br from-primary-700 via-primary-600 to-primary-500 p-8 text-white shadow-xl shadow-primary-300/30 md:p-10"
+              className="animate-fade-in relative h-full overflow-hidden rounded-3xl bg-linear-to-br from-primary-700 via-primary-600 to-primary-500 text-white shadow-xl shadow-primary-300/30"
             >
-              <span className="pointer-events-none absolute -right-3 -top-8 select-none text-[7rem] font-black leading-none text-white/10">
-                {activeGroup.id}
-              </span>
               <div className="pointer-events-none absolute -bottom-16 -left-10 h-48 w-48 rounded-full bg-white/10 blur-3xl" />
 
-              <div className="relative flex h-full flex-col">
+              <AgeGroupPhoto
+                src={activeGroup.image}
+                alt={activeGroup.title}
+                label={`${activeGroup.title} görseli`}
+                variant="desktop"
+              />
+
+              <div className="relative z-10 flex min-w-0 max-w-[50%] flex-col py-8 pl-8 pr-4 md:max-w-[46%] md:py-10 md:pl-10 md:pr-6">
                 <div className="inline-flex w-fit rounded-2xl bg-white/15 p-4 ring-1 ring-white/25 backdrop-blur-sm">
                   <ActiveIcon className="h-8 w-8" />
                 </div>
-                <span className="mt-6 inline-flex w-fit rounded-full bg-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-wide ring-1 ring-white/20">
-                  {activeGroup.subtitle}
-                </span>
-                <h3 className="mt-4 text-3xl font-bold leading-tight">
-                  {activeGroup.title}
-                </h3>
-                <p className="mt-4 text-base leading-8 text-primary-50">
+                <p className="mt-6 flex-1 text-base leading-8 text-primary-50">
                   {activeGroup.description}
                 </p>
               </div>
@@ -122,21 +171,29 @@ export default function AgeGroups() {
 
             return (
               <Reveal key={group.id} delay={index * 80}>
-                <Card>
-                  <div className="flex items-center gap-3">
-                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary-50 text-primary-600">
-                      <Icon className="h-6 w-6" />
-                    </span>
-                    <div>
-                      <Badge>{group.subtitle}</Badge>
-                      <h3 className="mt-1.5 text-lg font-bold text-slate-900">
-                        {group.title}
-                      </h3>
-                    </div>
+                <Card padded={false} className="relative overflow-hidden">
+                  <AgeGroupPhoto
+                    src={group.image}
+                    alt={group.title}
+                    label={`${group.title} görseli`}
+                    variant="mobile"
+                  />
+                  <div className="relative z-10 p-6 pr-[46%]">
+                      <div className="flex items-center gap-3">
+                        <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary-50 text-primary-600">
+                          <Icon className="h-6 w-6" />
+                        </span>
+                        <div>
+                          <Badge>{group.subtitle}</Badge>
+                          <h3 className="mt-1.5 text-lg font-bold text-slate-900">
+                            {group.title}
+                          </h3>
+                        </div>
+                      </div>
+                      <p className="mt-3 text-sm leading-7 text-slate-600">
+                        {group.description}
+                      </p>
                   </div>
-                  <p className="mt-3 text-sm leading-7 text-slate-600">
-                    {group.description}
-                  </p>
                 </Card>
               </Reveal>
             );
