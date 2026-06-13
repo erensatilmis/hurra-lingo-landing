@@ -624,6 +624,7 @@ export const lessonsPage = {
     title: "Geleceğin Dil Eğitimi Deneyimi!",
     pillars: [
       {
+        image: "/lessons/kisisellestirilmis-odak.jpg",
         title: "Kişiselleştirilmiş Odak",
         items: [
           {
@@ -641,6 +642,7 @@ export const lessonsPage = {
         ],
       },
       {
+        image: "/lessons/esneklik-dijital-entegrasyon.jpg",
         title: "Esneklik ve Dijital Entegrasyon",
         items: [
           {
@@ -658,6 +660,7 @@ export const lessonsPage = {
         ],
       },
       {
+        image: "/lessons/egitmen-kalitesi.jpg",
         title: "Eğitmen Kalitesi",
         items: [
           {

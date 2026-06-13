@@ -16,7 +16,7 @@ import SectionHeading from "../components/ui/SectionHeading";
 import Card from "../components/ui/Card";
 import Badge from "../components/ui/Badge";
 import ImageSlot from "../components/ui/ImageSlot";
-import { lessonTypeImages } from "../data/metadata";
+import { experiencePillarImages, lessonTypeImages } from "../data/metadata";
 
 const lessonIcons = [User, UsersRound, Users];
 const pillarIcons = [Sparkles, Cpu, MessageCircle];
@@ -124,26 +124,36 @@ export default function LessonsPage() {
                 <Card
                   key={pillar.title}
                   hover={false}
-                  className="h-full bg-surface-muted"
+                  padded={false}
+                  className="flex h-full flex-col overflow-hidden bg-surface-muted"
                 >
-                  <div className="mb-4 inline-flex rounded-2xl bg-white p-3 text-primary-600 shadow-sm">
-                    <Icon className="h-6 w-6" />
+                  <div className="relative aspect-4/3 shrink-0 overflow-hidden">
+                    <ImageSlot
+                      src={experiencePillarImages[index]}
+                      alt={pillar.title}
+                      label={t("imageAlt", { title: pillar.title })}
+                      fit="cover"
+                      className="object-center"
+                    />
                   </div>
-                  <h3 className="text-xl font-semibold text-slate-900">
-                    {pillar.title}
-                  </h3>
-                  <ul className="mt-5 space-y-4">
-                    {pillar.items.map((item) => (
-                      <li key={item.label}>
-                        <p className="text-sm font-semibold text-slate-900">
-                          {item.label}
-                        </p>
-                        <p className="mt-1 text-sm leading-7 text-slate-600">
-                          {item.text}
-                        </p>
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="flex flex-1 flex-col p-6">
+                    <Badge className="mb-4 gap-2 self-start rounded-2xl px-4 py-2.5 text-sm normal-case tracking-normal">
+                      <Icon className="h-5 w-5 shrink-0" />
+                      {pillar.title}
+                    </Badge>
+                    <ul className="space-y-4">
+                      {pillar.items.map((item) => (
+                        <li key={item.label}>
+                          <p className="text-sm font-semibold text-slate-900">
+                            {item.label}
+                          </p>
+                          <p className="mt-1 text-sm leading-7 text-slate-600">
+                            {item.text}
+                          </p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </Card>
               );
             })}

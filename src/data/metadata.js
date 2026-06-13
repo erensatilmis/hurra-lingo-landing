@@ -72,6 +72,12 @@ export const lessonTypeImages = {
   group: '/lessons/grup.jpg',
 }
 
+export const experiencePillarImages = [
+  '/lessons/kisisellestirilmis-odak.jpg',
+  '/lessons/esneklik-dijital-entegrasyon.jpg',
+  '/lessons/egitmen-kalitesi.jpg',
+]
+
 export const socialHrefs = {
   instagram: 'https://www.instagram.com/HurraLingo/',
   facebook: 'https://www.facebook.com/HurraLingo/',
