@@ -176,6 +176,12 @@ export const ageGroups = {
 export const cefrLevels = {
   eyebrow: "Uyguladığımız Programlar",
   title: "Dil Beceri Düzeyleri",
+  video: {
+    image: "/programs/video-cover.jpg",
+    playButton: "/programs/button-video.png",
+    videoId: "vxULU51Vj_8",
+    label: "Hurra Lingo tanıtım videosu",
+  },
   levels: [
     {
       id: "pre-a1",
@@ -239,6 +245,7 @@ export const testimonials = {
       name: "Emel G.",
       rating: 5,
       lang: "İngilizce",
+      avatar: "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-3.jpg",
       text: "Oğlum Emir, genelde ders çalışmayı sevmez ama Hurra Lingo’ya bayıldı. Renkli arayüzü, etkileşimli konuşmaları ve başarı rozetleriyle onu sürekli motive ediyor. Dil öğrenimi bu kadar keyifli olabilir miydi, şaşkınım!",
     },
     {
@@ -246,6 +253,7 @@ export const testimonials = {
       name: "Ali B.",
       rating: 5,
       lang: "İngilizce",
+      avatar: "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-1.jpg",
       text: "Kızım Hurra Lingo sayesinde İngilizceyi severek öğrenmeye başladı. Özellikle oyunlaştırılmış içerikler dikkatini çekiyor ve her gün kendi isteğiyle pratik yapıyor. Bu yaştaki bir çocuk için hem eğlenceli hem de öğretici bir yöntem bulduğumuz için çok mutluyum.",
     },
     {
@@ -254,6 +262,14 @@ export const testimonials = {
       rating: 5,
       lang: "İngilizce",
       text: "2 yıl önce kızımızın eğitimi için bir dil okulu arayışındaydık ve bu vesile ile Hurra Lingo’ya ulaştık. Bengü Hocamızla tanıştık ve derslere başladık. Kısa sürede çok güzel yol aldık. İngilizceye olan ilgisi ve dil konusunda özgüveni arttı. Bengü Hocamızın samimi ve motive edici yaklaşımı sayesinde dersler keyifli dolu dolu geçiyor. Daha sonra oğlumuz da Bengü Hocamızdan ders almaya başladı ve her geçen gün ilerlemeye devam ediyoruz. Kendisini arkadaşlarımızın iki çocuğu için de tavsiye ettik onlar da ders almaya başladılar. Bengü hocamızın bilgisinden ve tecrübesinden faydalanmaya devam etmek isteriz her zaman. Çocuklarla kurduğu iletişim, öğretme tarzı ve enerjisi gerçekten çok iyi. Başından beri süreçten gerçekten memnunuz. Emekleri için kendisine gönülden teşekkür ediyoruz.",
+    },
+    {
+      id: "6",
+      name: "Fatma Gül A.",
+      rating: 5,
+      lang: "İngilizce",
+      avatar: "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-2.jpg",
+      text: "Hurra Lingo’yu 8 yaşındaki kızım için kullanmaya başladık. İngilizce kelimeleri oyun gibi öğrenmesi, aksanlı seslendirmelerle telaffuzunu geliştirmesi harika. Artık çizgi filmleri İngilizce altyazıyla izlemeye çalışıyor!",
     },
   ],
 };

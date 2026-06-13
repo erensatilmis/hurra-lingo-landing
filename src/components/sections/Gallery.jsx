@@ -42,8 +42,10 @@ export default function Gallery() {
                   <div className="h-full w-full transition-transform duration-500 group-hover:scale-105">
                     <ImageSlot
                       src={image}
+                      alt={caption}
                       label={caption}
-                      aspect="aspect-square"
+                      fit="cover"
+                      className="object-center"
                     />
                   </div>
                   <div className="pointer-events-none absolute inset-0 flex items-end bg-linear-to-t from-slate-900/70 via-slate-900/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">

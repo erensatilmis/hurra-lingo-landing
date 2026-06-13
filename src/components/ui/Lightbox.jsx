@@ -41,7 +41,7 @@ export default function Lightbox({ image, label, onClose }) {
           <X className="h-5 w-5" />
         </button>
         <div className="aspect-[4/3]">
-          <ImageSlot src={image} label={label} aspect="aspect-[4/3]" />
+          <ImageSlot src={image} label={label} fit="cover" aspect="aspect-[4/3]" />
         </div>
         {label && (
           <p className="border-t border-slate-100 px-5 py-4 text-sm font-medium text-slate-700">

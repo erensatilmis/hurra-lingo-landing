@@ -57,16 +57,29 @@ function TestimonialCard({ position, item, handleMove, cardSize }) {
         />
 
         <div
-          className={`mb-4 shrink-0 flex h-14 w-12 items-center justify-center text-base font-bold ${
-            isCenter ? "bg-white" : "text-white"
+          className={`mb-4 shrink-0 flex h-14 w-14 items-center justify-center overflow-hidden text-base font-bold ${
+            item.avatar
+              ? "rounded-full border-2 border-white/80"
+              : isCenter
+                ? "w-12 bg-white"
+                : "w-12 text-white"
           }`}
           style={{
-            color: isCenter ? "#00AED0" : undefined,
-            backgroundColor: isCenter ? undefined : "#00AED0",
+            color: !item.avatar && isCenter ? "#00AED0" : undefined,
+            backgroundColor:
+              !item.avatar && !isCenter ? "#00AED0" : undefined,
             boxShadow: "3px 3px 0px rgba(15, 23, 42, 0.12)",
           }}
         >
-          {getInitials(item.name)}
+          {item.avatar ? (
+            <img
+              src={item.avatar}
+              alt=""
+              className="h-full w-full object-cover"
+            />
+          ) : (
+            getInitials(item.name)
+          )}
         </div>
 
         <h3
