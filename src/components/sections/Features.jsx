@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
   Award,
   GraduationCap,
@@ -10,7 +11,7 @@ import Container from "../ui/Container";
 import SectionHeading from "../ui/SectionHeading";
 import ImageSlot from "../ui/ImageSlot";
 import Reveal from "../ui/Reveal";
-import { features } from "../../data/content";
+import { featureMeta } from "../../data/metadata";
 
 const iconMap = {
   Video,
@@ -22,14 +23,24 @@ const iconMap = {
 };
 
 export default function Features() {
+  const { t } = useTranslation("home");
+  const featureItems = t("features.items", { returnObjects: true });
+  const features = featureMeta.map((meta) => {
+    const copy = featureItems.find((item) => item.id === meta.id) ?? {};
+
+    return {
+      ...meta,
+      ...copy,
+    };
+  });
+
   return (
     <section className="bg-white py-16 md:py-24">
       <Container>
         <Reveal>
           <SectionHeading
-            eyebrow="Neden Hurra Lingo?"
-            title="Modern öğrenme deneyimi"
-            subtitle="Canlı dersler, yapay zekâ ve mobil uygulama ile dil öğrenimini zenginleştiriyoruz."
+            eyebrow={t("features.eyebrow")}
+            title={t("features.title")}
           />
         </Reveal>
 

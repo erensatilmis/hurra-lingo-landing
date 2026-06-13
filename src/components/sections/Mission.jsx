@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Container from "../ui/Container";
 import SectionHeading from "../ui/SectionHeading";
@@ -5,20 +6,25 @@ import ImageSlot from "../ui/ImageSlot";
 import Reveal from "../ui/Reveal";
 import ParallaxBlobs from "../ui/ParallaxBlobs";
 import { assets } from "../../assets";
-import { mission } from "../../data/content";
 
 export default function Mission() {
+  const { t } = useTranslation("home");
+  const offeredLanguages = t("mission.offeredLanguages", { returnObjects: true });
+
   return (
     <section className="relative overflow-hidden bg-white py-16 md:py-20">
       <ParallaxBlobs variant="b" />
       <Container className="relative">
         <div className="mx-auto max-w-6xl rounded-4xl border border-primary-100 bg-linear-to-br from-primary-50 via-white to-secondary-400/10 px-6 py-12 shadow-sm sm:px-10">
           <Reveal>
-            <SectionHeading eyebrow={mission.eyebrow} title={mission.title} />
+            <SectionHeading
+              eyebrow={t("mission.eyebrow")}
+              title={t("mission.title")}
+            />
           </Reveal>
 
           <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7">
-            {mission.offeredLanguages.map((language, index) => (
+            {offeredLanguages.map((language, index) => (
               <Reveal key={language.id} delay={index * 60}>
                 <Link
                   to={`/diller/${language.id}`}

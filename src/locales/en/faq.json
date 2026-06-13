@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Answers to common questions about the Hurra Lingo education model, lesson processes, and learning experience."
+  },
+  "items": [
+    {
+      "id": "online-lessons",
+      "title": "Are online lessons effective?",
+      "content": "At Hurra Lingo, we transform online education into an interactive experience where students are at the center. With game-based activities and dynamic content customized for age groups, we make our lessons both highly motivating and outcome-focused. We design language learning as an enjoyable process for every age, not a burden."
+    },
+    {
+      "id": "level-planning",
+      "title": "How is the student's level and education program determined?",
+      "content": "Before starting the education process, we analyze our students' current language competencies and personal goals through detailed introductory and level assessment meetings. We structure our lesson content according to age group and learning needs based on this data."
+    },
+    {
+      "id": "private-or-group",
+      "title": "Should I take private lessons or group lessons?",
+      "content": "While we believe in the power of social learning and interaction, we know that every student's learning style is different. Therefore, we plan the choice between private or group lessons together based on our students' needs, academic goals, and personal priorities."
+    },
+    {
+      "id": "teacher-communication",
+      "title": "How can I communicate with my instructor?",
+      "content": "You can communicate with your instructor anytime through your personal student/parent portal. Your instructor also provides regular and detailed feedback on language development, covered topics, and progress through the portal."
+    },
+    {
+      "id": "learning-gaps",
+      "title": "How are gaps in the learning process addressed?",
+      "content": "The learning process is continuously supported with personalized supplementary work and interactive materials provided by our instructors. When needed, we support the process with one-on-one private lessons to reinforce specific topics and ensure learning goals are not lost."
+    },
+    {
+      "id": "homework-duration",
+      "title": "How long do reinforcement activities (homework) take?",
+      "content": "Consistency is essential in language learning. To make lesson topics permanent, we recommend short but effective reinforcement activities of approximately 5 to 15 minutes daily, suited to the student's age and attention span. This approach makes language acquisition a natural part of daily life."
+    }
+  ],
+  "sidebar": {
+    "title": "Common questions",
+    "subtitle": "Click a question to view the answer.",
+    "count": "{{count}} frequently asked questions",
+    "countDescription": "Quick answers about the education process, lesson formats, and platform usage.",
+    "contactTitle": "Would you like more details?",
+    "contactDescription": "Our team is happy to help.",
+    "contactCta": "Contact Us"
+  },
+  "testimonials": {
+    "eyebrow": "Reviews",
+    "title": "Reviews about Hurra Lingo",
+    "items": [
+      {
+        "id": "ali-b",
+        "name": "Ali B.",
+        "text": "Thanks to Hurra Lingo, my daughter has started learning English with real enthusiasm. The gamified content especially captures her attention, and she practices every day on her own initiative. I'm thrilled that we've found a method that is both fun and educational for a child her age.",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-1.jpg"
+      },
+      {
+        "id": "emel-g",
+        "name": "Emel G.",
+        "text": "My son Emir generally doesn't enjoy studying, but he absolutely loves Hurra Lingo. The colorful interface, interactive conversations, and achievement badges keep him constantly motivated. I'm amazed that language learning can be this enjoyable!",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-3.jpg"
+      }
+    ]
+  }
+}

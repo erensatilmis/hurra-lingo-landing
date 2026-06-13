@@ -10,12 +10,13 @@ import {
   Users,
   UsersRound,
 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Container from "../components/ui/Container";
 import SectionHeading from "../components/ui/SectionHeading";
 import Card from "../components/ui/Card";
 import Badge from "../components/ui/Badge";
 import ImageSlot from "../components/ui/ImageSlot";
-import { lessonsPage } from "../data/content";
+import { lessonTypeImages } from "../data/metadata";
 
 const lessonIcons = [User, UsersRound, Users];
 const pillarIcons = [Sparkles, Cpu, MessageCircle];
@@ -40,6 +41,12 @@ function HighlightItem({ text }) {
 }
 
 export default function LessonsPage() {
+  const { t } = useTranslation("lessons");
+  const lessonTypes = t("lessonTypes", { returnObjects: true });
+  const pillars = t("experience.pillars", { returnObjects: true });
+  const beyondItems = t("beyondLive.items", { returnObjects: true });
+  const speakingHighlights = t("speaking.highlights", { returnObjects: true });
+
   return (
     <main>
       <section className="relative overflow-hidden bg-surface-accent py-16 md:py-24">
@@ -50,13 +57,13 @@ export default function LessonsPage() {
         <Container className="relative">
           <div className="max-w-4xl">
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary-600">
-              {lessonsPage.hero.eyebrow}
+              {t("hero.eyebrow")}
             </p>
             <h1 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl">
-              {lessonsPage.hero.title}
+              {t("hero.title")}
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-slate-600">
-              {lessonsPage.hero.description}
+              {t("hero.description")}
             </p>
           </div>
         </Container>
@@ -65,7 +72,7 @@ export default function LessonsPage() {
       <section className="py-16 md:py-24">
         <Container>
           <div className="grid gap-6 lg:grid-cols-3">
-            {lessonsPage.lessonTypes.map((lesson, index) => {
+            {lessonTypes.map((lesson, index) => {
               const Icon = lessonIcons[index];
 
               return (
@@ -76,9 +83,9 @@ export default function LessonsPage() {
                 >
                   <div className="relative h-56 shrink-0 overflow-hidden sm:h-64 md:h-72">
                     <ImageSlot
-                      src={lesson.image}
+                      src={lessonTypeImages[lesson.id]}
                       alt={lesson.title}
-                      label={`${lesson.title} görseli`}
+                      label={t("imageAlt", { title: lesson.title })}
                       fit="cover"
                       className="object-center"
                     />
@@ -105,12 +112,12 @@ export default function LessonsPage() {
       <section className="bg-white py-16 md:py-24">
         <Container>
           <SectionHeading
-            eyebrow={lessonsPage.experience.eyebrow}
-            title={lessonsPage.experience.title}
+            eyebrow={t("experience.eyebrow")}
+            title={t("experience.title")}
           />
 
           <div className="mt-12 grid gap-6 lg:grid-cols-3">
-            {lessonsPage.experience.pillars.map((pillar, index) => {
+            {pillars.map((pillar, index) => {
               const Icon = pillarIcons[index];
 
               return (
@@ -147,12 +154,12 @@ export default function LessonsPage() {
       <section className="bg-surface-muted py-16 md:py-24">
         <Container>
           <SectionHeading
-            eyebrow={lessonsPage.beyondLive.eyebrow}
-            title={lessonsPage.beyondLive.title}
+            eyebrow={t("beyondLive.eyebrow")}
+            title={t("beyondLive.title")}
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-2">
-            {lessonsPage.beyondLive.items.map((item, index) => {
+            {beyondItems.map((item, index) => {
               const Icon = beyondIcons[index];
 
               return (
@@ -190,13 +197,13 @@ export default function LessonsPage() {
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary-600">
-                {lessonsPage.speaking.eyebrow}
+                {t("speaking.eyebrow")}
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-                {lessonsPage.speaking.title}
+                {t("speaking.title")}
               </h2>
               <p className="mt-4 text-base leading-7 text-slate-600">
-                {lessonsPage.speaking.description}
+                {t("speaking.description")}
               </p>
             </div>
 
@@ -205,7 +212,7 @@ export default function LessonsPage() {
               className="bg-linear-to-br from-primary-50 via-white to-secondary-400/10"
             >
               <ul className="space-y-4">
-                {lessonsPage.speaking.highlights.map((highlight) => (
+                {speakingHighlights.map((highlight) => (
                   <HighlightItem key={highlight} text={highlight} />
                 ))}
               </ul>

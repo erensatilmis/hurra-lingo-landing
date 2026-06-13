@@ -1,0 +1,18 @@
+{
+  "aria": {
+    "dialog": "Hurra Lingo söhbət köməkçisi",
+    "close": "Söhbəti bağla",
+    "send": "Mesaj göndər",
+    "open": "Söhbəti aç"
+  },
+  "title": "Hurra Lingo Köməkçisi",
+  "status": "Onlayn",
+  "greeting": "Salam! Mən Hurra Lingo köməkçisiyəm. Sizə necə kömək edə bilərəm?",
+  "placeholder": "Mesajınızı yazın...",
+  "comingSoon": "Söhbət funksiyası tezliklə aktiv olacaq.",
+  "quickReplies": [
+    "Dərs cədvəli məlumatı",
+    "Pulsuz sınaq",
+    "Qiymət məlumatı"
+  ]
+}

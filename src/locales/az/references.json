@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "eyebrow": "Rəylər",
+    "title": "Valideynlər və tələbələr hekayələrini paylaşır",
+    "description": "Hurra Lingo-nu birbaşa təcrübə etmiş ailələrin video və yazılı rəyləri vasitəsilə kəşf edin."
+  },
+  "videos": {
+    "eyebrow": "Video Rəylər",
+    "title": "Valideyn Təcrübələri",
+    "subtitle": "Hurra Lingo valideynlərinin səmimi paylaşımları",
+    "watchVideo": "videoya bax",
+    "watchVideoAria": "{{name}} videosuna bax",
+    "parentRole": "Hurra Lingo Valideyni",
+    "stats": {
+      "videoCount": "{{count}} video rəy",
+      "realExperiences": "Real valideyn təcrübələri",
+      "writtenFeedback": "{{count}} yazılı rəylə Hurra Lingo-nu kəşf edin."
+    }
+  },
+  "reviews": {
+    "eyebrow": "Hurra Lingo Rəyləri",
+    "title": "Yazılı Rəylər",
+    "items": [
+      {
+        "id": "merve-a",
+        "name": "Merve A.",
+        "role": "İstifadəçi",
+        "text": "İki il əvvəl qızımızın təhsili üçün dil məktəbi axtarırdıq və bu yolla Hurra Lingo-ya çatdıq. Bengü müəllimimizlə tanış olduq və dərslərə başladıq. Qısa müddətdə çox gözəl irəliləyiş əldə etdik. İngilis dilinə olan marağı və dil mövzusunda özünə inamı artdı. Bengü müəllimimizin səmimi və motivasiyaedici yanaşması sayəsində dərslər həzzli və dolu keçir. Daha sonra oğlumuz da Bengü müəllimimizdən dərs almağa başladı və hər keçən gün irəliləməyə davam edirik. Onu dostlarımızın iki uşağı üçün də tövsiyə etdik, onlar da dərs almağa başladılar. Bengü müəllimimizin biliklərindən və təcrübəsindən faydalanmağa həmişə davam etmək istəyirik. Uşaqlarla qurduğu ünsiyyət, tədris üslubu və enerjisi həqiqətən çox yaxşıdır. Əvvəlindən bəri prosesdən həqiqətən məmnunuq. Əməyi üçün ürəkdən təşəkkür edirik."
+      },
+      {
+        "id": "fatos-a",
+        "name": "Fatoş A.",
+        "role": "İstifadəçi",
+        "text": "Salam — kiçik yaşda dil öyrənməyin vacibliyinə inandığım üçün uşağımın erkən ingilis dili öyrənməsi üçün axtarışdaykən Hurra Lingo ilə tanış oldum. Təxminən 3 ildir Bengü Kesen müəllimimizlə yolumuza davam edirik. Üç ildə müəllimimizlə gözəl irəliləyiş əldə etdik. Əyləşərkən öyrənmək çox gözəldir. Onlayn olması, müəllimimizlə dərs saatlarını vəziyyətə uyğun dəyişdirmək imkanının olması da üstünlükdür. Müəllimimizə sevgi dolu yanaşması, maraqlı tədris üslubu, diqqəti və əməyi üçün təşəkkür edirik."
+      },
+      {
+        "id": "sebnem-e",
+        "name": "Şebnem E.",
+        "role": "İstifadəçi",
+        "text": "Hurra Lingo ailəsi ilə yollarımızın kəsişməsinə çox şadam. Oğlumun ingilis dilinə olan özünə inamsızlığı yerini əminliyə buraxdı. Koordinatorlardan müəllimlərə qədər işini çox yaxşı və sevərək edən isti bir komanda olduğunu deyə bilərəm. Əziz müəllimimiz Mustafa Hakan Yanar — tədrisə olan sədaqətiniz, intizamınız və işinizi sevərək yerinə yetirməyiniz o qədər aydındır ki. Oğluma qatdıqlarınız üçün təşəkkür edirəm."
+      },
+      {
+        "id": "ali-b",
+        "name": "Ali B.",
+        "role": "İstifadəçi",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-1.jpg",
+        "text": "Qızım Hurra Lingo sayəsində ingilis dilini sevərək öyrənməyə başladı. Xüsusilə oyunlaşdırılmış məzmun diqqətini cəlb edir və hər gün öz istəyi ilə məşq edir. Bu yaşda bir uşaq üçün həm əyləncəli, həm də öyrədici bir üsul tapdığımız üçün çox məmnunam."
+      },
+      {
+        "id": "emel-g",
+        "name": "Emel G.",
+        "role": "İstifadəçi",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-3.jpg",
+        "text": "Oğlum Emir adətən dərs oxumağı sevmir, amma Hurra Lingo-ya çox vurulub. Rəngli interfeysi, interaktiv söhbətləri və uğur nişanları onu davamlı motivasiya edir. Dil öyrənməsi bu qədər zövqlü ola bilərmi, təəccüblənirəm!"
+      },
+      {
+        "id": "fatma-gul-a",
+        "name": "Fatma Gül A.",
+        "role": "İstifadəçi",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-2.jpg",
+        "text": "8 yaşındakı qızımız üçün Hurra Lingo istifadə etməyə başladıq. İngilis sözlərini oyun kimi öyrənməsi, aksanlı səsləndirmələrlə təlaffuzunu inkişaf etdirməsi əladır. İndi cizgi filmlərə ingilis subtitrləri ilə baxmağa çalışır!"
+      }
+    ]
+  }
+}

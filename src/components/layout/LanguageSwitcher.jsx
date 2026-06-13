@@ -1,20 +1,24 @@
-import { languages } from '../../data/content'
+import { useTranslation } from 'react-i18next'
 import { languageFlagByCode } from '../../assets'
+import { localeToFlagCode } from '../../routing/routes'
 
 export default function LanguageSwitcher({
-  activeLanguage,
+  locale,
   onSelect,
   mobile = false,
   className = '',
 }) {
+  const { t } = useTranslation('common')
+  const languages = t('languages', { returnObjects: true })
+  const activeFlagCode = localeToFlagCode(locale)
   return (
     <div
       className={`flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-2 py-1 ${className}`}
       role="group"
-      aria-label="Dil seçimi"
+      aria-label={t('aria.languageSelection')}
     >
       {languages.map((lang) => {
-        const isActive = activeLanguage === lang.code
+        const isActive = activeFlagCode === lang.code
         const flag = languageFlagByCode[lang.code]
 
         return (

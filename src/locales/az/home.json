@@ -1,0 +1,366 @@
+{
+  "hero": {
+    "title": "Yeni Dil Öyrənməyin Ən Zövqlü Yolu!",
+    "description": "Hurra Lingo mükafat qazanan təhsil texnologiyasını peşəkar müəllimlər və yüksək keyfiyyətli öyrənmə resursları ilə birləşdirən yeni nəsil Onlayn Dil Məktəbidir. Uşaq və ya böyük, bütün yaşlardakı tələbələr istənilən yerdən 24/7 onlayn canlı dərslərə qoşula və süni intellekt dəstəkli interaktiv məzmun və cəlbedici dərslərlə zəngin öyrənmə mühitinə çıxış əldə edə bilərlər.",
+    "cta": "Pulsuz Sınayın",
+    "stats": [
+      {
+        "value": "10,000+",
+        "label": "Məmnun tələbə"
+      },
+      {
+        "value": "50+",
+        "label": "Peşəkar müəllim"
+      },
+      {
+        "value": "7",
+        "label": "Xarici dil"
+      }
+    ],
+    "badge": {
+      "title": "24/7 Canlı Dərslər",
+      "subtitle": "Bütün yaşlardakı tələbələr"
+    },
+    "imageAlt": "Hurra Lingo onlayn dil təhsili",
+    "imageLabel": "Hero şəkli",
+    "welcomeMessages": [
+      {
+        "lang": "Türkçe",
+        "text": "Merhaba!"
+      },
+      {
+        "lang": "English",
+        "text": "Hello!"
+      },
+      {
+        "lang": "Deutsch",
+        "text": "Hallo!"
+      },
+      {
+        "lang": "Français",
+        "text": "Bonjour!"
+      },
+      {
+        "lang": "Español",
+        "text": "¡Hola!"
+      },
+      {
+        "lang": "Русский",
+        "text": "Привет!"
+      },
+      {
+        "lang": "Azərbaycan",
+        "text": "Salam!"
+      }
+    ],
+    "funKeyword": "Zövq"
+  },
+  "mission": {
+    "eyebrow": "Hədəfimiz",
+    "title": "Tələbələrimizi ən azı bir xarici dildə effektiv ünsiyyət qurmaq bacarığı ilə təchiz etmək.",
+    "offeredLanguages": [
+      {
+        "id": "tr",
+        "name": "Türk dili",
+        "nativeName": "Türkçe"
+      },
+      {
+        "id": "en",
+        "name": "İngilis dili",
+        "nativeName": "English"
+      },
+      {
+        "id": "de",
+        "name": "Alman dili",
+        "nativeName": "Deutsch"
+      },
+      {
+        "id": "fr",
+        "name": "Fransız dili",
+        "nativeName": "Français"
+      },
+      {
+        "id": "es",
+        "name": "İspan dili",
+        "nativeName": "Español"
+      },
+      {
+        "id": "ru",
+        "name": "Rus dili",
+        "nativeName": "Русский"
+      },
+      {
+        "id": "zh",
+        "name": "Çin dili",
+        "nativeName": "中文"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Niyə Hurra Lingo?",
+    "title": "Hurra Lingo ilə Öyrənmənin Üstünlükləri",
+    "items": [
+      {
+        "id": "live",
+        "title": "Onlayn Canlı Dərslər",
+        "description": "Sahə mütəxəssisi müəllimlərimizlə fərdi və qrup dərs seçimləri vasitəsilə danışığa yönəlik və effektiv dil öyrənməsi təqdim edirik."
+      },
+      {
+        "id": "ai",
+        "title": "Süni İntellekt Dəstəkli İnteraktiv Dərslər",
+        "description": "Süni intellekt dəstəkli interaktiv dərslərimiz yalnız 15 dəqiqədə yeni bacarıqlar qazanmağınıza və onları zövqlü təcrübə fəaliyyətləri ilə möhkəmləndirməyinizə kömək edir."
+      },
+      {
+        "id": "app",
+        "title": "Tətbiq Fəaliyyətləri",
+        "description": "5 dəqiqəlik zövqlü fəaliyyətlər və süni intellekt dəstəkli rəy ilə gündəlik təcrübə vasitəsilə öyrəndiklərinizi daimi edin."
+      },
+      {
+        "id": "teachers",
+        "title": "Peşəkar Müəllimlər",
+        "description": "Hurra Lingo müəllimləri sahə mütəxəssisləri, sertifikatlı və qlobal miqyasda ən ixtisaslı təhsilçilər sırasındadır."
+      },
+      {
+        "id": "library",
+        "title": "Qeydə Alınmış Dərs Kitabxanası",
+        "description": "Bütün dərs qeydlərinizə istənilən vaxt çıxış əldə edin və öyrənmə yolculuğunuzu öz sürətinizlə nəzərdən keçirin."
+      },
+      {
+        "id": "certificates",
+        "title": "Beynəlxalq Sertifikatlar",
+        "description": "Dil inkişafınızı CEFR uyğun beynəlxalq sertifikatlarla sənədləşdirin və nailiyyətlərinizi qlobal standartlarla taçlandırın."
+      }
+    ]
+  },
+  "ageGroups": {
+    "eyebrow": "Hər Yaş Qrupu üçün Fərdiləşdirilmiş Təhsil",
+    "subtitle": "Təhsil proqramlarımızı yaş qruplarına uyğun strategiyalarla formalaşdırırıq:",
+    "groups": [
+      {
+        "id": "4-6",
+        "title": "4–6 yaş",
+        "subtitle": "Oyun Əsaslı Təbii Öyrənmə",
+        "description": "Pedaqoji modelimiz sayəsində uşaqlar oyunlarda aktiv iştirak edir və təbii axınla dinləmə və danışıq bacarıqlarını sürətlə inkişaf etdirir."
+      },
+      {
+        "id": "7-12",
+        "title": "7–12 yaş",
+        "subtitle": "Aktiv Öyrənmə Dövrü",
+        "description": "Əsas öyrənmə illərindəki uşaqlar zövqlü və interaktiv dərslərlə dörd əsas dil bacarığını inkişaf etdirir, öyrəndiklərini gündəlik həyatda aktiv istifadə etmək üçün özünə inam qazanır."
+      },
+      {
+        "id": "13-18",
+        "title": "13–18 yaş",
+        "subtitle": "Akademik Uğur və Gələcəyə Fokus",
+        "description": "Məktəb kurikulumu ilə tam inteqrasiya olunmuş və imtahan strategiyalarına əsaslanan proqramımız gənclərin akademik özünə inamını artırır, onları hədəflərinə tam hazırlayır."
+      },
+      {
+        "id": "18+",
+        "title": "18+ yaş",
+        "subtitle": "Böyüklər üçün Fərdiləşdirilmiş Həllər",
+        "description": "Karyera, səyahət və ya şəxsi inkişaf hədəflərinizə xüsusi hazırlanmış təhsil modelimizlə xarici dili sosial və peşəkar həyatda effektiv istifadə etməyinizə imkan yaradırıq."
+      }
+    ]
+  },
+  "cefrLevels": {
+    "eyebrow": "Təqdim Etdiyimiz Proqramlar",
+    "title": "Dil Bacarığı Səviyyələri",
+    "video": {
+      "label": "Hurra Lingo tanıtım videosu"
+    },
+    "levels": [
+      {
+        "id": "pre-a1",
+        "title": "Başlanğıc Səviyyə Pre-A1",
+        "content": "Tələbələrimiz salamlaşma, tanışlıq və vidalaşma ilə bağlı əsas ifadələrdən istifadə edir. Özlərini və ya başqasını təqdim edirlər. Yavaş və aydın danışan şəxslə ünsiyyət qururlar. Təlimatları izləyir və qrup öyrənmə fəaliyyətlərində harmonik iştirak edirlər. Tələbələrimiz diqqətlə dinləyir. Sadə suallara uyğun cavablar verirlər. Hisslər, rənglər, formalar, rəqəmlər, ailə üzvləri, ev hissələri, ümumi peşələr, bitkilər, tərəvəzlər, meyvələr, mövsümlər, geyim, oyunlar, oyuncaqlar, hava, emosiyalar, xəstəlik və nəqliyyat vasitələri ilə bağlı sadə ifadələri, həmçinin nəzakət ifadələrini tanıyır və istifadə edirlər."
+      },
+      {
+        "id": "a1",
+        "title": "Əsas Səviyyə A1",
+        "content": "Tələbələrimiz salamlaşma, tanışlıq və vidalaşma ilə bağlı əsas ifadələrdən istifadə edir və dialoqlarda iştirak edirlər. Təlimatları izləyir və qrup öyrənmə fəaliyyətlərində harmonik iştirak edirlər. Tələbələrimiz effektiv dinləyir. Ətrafındakı əşya və yerlərin adlarını soruşur və bildirirlər. Gündəlik həyatla bağlı dialoqlarda iştirak edir; emosiyalarını, fikirlərini və maraqlarını sadə cümlələrlə ifadə edirlər. Dialoqlar zamanı suallara uyğun cavablar verirlər. Bədən, peşə və məktəb həyatı ilə bağlı sözləri; günləri, nəqliyyat vasitələrini, nəqliyyat növlərini, hərəkət qaydalarını, istiqamət və ünvan ifadələrini, tarix və vaxt göstərən ifadələri və ölçü vahidlərini tanıyır və istifadə edirlər. Eşitdikləri sözləri, sadə qısa cümlələri və mətnləri yazırlar (posterlər, broşürlər, siyahılar, qeydlər, e-poçtlar və s.)."
+      },
+      {
+        "id": "a2",
+        "title": "Əsas Səviyyə A2",
+        "content": "Tələbələrimiz müxtəlif şəxslərlə görüşərkən özünə inam göstərirlər. Ən azı üç addımlı təlimatları yerinə yetirir və qrup öyrənmə fəaliyyətlərində harmonik iştirak edirlər. Ümumiyyətlə məlum mövzular və ya fəaliyyətlər barədə ətrafındakılarla ünsiyyət qura bilirlər. Eşitdikləri, izlədikləri və oxuduqları barədə qısa qeydlər aparır və mövzularını müəyyən edirlər. Nitqdə fərqli baxış bucaqlarını, təkrar, təxmin, təklif, üstünlük, təklif, xahiş, şikayət və məsləhət ifadələrini müəyyən edir və nəql bacarıqlarında (danışıq və yazı) istifadə edirlər. Siniflərini, məktəb ləvazimatlarını, ev əşyalarını, hərəkət nişanlarını, idman növlərini və avadanlıqlarını, xəstəlikləri, gigiyena və qidalanma rutinlərini, ətraf mühiti, təqvim və günün hissələrini tanıyırlar. Vizual əsaslara uyğun cümlələr, paraqraflar və gündəlik mətnlər, elanlar, reklamlar və bioqrafiyalar yazırlar."
+      },
+      {
+        "id": "b1",
+        "title": "Orta Səviyyə B1",
+        "content": "Tələbələrimiz yaş səviyyəsinə və inkişaf xüsusiyyətlərinə uyğun fərdi və qrup fəaliyyətlərində iştirak edərək dil bacarıqlarını inkişaf etdirirlər. Aydın və ümumi dil istifadə olunduqda iş, məktəb və gündəlik həyatla bağlı əsas mövzuları başa düşür və mövzu barədə ardıcıl izahlar verə bilirlər. Tələbələrimiz eşitdikləri, izlədikləri və oxuduqlarını xülasə edirlər. Mövzularını və əsas ideyasını müəyyən edirlər. Gündəlik həyatla bağlı dialoqlarda iştirak edir və nitqlərində idiomatik və məcazi ifadələrdən istifadə edirlər. Gündəlik həyatda problem qarşısında aydın şəkildə özünü ifadə edir və gözləntilərini izah edir. Keçmiş hadisəni ümumi xətlərlə nəql edə bilirlər. Mövzu, ideya və ya hadisə barədə qısa məlumat verə bilirlər. Məktublar, esseylər, nəql və təsvir mətnləri, səyahət yazıları və ərizələr yazırlar."
+      },
+      {
+        "id": "b2",
+        "title": "Orta Səviyyə B2",
+        "content": "Tələbələrimiz maraqlarına və ehtiyaclarına uyğun fərdi və qrup fəaliyyətlərində iştirak edərək inkişaf etdirdikləri dil bacarıqlarını praktikaya tətbiq edirlər. Öyrəndikləri dildən istifadə edən insanlarla təbii söhbətdə rahat ünsiyyət qura bilirlər. Tələbələrimiz eşitdikləri və izlədiklərini vaxt axınına uyğun sıralayır və onlardan nəticələr çıxarır. Nitqini mövzu və ya ideya ətrafında planlaşdırır, səlis danışır və hazırlıqsız çıxışlar edir. Mətnlərdə gizli mesajları və mətn növlərini müəyyən edir. İxtisas tələb edən texniki mövzularda və ya mürəkkəb mətnlərdə konkret və ya abstrakt mövzuların mahiyyətini başa düşürlər. CV, iş məktubları, xəbər məqalələri və reklam mətnləri yazırlar."
+      },
+      {
+        "id": "c1",
+        "title": "İrəli Səviyyə C1",
+        "content": "Tələbələrimiz maraqlarına və ehtiyaclarına uyğun fərdi və qrup fəaliyyətlərində iştirak edərək inkişaf etdirdikləri dil bacarıqlarını praktikaya tətbiq edirlər. Ana dili türkcə olanlarla təbii söhbətdə təbii, səlis və rahat ünsiyyət qururlar. Tələbələrimiz eşitdikləri, izlədikləri və oxuduqlarında rəsmi və akademik ifadələri başa düşür və istifadə edirlər. Təlimatları izləyir və tətbiq edirlər. Nəql mətnlərinin məzmun xüsusiyyətlərini müəyyən edirlər. Geniş, texniki və uzun mətnləri oxuyur və gizli ifadələri başa düşürlər. Mürəkkəb mövzularda sosial, peşəkar və akademik həyatda çevik və effektiv şəkildə özünü ifadə edirlər. Elmi mətnlər və layihə sənədləri yazırlar."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Hurra Lingo",
+    "title": "Hurra Lingo Rəyləri",
+    "subtitle": "Valideynlərimiz və tələbələrimizdən real təcrübələr.",
+    "items": [
+      {
+        "id": "1",
+        "name": "Şebnem E.",
+        "lang": "İngilis dili",
+        "text": "Hurra Lingo ailəsi ilə yollarımızın kəsişməsinə çox şadam. Oğlumun ingilis dilinə olan özünə inamsızlığı yerini əminliyə buraxdı. Koordinatorlardan müəllimlərə qədər işini çox yaxşı və sevərək edən isti bir komanda olduğunu deyə bilərəm. Əziz müəllimimiz Mustafa Hakan Yanar — tədrisə olan sədaqətiniz, intizamınız və işinizi sevərək yerinə yetirməyiniz o qədər aydındır ki. Oğluma qatdıqlarınız üçün təşəkkür edirəm."
+      },
+      {
+        "id": "2",
+        "name": "Fatoş A.",
+        "lang": "İngilis dili",
+        "text": "Salam — kiçik yaşda dil öyrənməyin vacibliyinə inandığım üçün uşağımın erkən ingilis dili öyrənməsi üçün axtarışdaykən Hurra Lingo ilə tanış oldum. Təxminən 3 ildir Bengü Kesen müəllimimizlə yolumuza davam edirik. Üç ildə müəllimimizlə gözəl irəliləyiş əldə etdik. Əyləşərkən öyrənmək çox gözəldir. Onlayn olması, müəllimimizlə dərs saatlarını vəziyyətə uyğun dəyişdirmək imkanının olması da üstünlükdür. Müəllimimizə sevgi dolu yanaşması, maraqlı tədris üslubu, diqqəti və əməyi üçün təşəkkür edirik."
+      },
+      {
+        "id": "3",
+        "name": "Emel G.",
+        "lang": "İngilis dili",
+        "text": "Oğlum Emir adətən dərs oxumağı sevmir, amma Hurra Lingo-ya çox vurulub. Rəngli interfeysi, interaktiv söhbətləri və uğur nişanları onu davamlı motivasiya edir. Dil öyrənməsi bu qədər zövqlü ola bilərmi, təəccüblənirəm!"
+      },
+      {
+        "id": "4",
+        "name": "Ali B.",
+        "lang": "İngilis dili",
+        "text": "Qızım Hurra Lingo sayəsində ingilis dilini sevərək öyrənməyə başladı. Xüsusilə oyunlaşdırılmış məzmun diqqətini cəlb edir və hər gün öz istəyi ilə məşq edir. Bu yaşda bir uşaq üçün həm əyləncəli, həm də öyrədici bir üsul tapdığımız üçün çox məmnunam."
+      },
+      {
+        "id": "5",
+        "name": "Merve A.",
+        "lang": "İngilis dili",
+        "text": "İki il əvvəl qızımızın təhsili üçün dil məktəbi axtarırdıq və bu yolla Hurra Lingo-ya çatdıq. Bengü müəllimimizlə tanış olduq və dərslərə başladıq. Qısa müddətdə çox gözəl irəliləyiş əldə etdik. İngilis dilinə olan marağı və dil mövzusunda özünə inamı artdı. Bengü müəllimimizin səmimi və motivasiyaedici yanaşması sayəsində dərslər həzzli və dolu keçir. Daha sonra oğlumuz da Bengü müəllimimizdən dərs almağa başladı və hər keçən gün irəliləməyə davam edirik. Onu dostlarımızın iki uşağı üçün də tövsiyə etdik, onlar da dərs almağa başladılar. Bengü müəllimimizin biliklərindən və təcrübəsindən faydalanmağa həmişə davam etmək istəyirik. Uşaqlarla qurduğu ünsiyyət, tədris üslubu və enerjisi həqiqətən çox yaxşıdır. Əvvəlindən bəri prosesdən həqiqətən məmnunuq. Əməyi üçün ürəkdən təşəkkür edirik."
+      },
+      {
+        "id": "6",
+        "name": "Fatma Gül A.",
+        "lang": "İngilis dili",
+        "text": "8 yaşındakı qızımız üçün Hurra Lingo istifadə etməyə başladıq. İngilis sözlərini oyun kimi öyrənməsi, aksanlı səsləndirmələrlə təlaffuzunu inkişaf etdirməsi əladır. İndi cizgi filmlərə ingilis subtitrləri ilə baxmağa çalışır!"
+      }
+    ]
+  },
+  "teachers": {
+    "eyebrow": "Müəllimlərimiz",
+    "title": "Hurra Lingo Müəllimləri ilə Tanış Olun!",
+    "cta": "Bütün Müəllimlərimiz",
+    "items": [
+      {
+        "id": "1",
+        "name": "Ghazaleh Ghazalifard",
+        "role": "İngilis Dili Müəllimi",
+        "highlights": [
+          "Ana dili ingilis dili",
+          "Beynəlxalq təhsil təcrübəsi",
+          "Yüksək tələbə məmnuniyyəti"
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Adeniyi Peace",
+        "role": "İngilis Dili Müəllimi",
+        "highlights": [
+          "Ana dili ingilis dili",
+          "Beynəlxalq müəllim",
+          "Yüksək tələbə məmnuniyyəti"
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Yolandi Bezuidenhout",
+        "role": "İngilis Dili Müəllimi",
+        "highlights": [
+          "Ana dili ingilis dili",
+          "Çoxdilli təlimatçı",
+          "Təcrübəli danışıq məşqçisi"
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Hurra Lingo Bloq",
+    "title": "Ən Son Hurra Lingo Bloq Yazılarını İzləyin!",
+    "description": "Dil öyrənməsi, tədris metodları və motivasiya haqqında ən son bloq yazılarımızı kəşf edin.",
+    "cta": "Bütün Bloq Yazılarına Bax",
+    "sidebar": {
+      "postCount": "{{count}} bloq yazısı",
+      "description": "Dil öyrənməsi, təhsil və motivasiya haqqında aktual məzmun."
+    },
+    "items": [
+      {
+        "id": "1",
+        "category": "Uşaq Təhsili",
+        "readTime": "5 dəqiqəlik oxu",
+        "title": "Bayram Tətilində Uşaqların İngilis Dili İnkişafı Necə Dəstəklənə Bilər?",
+        "excerpt": "Bayram tətili uşaqların istirahət etməsi, ailələri ilə vaxt keçirməsi və gündəlik məktəb rutinindən uzaqlaşması üçün bir vaxtdır…"
+      },
+      {
+        "id": "2",
+        "category": "Motivasiya",
+        "readTime": "4 dəqiqəlik oxu",
+        "title": "19 May Atatürk'ü Anma, Gençlik ve Spor Bayramı və Dil Öyrənməsinin Əhəmiyyəti",
+        "excerpt": "19 May Atatürk'ü Anma, Gençlik ve Spor Bayramı, Türkiyə Respublikasının…"
+      },
+      {
+        "id": "3",
+        "category": "Təhsil",
+        "readTime": "6 dəqiqəlik oxu",
+        "title": "Təhsilin Ürəyində İlk Dayanacaq: Bir Ana, Bir Müəllim",
+        "excerpt": "Ömürboyu öyrənmə səyahətinin ilk addımı harada atılır? Sinifdə, yoxsa…"
+      },
+      {
+        "id": "4",
+        "category": "Dil Öyrənməsi",
+        "readTime": "7 dəqiqəlik oxu",
+        "title": "6 Ayda Yeni Dil: Bir Macəranın Anatomiyası",
+        "excerpt": "Yeni dil öyrənmək qərarına gəlmək əslində özünüzə yeni bir dünya hədiyyə etməkdir. Lakin…"
+      },
+      {
+        "id": "5",
+        "category": "Uşaq Təhsili",
+        "readTime": "5 dəqiqəlik oxu",
+        "title": "23 Aprel Ulusal Egemenlik ve Çocuk Bayramı: Uşaqların Dünyası və Dil Öyrənməsinin Gücü",
+        "excerpt": "23 Aprel Ulusal Egemenlik ve Çocuk Bayramı sadəcə bir bayram deyil; uşaqların təxəyyülünü, yaradıcılığını və potensialını qeyd etdiyimiz xüsusi bir gündür. Türkiyə…"
+      },
+      {
+        "id": "6",
+        "category": "Praktik Məsləhətlər",
+        "readTime": "3 dəqiqəlik oxu",
+        "title": "3 Dəqiqədə İngilis Dili Danışmaq Mümkündürmü?",
+        "excerpt": "«3 dəqiqədə ingilis dili öyrənin!» İnternetdə belə başlıqlarla qarşılaşmış ola bilərsiniz. Hətta düşünək: 1-ci dəqiqə: Hello. 2.…"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Dərslərimizdən Kadrlar",
+    "title": "Onlayn Xarici Dil Platforması",
+    "captions": [
+      "Canlı dərs anı",
+      "İnteraktiv fəaliyyət",
+      "Müəllimlə fərdi dərs",
+      "Qrup dərsində əyləncə"
+    ]
+  },
+  "ctaBands": [
+    {
+      "id": "cta-1",
+      "eyebrow": "Hurra Lingo Ailəsinə Qoşulun",
+      "title": "Hədəflərinizə çatın",
+      "description": "Peşəkar müəllimlər, canlı dərslər və ağıllı texnologiya ilə dəstəklənən öyrənmə təcrübəsi ilə hədəflərinizə çatın. Uşağınız üçün möhkəm bir təməl və ya özünüz üçün yeni karyera imkanı axtarırsınızsa, yeni dil öyrənməyin ən effektiv və zövqlü yolunu kəşf edin.",
+      "cta": "Pulsuz Sınayın",
+      "variant": "primary"
+    },
+    {
+      "id": "cta-2",
+      "eyebrow": "Hurra Lingo Ailəsinə Qoşulun",
+      "title": "Yeni bir dil kəşf edin",
+      "description": "Yeni dil öyrənməyin ən zövqlü və effektiv yolunu kəşf edin. Peşəkar müəllimlər və ağıllı texnologiya ilə dəstəklənən öyrənmə təcrübəsi ilə hədəflərinizə çatın.",
+      "cta": "Pulsuz Sınayın",
+      "variant": "secondary"
+    }
+  ]
+}

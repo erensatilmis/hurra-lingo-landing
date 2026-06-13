@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "title": "Hurra Lingo | Online Yabancı Dil Okulu",
+    "description": "Hurra Lingo ile yeni bir dil öğrenmenin en eğlenceli yolunu keşfedin. Canlı dersler, uzman öğretmenler ve yapay zekâ destekli içerikler."
+  },
+  "nav": {
+    "education": "Eğitim",
+    "lessons": "Dersler",
+    "teachers": "Öğretmenler",
+    "blog": "Blog",
+    "pricing": "Ücretler",
+    "references": "Referanslar",
+    "contact": "İletişim",
+    "corporate": "Kurumsal",
+    "certification": "Sertifikasyon",
+    "faq": "S.S.S",
+    "login": "Giriş",
+    "signup": "Kayıt",
+    "mainMenu": "Ana menü",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "languages": [
+    {
+      "code": "TR",
+      "label": "Türkçe"
+    },
+    {
+      "code": "EN",
+      "label": "English"
+    },
+    {
+      "code": "DE",
+      "label": "Deutsch"
+    },
+    {
+      "code": "AZ",
+      "label": "Azərbaycan Dili"
+    }
+  ],
+  "mobileAppBanner": {
+    "label": "Mobil Uygulamayı İndir",
+    "shortLabel": "Uygulamayı İndir"
+  },
+  "mobileAppModal": {
+    "title": "Yakında Sizlerle!",
+    "description": "Hurra Lingo mobil uygulaması çok yakında App Store ve Google Play'de sizlerle olacak. Dil öğrenimini her an, her yerde yaşayın!",
+    "cta": "Tamam"
+  },
+  "socialLinks": [
+    {
+      "id": "instagram",
+      "label": "Instagram"
+    },
+    {
+      "id": "facebook",
+      "label": "Facebook"
+    },
+    {
+      "id": "youtube",
+      "label": "Youtube"
+    },
+    {
+      "id": "linkedin",
+      "label": "Linkedin"
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok"
+    }
+  ],
+  "footer": {
+    "tagline": "Yeni nesil online dil okulu. Canlı dersler, uzman öğretmenler ve akıllı teknolojilerle dil öğrenin.",
+    "linksTitle": "Bağlantılar",
+    "socialTitle": "Sosyal Medya",
+    "rights": "Tüm hakları saklıdır.",
+    "sites": [
+      {
+        "label": "www.hurraturkiye.com",
+        "href": "https://www.hurraturkiye.com"
+      },
+      {
+        "label": "www.hurralingo.com",
+        "href": "https://www.hurralingo.com"
+      },
+      {
+        "label": "www.hurralingo.app",
+        "href": "https://www.hurralingo.app"
+      }
+    ],
+    "legal": [
+      {
+        "label": "Privacy Policy",
+        "href": "#"
+      },
+      {
+        "label": "Terms and Conditions",
+        "href": "#"
+      }
+    ]
+  },
+  "footerCta": {
+    "eyebrow": "Hurra Lingo Ailesine Katılın",
+    "title": "Hedeflerinize ulaşın",
+    "description": "Uzman öğretmenler, canlı dersler ve akıllı teknolojilerle desteklenen öğrenme deneyimiyle hedeflerinize ulaşın. İster çocuğunuz için bir temel, ister kendiniz için yeni bir kariyer kapısı; yeni bir dili öğrenmenin en etkili ve eğlenceli yolunu keşfedin.",
+    "cta": "Ücretsiz Deneyin"
+  },
+  "contact": {
+    "mobile": "+90 539 516 70 70",
+    "landline": "0 (312) 911 70 00"
+  },
+  "contactPage": {
+    "eyebrow": "Bize Ulaşın",
+    "title": "İletişim",
+    "subtitle": "Sorularınız, kayıt talepleriniz veya kurumsal iş birlikleri için bize ulaşın.",
+    "messageCta": {
+      "title": "Mesaj Göndermek için",
+      "button": "TIKLAYINIZ",
+      "href": "https://api.whatsapp.com/send/?phone=905395167070&text&type=phone_number&app_absent=0"
+    },
+    "whatsappDescription": "WhatsApp üzerinden hızlıca mesaj gönderin, ekibimiz size yardımcı olsun.",
+    "phones": {
+      "title": "Telefon Numaralarımız",
+      "items": [
+        {
+          "label": "+90 539 516 70 70",
+          "href": "tel:+905395167070"
+        },
+        {
+          "label": "+90 312 911 70 00",
+          "href": "tel:+903129117000"
+        }
+      ]
+    },
+    "email": {
+      "title": "E-Mail",
+      "label": "hello@hurralingo.com",
+      "href": "mailto:hello@hurralingo.com"
+    },
+    "addresses": [
+      {
+        "id": "golbasi",
+        "title": "Ankara Gölbaşı Adres",
+        "lines": [
+          "Nesibe Aydın Eğitim Kurumları, Haymana Yolu 5.Km.",
+          "Gölbaşı, Ankara, TÜRKİYE"
+        ]
+      },
+      {
+        "id": "teknokent",
+        "title": "Ankara Teknokent Adres",
+        "lines": [
+          "Ankara Üniversitesi Teknokent, B Blok No: 35 - 111",
+          "Gölbaşı / Ankara, Türkiye"
+        ]
+      },
+      {
+        "id": "london",
+        "title": "İngiltere Londra Adres",
+        "lines": [
+          "Capital Ofiice Ltd, Kemp House 152-160, City Road",
+          "London, England, EC1V 2NX"
+        ]
+      }
+    ],
+    "map": {
+      "eyebrow": "Konum",
+      "title": "Harita Görünümü",
+      "openInMaps": "Google Maps'te Aç",
+      "openUrl": "https://maps.google.com/?q=Nesibe+Aydın+Eğitim+Kurumları+Gölbaşı+Ankara",
+      "iframeTitle": "Hurra Lingo Ankara Gölbaşı konumu"
+    }
+  },
+  "topBar": {
+    "whatsappAria": "WhatsApp ile iletişime geç"
+  },
+  "aria": {
+    "languageSelection": "Dil seçimi",
+    "previousTestimonial": "Önceki yorum",
+    "nextTestimonial": "Sonraki yorum",
+    "enlargeImage": "büyüt",
+    "galleryImage": "Galeri görseli"
+  }
+}

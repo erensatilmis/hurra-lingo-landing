@@ -1,14 +1,25 @@
-import { useState } from 'react'
-import Container from '../ui/Container'
-import SectionHeading from '../ui/SectionHeading'
-import Button from '../ui/Button'
-import Reveal from '../ui/Reveal'
-import ParallaxBlobs from '../ui/ParallaxBlobs'
-import TeacherVideoCard from '../teachers/TeacherVideoCard'
-import { teachers } from '../../data/content'
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import Container from "../ui/Container";
+import SectionHeading from "../ui/SectionHeading";
+import Button from "../ui/Button";
+import Reveal from "../ui/Reveal";
+import ParallaxBlobs from "../ui/ParallaxBlobs";
+import TeacherVideoCard from "../teachers/TeacherVideoCard";
+import { teacherMeta } from "../../data/metadata";
 
 export default function Teachers() {
-  const [activeVideoId, setActiveVideoId] = useState(null)
+  const { t } = useTranslation("home");
+  const teacherItems = t("teachers.items", { returnObjects: true });
+  const teachers = teacherMeta.map((meta) => {
+    const copy = teacherItems.find((item) => item.id === meta.id) ?? {};
+
+    return {
+      ...meta,
+      ...copy,
+    };
+  });
+  const [activeVideoId, setActiveVideoId] = useState(null);
 
   return (
     <section className="relative overflow-hidden bg-surface-muted py-16 md:py-24">
@@ -16,13 +27,13 @@ export default function Teachers() {
       <Container className="relative">
         <Reveal>
           <SectionHeading
-            eyebrow={teachers.eyebrow}
-            title={teachers.title}
+            eyebrow={t("teachers.eyebrow")}
+            title={t("teachers.title")}
           />
         </Reveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {teachers.items.map((teacher, index) => (
+          {teachers.map((teacher, index) => (
             <Reveal key={teacher.id} delay={index * 90}>
               <TeacherVideoCard
                 teacher={teacher}
@@ -37,10 +48,10 @@ export default function Teachers() {
 
         <Reveal className="mt-10 text-center" delay={120}>
           <Button href="/ogretmenler" variant="outline">
-            {teachers.cta}
+            {t("teachers.cta")}
           </Button>
         </Reveal>
       </Container>
     </section>
-  )
+  );
 }

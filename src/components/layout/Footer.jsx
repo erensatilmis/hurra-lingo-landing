@@ -1,13 +1,27 @@
+import { useTranslation } from 'react-i18next'
 import Container from '../ui/Container'
 import CtaBand from '../sections/CtaBand'
 import { SocialTextLink } from '../icons/SocialLink'
 import { assets } from '../../assets'
-import { footer, footerCta } from '../../data/content'
+import { socialHrefs } from '../../data/metadata'
 
 export default function Footer() {
+  const { t } = useTranslation(['common', 'home'])
+  const footerData = t('footer', { returnObjects: true, ns: 'common' })
+  const socialLinks = t('socialLinks', { returnObjects: true, ns: 'common' })
+  const footerCta = {
+    ...t('footerCta', { returnObjects: true, ns: 'common' }),
+    variant: 'primary',
+  }
+
+  const socialItems = socialLinks.map((item) => ({
+    ...item,
+    href: socialHrefs[item.id] ?? '#',
+  }))
+
   return (
     <footer>
-      <CtaBand data={{ ...footerCta, variant: 'primary' }} />
+      <CtaBand data={footerCta} />
 
       <div className="border-t border-slate-200 bg-white py-12">
         <Container>
@@ -30,17 +44,16 @@ export default function Footer() {
                 </div>
               )}
               <p className="mt-4 text-sm leading-7 text-slate-600">
-                Yeni nesil online dil okulu. Canlı dersler, yapay zekâ destekli
-                içerikler ve uzman öğretmenlerle dil öğrenin.
+                {footerData.tagline}
               </p>
             </div>
 
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-900">
-                Bağlantılar
+                {footerData.linksTitle}
               </h3>
               <ul className="mt-4 space-y-2">
-                {footer.sites.map((site) => (
+                {footerData.sites.map((site) => (
                   <li key={site.label}>
                     <a
                       href={site.href}
@@ -57,11 +70,11 @@ export default function Footer() {
 
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-900">
-                Sosyal Medya
+                {footerData.socialTitle}
               </h3>
               <ul className="mt-4 space-y-2">
-                {footer.social.map((item) => (
-                  <li key={item.label}>
+                {socialItems.map((item) => (
+                  <li key={item.id}>
                     <SocialTextLink item={item} />
                   </li>
                 ))}
@@ -70,9 +83,11 @@ export default function Footer() {
           </div>
 
           <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-slate-200 pt-6 text-sm text-slate-500 sm:flex-row">
-            <p>© {new Date().getFullYear()} Hurra Lingo. Tüm hakları saklıdır.</p>
+            <p>
+              © {new Date().getFullYear()} Hurra Lingo. {footerData.rights}
+            </p>
             <div className="flex flex-wrap gap-4">
-              {footer.legal.map((item) => (
+              {footerData.legal.map((item) => (
                 <a
                   key={item.label}
                   href={item.href}

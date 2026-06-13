@@ -1,15 +1,34 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Quote, Video } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Container from "../components/ui/Container";
 import SectionHeading from "../components/ui/SectionHeading";
 import Card from "../components/ui/Card";
 import ReferenceVideoCard, {
   ReviewInitials,
 } from "../components/references/ReferenceVideoCard";
-import { referencesPage } from "../data/referencesPage";
+import { referenceVideoMeta, reviewAvatars } from "../data/metadata";
 
 export default function ReferencesPage() {
+  const { t, i18n } = useTranslation("references");
   const [activeVideoId, setActiveVideoId] = useState(null);
+  const reviewItems = useMemo(
+    () =>
+      t("reviews.items", { returnObjects: true }).map((item) => ({
+        ...item,
+        avatar: reviewAvatars[item.id] ?? item.avatar,
+      })),
+    [t, i18n.language],
+  );
+  const videoItems = useMemo(
+    () =>
+      referenceVideoMeta.map((meta) => ({
+        ...meta,
+        role: t("videos.parentRole"),
+        playAriaLabel: t("videos.watchVideoAria", { name: meta.name }),
+      })),
+    [t, i18n.language],
+  );
 
   return (
     <main>
@@ -22,13 +41,13 @@ export default function ReferencesPage() {
           <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="max-w-3xl">
               <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary-600">
-                {referencesPage.hero.eyebrow}
+                {t("hero.eyebrow")}
               </p>
               <h1 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl">
-                {referencesPage.hero.title}
+                {t("hero.title")}
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-slate-600">
-                {referencesPage.hero.description}
+                {t("hero.description")}
               </p>
             </div>
 
@@ -42,14 +61,17 @@ export default function ReferencesPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold uppercase tracking-wide text-primary-600">
-                    {referencesPage.videos.items.length} video yorum
+                    {t("videos.stats.videoCount", {
+                      count: videoItems.length,
+                    })}
                   </p>
                   <p className="mt-2 text-2xl font-bold text-slate-900">
-                    Gerçek veli deneyimleri
+                    {t("videos.stats.realExperiences")}
                   </p>
                   <p className="mt-3 text-sm leading-7 text-slate-600">
-                    {referencesPage.reviews.items.length} yazılı geri bildirimle
-                    birlikte Hurra Lingo’yu keşfedin.
+                    {t("videos.stats.writtenFeedback", {
+                      count: reviewItems.length,
+                    })}
                   </p>
                 </div>
               </div>
@@ -61,19 +83,20 @@ export default function ReferencesPage() {
       <section className="py-16 md:py-24">
         <Container>
           <SectionHeading
-            eyebrow={referencesPage.videos.eyebrow}
-            title={referencesPage.videos.title}
-            subtitle={referencesPage.videos.subtitle}
+            eyebrow={t("videos.eyebrow")}
+            title={t("videos.title")}
+            subtitle={t("videos.subtitle")}
           />
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {referencesPage.videos.items.map((item) => (
+            {videoItems.map((item) => (
               <ReferenceVideoCard
                 key={item.id}
                 item={item}
                 activeVideoId={activeVideoId}
                 onPlay={setActiveVideoId}
                 onClose={() => setActiveVideoId(null)}
+                playAriaLabel={item.playAriaLabel}
               />
             ))}
           </div>
@@ -83,12 +106,12 @@ export default function ReferencesPage() {
       <section className="bg-surface-muted py-16 md:py-24">
         <Container>
           <SectionHeading
-            eyebrow={referencesPage.reviews.eyebrow}
-            title={referencesPage.reviews.title}
+            eyebrow={t("reviews.eyebrow")}
+            title={t("reviews.title")}
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-2">
-            {referencesPage.reviews.items.map((item) => (
+            {reviewItems.map((item) => (
               <Card key={item.id} className="h-full">
                 <div className="flex items-start gap-4">
                   {item.avatar ? (

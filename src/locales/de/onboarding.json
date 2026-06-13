@@ -1,0 +1,132 @@
+{
+  "languageStep": {
+    "title": "Welche Sprache möchten Sie lernen?",
+    "subtitle": "Wählen Sie Ihr erstes Ziel und starten Sie ein neues Abenteuer mit Hurra Lingo."
+  },
+  "audienceStep": {
+    "title": "Welches Programm passt zu Ihnen?",
+    "subtitle": "Helfen Sie uns, Ihre Lernreise zu personalisieren."
+  },
+  "birthYearStep": {
+    "title": "In welchem Jahr wurde Ihr Kind geboren?",
+    "subtitle": "Wählen Sie das Geburtsjahr, damit wir den passendsten Lehrplan und die geeignetste Lehrkraft für die Altersgruppe finden."
+  },
+  "levelStep": {
+    "title": "Wie ist Ihr aktuelles Sprachniveau?",
+    "subtitle": "Lassen Sie uns den richtigen Startpunkt bestimmen – in Ihrer kostenlosen Probestunde klären wir alles gemeinsam."
+  },
+  "goalStep": {
+    "title": "Was ist Ihr Lernziel?",
+    "subtitle": "Wir gestalten Ihr Programm um Ihr Ziel herum und wählen Inhalte und Übungen entsprechend aus."
+  },
+  "personalStep": {
+    "title": "Ein letzter Schritt!",
+    "subtitle": "Teilen Sie Ihre Kontaktdaten, damit wir Ihr personalisiertes Programm erstellen und Ihre kostenlose Probestunde planen können."
+  },
+  "payment": {
+    "title": "Zahlungsdetails",
+    "subtitle": "Schließen Sie den letzten Schritt ab, um Ihr Programm zu sichern. Ihre Zahlung wird über eine sichere Infrastruktur abgewickelt."
+  },
+  "success": {
+    "title": "Großartig, alles ist bereit!",
+    "subtitle": "Ihre Zahlung ist eingegangen und Ihre Anfrage ist bei uns angekommen. Unser Team wird sich in Kürze bei Ihnen melden, um Ihr Programm zu starten."
+  },
+  "languages": [
+    { "id": "tr", "name": "Türkisch", "native": "Türkçe" },
+    { "id": "en", "name": "Englisch", "native": "English" },
+    { "id": "de", "name": "Deutsch", "native": "Deutsch" },
+    { "id": "fr", "name": "Französisch", "native": "Français" },
+    { "id": "es", "name": "Spanisch", "native": "Español" },
+    { "id": "ru", "name": "Russisch", "native": "Русский" },
+    { "id": "zh", "name": "Chinesisch", "native": "中文" }
+  ],
+  "audiences": [
+    {
+      "id": "child",
+      "title": "Für mein Kind",
+      "subtitle": "4–18 Jahre",
+      "description": "Ein spielbasiertes, altersgerechtes und spannendes Curriculum.",
+      "icon": "Baby"
+    },
+    {
+      "id": "self",
+      "title": "Für mich selbst",
+      "subtitle": "18 Jahre und älter",
+      "description": "Flexible Programme mit Fokus auf Karriere, Reisen und Alltag.",
+      "icon": "GraduationCap"
+    }
+  ],
+  "goals": [
+    {
+      "id": "business",
+      "title": "Berufsleben",
+      "description": "Fokus auf Karriere und berufliche Kommunikation.",
+      "icon": "Briefcase"
+    },
+    {
+      "id": "daily",
+      "title": "Alltagskommunikation",
+      "description": "Alltägliche Gespräche und soziales Leben.",
+      "icon": "MessageCircle"
+    },
+    {
+      "id": "travel",
+      "title": "Kultur und Reisen",
+      "description": "Reisen und verschiedene Kulturen entdecken.",
+      "icon": "Plane"
+    },
+    {
+      "id": "exam",
+      "title": "Prüfungsvorbereitung",
+      "description": "IELTS, TOEFL und akademische Prüfungen.",
+      "icon": "FileText"
+    }
+  ],
+  "levels": {
+    "child": [
+      { "id": "none", "title": "Keine Kenntnisse", "description": "Wird diese Sprache zum ersten Mal kennenlernen." },
+      { "id": "little", "title": "Kennt ein wenig", "description": "Erkennt einige Wörter und Ausdrücke." },
+      { "id": "medium", "title": "Mittelstufe", "description": "Kann mit einfachen Sätzen kommunizieren." },
+      { "id": "advanced", "title": "Fortgeschritten", "description": "Nahezu fließend und kommuniziert selbstbewusst." }
+    ],
+    "self": [
+      { "id": "true-beginner", "title": "Absoluter Anfänger", "description": "Start von null." },
+      { "id": "beginner", "title": "Anfänger", "description": "Kennt grundlegende Wörter und Ausdrücke." },
+      { "id": "intermediate", "title": "Mittelstufe", "description": "Kann über Alltagsthemen kommunizieren." },
+      { "id": "upper-intermediate", "title": "Obere Mittelstufe", "description": "Kann die meisten Themen selbstbewusst besprechen." },
+      { "id": "advanced", "title": "Fortgeschritten", "description": "Kann fließend und selbstbewusst kommunizieren." }
+    ]
+  },
+  "ui": {
+    "back": "Zurück",
+    "cancel": "Abbrechen",
+    "step": "Schritt {{current}} / {{total}}",
+    "successSignup": "Jetzt registrieren",
+    "successHome": "Zur Startseite",
+    "orderSummary": "Bestellübersicht",
+    "perLessonAmount": "Preis pro Unterrichtsstunde",
+    "paymentSecurity": "Ihre Zahlung ist mit 256-Bit-SSL verschlüsselt. Ihre Kartendaten werden nicht gespeichert.",
+    "summary": {
+      "language": "Sprache",
+      "program": "Programm",
+      "level": "Niveau",
+      "goal": "Ziel"
+    },
+    "form": {
+      "firstName": "Vorname",
+      "firstNamePlaceholder": "Ihr Vorname",
+      "lastName": "Nachname",
+      "lastNamePlaceholder": "Ihr Nachname",
+      "email": "E-Mail",
+      "emailPlaceholder": "beispiel@email.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "+90 5xx xxx xx xx",
+      "submit": "Mein Programm erstellen",
+      "privacyNote": "Ihre Angaben werden ausschließlich verwendet, um Ihnen das passendste Programm anzubieten."
+    },
+    "validation": {
+      "email": "Geben Sie eine gültige E-Mail-Adresse ein.",
+      "phone": "Geben Sie eine gültige Telefonnummer ein. (z. B. +90 5xx xxx xx xx)"
+    }
+  }
+}

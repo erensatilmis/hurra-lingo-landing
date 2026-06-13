@@ -7,9 +7,12 @@ import CtaBand from '../components/sections/CtaBand'
 import Testimonials from '../components/sections/Testimonials'
 import BlogPreview from '../components/sections/BlogPreview'
 import Gallery from '../components/sections/Gallery'
-import { ctaBands } from '../data/content'
+import { useTranslation } from 'react-i18next'
 
 export default function HomePage() {
+  const { t } = useTranslation('home')
+  const ctaBands = t('ctaBands', { returnObjects: true })
+
   return (
     <main>
       <Hero />

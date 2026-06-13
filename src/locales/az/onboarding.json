@@ -1,0 +1,132 @@
+{
+  "languageStep": {
+    "title": "Hansı dili öyrənmək istəyirsiniz?",
+    "subtitle": "Hurra Lingo ilə yeni bir macəraya başlamaq üçün ilk hədəfinizi seçin."
+  },
+  "audienceStep": {
+    "title": "Hansı proqram sizin üçün uyğundur?",
+    "subtitle": "Öyrənmə yolculuğunuzu fərdiləşdirməyimizə kömək edin."
+  },
+  "birthYearStep": {
+    "title": "Uşağınız hansı ildə doğulub?",
+    "subtitle": "Yaş qrupuna ən uyğun kurikulum və müəllimi uyğunlaşdırmaq üçün doğum ilini seçin."
+  },
+  "levelStep": {
+    "title": "Cari dil səviyyəniz nədir?",
+    "subtitle": "Düzgün başlanğıc nöqtəsini müəyyən edək; pulsuz tanıtım dərsiniz zamanı həmişə birlikdə təsdiqləyəcəyik."
+  },
+  "goalStep": {
+    "title": "Öyrənmə hədəfiniz nədir?",
+    "subtitle": "Proqramınızı hədəfinizə uyğun formalaşdıracaq və məzmun ilə təcrübəni buna görə seçəcəyik."
+  },
+  "personalStep": {
+    "title": "Son bir addım!",
+    "subtitle": "Fərdiləşdirilmiş proqramınızı yaratmaq və pulsuz tanıtım dərsinizi planlaşdırmaq üçün əlaqə məlumatlarınızı paylaşın."
+  },
+  "payment": {
+    "title": "Ödəniş məlumatları",
+    "subtitle": "Proqramınızı təsdiqləmək üçün son addımı tamamlayın. Ödənişiniz təhlükəsiz infrastruktur vasitəsilə emal olunur."
+  },
+  "success": {
+    "title": "Əla, hər şey hazırdır!",
+    "subtitle": "Ödənişiniz qəbul edildi və sorğunuz bizə çatdı. Komandamız proqramınızı başlatmaq üçün qısa müddətdə sizinlə əlaqə saxlayacaq."
+  },
+  "languages": [
+    { "id": "tr", "name": "Türk dili", "native": "Türkçe" },
+    { "id": "en", "name": "İngilis dili", "native": "English" },
+    { "id": "de", "name": "Alman dili", "native": "Deutsch" },
+    { "id": "fr", "name": "Fransız dili", "native": "Français" },
+    { "id": "es", "name": "İspan dili", "native": "Español" },
+    { "id": "ru", "name": "Rus dili", "native": "Русский" },
+    { "id": "zh", "name": "Çin dili", "native": "中文" }
+  ],
+  "audiences": [
+    {
+      "id": "child",
+      "title": "Uşağım üçün",
+      "subtitle": "4–18 yaş",
+      "description": "Oyun əsaslı, yaşa uyğun və zövqlü kurikulum.",
+      "icon": "Baby"
+    },
+    {
+      "id": "self",
+      "title": "Özüm üçün",
+      "subtitle": "18 yaş və yuxarı",
+      "description": "Karyera, səyahət və gündəlik həyata yönəlik çevik proqramlar.",
+      "icon": "GraduationCap"
+    }
+  ],
+  "goals": [
+    {
+      "id": "business",
+      "title": "Peşəkar Həyat",
+      "description": "Karyera və peşəkar ünsiyyətə yönəlik.",
+      "icon": "Briefcase"
+    },
+    {
+      "id": "daily",
+      "title": "Gündəlik Ünsiyyət",
+      "description": "Gündəlik söhbət və sosial həyat.",
+      "icon": "MessageCircle"
+    },
+    {
+      "id": "travel",
+      "title": "Mədəniyyət və Səyahət",
+      "description": "Səyahət və fərqli mədəniyyətləri kəşf etmək.",
+      "icon": "Plane"
+    },
+    {
+      "id": "exam",
+      "title": "İmtahan Hazırlığı",
+      "description": "IELTS, TOEFL və akademik imtahanlar.",
+      "icon": "FileText"
+    }
+  ],
+  "levels": {
+    "child": [
+      { "id": "none", "title": "Bilik yoxdur", "description": "Bu dillə ilk dəfə tanış olacaq." },
+      { "id": "little", "title": "Az bilir", "description": "Bir neçə söz və ifadə tanıyır." },
+      { "id": "medium", "title": "Orta səviyyə", "description": "Sadə cümlələrlə ünsiyyət qura bilir." },
+      { "id": "advanced", "title": "İrəli səviyyə", "description": "Demək olar ki, səlis danışır və rahat ünsiyyət qurur." }
+    ],
+    "self": [
+      { "id": "true-beginner", "title": "Tam Başlanğıc", "description": "Sıfırdan başlayır." },
+      { "id": "beginner", "title": "Başlanğıc", "description": "Əsas sözlər və ifadələr bilir." },
+      { "id": "intermediate", "title": "Orta", "description": "Gündəlik mövzularda ünsiyyət qura bilir." },
+      { "id": "upper-intermediate", "title": "Yuxarı Orta", "description": "Əksər mövzularda rahat danışa bilir." },
+      { "id": "advanced", "title": "İrəli", "description": "Səlis və özünə inamla ünsiyyət qura bilir." }
+    ]
+  },
+  "ui": {
+    "back": "Geri",
+    "cancel": "Ləğv et",
+    "step": "Addım {{current}} / {{total}}",
+    "successSignup": "İndi Qeydiyyatdan Keç",
+    "successHome": "Ana Səhifəyə Qayıt",
+    "orderSummary": "Sifariş Xülasəsi",
+    "perLessonAmount": "Dərs başına qiymət",
+    "paymentSecurity": "Ödənişiniz 256-bit SSL ilə şifrələnir. Kart məlumatlarınız saxlanılmır.",
+    "summary": {
+      "language": "Dil",
+      "program": "Proqram",
+      "level": "Səviyyə",
+      "goal": "Hədəf"
+    },
+    "form": {
+      "firstName": "Ad",
+      "firstNamePlaceholder": "Adınız",
+      "lastName": "Soyad",
+      "lastNamePlaceholder": "Soyadınız",
+      "email": "E-poçt",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "+90 5xx xxx xx xx",
+      "submit": "Proqramımı Yarat",
+      "privacyNote": "Məlumatlarınız yalnız sizə ən uyğun proqramı təklif etmək üçün istifadə olunur."
+    },
+    "validation": {
+      "email": "Düzgün e-poçt ünvanı daxil edin.",
+      "phone": "Düzgün telefon nömrəsi daxil edin. (məs. +90 5xx xxx xx xx)"
+    }
+  }
+}

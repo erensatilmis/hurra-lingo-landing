@@ -1,0 +1,295 @@
+{
+  "order": ["tr", "en", "de", "fr", "es", "ru", "zh"],
+  "pages": {
+    "tr": {
+      "id": "tr",
+      "name": "Türkisch",
+      "nativeName": "Türkçe",
+      "hero": {
+        "eyebrow": "Türkisch mit Hurra Lingo",
+        "title": "Öffnen Sie mit Türkisch die Türen zur Türkei",
+        "description": "Für alle, die Türkisch als Fremdsprache lernen möchten, bieten wir ein kulturorientiertes Programm, das effektive Kommunikation vom Alltag bis in die Geschäftswelt ermöglicht."
+      },
+      "stats": [
+        { "value": "85M+", "label": "Muttersprachler" },
+        { "value": "A1–C1", "label": "GER-Niveaus" },
+        { "value": "24/7", "label": "Online-Live-Unterricht" }
+      ],
+      "reasons": {
+        "title": "Warum sollten Sie Türkisch lernen?",
+        "items": [
+          {
+            "title": "Eine Brückensprache",
+            "text": "Eine Sprache, die Europa und Asien verbindet und im Handel und Tourismus zunehmend an Bedeutung gewinnt."
+          },
+          {
+            "title": "Reiche Kultur",
+            "text": "Zugang zu Literatur, Musik, Kino und Kulinarik in der Originalsprache."
+          },
+          {
+            "title": "Strukturierte Grammatik",
+            "text": "Mit ihrer regelmäßigen und systematischen Grammatik machen Sie schnell Fortschritte, sobald Sie deren Logik verstehen."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Für wen ist dieses Programm gedacht?",
+        "items": [
+          "Ausländer, die in der Türkei leben oder dort leben möchten",
+          "Fachkräfte, die mit türkischen Geschäftspartnern arbeiten",
+          "Alle, die eine Verbindung zur türkischen Kultur und Familie suchen"
+        ]
+      }
+    },
+    "en": {
+      "id": "en",
+      "name": "Englisch",
+      "nativeName": "English",
+      "hero": {
+        "eyebrow": "Englisch mit Hurra Lingo",
+        "title": "Sprechen Sie selbstbewusst in der Weltsprache",
+        "description": "Lernen Sie Englisch – die für Arbeit, Bildung und Reisen am meisten benötigte Sprache – in sprechfokussiertem Unterricht mit Übung vom ersten Tag an."
+      },
+      "stats": [
+        { "value": "1,5 Mrd.+", "label": "Sprechende weltweit" },
+        { "value": "A1–C1", "label": "GER-Niveaus" },
+        { "value": "#1", "label": "Am meisten nachgefragte Sprache" }
+      ],
+      "reasons": {
+        "title": "Warum sollten Sie Englisch lernen?",
+        "items": [
+          {
+            "title": "Karrierechance",
+            "text": "Eine der am meisten gefragten Fähigkeiten in der globalen Geschäftswelt."
+          },
+          {
+            "title": "Unbegrenzte Inhalte",
+            "text": "Zugang zum Großteil von Informationen, Kursen und Unterhaltung im Internet."
+          },
+          {
+            "title": "Akademischer Erfolg",
+            "text": "Öffnet Türen zur internationalen Bildung durch Prüfungen wie IELTS und TOEFL."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Für wen ist dieses Programm gedacht?",
+        "items": [
+          "Schülerinnen und Schüler, die ihr Schulcurriculum unterstützen möchten",
+          "Fachkräfte, die sich beruflich hervorheben möchten",
+          "Alle, die Übung für Reisen und Alltagskommunikation suchen"
+        ]
+      }
+    },
+    "de": {
+      "id": "de",
+      "name": "Deutsch",
+      "nativeName": "Deutsch",
+      "hero": {
+        "eyebrow": "Deutsch mit Hurra Lingo",
+        "title": "Lernen Sie die Sprache der starken europäischen Wirtschaft",
+        "description": "Lernen Sie Deutsch – den Schlüssel zu Bildungs- und Karrierechancen in Deutschland, Österreich und der Schweiz – in einem schrittweisen, praxisorientierten Programm."
+      },
+      "stats": [
+        { "value": "130M+", "label": "Sprechende weltweit" },
+        { "value": "A1–C1", "label": "GER-Niveaus" },
+        { "value": "3 Länder", "label": "Amtssprache in" }
+      ],
+      "reasons": {
+        "title": "Warum sollten Sie Deutsch lernen?",
+        "items": [
+          {
+            "title": "Bildungschance",
+            "text": "Die Möglichkeit für kostenfreies Studium an den meisten staatlichen Universitäten in Deutschland."
+          },
+          {
+            "title": "Starke Wirtschaft",
+            "text": "Job- und Praktikumschancen in der größten Volkswirtschaft Europas."
+          },
+          {
+            "title": "Ingenieurwesen und Wissenschaft",
+            "text": "Direkter Zugang zu Ressourcen und Karrieren in technischen Fachgebieten."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Für wen ist dieses Programm gedacht?",
+        "items": [
+          "Alle, die in Deutschland studieren möchten",
+          "Alle, die Arbeitsvisa und Karrieren planen",
+          "Alle, die in Ingenieurwesen und Wissenschaft vorankommen möchten"
+        ]
+      }
+    },
+    "fr": {
+      "id": "fr",
+      "name": "Französisch",
+      "nativeName": "Français",
+      "hero": {
+        "eyebrow": "Französisch mit Hurra Lingo",
+        "title": "Entdecken Sie die elegante Sprache der Diplomatie und Kunst",
+        "description": "Lernen Sie Französisch – auf fünf Kontinenten gesprochen und unverzichtbar in Kultur und Diplomatie – in spannenden und interaktiven Unterrichtsstunden."
+      },
+      "stats": [
+        { "value": "300M+", "label": "Sprechende weltweit" },
+        { "value": "A1–C1", "label": "GER-Niveaus" },
+        { "value": "5 Kontinente", "label": "Geografische Reichweite" }
+      ],
+      "reasons": {
+        "title": "Warum sollten Sie Französisch lernen?",
+        "items": [
+          {
+            "title": "Internationale Sprache",
+            "text": "Eine der Amtssprachen der UN, der EU und vieler internationaler Organisationen."
+          },
+          {
+            "title": "Kultur und Kunst",
+            "text": "Die Sprache im Zentrum von Literatur, Kino, Mode und Gastronomie."
+          },
+          {
+            "title": "Karrierenetzwerk",
+            "text": "Ein weites Geschäfts- und Reisenetzwerk von Afrika bis Kanada."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Für wen ist dieses Programm gedacht?",
+        "items": [
+          "Alle, die sich für Kunst, Mode und Kultur interessieren",
+          "Alle, die Bildung oder Karrieren in frankophonen Ländern anstreben",
+          "Alle, die die Ästhetik einer neuen Sprache entdecken möchten"
+        ]
+      }
+    },
+    "es": {
+      "id": "es",
+      "name": "Spanisch",
+      "nativeName": "Español",
+      "hero": {
+        "eyebrow": "Spanisch mit Hurra Lingo",
+        "title": "Erleben Sie die Energie zweier Kontinente auf Spanisch",
+        "description": "Lernen Sie Spanisch – eine der am meisten gesprochenen Sprachen der Welt und angenehm zu erlernen – schnell in sprechfokussiertem und spannendem Unterricht."
+      },
+      "stats": [
+        { "value": "550M+", "label": "Sprechende weltweit" },
+        { "value": "A1–C1", "label": "GER-Niveaus" },
+        { "value": "20+ Länder", "label": "Amtssprache in" }
+      ],
+      "reasons": {
+        "title": "Warum sollten Sie Spanisch lernen?",
+        "items": [
+          {
+            "title": "Schneller Fortschritt",
+            "text": "Eine der leichtesten Sprachen zum Lernen dank ihrer „Wie-geschrieben-so-gesprochen“-Struktur."
+          },
+          {
+            "title": "Weite Geografie",
+            "text": "Kommunizieren Sie mit Hunderten Millionen Menschen in Spanien und Lateinamerika."
+          },
+          {
+            "title": "Kultur und Reisen",
+            "text": "Öffnet eine farbenfrohe Tür zu Musik, Serien und der Welt des Reisens."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Für wen ist dieses Programm gedacht?",
+        "items": [
+          "Alle, die sich für lateinamerikanische Kultur und Reisen interessieren",
+          "Anfänger, die schnelle Ergebnisse wünschen",
+          "Alle, die ihr Geschäftsnetzwerk nach Lateinamerika erweitern möchten"
+        ]
+      }
+    },
+    "ru": {
+      "id": "ru",
+      "name": "Russisch",
+      "nativeName": "Русский",
+      "hero": {
+        "eyebrow": "Russisch mit Hurra Lingo",
+        "title": "Tauchen Sie ein in die Sprache einer weiten Geografie",
+        "description": "Lernen Sie Russisch – die mächtige Sprache Eurasiens – von Grund auf in einem geduldigen und strukturierten Programm vom Alphabet bis zur Alltagskonversation."
+      },
+      "stats": [
+        { "value": "260M+", "label": "Sprechende weltweit" },
+        { "value": "A1–C1", "label": "GER-Niveaus" },
+        { "value": "Kyrillisch", "label": "Alphabet von Anfang an" }
+      ],
+      "reasons": {
+        "title": "Warum sollten Sie Russisch lernen?",
+        "items": [
+          {
+            "title": "Handelschance",
+            "text": "Ein wertvoller Vorteil in intensiven Handelsbeziehungen mit der Türkei."
+          },
+          {
+            "title": "Reiche Literatur",
+            "text": "Die Möglichkeit, Weltklassiker in der Originalsprache zu lesen."
+          },
+          {
+            "title": "Weite Verbreitung",
+            "text": "Eine weit verbreitete Sprache, mit der Sie in vielen Ländern kommunizieren können."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Für wen ist dieses Programm gedacht?",
+        "items": [
+          "Alle, die im Tourismus- und Handelssektor arbeiten",
+          "Alle mit Verbindungen zu russischsprachigen Ländern",
+          "Alle, die ein neues Alphabet und eine neue Kultur entdecken möchten"
+        ]
+      }
+    },
+    "zh": {
+      "id": "zh",
+      "name": "Chinesisch",
+      "nativeName": "中文",
+      "hero": {
+        "eyebrow": "Chinesisch mit Hurra Lingo",
+        "title": "Investieren Sie in die Zukunft mit der am meisten gesprochenen Sprache der Welt",
+        "description": "Lernen Sie Mandarin-Chinesisch Schritt für Schritt und mit Freude – von Tönen bis zu Schriftzeichen – mit visuellen und interaktiven Methoden."
+      },
+      "stats": [
+        { "value": "1,1 Mrd.+", "label": "Sprechende weltweit" },
+        { "value": "HSK", "label": "Internationales Niveausystem" },
+        { "value": "#1", "label": "Meiste Muttersprachler" }
+      ],
+      "reasons": {
+        "title": "Warum sollten Sie Chinesisch lernen?",
+        "items": [
+          {
+            "title": "Wirtschaftsmacht",
+            "text": "Der Vorteil, Geschäfte mit einem der größten Märkte der Welt zu machen."
+          },
+          {
+            "title": "Im Wettbewerb hervorstechen",
+            "text": "Diese selten beherrschte Sprache macht einen Unterschied in Ihrem Lebenslauf."
+          },
+          {
+            "title": "Alte Kultur",
+            "text": "Zugang zu einer reichen Kultur und Gedankenwelt, die Jahrtausende umspannt."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Für wen ist dieses Programm gedacht?",
+        "items": [
+          "Fachkräfte mit Fokus auf internationalen Handel",
+          "Alle, die ein anderes Schriftsystem lernen möchten",
+          "Alle, die eine strategische Sprache für die Zukunft suchen"
+        ]
+      }
+    }
+  },
+  "ui": {
+    "backToHome": "← Zur Startseite",
+    "trialCta": "Kostenlose Probestunde",
+    "lessonsCta": "Unterrichtsformate ansehen",
+    "levelNote": "Unabhängig von Ihrem Niveau – in einer kostenlosen Probestunde schätzen wir es gemeinsam ein und erstellen einen personalisierten Plan für Sie.",
+    "otherLanguages": "Weitere Sprachen entdecken",
+    "footerCtaTitle": "Beginnen Sie heute mit {{name}}",
+    "footerCtaDescription": "Machen Sie den ersten Schritt mit einer kostenlosen Probestunde in einem Lernangebot, das von erfahrenen Lehrkräften und intelligenter Technologie getragen wird.",
+    "flagAlt": "{{name}}-Flagge"
+  }
+}

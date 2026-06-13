@@ -1,0 +1,176 @@
+{
+  "hero": {
+    "eyebrow": "Qiymətlər",
+    "title": "Sizə ən uyğun planı seçin",
+    "description": "Büdcənizə və hədəflərinizə uyğun fərdi, mini qrup və ya intensiv proqramlar üçün çevik paketlər. Bütün planlara canlı dərslər, qeydə alınmış dərs kitabxanası və süni intellekt dəstəkli təcrübə daxildir.",
+    "campaign": "Kampaniya: seçilmiş paketlərdə 15% endirim"
+  },
+  "languages": [
+    "İngilis dili",
+    "Alman dili",
+    "Fransız dili",
+    "İspan dili",
+    "Rus dili",
+    "Türk dili"
+  ],
+  "tiers": [
+    {
+      "id": "mini-group",
+      "name": "Mini Qrup Dərsləri",
+      "price": "459",
+      "unit": "dərs başına",
+      "note": "başlayan qiymət",
+      "highlight": false,
+      "features": [
+        "2–4 tələbədən ibarət butik siniflər",
+        "Zövqlü və interaktiv öyrənmə mühiti",
+        "Qeydə alınmış dərslərlə limitsiz təkrar",
+        "Fərdi təcrübə fəaliyyətləri"
+      ]
+    },
+    {
+      "id": "individual",
+      "name": "Fərdi Dərslər",
+      "price": "656",
+      "unit": "dərs başına",
+      "note": "başlayan qiymət",
+      "highlight": true,
+      "badge": "Ən Populyar",
+      "features": [
+        "Mini Qrup Dərslərinin bütün üstünlükləri",
+        "Tam fərdiləşdirilmiş dərs planı",
+        "Ehtiyaclarınıza uyğun fərdi məzmun",
+        "Fərdiləşdirilmiş rəy sistemi"
+      ]
+    },
+    {
+      "id": "individual-plus",
+      "name": "Fərdi Dərslər+",
+      "price": "925",
+      "unit": "dərs başına",
+      "note": "başlayan qiymət",
+      "highlight": false,
+      "features": [
+        "Fərdi Dərslərin bütün üstünlükləri",
+        "Ana dili ingilis dili olan müəllimlər",
+        "Səlis danışıq və tələffüz düzəlişi",
+        "Təkmil karyera/akademik fokus"
+      ]
+    }
+  ],
+  "packages": {
+    "eyebrow": "Paket Təfərrüatları",
+    "title": "Aylıq və ya rüblük paket seçimləri",
+    "subtitle": "Ehtiyaclarınıza uyğun həftəlik dərs intensivliyini və paket müddətini seçin. Seçilmiş dövrlərə promosyon qiymətləri tətbiq olunur.",
+    "periods": [
+      {
+        "id": "monthly",
+        "label": "Aylıq"
+      },
+      {
+        "id": "quarterly",
+        "label": "Rüblük"
+      }
+    ],
+    "plans": [
+      {
+        "id": "individual",
+        "name": "Fərdi Dərslər",
+        "highlight": true,
+        "options": {
+          "monthly": [
+            {
+              "lessons": "Həftədə 1 Dərs",
+              "old": "3.116",
+              "now": "2.648,60"
+            },
+            {
+              "lessons": "Həftədə 2 Dərs",
+              "old": "5.768",
+              "now": "4.902,80"
+            }
+          ],
+          "quarterly": [
+            {
+              "lessons": "Həftədə 1 Dərs",
+              "old": "9.072",
+              "now": "7.711,20"
+            },
+            {
+              "lessons": "Həftədə 2 Dərs",
+              "old": "16.776",
+              "now": "14.259,60"
+            }
+          ]
+        }
+      },
+      {
+        "id": "individual-plus",
+        "name": "Fərdi Dərslər+",
+        "highlight": false,
+        "options": {
+          "monthly": [
+            {
+              "lessons": "Həftədə 1 Dərs",
+              "old": "4.396",
+              "now": "3.736,60"
+            },
+            {
+              "lessons": "Həftədə 2 Dərs",
+              "old": "8.136",
+              "now": "6.915,60"
+            }
+          ],
+          "quarterly": [
+            {
+              "lessons": "Həftədə 1 Dərs",
+              "old": "12.792",
+              "now": "10.873,20"
+            },
+            {
+              "lessons": "Həftədə 2 Dərs",
+              "old": "23.664",
+              "now": "20.114,40"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "buyCta": "İndi Al",
+  "currency": "TL",
+  "trialCta": "Pulsuz Tanıtım Dərsi",
+  "benefits": {
+    "eyebrow": "Niyə Hurra Lingo?",
+    "title": "Hər plana daxil olan üstünlüklər",
+    "items": [
+      {
+        "title": "Peşəkar Tədris Komandası",
+        "text": "Ana dil səviyyəsində dil biliklərinə və onlayn tədris təcrübəsinə malik sertifikatlı mütəxəssislərlə hədəflərinizə çatın."
+      },
+      {
+        "title": "CEFR Standartlı Kurikulum",
+        "text": "A1-dən C1-ə qədər beynəlxalq dil bacarığı meyarlarına tam uyğun təhsil proqramı."
+      },
+      {
+        "title": "Davamlı Öyrənmə",
+        "text": "Güclü müəllim-tələbə əlaqələri və motivasiyaya yönəlik məzmunla davamlı dil inkişafı."
+      },
+      {
+        "title": "Hərtərəfli Təhsil Ekosistemi",
+        "text": "Canlı dərsləri dəstəkləyən interaktiv tətbiqlər və süni intellekt dəstəkli fəaliyyətlərlə 24/7 öyrənmə."
+      },
+      {
+        "title": "Beynəlxalq Sertifikatlaşdırma",
+        "text": "Dil bacarıqlarınızı rəsmi tanınan qlobal sənədlərlə təsdiqləmə imkanı."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Hurra Lingo Ailəsinə Qoşulun",
+    "title": "Əvvəlcə pulsuz tanıtım dərsinizi planlaşdırın",
+    "description": "Səviyyənizi qiymətləndirək, hədəflərinizi müəyyən edək və ən uyğun paketi birlikdə seçək. Qərar verməzdən əvvəl təcrübə edin.",
+    "cta": "Pulsuz Sınayın",
+    "variant": "primary"
+  }
+}

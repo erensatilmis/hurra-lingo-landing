@@ -6,16 +6,21 @@ import {
   Target,
   Users,
 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Container from "../components/ui/Container";
 import SectionHeading from "../components/ui/SectionHeading";
 import Card from "../components/ui/Card";
-import { educationPage } from "../data/content";
 
 const planIcons = [Target, CalendarClock, MessageSquare, Sparkles];
 const trackingIcons = [MessageSquare, BarChart3];
 const stepIcons = [Target, Users, BarChart3];
 
 export default function EducationPage() {
+  const { t } = useTranslation("education");
+  const planItems = t("personalizedPlans.items", { returnObjects: true });
+  const trackingItems = t("tracking.items", { returnObjects: true });
+  const steps = t("howItWorks.steps", { returnObjects: true });
+
   return (
     <main>
       <section className="relative overflow-hidden bg-surface-accent py-16 md:py-24">
@@ -26,13 +31,13 @@ export default function EducationPage() {
         <Container className="relative">
           <div className="max-w-4xl">
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary-600">
-              {educationPage.hero.eyebrow}
+              {t("hero.eyebrow")}
             </p>
             <h1 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl">
-              {educationPage.hero.title}
+              {t("hero.title")}
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-slate-600">
-              {educationPage.hero.description}
+              {t("hero.description")}
             </p>
           </div>
         </Container>
@@ -41,13 +46,13 @@ export default function EducationPage() {
       <section className="py-16 md:py-24">
         <Container>
           <SectionHeading
-            title={educationPage.personalizedPlans.title}
+            title={t("personalizedPlans.title")}
             align="left"
             className="max-w-3xl"
           />
 
           <div className="mt-10 grid gap-6 md:grid-cols-2">
-            {educationPage.personalizedPlans.items.map((item, index) => {
+            {planItems.map((item, index) => {
               const Icon = planIcons[index];
 
               return (
@@ -72,18 +77,14 @@ export default function EducationPage() {
         <Container>
           <div className="grid items-start gap-10 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
-              <SectionHeading
-                title={educationPage.tracking.title}
-                align="left"
-              />
+              <SectionHeading title={t("tracking.title")} align="left" />
               <p className="mt-4 text-base leading-7 text-slate-600">
-                Öğrenme yolculuğunuz boyunca gelişiminizi görünür kılan
-                araçlarla desteklenirsiniz.
+                {t("tracking.subtitle")}
               </p>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
-              {educationPage.tracking.items.map((item, index) => {
+              {trackingItems.map((item, index) => {
                 const Icon = trackingIcons[index];
 
                 return (
@@ -112,14 +113,14 @@ export default function EducationPage() {
       <section className="bg-surface-muted py-16 md:py-24">
         <Container>
           <SectionHeading
-            eyebrow={educationPage.howItWorks.eyebrow}
-            title={educationPage.howItWorks.title}
+            eyebrow={t("howItWorks.eyebrow")}
+            title={t("howItWorks.title")}
           />
 
           <div className="relative mt-12 grid gap-6 lg:grid-cols-3">
             <div className="pointer-events-none absolute left-[16.666%] right-[16.666%] top-12 hidden h-px bg-linear-to-r from-primary-200 via-primary-400 to-primary-200 lg:block" />
 
-            {educationPage.howItWorks.steps.map((step, index) => {
+            {steps.map((step, index) => {
               const Icon = stepIcons[index];
 
               return (

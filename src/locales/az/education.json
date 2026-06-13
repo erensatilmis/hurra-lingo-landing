@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "eyebrow": "Təhsil Modelimiz",
+    "title": "Karyeranızda və Səyahətlərinizdə Sərhədləri Aşın: Böyüklər üçün Çevik Dil Dərsləri!",
+    "description": "İş dünyasında peşəkar şəkildə danışmaq və ya dünyanı kəşf edərkən sərbəst ünsiyyət qurmaq istəyirsinizsə. 24/7 onlayn dərslərimiz və süni intellekt dəstəkli interaktiv məzmunla cədvəlinizi özünüz idarə edir, davamlı dil təcrübəsindən həzz alırsınız."
+  },
+  "personalizedPlans": {
+    "title": "Sizə Uyğun Fərdiləşdirilmiş Dərs Planları",
+    "items": [
+      {
+        "title": "Hədəfə Yönəlik Öyrənmə",
+        "description": "Gündəlik həyatda səlis danışmaq və ya iş dünyasında fərqlənmək istəyirsiniz? Peşəkar tədris komandamızla ehtiyaclarınıza tam uyğun dərs proqramları təqdim edirik."
+      },
+      {
+        "title": "24/7 Çevik Cədvəl",
+        "description": "Məşğul iş rejiminizə və gündəlik həyatınıza uyğun canlı dərslərlə təhsilinizi öz cədvəlinizə uyğun idarə edin."
+      },
+      {
+        "title": "Danışığa Yönəlik Yanaşma",
+        "description": "Yalnız qrammatika öyrənməyin — öyrəndiklərinizi tətbiq edin. «İlk gündən danış» fəlsəfəsinə əsaslanan ünsiyyətə yönəlik dərslərlə ilk gündən danışmağa başlayın."
+      },
+      {
+        "title": "Beynəlxalq Standartlara Uyğun (CEFR) Kurikulum",
+        "description": "Təhsil keyfiyyətini təsadüfə buraxmırıq. Bütün dərs məzmunumuz və səviyyə sistemimiz qlobal səviyyədə tanınan CEFR standartlarına tam uyğundur; beləliklə, dil bacarıqlarınızı praktikaya yönəlik çərçivədə inkişaf etdirirsiniz."
+      }
+    ]
+  },
+  "tracking": {
+    "title": "Təkmil Dərs İzləmə və Davamlı Təcrübə",
+    "subtitle": "Öyrənmə yolculuğunuz boyunca irəliləyişinizi görünən edən alətlərlə dəstəklənirsiniz.",
+    "items": [
+      {
+        "title": "Fasiləsiz Təcrübə",
+        "description": "Dərslər arasında və boş vaxtlarınızda təcrübəni davam etdirərək öyrənmənizi sürətləndirin."
+      },
+      {
+        "title": "İstifadəçi Dostu Portal",
+        "description": "İrəliləyişinizi, iştirak etdiyiniz dərsləri və performans hesabatlarını tək paneldən asanlıqla izləyin."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "HURRA LINGO İLƏ XARİCİ DİL ÖYRƏNİN",
+    "title": "Hədəflərinizə uyğun təhsil planı",
+    "description": "Peşəkar təlimatçılar və ağıllı texnologiya ilə dəstəklənən öyrənmə təcrübəsinə addım atın.",
+    "cta": "PULSUZ TANITIM DƏRSİ",
+    "variant": "primary"
+  },
+  "howItWorks": {
+    "eyebrow": "Proses",
+    "title": "Sistemimiz Necə İşləyir?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Hədəf və Səviyyə Qiymətləndirməsi",
+        "description": "Düzgün başlanğıc uğurun açarıdır. Peşəkar təlimatçılarımızla pulsuz tanıtım dərsiniz zamanı cari dil səviyyəniz müəyyən edilir və gözləntilərinizə və dil hədəflərinizə uyğun planlaşdırma aparılır."
+      },
+      {
+        "number": "02",
+        "title": "Peşəkar Müəllim Uyğunlaşdırması",
+        "description": "Sizi anlayan və hədəflərinizi paylaşan bir bələdçi ilə işləyin. Hədəflərinizə və maraqlarınıza uyğun fərdiləşdirilmiş dərs məzmunu hazırlayan peşəkar müəllimlərimizlə dərslərinizə başlayın. Dərslər arasında sizə uyğun təcrübə və interaktiv məzmunla öyrənməyinizi davam etdirin."
+      },
+      {
+        "number": "03",
+        "title": "Asan və Şəffaf İrəliləyiş İzləmə",
+        "description": "Təhsil prosesinizi, iştirak etdiyiniz dərsləri və performans hesabatlarını şəxsi paneliniz vasitəsilə real vaxtda izləyin."
+      }
+    ]
+  }
+}

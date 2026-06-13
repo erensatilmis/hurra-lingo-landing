@@ -1,0 +1,32 @@
+{
+  "aria": {
+    "dialog": "Cookie-Einstellungen",
+    "closePreferences": "Einstellungsfenster schließen"
+  },
+  "preferences": {
+    "title": "Cookie-Einstellungen",
+    "description": "Wählen Sie, welche Cookie-Kategorien Sie zulassen möchten.",
+    "required": {
+      "label": "Notwendige Cookies",
+      "description": "Erforderlich für die Grundfunktionen der Website und können nicht deaktiviert werden."
+    },
+    "analytics": {
+      "label": "Analyse-Cookies",
+      "description": "Helfen uns, Besuchsstatistiken zu verstehen und die Website zu verbessern."
+    },
+    "marketing": {
+      "label": "Marketing-Cookies",
+      "description": "Werden verwendet, um personalisierte Inhalte und Werbeerlebnisse bereitzustellen."
+    },
+    "save": "Einstellungen speichern",
+    "acceptAll": "Alle akzeptieren"
+  },
+  "banner": {
+    "title": "Cookie-Nutzung",
+    "description": "Wir verwenden Cookies, um Ihr Erlebnis zu verbessern. Notwendige Cookies sind für den Betrieb der Website erforderlich. Sie können Ihre Präferenzen für Analyse- und Marketing-Cookies festlegen.",
+    "privacyPolicy": "Datenschutzerklärung",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen",
+    "manage": "Einstellungen verwalten"
+  }
+}

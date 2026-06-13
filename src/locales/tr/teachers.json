@@ -1,0 +1,197 @@
+{
+  "hero": {
+    "eyebrow": "Öğretmenlerimiz",
+    "title": "Uzman Eğitmen Kadromuz",
+    "description": "Hurra Lingo’nun kalbi, ilham veren öğretmenlerimizdir. Alanında uzman ve uluslararası deneyime sahip eğitmen kadromuzla, her yaş grubuna özel kişiselleştirilmiş bir öğrenme deneyimi sunuyoruz.",
+    "subtitle": "Modern yöntemleri ve teknolojiyi etkin kullanan rehberlerimizle, sadece dil öğretmiyor; öğrencilerimizin özgüvenle pratik yapabileceği, motivasyon odaklı bir ortam yaratıyoruz. Bizimle dil öğrenmek, akademik bir süreçten öte, profesyonel ve kültürel bir yolculuktur."
+  },
+  "showAllLabel": "Tümünü Gör",
+  "showLessLabel": "Daha Az Göster",
+  "allGroupsLabel": "Tümü",
+  "groups": [
+    {
+      "id": "english",
+      "label": "İngilizce",
+      "role": "İngilizce Öğretmeni",
+      "teachers": [
+        {
+          "name": "Ghazaleh Ghazalifard",
+          "highlights": [
+            "Anadili İngilizce",
+            "Uluslararası eğitim deneyimi",
+            "Yüksek öğrenci memnuniyeti"
+          ]
+        },
+        {
+          "name": "Adeniyi Peace",
+          "highlights": [
+            "Anadili İngilizce",
+            "Uluslararası öğretmen",
+            "Yüksek öğrenci memnuniyeti"
+          ]
+        },
+        {
+          "name": "Yolandi Bezuidenhout",
+          "highlights": [
+            "Anadili İngilizce",
+            "Çok dilli eğitmen",
+            "Deneyimli konuşma koçu"
+          ]
+        },
+        {
+          "name": "Adam Büyükbiçer"
+        },
+        {
+          "name": "Parisa Khalegni"
+        },
+        {
+          "name": "Saskia Douglas"
+        },
+        {
+          "name": "Ayberk Savaş"
+        },
+        {
+          "name": "Ayşegül Eskikurt"
+        },
+        {
+          "name": "Ayşegül Santur"
+        },
+        {
+          "name": "Ayşın Yaşa"
+        },
+        {
+          "name": "Bengü Kesen"
+        },
+        {
+          "name": "Betül Beyza"
+        },
+        {
+          "name": "Büşra Sürekçi"
+        },
+        {
+          "name": "Burak Santur"
+        },
+        {
+          "name": "Deniz Özlü"
+        },
+        {
+          "name": "Gizem Kenez"
+        },
+        {
+          "name": "Kayra Ağır"
+        },
+        {
+          "name": "Kübra Toral"
+        },
+        {
+          "name": "Mustafa Hakan"
+        },
+        {
+          "name": "Neslihan Kızılbayır"
+        },
+        {
+          "name": "Sedef Şen"
+        },
+        {
+          "name": "Yağmur Irmak Özarslan"
+        },
+        {
+          "name": "Yasemin Ürer"
+        },
+        {
+          "name": "Zeynep Akgül"
+        },
+        {
+          "name": "Zeynep Sarıibrahimoğlu"
+        },
+        {
+          "name": "Deniz Okumuş"
+        },
+        {
+          "name": "Müge Tınaz"
+        },
+        {
+          "name": "Duru Melek"
+        }
+      ]
+    },
+    {
+      "id": "spanish",
+      "label": "İspanyolca",
+      "role": "İspanyolca Öğretmeni",
+      "teachers": [
+        {
+          "name": "J. Luis Fernandez Salazar",
+          "highlights": [
+            "Anadili İspanyolca",
+            "Uluslararası eğitim deneyimi",
+            "Yüksek öğrenci memnuniyeti"
+          ]
+        },
+        {
+          "name": "Alexandra Çavuş"
+        }
+      ]
+    },
+    {
+      "id": "french",
+      "label": "Fransızca",
+      "role": "Fransızca Öğretmeni",
+      "teachers": [
+        {
+          "name": "Büşra Ağca"
+        }
+      ]
+    },
+    {
+      "id": "german",
+      "label": "Almanca",
+      "role": "Almanca Öğretmeni",
+      "teachers": [
+        {
+          "name": "Mehtap Taşçıoğlu"
+        },
+        {
+          "name": "Nesrin Yılmaz"
+        },
+        {
+          "name": "Sibel Bulut"
+        },
+        {
+          "name": "Elif Gizem Kaya"
+        }
+      ]
+    },
+    {
+      "id": "russian",
+      "label": "Rusça",
+      "role": "Rusça Öğretmeni",
+      "teachers": [
+        {
+          "name": "Ayzade Kahya"
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "label": "Çince",
+      "role": "Çince Öğretmeni",
+      "teachers": [
+        {
+          "name": "Yanshan Lin",
+          "highlights": [
+            "Anadili Çince",
+            "Uluslararası eğitim deneyimi",
+            "Yüksek öğrenci memnuniyeti"
+          ]
+        }
+      ]
+    }
+  ],
+  "career": {
+    "eyebrow": "Kariyer",
+    "title": "Haydi Sen de Hurra Lingo Ekibine Katıl",
+    "description": "Yabancı dil eğitiminde tecrübeli, ekibimize sinerji katacak adayları, Nesibe Aydın Eğitim Kurumları güvencesiyle çalışmak üzere Hurra Lingo ekibimize katılmaya davet ediyoruz.",
+    "cta": "ŞİMDİ BAŞVUR!"
+  }
+}

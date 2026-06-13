@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "eyebrow": "Sertifikatlaşdırma",
+    "title": "İrəliləyişinizi izləyin, uğurunuzu sənədləşdirin",
+    "description": "Hurra Lingo-da dil inkişafını akademik və praktik nəticələrə yönəlik izləyir, öyrənmə yolculuğunuzu beynəlxalq səviyyədə tanınan CEFR uyğun sertifikatlarla rəsmiləşdiririk."
+  },
+  "heroCard": {
+    "eyebrow": "CEFR Uyğun",
+    "title": "İngilis Dili Bacarığı Sertifikatı",
+    "description": "Ankara University ilə əməkdaşlıqda hazırlanmış, beynəlxalq etibarlılığa malik rəsmi sənəd."
+  },
+  "pillars": [
+    {
+      "id": "tracking",
+      "title": "İrəliləyiş və İzləmə Sistemi",
+      "description": "Hər tələbənin dil inkişafını akademik və praktik nəticələrə yönəlik diqqətlə izləyirik.",
+      "points": [
+        {
+          "label": "Fərdiləşdirilmiş Hesabat",
+          "text": "Öyrənmə nəticələrini yaş qrupu və fərdi hədəflərə uyğun analiz edərək müntəzəm rəy veririk."
+        },
+        {
+          "label": "Tələbə Hesabat Vərəqəsi",
+          "text": "Hər təhsil dövrünün sonunda nailiyyətləri və növbəti səviyyə hədəflərini ətraflı hesabat vərəqəsində təqdim edirik."
+        },
+        {
+          "label": "Motivasiya və Dəstək",
+          "text": "Müntəzəm yeniləmələrlə tələbə motivasiyasını artırır və inkişaf prosesini şəffaf idarə edirik."
+        }
+      ]
+    },
+    {
+      "id": "self-assessment",
+      "title": "Özünü Qiymətləndirmə Modeli",
+      "description": "Tələbələrimizin öz öyrənmə prosesini tanımasına kömək etmək davamlı uğurun açarıdır.",
+      "points": [
+        {
+          "label": "Şüurluluk",
+          "text": "Sinif daxilində özünü qiymətləndirmə metodları ilə tələbələrin güclü tərəflərini kəşf etməsinə kömək edirik."
+        },
+        {
+          "label": "Aktiv İştirak",
+          "text": "Prosesdə aktiv məşğulluğu dəstəkləyir və tələbələrin dil öyrənməsinə inam formalaşdırmasına kömək edirik."
+        }
+      ]
+    },
+    {
+      "id": "certification",
+      "title": "Beynəlxalq Standartlara Uyğun Sertifikatlaşdırma",
+      "description": "Təhsil proqramlarımızı uğurla tamamlayan tələbələr Ankara University ilə əməkdaşlıqda hazırlanmış CEFR uyğun İngilis Dili Bacarığı Sertifikatı qazanır.",
+      "points": [
+        {
+          "label": "Rəsmi Tanınma",
+          "text": "Dil bacarıqlarınızı beynəlxalq səviyyədə sənədləşdirir və akademik müraciətlər üçün etibarlı istinad təqdim edir."
+        },
+        {
+          "label": "Maddi Nailiyyət",
+          "text": "Dil təhsilinizi məktəb qəbulu və karyera yolculuğunuz üçün konkret akademik nailiyyətə çevirin."
+        }
+      ]
+    }
+  ],
+  "pdf": {
+    "eyebrow": "Məlumat",
+    "label": "Sertifikat proqramı və imtahan prosesi haqqında ətraflı məlumat",
+    "button": "Məlumat PDF-ni Yüklə",
+    "href": "https://www.hurralingo.com/wp-content/uploads/2025/12/Ingilizce-Sertifika-Programlari-veli-bilgilendirme-metni-2025-v4-1-1.pdf"
+  },
+  "testimonial": {
+    "title": "Leyla F. — TÖMER Sertifikat Rəyi",
+    "role": "Yiğit R.-nin valideyni",
+    "text": "Əvvəla, prosesin hər mərhələsində aldığımız dəstək son dərəcə peşəkar idi, bunun üçün bir daha təşəkkür edirəm. İmtahan məzmun və metod olaraq çoxvariantlı, doğru-yanlış, boşluq doldurma və s. sual növlərini əhatə etdiyi üçün ölçücülüyünün yaxşı olduğunu düşünürəm. Anlama və ifadə bacarıqlarını ölçməyə yönəlik bir imtahan olduğunu deyə bilərəm. Oğlum baxımından mənim üçün yaratdığı ən vacib fərindlıq yazı sahəsində oldu. İllərdir danışıq və anlama üzərində fəaliyyətlər və dərslər keçirdiyimizi göstərdi, yazı sahəsində də dəstəklənməsi lazım olduğunu gördüm. Ümumi təəssüratım son dərəcə müsbətdir. İlin ərzində performansını və öyrənmə səviyyəsini ölçmək üçün ara-sıra bu imtahana yenidən qatılmağı düşünürəm. Həm oğlum bu gün mövcud olan, gələcəkdə də yayğınlığı artacaq online imtahan anlayışını öyrənəcək və daha uğurlu nəticələr əldə edəcək, həm də dil mənimsəmə prosesini konkret izləyə biləcəyimi düşünürəm. Hər şeyə görə yenidən təşəkkür edirəm."
+  },
+  "cta": {
+    "eyebrow": "Hurra Lingo ilə Xarici Dil Öyrənin",
+    "title": "Yeni bir dil kəşf edin",
+    "description": "Peşəkar müəllimlər və ağıllı texnologiya ilə dəstəklənən öyrənmə təcrübəsinə addım atın.",
+    "cta": "Pulsuz Sınayın",
+    "variant": "primary"
+  },
+  "certificates": {
+    "eyebrow": "Hurra Lingo-da",
+    "title": "İngilis Dili Sertifikatları",
+    "subtitle": "Beynəlxalq Dil Sertifikatı",
+    "levels": [
+      "A1",
+      "A2",
+      "B1.1",
+      "B1.2"
+    ],
+    "image": "https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB1.png",
+    "description": "Sertifikat proqramlarımız CEFR (Dillər üçün Avropa Ortaq İstinad Çərçivəsi) standartlarına uyğun başlanğıc və orta səviyyə bacarıqları əhatə edir. A1 və A2 başlanğıc səviyyələri ilə B1.1 və B1.2 orta səviyyələrində sertifikatlaşdırma təqdim edirik.",
+    "imageAlt": "CEFR dil səviyyələri A1, A2, B1",
+    "details": [
+      "Tələbələrimizin inkişaf prosesləri peşəkar təlimatçılarımız tərəfindən diqqətlə izlənilir və Hurra Lingo kurikulumu CEFR öyrənmə nəticələrinə tam uyğun strukturlaşdırılıb.",
+      "İngilis Dili Bacarığı Sertifikatı qazanmaq üçün tələbələr öyrənmə motivasiyasını dəstəkləmək məqsədilə peşəkar nəzarət altında hazırlanmış onlayn dil imtahanlarında iştirak edir.",
+      "4 yaş və yuxarı bütün tələbələrin iştirak edə biləcəyi bu imtahanlarda 4–5 yaş qrupu üçün dinləmə və danışıq bacarıqları, 6 yaş və yuxarı bütün yaş qrupları üçün isə oxuma, yazma, danışıq və dinləmə bacarıqları hərtərəfli ölçülür."
+    ]
+  },
+  "partnerships": [
+    {
+      "id": "ankara",
+      "eyebrow": "Akademik Tərəfdaşlıq",
+      "title": "Ankara University ilə Strateji Tərəfdaşlıq",
+      "image": "https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB3-1.png",
+      "paragraphs": [
+        "Dil bacarıqlarınızı rəsmi tanınan beynəlxalq sertifikatla təsdiqləmək istəyirsiniz? Ankara University ilə akademik tərəfdaşlığımız çərçivəsində Hurra Lingo tələbələrinə İngilis Dili Bacarığı Sertifikatı qazanmaq imtiyazı təqdim edirik.",
+        "Bu sertifikatlar Türkiyədə bütün təhsil və dövlət qurumları tərəfindən tanınır. Bu sənədlə tələbələrimiz iştirak etdikləri hər hansı beynəlxalq təhsil, mübadilə proqramı və ya peşəkar platformada dil bacarıqlarını rəsmi şəkildə sübut edə bilərlər."
+      ]
+    },
+    {
+      "id": "cefr",
+      "eyebrow": "Beynəlxalq Akkreditasiya",
+      "title": "CEFR Uyğun və Beynəlxalq Akkreditasiyalı Sertifikat",
+      "image": "https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB2.png",
+      "paragraphs": [
+        "Hurra Lingo tərəfindən təqdim olunan dil bacarığı sertifikatları tam beynəlxalq akkreditasiyaya malikdir. Sənədlərimiz Dillər üçün Avropa Ortaq İstinad Çərçivəsi (CEFR) əsasında Avropa Şurası tərəfindən beynəlxalq səviyyədə akkreditasiya olunub.",
+        "Qiymətləndirmə, dəyərləndirmə və metodologiya inkişaf proseslərimiz Avropa Dil Testçiləri Assosiasiyasının (ALTE) müəyyən etdiyi yüksək keyfiyyət standartlarına cavab verir."
+      ]
+    }
+  ],
+  "examCta": {
+    "title": "İmtahanlarda İştirak Etmək Üçün",
+    "description": "Onlayn dil imtahanlarında iştirak və sertifikatlaşdırma prosesi haqqında məlumat üçün bizimlə əlaqə saxlayın.",
+    "button": "Bura Klik Edin",
+    "href": "/iletisim"
+  }
+}

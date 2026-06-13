@@ -1,0 +1,175 @@
+{
+  "hero": {
+    "eyebrow": "Preise",
+    "title": "Wählen Sie den passenden Tarif",
+    "description": "Flexible Pakete für Einzel-, Mini-Gruppen- oder Intensivprogramme – abgestimmt auf Ihr Budget und Ihre Ziele. Alle Tarife umfassen Live-Unterricht, eine Bibliothek mit Aufzeichnungen und KI-gestützte Übung."
+  },
+  "languages": [
+    "Englisch",
+    "Deutsch",
+    "Französisch",
+    "Spanisch",
+    "Russisch",
+    "Türkisch"
+  ],
+  "tiers": [
+    {
+      "id": "mini-group",
+      "name": "Mini-Gruppenunterricht",
+      "price": "459",
+      "unit": "pro Unterrichtsstunde",
+      "note": "ab",
+      "highlight": false,
+      "features": [
+        "Boutique-Klassen mit 2–4 Lernenden",
+        "Spannende und interaktive Lernumgebung",
+        "Unbegrenztes Wiederholen mit aufgezeichneten Stunden",
+        "Individuelle Übungsaktivitäten"
+      ]
+    },
+    {
+      "id": "individual",
+      "name": "Einzelunterricht",
+      "price": "656",
+      "unit": "pro Unterrichtsstunde",
+      "note": "ab",
+      "highlight": true,
+      "badge": "Am beliebtesten",
+      "features": [
+        "Alle Vorteile des Mini-Gruppenunterrichts",
+        "Vollständig personalisierter Unterrichtsplan",
+        "Einzelinhalte, zugeschnitten auf Ihre Bedürfnisse",
+        "Personalisiertes Feedback-System"
+      ]
+    },
+    {
+      "id": "individual-plus",
+      "name": "Einzelunterricht+",
+      "price": "925",
+      "unit": "pro Unterrichtsstunde",
+      "note": "ab",
+      "highlight": false,
+      "features": [
+        "Alle Vorteile des Einzelunterrichts",
+        "Lehrkräfte mit Englisch als Muttersprache",
+        "Fließendes Sprechen und Aussprachekorrektur",
+        "Erweiterter Karriere-/Akademiefokus"
+      ]
+    }
+  ],
+  "packages": {
+    "eyebrow": "Paketdetails",
+    "title": "Monatliche oder vierteljährliche Paketoptionen",
+    "subtitle": "Wählen Sie Ihre wöchentliche Unterrichtsintensität und Paketdauer nach Ihren Bedürfnissen. Aktionspreise gelten für ausgewählte Zeiträume.",
+    "periods": [
+      {
+        "id": "monthly",
+        "label": "Monatlich"
+      },
+      {
+        "id": "quarterly",
+        "label": "Vierteljährlich"
+      }
+    ],
+    "plans": [
+      {
+        "id": "individual",
+        "name": "Einzelunterricht",
+        "highlight": true,
+        "options": {
+          "monthly": [
+            {
+              "lessons": "1 Unterrichtsstunde pro Woche",
+              "old": "3.116",
+              "now": "2.648,60"
+            },
+            {
+              "lessons": "2 Unterrichtsstunden pro Woche",
+              "old": "5.768",
+              "now": "4.902,80"
+            }
+          ],
+          "quarterly": [
+            {
+              "lessons": "1 Unterrichtsstunde pro Woche",
+              "old": "9.072",
+              "now": "7.711,20"
+            },
+            {
+              "lessons": "2 Unterrichtsstunden pro Woche",
+              "old": "16.776",
+              "now": "14.259,60"
+            }
+          ]
+        }
+      },
+      {
+        "id": "individual-plus",
+        "name": "Einzelunterricht+",
+        "highlight": false,
+        "options": {
+          "monthly": [
+            {
+              "lessons": "1 Unterrichtsstunde pro Woche",
+              "old": "4.396",
+              "now": "3.736,60"
+            },
+            {
+              "lessons": "2 Unterrichtsstunden pro Woche",
+              "old": "8.136",
+              "now": "6.915,60"
+            }
+          ],
+          "quarterly": [
+            {
+              "lessons": "1 Unterrichtsstunde pro Woche",
+              "old": "12.792",
+              "now": "10.873,20"
+            },
+            {
+              "lessons": "2 Unterrichtsstunden pro Woche",
+              "old": "23.664",
+              "now": "20.114,40"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "buyCta": "Jetzt kaufen",
+  "currency": "TL",
+  "trialCta": "Kostenlose Probestunde",
+  "benefits": {
+    "eyebrow": "Warum Hurra Lingo?",
+    "title": "Vorteile in jedem Tarif enthalten",
+    "items": [
+      {
+        "title": "Erfahrenes Lehrteam",
+        "text": "Erreichen Sie Ihre Ziele mit zertifizierten Expertinnen und Experten mit muttersprachlichem Niveau und Online-Unterrichtserfahrung."
+      },
+      {
+        "title": "GER-standardisierter Lehrplan",
+        "text": "Ein Bildungsprogramm, das vollständig an internationale Sprachkompetenzkriterien von A1 bis C1 angeglichen ist."
+      },
+      {
+        "title": "Nachhaltiges Lernen",
+        "text": "Kontinuierliche Sprachentwicklung durch starke Lehrer-Schüler-Bindungen und motivierende Inhalte."
+      },
+      {
+        "title": "Ganzheitliches Bildungsökosystem",
+        "text": "Rund-um-die-Uhr-Lernen mit interaktiven Apps und KI-gestützten Aktivitäten, die den Live-Unterricht ergänzen."
+      },
+      {
+        "title": "Internationale Zertifizierung",
+        "text": "Die Möglichkeit, Ihre Sprachkompetenz mit offiziell anerkannten globalen Nachweisen zu dokumentieren."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Werden Sie Teil der Hurra-Lingo-Familie",
+    "title": "Vereinbaren Sie zuerst Ihre kostenlose Probestunde",
+    "description": "Lassen Sie uns gemeinsam Ihr Niveau einschätzen, Ihre Ziele definieren und das beste Paket wählen. Erleben Sie es, bevor Sie sich entscheiden.",
+    "cta": "Kostenlos testen",
+    "variant": "primary"
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "order": ["tr", "en", "de", "fr", "es", "ru", "zh"],
+  "pages": {
+    "tr": {
+      "id": "tr",
+      "name": "Türk dili",
+      "nativeName": "Türkçe",
+      "hero": {
+        "eyebrow": "Hurra Lingo ilə Türk dili",
+        "title": "Türk dili ilə Türkiyəyə qapılarınızı açın",
+        "description": "Xarici dil kimi türk dili öyrənmək istəyənlər üçün gündəlik həyatdan iş dünyasına qədər effektiv ünsiyyət imkanı verən mədəniyyətə yönəlik proqram təqdim edirik."
+      },
+      "stats": [
+        { "value": "85M+", "label": "Ana dili danışanı" },
+        { "value": "A1–C1", "label": "CEFR səviyyələri" },
+        { "value": "24/7", "label": "Onlayn canlı dərslər" }
+      ],
+      "reasons": {
+        "title": "Niyə türk dili öyrənməlisiniz?",
+        "items": [
+          {
+            "title": "Körpü dili",
+            "text": "Avropa ilə Asiyanı birləşdirən, ticarət və turizmdə getdikcə dəyər qazanan dil."
+          },
+          {
+            "title": "Zəngin mədəniyyət",
+            "text": "Ədəbiyyat, musiqi, kino və kulinariya mədəniyyətinə orijinal dilində çıxış."
+          },
+          {
+            "title": "Strukturlaşdırılmış qrammatika",
+            "text": "Müntəzəm və sistemli qrammatikası ilə məntiqini qavradıqca sürətlə irəliləyirsiniz."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu proqram kimlər üçündür?",
+        "items": [
+          "Türkiyədə yaşayan və ya yaşamağı planlaşdıran xaricilər",
+          "Türk biznes tərəfdaşları ilə işləyən peşəkarlar",
+          "Türk mədəniyyəti və ailəsi ilə əlaqə qurmaq istəyənlər"
+        ]
+      }
+    },
+    "en": {
+      "id": "en",
+      "name": "İngilis dili",
+      "nativeName": "English",
+      "hero": {
+        "eyebrow": "Hurra Lingo ilə İngilis dili",
+        "title": "Dünyanın ortaq dilində özünüzə inamla danışın",
+        "description": "İş, təhsil və səyahət üçün ən çox tələb olunan ingilis dilini ilk gündən təcrübə ilə danışığa yönəlik dərslərlə öyrənin."
+      },
+      "stats": [
+        { "value": "1.5B+", "label": "Dünya üzrə danışan" },
+        { "value": "A1–C1", "label": "CEFR səviyyələri" },
+        { "value": "#1", "label": "Ən çox tələb olunan dil" }
+      ],
+      "reasons": {
+        "title": "Niyə ingilis dili öyrənməlisiniz?",
+        "items": [
+          {
+            "title": "Karyera imkanı",
+            "text": "Qlobal iş dünyasında ən çox axtarılan bacarıqlardan biri."
+          },
+          {
+            "title": "Limitsiz məzmun",
+            "text": "İnternetdəki məlumatların, kursların və əyləncənin böyük əksəriyyətinə çıxış."
+          },
+          {
+            "title": "Akademik uğur",
+            "text": "IELTS və TOEFL kimi imtahanlar vasitəsilə beynəlxalq təhsilə qapılar açır."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu proqram kimlər üçündür?",
+        "items": [
+          "Məktəb kurikulumunu dəstəkləmək istəyən tələbələr",
+          "Karyerasında fərqlənmək istəyən peşəkarlar",
+          "Səyahət və gündəlik ünsiyyət üçün təcrübə axtaranlar"
+        ]
+      }
+    },
+    "de": {
+      "id": "de",
+      "name": "Alman dili",
+      "nativeName": "Deutsch",
+      "hero": {
+        "eyebrow": "Hurra Lingo ilə Alman dili",
+        "title": "Avropanın güclü iqtisadiyyatının dilini öyrənin",
+        "description": "Almaniya, Avstriya və İsveçrədə təhsil və karyera imkanlarının açarı olan alman dilini addım-addım, praktikaya yönəlik proqramla öyrənin."
+      },
+      "stats": [
+        { "value": "130M+", "label": "Dünya üzrə danışan" },
+        { "value": "A1–C1", "label": "CEFR səviyyələri" },
+        { "value": "3 ölkə", "label": "Rəsmi dil olduğu" }
+      ],
+      "reasons": {
+        "title": "Niyə alman dili öyrənməlisiniz?",
+        "items": [
+          {
+            "title": "Təhsil imkanı",
+            "text": "Almaniyada əksər dövlət universitetlərində pulsuz təhsil şansı."
+          },
+          {
+            "title": "Güclü iqtisadiyyat",
+            "text": "Avropanın ən böyük iqtisadiyyatında iş və staj imkanları."
+          },
+          {
+            "title": "Mühəndislik və elm",
+            "text": "Texniki sahələrdə resurslara və karyeralara birbaşa çıxış."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu proqram kimlər üçündür?",
+        "items": [
+          "Almaniyada təhsil hədəfləyənlər",
+          "İş vizası və karyera planlaşdıranlar",
+          "Mühəndislik və elm sahəsində irəliləmək istəyənlər"
+        ]
+      }
+    },
+    "fr": {
+      "id": "fr",
+      "name": "Fransız dili",
+      "nativeName": "Français",
+      "hero": {
+        "eyebrow": "Hurra Lingo ilə Fransız dili",
+        "title": "Diplomatiya və incəsənətin zərif dilini kəşf edin",
+        "description": "Beş qitədə danışılan və mədəniyyət ilə diplomatiyada vacib olan fransız dilini zövqlü və interaktiv dərslərlə öyrənin."
+      },
+      "stats": [
+        { "value": "300M+", "label": "Dünya üzrə danışan" },
+        { "value": "A1–C1", "label": "CEFR səviyyələri" },
+        { "value": "5 qitə", "label": "Coğrafi əhatə" }
+      ],
+      "reasons": {
+        "title": "Niyə fransız dili öyrənməlisiniz?",
+        "items": [
+          {
+            "title": "Beynəlxalq dil",
+            "text": "BMT, Aİ və bir çox beynəlxalq təşkilatın rəsmi dillərindən biri."
+          },
+          {
+            "title": "Mədəniyyət və incəsənət",
+            "text": "Ədəbiyyat, kino, moda və qastronomiyanın mərkəzində olan dil."
+          },
+          {
+            "title": "Karyera şəbəkəsi",
+            "text": "Afrikadan Kanadayə qədər geniş biznes və səyahət şəbəkəsi."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu proqram kimlər üçündür?",
+        "items": [
+          "İncəsənət, moda və mədəniyyətə marağı olanlar",
+          "Fransız dilli ölkələrdə təhsil və ya karyera hədəfləyənlər",
+          "Yeni dilin estetikasını kəşf etmək istəyənlər"
+        ]
+      }
+    },
+    "es": {
+      "id": "es",
+      "name": "İspan dili",
+      "nativeName": "Español",
+      "hero": {
+        "eyebrow": "Hurra Lingo ilə İspan dili",
+        "title": "İspan dilində iki qitənin enerjisini yaşayın",
+        "description": "Dünyada ən çox danışılan dillərdən biri olan və öyrənməsi zövqlü ispanca dilini danışığa yönəlik və əyləncəli dərslərlə sürətlə öyrənin."
+      },
+      "stats": [
+        { "value": "550M+", "label": "Dünya üzrə danışan" },
+        { "value": "A1–C1", "label": "CEFR səviyyələri" },
+        { "value": "20+ ölkə", "label": "Rəsmi dil olduğu" }
+      ],
+      "reasons": {
+        "title": "Niyə ispanca öyrənməlisiniz?",
+        "items": [
+          {
+            "title": "Sürətli irəliləyiş",
+            "text": "Yazıldığı kimi oxunan strukturu ilə öyrənməsi ən asan dillərdən biri."
+          },
+          {
+            "title": "Geniş coğrafiya",
+            "text": "İspaniya və Latın Amerikasında yüz milyonlarla insanla ünsiyyət."
+          },
+          {
+            "title": "Mədəniyyət və səyahət",
+            "text": "Musiqi, serial və səyahət dünyasına rəngarəng qapı açır."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu proqram kimlər üçündür?",
+        "items": [
+          "Latın mədəniyyəti və səyahətə marağı olanlar",
+          "Sürətli nəticə istəyən başlanğıclar",
+          "Biznes şəbəkəsini Latın Amerikasına genişləndirmək istəyənlər"
+        ]
+      }
+    },
+    "ru": {
+      "id": "ru",
+      "name": "Rus dili",
+      "nativeName": "Русский",
+      "hero": {
+        "eyebrow": "Hurra Lingo ilə Rus dili",
+        "title": "Geniş coğrafiyanın dilinə addım atın",
+        "description": "Avrasiyanın güclü dili olan rus dilini əlifbadan gündəlik söhbətə qədər səbirli və strukturlaşdırılmış proqramla sıfırdan öyrənin."
+      },
+      "stats": [
+        { "value": "260M+", "label": "Dünya üzrə danışan" },
+        { "value": "A1–C1", "label": "CEFR səviyyələri" },
+        { "value": "Kiril", "label": "Əlifbadan dəstək" }
+      ],
+      "reasons": {
+        "title": "Niyə rus dili öyrənməlisiniz?",
+        "items": [
+          {
+            "title": "Ticarət imkanı",
+            "text": "Türkiyə ilə intensiv ticarət əlaqələrində dəyərli üstünlük."
+          },
+          {
+            "title": "Zəngin ədəbiyyat",
+            "text": "Dünya klassiklərini orijinal dilində oxumaq imkanı."
+          },
+          {
+            "title": "Geniş istifadə",
+            "text": "Bir çox ölkədə ünsiyyət qurmaq üçün istifadə edə biləcəyiniz geniş yayılmış dil."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu proqram kimlər üçündür?",
+        "items": [
+          "Turizm və ticarət sektorlarında çalışanlar",
+          "Rus dilli ölkələrlə əlaqəsi olanlar",
+          "Yeni əlifba və mədəniyyət kəşf etmək istəyənlər"
+        ]
+      }
+    },
+    "zh": {
+      "id": "zh",
+      "name": "Çin dili",
+      "nativeName": "中文",
+      "hero": {
+        "eyebrow": "Hurra Lingo ilə Çin dili",
+        "title": "Dünyanın ən çox danışılan dili ilə gələcəyə investisiya edin",
+        "description": "Tonlardan simvollara qədər vizual və interaktiv metodlarla mandarin çincəsini addım-addım və zövqlü şəkildə öyrənin."
+      },
+      "stats": [
+        { "value": "1.1B+", "label": "Dünya üzrə danışan" },
+        { "value": "HSK", "label": "Beynəlxalq səviyyə sistemi" },
+        { "value": "#1", "label": "Ən çox ana dili danışanı" }
+      ],
+      "reasons": {
+        "title": "Niyə çincə öyrənməlisiniz?",
+        "items": [
+          {
+            "title": "İqtisadi güc",
+            "text": "Dünyanın ən böyük bazarlarından biri ilə biznes aparmaq üstünlüyü."
+          },
+          {
+            "title": "Rəqabətdə fərqlənmə",
+            "text": "Nadir bilinən bu dil CV-nizdə fərq yaradır."
+          },
+          {
+            "title": "Qədim mədəniyyət",
+            "text": "Min illər boyu davam edən zəngin mədəniyyət və düşüncə dünyasına çıxış."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu proqram kimlər üçündür?",
+        "items": [
+          "Beynəlxalq ticarət hədəfləyən peşəkarlar",
+          "Fərqli yazı sistemi öyrənmək istəyənlər",
+          "Gələcək üçün strateji dil axtaranlar"
+        ]
+      }
+    }
+  },
+  "ui": {
+    "backToHome": "← Ana səhifəyə qayıt",
+    "trialCta": "Pulsuz Tanıtım Dərsi",
+    "lessonsCta": "Dərs Formatlarına Bax",
+    "levelNote": "Hansı səviyyədə olursunuzsa olun, pulsuz tanıtım dərsində birlikdə qiymətləndirəcək və sizin üçün fərdiləşdirilmiş plan yaradacağıq.",
+    "otherLanguages": "Digər dilləri kəşf edin",
+    "footerCtaTitle": "Bu gün {{name}} öyrənməyə başlayın",
+    "footerCtaDescription": "Peşəkar müəllimlər və ağıllı texnologiya ilə dəstəklənən öyrənmə təcrübəsində pulsuz tanıtım dərsi ilə ilk addımı atın.",
+    "flagAlt": "{{name}} bayrağı"
+  }
+}

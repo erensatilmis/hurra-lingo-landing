@@ -1,12 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Briefcase } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Container from "../components/ui/Container";
 import Card from "../components/ui/Card";
 import Button from "../components/ui/Button";
 import Badge from "../components/ui/Badge";
 import TeacherVideoCard from "../components/teachers/TeacherVideoCard";
 import { assets } from "../assets";
-import { teachersPage } from "../data/teachersPage";
+import { teachersPage as teachersData } from "../data/teachersPage";
 import {
   INITIAL_TEACHERS_VISIBLE,
   getVisibleTeachers,
@@ -21,14 +22,41 @@ const flagByGroup = {
   chinese: assets.languageFlags[6],
 };
 
+function mergeTeacherGroups(i18nGroups) {
+  return i18nGroups.map((group) => {
+    const dataGroup = teachersData.groups.find((item) => item.id === group.id);
+
+    return {
+      ...group,
+      teachers: group.teachers.map((teacher) => {
+        const dataTeacher = dataGroup?.teachers.find(
+          (item) => item.name === teacher.name,
+        );
+
+        return {
+          ...teacher,
+          videoId: dataTeacher?.videoId,
+          photo: dataTeacher?.photo,
+          isForeign: dataTeacher?.isForeign,
+        };
+      }),
+    };
+  });
+}
+
 export default function TeachersPage() {
+  const { t } = useTranslation("teachers");
+  const groups = useMemo(
+    () => mergeTeacherGroups(t("groups", { returnObjects: true })),
+    [t],
+  );
   const [activeGroup, setActiveGroup] = useState("all");
   const [activeVideoId, setActiveVideoId] = useState(null);
   const [expandedGroups, setExpandedGroups] = useState({});
   const visibleGroups =
     activeGroup === "all"
-      ? teachersPage.groups
-      : teachersPage.groups.filter((group) => group.id === activeGroup);
+      ? groups
+      : groups.filter((group) => group.id === activeGroup);
 
   useEffect(() => {
     setExpandedGroups({});
@@ -44,16 +72,16 @@ export default function TeachersPage() {
         <Container className="relative">
           <div className="max-w-4xl">
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary-600">
-              {teachersPage.hero.eyebrow}
+              {t("hero.eyebrow")}
             </p>
             <h1 className="mt-4 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
-              {teachersPage.hero.title}
+              {t("hero.title")}
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-slate-600">
-              {teachersPage.hero.description}
+              {t("hero.description")}
             </p>
             <p className="mt-4 text-base leading-7 text-slate-600">
-              {teachersPage.hero.subtitle}
+              {t("hero.subtitle")}
             </p>
           </div>
         </Container>
@@ -71,9 +99,9 @@ export default function TeachersPage() {
                   : "bg-surface-muted text-slate-600 hover:text-primary-700"
               }`}
             >
-              Tümü
+              {t("allGroupsLabel")}
             </button>
-            {teachersPage.groups.map((group) => (
+            {groups.map((group) => (
               <button
                 key={group.id}
                 type="button"
@@ -143,8 +171,8 @@ export default function TeachersPage() {
                     }
                   >
                     {expandedGroups[group.id]
-                      ? teachersPage.showLessLabel
-                      : teachersPage.showAllLabel}
+                      ? t("showLessLabel")
+                      : t("showAllLabel")}
                   </Button>
                 </div>
               )}
@@ -162,18 +190,18 @@ export default function TeachersPage() {
             <div className="grid items-center gap-8 lg:grid-cols-[1fr_auto]">
               <div>
                 <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary-600">
-                  {teachersPage.career.eyebrow}
+                  {t("career.eyebrow")}
                 </p>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900">
-                  {teachersPage.career.title}
+                  {t("career.title")}
                 </h2>
                 <p className="mt-4 max-w-3xl text-base leading-7 text-slate-600">
-                  {teachersPage.career.description}
+                  {t("career.description")}
                 </p>
               </div>
               <Button href="#" size="lg" className="shrink-0">
                 <Briefcase className="mr-2 h-5 w-5" />
-                {teachersPage.career.cta}
+                {t("career.cta")}
               </Button>
             </div>
           </Card>

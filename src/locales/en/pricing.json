@@ -1,0 +1,176 @@
+{
+  "hero": {
+    "eyebrow": "Pricing",
+    "title": "Choose the plan that fits you best",
+    "description": "Flexible packages for one-on-one, mini group, or intensive programs that match your budget and goals. All plans include live classes, recorded lesson library, and AI-powered practice.",
+    "campaign": "Campaign: 15% off on selected packages"
+  },
+  "languages": [
+    "English",
+    "German",
+    "French",
+    "Spanish",
+    "Russian",
+    "Turkish"
+  ],
+  "tiers": [
+    {
+      "id": "mini-group",
+      "name": "Mini Group Lessons",
+      "price": "459",
+      "unit": "per lesson",
+      "note": "starting from",
+      "highlight": false,
+      "features": [
+        "Boutique classes of 2–4 students",
+        "Fun and interactive learning environment",
+        "Unlimited review with recorded lessons",
+        "Individual practice activities"
+      ]
+    },
+    {
+      "id": "individual",
+      "name": "Individual Lessons",
+      "price": "656",
+      "unit": "per lesson",
+      "note": "starting from",
+      "highlight": true,
+      "badge": "Most Popular",
+      "features": [
+        "All benefits of Mini Group Lessons",
+        "Fully personalized lesson plan",
+        "One-on-one content tailored to your needs",
+        "Personalized feedback system"
+      ]
+    },
+    {
+      "id": "individual-plus",
+      "name": "Individual Lessons+",
+      "price": "925",
+      "unit": "per lesson",
+      "note": "starting from",
+      "highlight": false,
+      "features": [
+        "All benefits of Individual Lessons",
+        "Native English-speaking teachers",
+        "Fluent speaking and pronunciation correction",
+        "Advanced career/academic focus"
+      ]
+    }
+  ],
+  "packages": {
+    "eyebrow": "Package Details",
+    "title": "Monthly or quarterly package options",
+    "subtitle": "Choose your weekly lesson intensity and package duration according to your needs. Promotional prices apply to selected periods.",
+    "periods": [
+      {
+        "id": "monthly",
+        "label": "Monthly"
+      },
+      {
+        "id": "quarterly",
+        "label": "Quarterly"
+      }
+    ],
+    "plans": [
+      {
+        "id": "individual",
+        "name": "Individual Lessons",
+        "highlight": true,
+        "options": {
+          "monthly": [
+            {
+              "lessons": "1 Lesson per Week",
+              "old": "3.116",
+              "now": "2.648,60"
+            },
+            {
+              "lessons": "2 Lessons per Week",
+              "old": "5.768",
+              "now": "4.902,80"
+            }
+          ],
+          "quarterly": [
+            {
+              "lessons": "1 Lesson per Week",
+              "old": "9.072",
+              "now": "7.711,20"
+            },
+            {
+              "lessons": "2 Lessons per Week",
+              "old": "16.776",
+              "now": "14.259,60"
+            }
+          ]
+        }
+      },
+      {
+        "id": "individual-plus",
+        "name": "Individual Lessons+",
+        "highlight": false,
+        "options": {
+          "monthly": [
+            {
+              "lessons": "1 Lesson per Week",
+              "old": "4.396",
+              "now": "3.736,60"
+            },
+            {
+              "lessons": "2 Lessons per Week",
+              "old": "8.136",
+              "now": "6.915,60"
+            }
+          ],
+          "quarterly": [
+            {
+              "lessons": "1 Lesson per Week",
+              "old": "12.792",
+              "now": "10.873,20"
+            },
+            {
+              "lessons": "2 Lessons per Week",
+              "old": "23.664",
+              "now": "20.114,40"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "buyCta": "Buy Now",
+  "currency": "TL",
+  "trialCta": "Free Introductory Lesson",
+  "benefits": {
+    "eyebrow": "Why Hurra Lingo?",
+    "title": "Benefits included in every plan",
+    "items": [
+      {
+        "title": "Expert Teaching Team",
+        "text": "Reach your goals with certified experts who have native-level proficiency and online teaching experience."
+      },
+      {
+        "title": "CEFR-Standard Curriculum",
+        "text": "An education program fully aligned with international language proficiency criteria from A1 to C1."
+      },
+      {
+        "title": "Sustainable Learning",
+        "text": "Continuous language development with strong teacher-student bonds and motivation-focused content."
+      },
+      {
+        "title": "Holistic Education Ecosystem",
+        "text": "24/7 learning with interactive apps and AI-powered activities that support live classes."
+      },
+      {
+        "title": "International Certification",
+        "text": "The opportunity to validate your language proficiency with officially recognized global credentials."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Join the Hurra Lingo Family",
+    "title": "Schedule your free introductory lesson first",
+    "description": "Let's assess your level, define your goals, and choose the best package together. Experience it before you decide.",
+    "cta": "Try for Free",
+    "variant": "primary"
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "hero": {
+    "title": "Der angenehmste Weg, eine neue Sprache zu lernen!",
+    "description": "Hurra Lingo ist die Online-Sprachschule der nächsten Generation, die preisgekrönte Bildungstechnologie mit erfahrenen Lehrkräften und hochwertigen Lernressourcen verbindet. Ob Kind oder Erwachsener – Lernende jeden Alters können rund um die Uhr von überall an Live-Online-Unterricht teilnehmen und auf eine reichhaltige Lernumgebung mit KI-gestützten interaktiven Inhalten und spannenden Unterrichtsstunden zugreifen.",
+    "cta": "Kostenlos testen",
+    "stats": [
+      {
+        "value": "10.000+",
+        "label": "Zufriedene Lernende"
+      },
+      {
+        "value": "50+",
+        "label": "Erfahrene Lehrkräfte"
+      },
+      {
+        "value": "7",
+        "label": "Fremdsprachen"
+      }
+    ],
+    "badge": {
+      "title": "24/7 Live-Unterricht",
+      "subtitle": "Lernende jeden Alters"
+    },
+    "imageAlt": "Hurra Lingo Online-Sprachbildung",
+    "imageLabel": "Hero-Bild",
+    "welcomeMessages": [
+      {
+        "lang": "Türkçe",
+        "text": "Merhaba!"
+      },
+      {
+        "lang": "English",
+        "text": "Hello!"
+      },
+      {
+        "lang": "Deutsch",
+        "text": "Hallo!"
+      },
+      {
+        "lang": "Français",
+        "text": "Bonjour!"
+      },
+      {
+        "lang": "Español",
+        "text": "¡Hola!"
+      },
+      {
+        "lang": "Русский",
+        "text": "Привет!"
+      },
+      {
+        "lang": "Azərbaycan",
+        "text": "Salam!"
+      }
+    ],
+    "funKeyword": "Spaß"
+  },
+  "mission": {
+    "eyebrow": "Unser Ziel",
+    "title": "Unsere Lernenden befähigen, in mindestens einer Fremdsprache effektiv zu kommunizieren.",
+    "offeredLanguages": [
+      {
+        "id": "tr",
+        "name": "Türkisch",
+        "nativeName": "Türkçe"
+      },
+      {
+        "id": "en",
+        "name": "Englisch",
+        "nativeName": "English"
+      },
+      {
+        "id": "de",
+        "name": "Deutsch",
+        "nativeName": "Deutsch"
+      },
+      {
+        "id": "fr",
+        "name": "Französisch",
+        "nativeName": "Français"
+      },
+      {
+        "id": "es",
+        "name": "Spanisch",
+        "nativeName": "Español"
+      },
+      {
+        "id": "ru",
+        "name": "Russisch",
+        "nativeName": "Русский"
+      },
+      {
+        "id": "zh",
+        "name": "Chinesisch",
+        "nativeName": "中文"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Warum Hurra Lingo?",
+    "title": "Vorteile des Lernens mit Hurra Lingo",
+    "items": [
+      {
+        "id": "live",
+        "title": "Online-Live-Unterricht",
+        "description": "Wir bieten sprechfokussiertes und effektives Sprachenlernen mit unseren Fachexpertinnen und -experten – in Einzel- und Gruppenunterricht."
+      },
+      {
+        "id": "ai",
+        "title": "KI-gestützte interaktive Lektionen",
+        "description": "Unsere KI-gestützten interaktiven Lektionen helfen Ihnen, in nur 15 Minuten neue Fähigkeiten zu erwerben und sie mit spannenden Übungsaktivitäten zu festigen."
+      },
+      {
+        "id": "app",
+        "title": "App-Aktivitäten",
+        "description": "Verankern Sie Gelerntes mit 5-minütigen spannenden Aktivitäten und KI-gestütztem Feedback durch tägliche Übung."
+      },
+      {
+        "id": "teachers",
+        "title": "Erfahrene Lehrkräfte",
+        "description": "Hurra-Lingo-Lehrkräfte sind Fachexpertinnen und -experten, zertifiziert und gehören zu den qualifiziertesten Pädagogen weltweit."
+      },
+      {
+        "id": "library",
+        "title": "Bibliothek mit aufgezeichneten Stunden",
+        "description": "Greifen Sie jederzeit auf alle Aufzeichnungen Ihrer Unterrichtsstunden zu und überprüfen Sie Ihre Lernreise in Ihrem eigenen Tempo."
+      },
+      {
+        "id": "certificates",
+        "title": "Internationale Zertifikate",
+        "description": "Dokumentieren Sie Ihre Sprachentwicklung mit GER-konformen internationalen Zertifikaten und krönen Sie Ihre Erfolge mit globalen Standards."
+      }
+    ]
+  },
+  "ageGroups": {
+    "eyebrow": "Personalisierte Bildung für jede Altersgruppe",
+    "subtitle": "Wir gestalten unsere Bildungsprogramme mit Strategien, die auf Altersgruppen zugeschnitten sind:",
+    "groups": [
+      {
+        "id": "4-6",
+        "title": "Alter 4–6",
+        "subtitle": "Spielbasiertes natürliches Lernen",
+        "description": "Dank unseres pädagogischen Modells nehmen Kinder aktiv am Spiel teil und entwickeln Hör- und Sprechfähigkeiten in einem natürlichen Fluss schnell weiter."
+      },
+      {
+        "id": "7-12",
+        "title": "Alter 7–12",
+        "subtitle": "Aktive Lernphase",
+        "description": "Kinder in ihren zentralen Lernjahren entwickeln alle vier Hauptsprachfähigkeiten durch spannende und interaktive Unterrichtsstunden und gewinnen das Selbstvertrauen, Gelerntes aktiv im Alltag einzusetzen."
+      },
+      {
+        "id": "13-18",
+        "title": "Alter 13–18",
+        "subtitle": "Akademischer Erfolg und Zukunftsfokus",
+        "description": "Unser Programm, vollständig in den Schulcurriculum integriert und auf Prüfungsstrategien ausgerichtet, stärkt das akademische Selbstvertrauen junger Menschen und bereitet sie bestens auf ihre Ziele vor."
+      },
+      {
+        "id": "18+",
+        "title": "Alter 18+",
+        "subtitle": "Personalisierte Lösungen für Erwachsene",
+        "description": "Mit unserem Bildungsmodell, das speziell auf Ihre Karriere-, Reise- oder persönlichen Entwicklungsziele zugeschnitten ist, befähigen wir Sie, eine Fremdsprache effektiv im sozialen und beruflichen Leben einzusetzen."
+      }
+    ]
+  },
+  "cefrLevels": {
+    "eyebrow": "Unsere Programme",
+    "title": "Sprachkompetenzniveaus",
+    "video": {
+      "label": "Hurra Lingo Einführungsvideo"
+    },
+    "levels": [
+      {
+        "id": "pre-a1",
+        "title": "Anfängerniveau Pre-A1",
+        "content": "Unsere Lernenden verwenden grundlegende Ausdrücke zu Begrüßungen, Vorstellungen und Verabschiedungen. Sie stellen sich selbst oder andere vor. Sie kommunizieren mit einer Person, die langsam und deutlich spricht. Sie folgen Anweisungen und nehmen harmonisch an Gruppenlernaktivitäten teil. Unsere Lernenden hören konzentriert zu. Sie geben angemessene Antworten auf einfache Fragen. Sie erkennen und verwenden einfache Ausdrücke zu Sinneswahrnehmungen, Farben, Formen, Zahlen, Familienmitgliedern, Teilen des Hauses, gängigen Berufen, Pflanzen, Gemüse, Obst, Jahreszeiten, Kleidung, Spielen, Spielzeug, Wetter, Emotionen, Krankheit und Verkehrsmitteln sowie höfliche Ausdrücke."
+      },
+      {
+        "id": "a1",
+        "title": "Grundniveau A1",
+        "content": "Unsere Lernenden verwenden grundlegende Ausdrücke zu Begrüßungen, Vorstellungen und Verabschiedungen und nehmen an Dialogen teil. Sie folgen Anweisungen und nehmen harmonisch an Gruppenlernaktivitäten teil. Unsere Lernenden hören effektiv zu. Sie fragen nach und nennen die Namen von Gegenständen und Orten in ihrer Umgebung. Sie führen Dialoge zum Alltag; sie drücken Emotionen, Gedanken und Interessen in einfachen Sätzen aus. Während Dialogen geben sie angemessene Antworten auf Fragen. Sie erkennen und verwenden Wörter zu ihrem Körper, Berufen und Schulleben; Tage, Fahrzeuge, Verkehrsmittel, Verkehrsregeln, Ausdrücke für Richtungen und Adressen, Datums- und Zeitausdrücke sowie Maßeinheiten. Sie schreiben Wörter, einfache kurze Sätze und Texte, die sie hören (Poster, Broschüren, Listen, Notizen, E-Mails usw.)."
+      },
+      {
+        "id": "a2",
+        "title": "Grundniveau A2",
+        "content": "Unsere Lernenden zeigen Selbstvertrauen im Umgang mit verschiedenen Personen. Sie führen Anweisungen mit mindestens drei Schritten aus und nehmen harmonisch an Gruppenlernaktivitäten teil. Sie können mit Personen in ihrer Umgebung über allgemein bekannte Themen oder Aktivitäten kommunizieren. Sie machen kurze Notizen zu dem, was sie hören, sehen und lesen, und erkennen den Themenschwerpunkt. Sie identifizieren verschiedene Perspektiven in Rede, Wiederholung, Vermutung, Vorschlag, Präferenz, Angebot, Bitte, Beschwerde und Ratschlag und setzen sie in ihren Erzählfähigkeiten (Sprechen und Schreiben) ein. Sie erkennen ihr Klassenzimmer, Schulmaterialien, Haushaltsgegenstände, Verkehrszeichen, Sportarten und -ausrüstung, Krankheiten, Hygiene- und Ernährungsroutinen, Umwelt, Kalender und Tageszeiten. Sie schreiben Sätze, Absätze und Alltagstexte, Ankündigungen, Anzeigen und Biografien basierend auf Bildmaterial."
+      },
+      {
+        "id": "b1",
+        "title": "Mittelstufe B1",
+        "content": "Unsere Lernenden nehmen an individuellen und Gruppenaktivitäten teil, die ihrem Altersniveau und ihren Entwicklungsmerkmalen entsprechen und in denen sie ihre Sprachfähigkeiten entwickeln können. Wenn eine klare und verständliche Sprache verwendet wird, verstehen sie Hauptthemen zu Arbeit, Schule und Alltag und können kohärente Erklärungen zum Thema geben. Unsere Lernenden fassen zusammen, was sie hören, sehen und lesen. Sie erkennen Themenschwerpunkt und Kernaussage. Sie führen Dialoge zum Alltag und verwenden idiomatische und bildhafte Ausdrücke in ihrer Sprache. Sie drücken sich klar aus, wenn sie im Alltag auf ein Problem stoßen, und erklären ihre Erwartungen. Sie können ein vergangenes Ereignis in Umrissen erzählen. Sie können kurze Informationen zu einem Thema, einer Idee oder einem Ereignis geben. Sie schreiben Briefe, Aufsätze, erzählende und beschreibende Texte, Reiseberichte und Petitionen."
+      },
+      {
+        "id": "b2",
+        "title": "Mittelstufe B2",
+        "content": "Unsere Lernenden nehmen an individuellen und Gruppenaktivitäten teil, die ihren Interessen und Bedürfnissen entsprechen, und setzen ihre entwickelten Sprachfähigkeiten in die Praxis um. Sie können sich in natürlichen Gesprächen mit Menschen, die die gelernte Sprache verwenden, wohlfühlen. Unsere Lernenden ordnen Gehörtes und Gesehenes dem Zeitablauf nach und ziehen daraus Schlussfolgerungen. Sie planen ihre Rede um ein Thema oder eine Idee, sprechen fließend und halten unvorbereitete Reden. Sie erkennen implizite Botschaften und Texttypen in Texten. Sie verstehen das Wesentliche konkreter oder abstrakter Themen in Fachgebieten, die Expertise erfordern, oder in komplexen Texten. Sie schreiben Lebensläufe, Geschäftsbriefe, Nachrichtenartikel und Werbetexte."
+      },
+      {
+        "id": "c1",
+        "title": "Fortgeschrittenes Niveau C1",
+        "content": "Unsere Lernenden nehmen an individuellen und Gruppenaktivitäten teil, die ihren Interessen und Bedürfnissen entsprechen, und setzen ihre entwickelten Sprachfähigkeiten in die Praxis um. Sie führen natürliche, fließende und entspannte Gespräche mit Muttersprachlern in natürlichen Dialogen. Unsere Lernenden verstehen und verwenden formelle und akademische Ausdrücke in dem, was sie hören, sehen und lesen. Sie folgen Anweisungen und wenden sie an. Sie erkennen die inhaltlichen Merkmale erzählender Texte. Sie lesen umfangreiche, fachliche und lange Texte und verstehen implizite Ausdrücke. Sie drücken sich flexibel und effektiv im sozialen, beruflichen und akademischen Leben zu komplexen Themen aus. Sie schreiben wissenschaftliche Texte und Projektdokumente."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Hurra Lingo",
+    "title": "Hurra Lingo Bewertungen",
+    "subtitle": "Echte Erfahrungen unserer Eltern und Lernenden.",
+    "items": [
+      {
+        "id": "1",
+        "name": "Şebnem E.",
+        "lang": "Englisch",
+        "text": "Ich bin so froh, dass sich unsere Wege mit der Hurra-Lingo-Familie gekreuzt haben. Die Unsicherheit meines Sohnes im Englischen hat echtem Selbstvertrauen Platz gemacht. Von den Koordinatorinnen und Koordinatoren bis zu den Lehrkräften – es ist ein warmes Team, das seine Arbeit sehr gut und mit echter Leidenschaft macht. Unser lieber Lehrer Mustafa Hakan Yanar – Ihr Einsatz beim Unterrichten, Ihre Disziplin und die offensichtliche Liebe zu Ihrer Arbeit sind so deutlich spürbar. Vielen Dank für alles, was Sie meinem Sohn gegeben haben."
+      },
+      {
+        "id": "2",
+        "name": "Fatoş A.",
+        "lang": "Englisch",
+        "text": "Hallo – da ich an die Bedeutung des Sprachenlernens in jungen Jahren glaube, war ich auf der Suche nach einer Möglichkeit, meinem Kind früh Englisch beizubringen, als ich Hurra Lingo entdeckte. Seit etwa drei Jahren sind wir mit unserer Lehrerin Bengü Kesen auf diesem Weg. In diesen drei Jahren haben wir gemeinsam wunderbare Fortschritte gemacht. Beim Lernen Spaß zu haben ist wirklich wunderbar. Das Online-Format ist außerdem ein großer Vorteil, da wir die Unterrichtszeiten mit unserer Lehrkraft je nach Bedarf anpassen können. Wir danken unserer Lehrerin für ihren liebevollen Umgang, ihren spannenden Unterrichtsstil, ihre Aufmerksamkeit und ihren Einsatz."
+      },
+      {
+        "id": "3",
+        "name": "Emel G.",
+        "lang": "Englisch",
+        "text": "Mein Sohn Emir mag es im Allgemeinen nicht zu lernen, aber er liebt Hurra Lingo absolut. Die farbenfrohe Oberfläche, die interaktiven Gespräche und die Erfolgsabzeichen motivieren ihn ständig. Ich bin erstaunt, dass Sprachenlernen so viel Spaß machen kann!"
+      },
+      {
+        "id": "4",
+        "name": "Ali B.",
+        "lang": "Englisch",
+        "text": "Dank Hurra Lingo hat meine Tochter begonnen, Englisch mit echter Begeisterung zu lernen. Besonders die gamifizierten Inhalte fesseln ihre Aufmerksamkeit, und sie übt jeden Tag aus eigenem Antrieb. Ich bin sehr glücklich, dass wir für ein Kind in diesem Alter eine Methode gefunden haben, die sowohl unterhaltsam als auch lehrreich ist."
+      },
+      {
+        "id": "5",
+        "name": "Merve A.",
+        "lang": "Englisch",
+        "text": "Vor zwei Jahren suchten wir eine Sprachschule für die Bildung unserer Tochter und so sind wir zu Hurra Lingo gekommen. Wir lernten Bengü kennen und begannen den Unterricht. In kurzer Zeit haben wir wunderbare Fortschritte gemacht. Ihr Interesse am Englischen und ihr Selbstvertrauen in der Sprache sind deutlich gewachsen. Dank Bengüs herzlichem und motivierendem Ansatz verlaufen die Stunden angenehm und bereichernd. Später begann auch unser Sohn, Unterricht bei Bengü zu nehmen, und wir machen jeden Tag weiter Fortschritte. Wir haben sie auch den beiden Kindern unserer Freunde empfohlen, und auch sie haben mit dem Unterricht begonnen. Wir möchten immer weiter von Bengüs Wissen und Erfahrung profitieren. Ihre Kommunikation mit Kindern, ihr Unterrichtsstil und ihre Energie sind wirklich hervorragend. Wir sind von Anfang an wirklich zufrieden mit dem Prozess. Wir danken ihr von Herzen für ihren Einsatz."
+      },
+      {
+        "id": "6",
+        "name": "Fatma Gül A.",
+        "lang": "Englisch",
+        "text": "Wir haben angefangen, Hurra Lingo für unsere achtjährige Tochter zu nutzen. Es ist wunderbar, wie sie englische Wörter wie in einem Spiel lernt und ihre Aussprache mit muttersprachlichen Sprachaufnahmen verbessert. Sie versucht jetzt sogar, Zeichentrickfilme mit englischen Untertiteln zu schauen!"
+      }
+    ]
+  },
+  "teachers": {
+    "eyebrow": "Unsere Lehrkräfte",
+    "title": "Lernen Sie die Hurra-Lingo-Lehrkräfte kennen!",
+    "cta": "Alle unsere Lehrkräfte",
+    "items": [
+      {
+        "id": "1",
+        "name": "Ghazaleh Ghazalifard",
+        "role": "Englischlehrer/in",
+        "highlights": [
+          "Englisch als Muttersprache",
+          "Internationale Bildungserfahrung",
+          "Hohe Schülerzufriedenheit"
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Adeniyi Peace",
+        "role": "Englischlehrer/in",
+        "highlights": [
+          "Englisch als Muttersprache",
+          "Internationale Lehrkraft",
+          "Hohe Schülerzufriedenheit"
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Yolandi Bezuidenhout",
+        "role": "Englischlehrer/in",
+        "highlights": [
+          "Englisch als Muttersprache",
+          "Mehrsprachige Lehrkraft",
+          "Erfahrene Sprechcoach"
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Hurra Lingo Blog",
+    "title": "Verfolgen Sie die neuesten Hurra-Lingo-Blogbeiträge!",
+    "description": "Entdecken Sie unsere aktuellen Blogbeiträge zu Sprachenlernen, Unterrichtsmethoden und Motivation.",
+    "cta": "Alle Blogbeiträge ansehen",
+    "sidebar": {
+      "postCount": "{{count}} Blogbeiträge",
+      "description": "Aktuelle Inhalte zu Sprachenlernen, Bildung und Motivation."
+    },
+    "items": [
+      {
+        "id": "1",
+        "category": "Kinderbildung",
+        "readTime": "5 Min. Lesezeit",
+        "title": "Wie kann die Englisch-Entwicklung von Kindern während der Eid-Ferien unterstützt werden?",
+        "excerpt": "Die Eid-Ferien sind eine Zeit für Kinder zum Ausruhen, Zeit mit der Familie zu verbringen und vom täglichen Schulalltag Abstand zu nehmen…"
+      },
+      {
+        "id": "2",
+        "category": "Motivation",
+        "readTime": "4 Min. Lesezeit",
+        "title": "19. Mai – Gedenktag Atatürks, der Jugend und des Sports und die Bedeutung des Sprachenlernens",
+        "excerpt": "Der 19. Mai – Gedenktag Atatürks, der Jugend und des Sports, der Republik Türkei…"
+      },
+      {
+        "id": "3",
+        "category": "Bildung",
+        "readTime": "6 Min. Lesezeit",
+        "title": "Die erste Station im Herzen der Bildung: Eine Mutter, eine Lehrerin",
+        "excerpt": "Wo wird der erste Schritt einer lebenslangen Lernreise gesetzt? In einem Klassenzimmer oder…"
+      },
+      {
+        "id": "4",
+        "category": "Sprachenlernen",
+        "readTime": "7 Min. Lesezeit",
+        "title": "Eine neue Sprache in 6 Monaten: Die Anatomie eines Abenteuers",
+        "excerpt": "Sich zu entscheiden, eine neue Sprache zu lernen, bedeutet eigentlich, sich selbst eine neue Welt zu schenken. Allerdings…"
+      },
+      {
+        "id": "5",
+        "category": "Kinderbildung",
+        "readTime": "5 Min. Lesezeit",
+        "title": "23. April – Tag der nationalen Souveränität und des Kindes: Kinderwelt und die Kraft des Sprachenlernens",
+        "excerpt": "Der 23. April – Tag der nationalen Souveränität und des Kindes ist nicht nur ein Feiertag; es ist ein besonderer Tag, an dem wir die Fantasie, Kreativität und das Potenzial von Kindern feiern. Türkei…"
+      },
+      {
+        "id": "6",
+        "category": "Praxistipps",
+        "readTime": "3 Min. Lesezeit",
+        "title": "Ist es möglich, in 3 Minuten Englisch zu sprechen?",
+        "excerpt": "„Englisch in 3 Minuten lernen!“ Solche Schlagzeilen sind Ihnen im Internet sicher schon begegnet. Denken wir mal nach: Minute 1: Hello. 2.…"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Eindrücke aus unserem Unterricht",
+    "title": "Online-Fremdsprachenplattform",
+    "captions": [
+      "Moment aus dem Live-Unterricht",
+      "Interaktive Aktivität",
+      "Einzelgespräch mit der Lehrkraft",
+      "Spaß im Gruppenunterricht"
+    ]
+  },
+  "ctaBands": [
+    {
+      "id": "cta-1",
+      "eyebrow": "Werden Sie Teil der Hurra-Lingo-Familie",
+      "title": "Erreichen Sie Ihre Ziele",
+      "description": "Erreichen Sie Ihre Ziele mit einem Lernangebot, das von erfahrenen Lehrkräften, Live-Unterricht und intelligenter Technologie getragen wird. Ob Sie Ihrem Kind eine solide Grundlage geben oder selbst neue berufliche Chancen eröffnen möchten – entdecken Sie den effektivsten und angenehmsten Weg, eine neue Sprache zu lernen.",
+      "cta": "Kostenlos testen",
+      "variant": "primary"
+    },
+    {
+      "id": "cta-2",
+      "eyebrow": "Werden Sie Teil der Hurra-Lingo-Familie",
+      "title": "Entdecken Sie eine neue Sprache",
+      "description": "Entdecken Sie den angenehmsten und effektivsten Weg, eine neue Sprache zu lernen. Erreichen Sie Ihre Ziele mit einem Lernangebot, das von erfahrenen Lehrkräften und intelligenter Technologie getragen wird.",
+      "cta": "Kostenlos testen",
+      "variant": "secondary"
+    }
+  ]
+}

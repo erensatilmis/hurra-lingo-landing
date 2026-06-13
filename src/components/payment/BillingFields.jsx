@@ -1,17 +1,20 @@
 import { Building2, MapPin, User } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import Field from '../ui/Field'
 
 export default function BillingFields({ invoiceType, onInvoiceTypeChange }) {
+  const { t } = useTranslation('payment')
+
   return (
     <div className="mt-8 border-t border-slate-100 pt-6">
       <div className="flex items-center gap-2 text-slate-900">
-        <h2 className="text-lg font-bold">Fatura Bilgileri</h2>
+        <h2 className="text-lg font-bold">{t('billing.title')}</h2>
       </div>
 
       <div className="mt-4 inline-flex rounded-full border border-slate-200 bg-slate-50 p-1">
         {[
-          { id: 'individual', label: 'Bireysel' },
-          { id: 'corporate', label: 'Kurumsal' },
+          { id: 'individual', label: t('billing.individual') },
+          { id: 'corporate', label: t('billing.corporate') },
         ].map((option) => (
           <button
             key={option.id}
@@ -32,8 +35,8 @@ export default function BillingFields({ invoiceType, onInvoiceTypeChange }) {
         {invoiceType === 'individual' ? (
           <Field
             id="identityNumber"
-            label="T.C. Kimlik No"
-            placeholder="11 haneli kimlik numarası"
+            label={t('billing.identityNumber')}
+            placeholder={t('billing.identityPlaceholder')}
             inputMode="numeric"
             icon={User}
           />
@@ -41,21 +44,21 @@ export default function BillingFields({ invoiceType, onInvoiceTypeChange }) {
           <>
             <Field
               id="companyName"
-              label="Firma Ünvanı"
-              placeholder="Şirket adı"
+              label={t('billing.companyName')}
+              placeholder={t('billing.companyPlaceholder')}
               autoComplete="organization"
               icon={Building2}
             />
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
               <Field
                 id="taxOffice"
-                label="Vergi Dairesi"
-                placeholder="Vergi dairesi"
+                label={t('billing.taxOffice')}
+                placeholder={t('billing.taxOfficePlaceholder')}
               />
               <Field
                 id="taxNumber"
-                label="Vergi No"
-                placeholder="Vergi numarası"
+                label={t('billing.taxNumber')}
+                placeholder={t('billing.taxNumberPlaceholder')}
                 inputMode="numeric"
               />
             </div>
@@ -64,23 +67,28 @@ export default function BillingFields({ invoiceType, onInvoiceTypeChange }) {
 
         <Field
           id="billingAddress"
-          label="Adres"
-          placeholder="Mahalle, cadde, sokak, no"
+          label={t('billing.address')}
+          placeholder={t('billing.addressPlaceholder')}
           autoComplete="street-address"
           icon={MapPin}
         />
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-3">
-          <Field id="billingCity" label="İl" placeholder="İl" autoComplete="address-level1" />
+          <Field
+            id="billingCity"
+            label={t('billing.city')}
+            placeholder={t('billing.cityPlaceholder')}
+            autoComplete="address-level1"
+          />
           <Field
             id="billingDistrict"
-            label="İlçe"
-            placeholder="İlçe"
+            label={t('billing.district')}
+            placeholder={t('billing.districtPlaceholder')}
             autoComplete="address-level2"
           />
           <Field
             id="billingZip"
-            label="Posta Kodu"
-            placeholder="06000"
+            label={t('billing.zip')}
+            placeholder={t('billing.zipPlaceholder')}
             autoComplete="postal-code"
             inputMode="numeric"
             required={false}

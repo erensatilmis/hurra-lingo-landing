@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "eyebrow": "References",
+    "title": "Parents and students share their stories",
+    "description": "Discover Hurra Lingo through video and written feedback from families who have experienced it firsthand."
+  },
+  "videos": {
+    "eyebrow": "Video Reviews",
+    "title": "Parent Experiences",
+    "subtitle": "Honest shares from Hurra Lingo parents",
+    "watchVideo": "watch video",
+    "watchVideoAria": "Watch {{name}} video",
+    "parentRole": "Hurra Lingo Parent",
+    "stats": {
+      "videoCount": "{{count}} video reviews",
+      "realExperiences": "Real parent experiences",
+      "writtenFeedback": "Discover Hurra Lingo with {{count}} written reviews."
+    }
+  },
+  "reviews": {
+    "eyebrow": "Hurra Lingo Reviews",
+    "title": "Written Feedback",
+    "items": [
+      {
+        "id": "merve-a",
+        "name": "Merve A.",
+        "role": "User",
+        "text": "Two years ago, we were looking for a language school for our daughter's education, and that's how we found Hurra Lingo. We met Bengü Teacher and started lessons. We made wonderful progress in a short time. Her interest in English and her confidence in the language grew significantly. Thanks to Bengü Teacher's warm and motivating approach, lessons are enjoyable and enriching. Later, our son also started taking lessons with Bengü Teacher, and we continue to make progress every day. We recommended her to our friends' two children as well, and they also started taking lessons. We always want to continue benefiting from Bengü Teacher's knowledge and experience. Her communication with children, teaching style, and energy are truly excellent. We've been genuinely satisfied with the process from the very beginning. We wholeheartedly thank her for her efforts."
+      },
+      {
+        "id": "fatos-a",
+        "name": "Fatoş A.",
+        "role": "User",
+        "text": "Hello — I believe in the importance of learning a language at a young age, so I was looking for a way for my child to learn English early when I discovered Hurra Lingo. We've been on this journey with our teacher Bengü Kesen for about three years now. Over those three years, we've made wonderful progress together. Learning while having fun is truly wonderful. The online format is also a great advantage, as we can adjust lesson times with our teacher as needed. We thank our teacher for her loving approach, engaging teaching style, care, and dedication."
+      },
+      {
+        "id": "sebnem-e",
+        "name": "Şebnem E.",
+        "role": "User",
+        "text": "I'm so glad our paths crossed with the Hurra Lingo family. My son's lack of confidence in English has been replaced with real self-assurance. From the coordinators to the teachers, I can say it's a warm team that does its work very well and with genuine passion. Our dear teacher Mustafa Hakan Yanar — your dedication to teaching, your discipline, and the clear love you bring to your work are so evident. Thank you so much for everything you've contributed to my son."
+      },
+      {
+        "id": "ali-b",
+        "name": "Ali B.",
+        "role": "User",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-1.jpg",
+        "text": "Thanks to Hurra Lingo, my daughter has started learning English with real enthusiasm. The gamified content especially captures her attention, and she practices every day on her own initiative. I'm thrilled that we've found a method that is both fun and educational for a child her age."
+      },
+      {
+        "id": "emel-g",
+        "name": "Emel G.",
+        "role": "User",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-3.jpg",
+        "text": "My son Emir generally doesn't enjoy studying, but he absolutely loves Hurra Lingo. The colorful interface, interactive conversations, and achievement badges keep him constantly motivated. I'm amazed that language learning can be this enjoyable!"
+      },
+      {
+        "id": "fatma-gul-a",
+        "name": "Fatma Gül A.",
+        "role": "User",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-2.jpg",
+        "text": "We started using Hurra Lingo for my eight-year-old daughter. It's wonderful how she learns English words like a game and improves her pronunciation with native-accent voiceovers. She's now even trying to watch cartoons with English subtitles!"
+      }
+    ]
+  }
+}

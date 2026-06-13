@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   Baby,
   BookOpen,
@@ -13,7 +14,7 @@ import Badge from "../ui/Badge";
 import ImageSlot from "../ui/ImageSlot";
 import Reveal from "../ui/Reveal";
 import ParallaxBlobs from "../ui/ParallaxBlobs";
-import { ageGroups } from "../../data/content";
+import { ageGroupImages } from "../../data/metadata";
 
 const groupIcons = {
   "4-6": Baby,
@@ -73,11 +74,14 @@ function AgeGroupPhoto({ src, alt, label, variant = "desktop" }) {
 }
 
 export default function AgeGroups() {
-  const [activeId, setActiveId] = useState(ageGroups.groups[0].id);
-  const activeIndex = ageGroups.groups.findIndex(
-    (group) => group.id === activeId,
-  );
-  const activeGroup = ageGroups.groups[activeIndex] ?? ageGroups.groups[0];
+  const { t } = useTranslation("home");
+  const groups = t("ageGroups.groups", { returnObjects: true }).map((group) => ({
+    ...group,
+    image: ageGroupImages[group.id],
+  }));
+  const [activeId, setActiveId] = useState(groups[0].id);
+  const activeIndex = groups.findIndex((group) => group.id === activeId);
+  const activeGroup = groups[activeIndex] ?? groups[0];
   const ActiveIcon = groupIcons[activeGroup.id] ?? Baby;
 
   return (
@@ -86,15 +90,14 @@ export default function AgeGroups() {
       <Container className="relative">
         <Reveal>
           <SectionHeading
-            eyebrow={ageGroups.eyebrow}
-            title="Yaşa uygun öğrenme yolları"
-            subtitle={ageGroups.subtitle}
+            eyebrow={t("ageGroups.eyebrow")}
+            subtitle={t("ageGroups.subtitle")}
           />
         </Reveal>
 
         <div className="mt-12 hidden gap-6 lg:grid lg:grid-cols-[0.95fr_1.35fr] lg:items-stretch">
           <Reveal className="space-y-3">
-            {ageGroups.groups.map((group) => {
+            {groups.map((group) => {
               const Icon = groupIcons[group.id] ?? Baby;
               const active = group.id === activeId;
 
@@ -166,7 +169,7 @@ export default function AgeGroups() {
         </div>
 
         <div className="mt-10 space-y-4 lg:hidden">
-          {ageGroups.groups.map((group, index) => {
+          {groups.map((group, index) => {
             const Icon = groupIcons[group.id] ?? Baby;
 
             return (
@@ -179,20 +182,20 @@ export default function AgeGroups() {
                     variant="mobile"
                   />
                   <div className="relative z-10 p-6 pr-[46%]">
-                      <div className="flex items-center gap-3">
-                        <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary-50 text-primary-600">
-                          <Icon className="h-6 w-6" />
-                        </span>
-                        <div>
-                          <Badge>{group.subtitle}</Badge>
-                          <h3 className="mt-1.5 text-lg font-bold text-slate-900">
-                            {group.title}
-                          </h3>
-                        </div>
+                    <div className="flex items-center gap-3">
+                      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary-50 text-primary-600">
+                        <Icon className="h-6 w-6" />
+                      </span>
+                      <div>
+                        <Badge>{group.subtitle}</Badge>
+                        <h3 className="mt-1.5 text-lg font-bold text-slate-900">
+                          {group.title}
+                        </h3>
                       </div>
-                      <p className="mt-3 text-sm leading-7 text-slate-600">
-                        {group.description}
-                      </p>
+                    </div>
+                    <p className="mt-3 text-sm leading-7 text-slate-600">
+                      {group.description}
+                    </p>
                   </div>
                 </Card>
               </Reveal>

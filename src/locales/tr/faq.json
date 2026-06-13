@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "S.S.S",
+    "title": "Sıkça Sorulan Sorular",
+    "description": "Hurra Lingo eğitim modeli, ders süreçleri ve öğrenme deneyimi hakkında merak edilen soruların yanıtları burada."
+  },
+  "items": [
+    {
+      "id": "online-lessons",
+      "title": "Çevrim içi dersler etkin mi?",
+      "content": "Hurra Lingo’da çevrim içi eğitimi, öğrencilerin merkeze alındığı interaktif bir deneyime dönüştürüyoruz. Yaş gruplarına göre özelleştirilmiş oyun tabanlı etkinlikler ve dinamik içeriklerle, derslerimizi hem yüksek motivasyonlu hem de kazanım odaklı bir zaman dilimi haline getiriyoruz. Dil öğrenimini bir zorunluluktan çıkarıp, her yaş için keyifli bir süreç olarak tasarlıyoruz."
+    },
+    {
+      "id": "level-planning",
+      "title": "Öğrencilerin düzeyi ve eğitim programı nasıl belirlenir?",
+      "content": "Eğitim sürecine başlamadan önce gerçekleştirdiğimiz detaylı tanışma ve seviye belirleme görüşmeleriyle, öğrencilerimizin mevcut dil yetkinliklerini ve kişisel hedeflerini analiz ediyoruz. Ders içeriklerimizi, yaş grubunu ve öğrenme ihtiyaçlarını bu veriler doğrultusunda en uygun şekilde yapılandırıyoruz."
+    },
+    {
+      "id": "private-or-group",
+      "title": "Özel ders mi almalıyım, grup dersi mi?",
+      "content": "Sosyal öğrenmenin ve etkileşimin gücüne inanmakla birlikte, her öğrencinin öğrenme stilinin farklı olduğunu biliyoruz. Bu nedenle, özel ders veya grup dersi tercihini öğrencilerimizin ihtiyaçlarına, akademik hedeflerine ve kişisel önceliklerine göre birlikte planlıyoruz."
+    },
+    {
+      "id": "teacher-communication",
+      "title": "Eğitmenimle nasıl iletişim kurabilirim?",
+      "content": "Kişisel öğrenci/veli paneliniz üzerinden eğitmeninizle dilediğiniz zaman iletişim kurabilirsiniz. Ayrıca eğitmeniniz, dil gelişimi, işlenen konular ve ilerleme süreci hakkında panel üzerinden size düzenli ve detaylı geri bildirimler sağlar."
+    },
+    {
+      "id": "learning-gaps",
+      "title": "Öğrenme sürecindeki eksiklikler nasıl tamamlanır?",
+      "content": "Öğrenme süreci, eğitmenlerimiz tarafından sağlanan kişiye özel ek çalışmalar ve interaktif materyallerle sürekli desteklenir. İhtiyaç duyulması halinde, belirli konuların pekiştirilmesi için süreci birebir özel derslerle destekleyerek öğrenme hedeflerinden kopulmamasını sağlıyoruz."
+    },
+    {
+      "id": "homework-duration",
+      "title": "Pekiştirme çalışmaları (ödevler) ne kadar sürer?",
+      "content": "Dil öğreniminde süreklilik esastır. Derste işlenen konuların kalıcı hale gelmesi için, öğrencinin yaşına ve odaklanma süresine uygun olarak her gün ortalama 5 ila 15 dakikalık kısa ama etkili pekiştirme çalışmaları yapılmasını öneriyoruz. Bu yöntemle dil edinimini günlük hayatın doğal bir parçası haline getiriyoruz."
+    }
+  ],
+  "sidebar": {
+    "title": "Merak edilenler",
+    "subtitle": "Sorulara tıklayarak yanıtları görüntüleyebilirsiniz.",
+    "count": "{{count}} sık sorulan soru",
+    "countDescription": "Eğitim süreci, ders formatları ve platform kullanımı hakkında hızlı yanıtlar.",
+    "contactTitle": "Detaylı bilgi almak ister misiniz?",
+    "contactDescription": "Ekibimiz size yardımcı olmaktan memnuniyet duyar.",
+    "contactCta": "İletişime Geçin"
+  },
+  "testimonials": {
+    "eyebrow": "Yorumlar",
+    "title": "Hurra Lingo hakkında yorumlar",
+    "items": [
+      {
+        "id": "ali-b",
+        "name": "Ali B.",
+        "text": "Kızım Hurra Lingo sayesinde İngilizceyi severek öğrenmeye başladı. Özellikle oyunlaştırılmış içerikler dikkatini çekiyor ve her gün kendi isteğiyle pratik yapıyor. Bu yaştaki bir çocuk için hem eğlenceli hem de öğretici bir yöntem bulduğumuz için çok mutluyum.",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-1.jpg"
+      },
+      {
+        "id": "emel-g",
+        "name": "Emel G.",
+        "text": "Oğlum Emir, genelde ders çalışmayı sevmez ama Hurra Lingo’ya bayıldı. Renkli arayüzü, etkileşimli konuşmaları ve başarı rozetleriyle onu sürekli motive ediyor. Dil öğrenimi bu kadar keyifli olabilir miydi, şaşkınım!",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-3.jpg"
+      }
+    ]
+  }
+}

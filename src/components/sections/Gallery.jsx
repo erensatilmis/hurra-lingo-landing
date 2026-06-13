@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Maximize2 } from "lucide-react";
 import Container from "../ui/Container";
 import SectionHeading from "../ui/SectionHeading";
@@ -7,11 +8,12 @@ import Reveal from "../ui/Reveal";
 import Lightbox from "../ui/Lightbox";
 import ParallaxBlobs from "../ui/ParallaxBlobs";
 import { assets } from "../../assets";
-import { gallery } from "../../data/content";
 
 const bentoSpans = ["sm:col-span-2 sm:row-span-2", "", "", "sm:col-span-2"];
 
 export default function Gallery() {
+  const { t } = useTranslation(["home", "common"]);
+  const captions = t("gallery.captions", { ns: "home", returnObjects: true });
   const [activeIndex, setActiveIndex] = useState(null);
 
   return (
@@ -19,13 +21,17 @@ export default function Gallery() {
       <ParallaxBlobs variant="b" />
       <Container className="relative">
         <Reveal>
-          <SectionHeading eyebrow={gallery.eyebrow} title={gallery.title} />
+          <SectionHeading
+            eyebrow={t("gallery.eyebrow", { ns: "home" })}
+            title={t("gallery.title", { ns: "home" })}
+          />
         </Reveal>
 
         <div className="mt-12 grid auto-rows-[180px] gap-4 sm:grid-cols-3 lg:grid-cols-4">
           {assets.galleryImages.map((image, index) => {
             const caption =
-              gallery.captions?.[index] ?? `Galeri görseli ${index + 1}`;
+              captions[index] ??
+              `${t("aria.galleryImage", { ns: "common" })} ${index + 1}`;
 
             return (
               <Reveal
@@ -37,7 +43,7 @@ export default function Gallery() {
                   type="button"
                   onClick={() => setActiveIndex(index)}
                   className="block h-full w-full"
-                  aria-label={`${caption} - büyüt`}
+                  aria-label={`${caption} - ${t("aria.enlargeImage", { ns: "common" })}`}
                 >
                   <div className="h-full w-full transition-transform duration-500 group-hover:scale-105">
                     <ImageSlot
@@ -67,8 +73,8 @@ export default function Gallery() {
         <Lightbox
           image={assets.galleryImages[activeIndex]}
           label={
-            gallery.captions?.[activeIndex] ??
-            `Galeri görseli ${activeIndex + 1}`
+            captions[activeIndex] ??
+            `${t("aria.galleryImage", { ns: "common" })} ${activeIndex + 1}`
           }
           onClose={() => setActiveIndex(null)}
         />

@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "eyebrow": "Certification",
+    "title": "Track your progress, document your success",
+    "description": "At Hurra Lingo, we monitor language development with an academic and practical outcomes focus, and formalize your learning journey with internationally recognized CEFR-aligned certificates."
+  },
+  "heroCard": {
+    "eyebrow": "CEFR Aligned",
+    "title": "English Language Proficiency Certificate",
+    "description": "An official document with international validity, prepared in collaboration with Ankara University."
+  },
+  "pillars": [
+    {
+      "id": "tracking",
+      "title": "Progress and Tracking System",
+      "description": "We meticulously track each student's language development with an academic and practical outcomes focus.",
+      "points": [
+        {
+          "label": "Personalized Reporting",
+          "text": "We provide regular feedback by analyzing learning outcomes according to age group and individual goals."
+        },
+        {
+          "label": "Student Report Card",
+          "text": "At the end of each education period, we report achievements and next-level goals in a detailed report card."
+        },
+        {
+          "label": "Motivation and Support",
+          "text": "We boost student motivation through regular updates and manage the development process transparently."
+        }
+      ]
+    },
+    {
+      "id": "self-assessment",
+      "title": "Self-Assessment Model",
+      "description": "Helping our students recognize their own learning process is the key to lasting success.",
+      "points": [
+        {
+          "label": "Awareness",
+          "text": "With in-class self-assessment methods, we help students discover their strengths."
+        },
+        {
+          "label": "Active Participation",
+          "text": "We support active engagement in the process and help students build confidence in language learning."
+        }
+      ]
+    },
+    {
+      "id": "certification",
+      "title": "Internationally Standardized Certification",
+      "description": "Students who successfully complete our education programs earn a CEFR-aligned English Language Proficiency Certificate prepared in collaboration with Ankara University.",
+      "points": [
+        {
+          "label": "Official Recognition",
+          "text": "Documents your language skills at an international level and provides a reliable reference for academic applications."
+        },
+        {
+          "label": "Tangible Achievement",
+          "text": "Turn your language education into a concrete academic achievement for school admissions and your career journey."
+        }
+      ]
+    }
+  ],
+  "pdf": {
+    "eyebrow": "Information",
+    "label": "Detailed information about the certificate program and exam process",
+    "button": "Download Information PDF",
+    "href": "https://www.hurralingo.com/wp-content/uploads/2025/12/Ingilizce-Sertifika-Programlari-veli-bilgilendirme-metni-2025-v4-1-1.pdf"
+  },
+  "testimonial": {
+    "title": "Leyla F. — TÖMER Certificate Review",
+    "role": "Parent of Yiğit R.",
+    "text": "First of all, the support we received at every stage of the process was highly professional, and I would like to thank you again for that. I think the exam was a good measure because it included question types such as multiple choice, true/false, and fill-in-the-blank in both content and method. I can say it was an exam aimed at measuring comprehension and expression skills. For my son, the most important awareness it created for me was around writing. It made me realize that for years we had been doing activities and lessons focused on speaking and comprehension, and I saw that he also needed support in writing. My overall impression is extremely positive. I am considering retaking this exam from time to time throughout the year to measure his performance and learning level. I think my son will both learn the concept of online exams, which exists today and I believe will become more widespread in the future, and achieve more successful results, while I will be able to concretely track the language acquisition process. Thank you again for everything."
+  },
+  "cta": {
+    "eyebrow": "Learn a Foreign Language with Hurra Lingo",
+    "title": "Discover a new language",
+    "description": "Step into a learning experience supported by expert teachers and smart technology.",
+    "cta": "Try for Free",
+    "variant": "primary"
+  },
+  "certificates": {
+    "eyebrow": "At Hurra Lingo",
+    "title": "English Language Certificates",
+    "subtitle": "International Language Certificate",
+    "levels": [
+      "A1",
+      "A2",
+      "B1.1",
+      "B1.2"
+    ],
+    "image": "https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB1.png",
+    "description": "Our certificate programs cover beginner and intermediate proficiency levels aligned with CEFR (Common European Framework of Reference for Languages) standards. We provide certification at A1 and A2 beginner levels and B1.1 and B1.2 intermediate levels.",
+    "imageAlt": "CEFR language levels A1, A2, B1",
+    "details": [
+      "Our students' development processes are meticulously monitored by our expert instructors, and the Hurra Lingo curriculum is fully structured in alignment with CEFR learning outcomes.",
+      "To earn the English Language Proficiency Certificate, students participate in online language exams designed under expert supervision to support learning motivation.",
+      "In these exams, which all students aged 4 and above can take, listening and speaking skills are assessed for the 4–5 age group, while reading, writing, speaking, and listening skills are comprehensively measured for all age groups from 6 and above."
+    ]
+  },
+  "partnerships": [
+    {
+      "id": "ankara",
+      "eyebrow": "Academic Partnership",
+      "title": "Strategic Partnership with Ankara University",
+      "image": "https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB3-1.png",
+      "paragraphs": [
+        "Would you like to validate your language proficiency with an officially recognized international certificate? Within our academic partnership with Ankara University, we offer Hurra Lingo students the privilege of earning an English Language Proficiency Certificate.",
+        "These certificates are recognized by all educational and public institutions in Turkey. With this document, our students can officially prove their language proficiency in any international education, exchange program, or professional platform they participate in."
+      ]
+    },
+    {
+      "id": "cefr",
+      "eyebrow": "International Accreditation",
+      "title": "CEFR-Aligned and Internationally Accredited Certificate",
+      "image": "https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB2.png",
+      "paragraphs": [
+        "The language proficiency certificates offered by Hurra Lingo have full international accreditation. Our documents are internationally accredited by the Council of Europe under the Common European Framework of Reference for Languages (CEFR).",
+        "Our assessment, evaluation, and methodology development processes meet the high quality standards set by the Association of Language Testers in Europe (ALTE)."
+      ]
+    }
+  ],
+  "examCta": {
+    "title": "To Participate in Exams",
+    "description": "Contact us for information about participating in online language exams and the certification process.",
+    "button": "Click Here",
+    "href": "/iletisim"
+  }
+}

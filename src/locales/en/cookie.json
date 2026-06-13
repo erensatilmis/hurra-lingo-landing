@@ -1,0 +1,32 @@
+{
+  "aria": {
+    "dialog": "Cookie preferences",
+    "closePreferences": "Close preferences panel"
+  },
+  "preferences": {
+    "title": "Cookie Preferences",
+    "description": "Choose which cookie categories you want to allow.",
+    "required": {
+      "label": "Essential Cookies",
+      "description": "Required for the site's core functionality and cannot be disabled."
+    },
+    "analytics": {
+      "label": "Analytics Cookies",
+      "description": "Help us understand visit statistics and improve the site."
+    },
+    "marketing": {
+      "label": "Marketing Cookies",
+      "description": "Used to deliver personalized content and advertising experiences."
+    },
+    "save": "Save Preferences",
+    "acceptAll": "Accept All"
+  },
+  "banner": {
+    "title": "Cookie Usage",
+    "description": "We use cookies to improve your experience. Essential cookies are required to run the site. You can set your preferences for analytics and marketing cookies.",
+    "privacyPolicy": "Privacy Policy",
+    "accept": "Accept",
+    "reject": "Reject",
+    "manage": "Manage Preferences"
+  }
+}

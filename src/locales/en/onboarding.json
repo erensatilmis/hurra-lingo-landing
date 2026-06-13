@@ -1,0 +1,132 @@
+{
+  "languageStep": {
+    "title": "Which language would you like to learn?",
+    "subtitle": "Choose your first goal to start a new adventure with Hurra Lingo."
+  },
+  "audienceStep": {
+    "title": "Which program is right for you?",
+    "subtitle": "Help us personalize your learning journey."
+  },
+  "birthYearStep": {
+    "title": "What year was your child born?",
+    "subtitle": "Select the birth year so we can match the most suitable curriculum and teacher for their age group."
+  },
+  "levelStep": {
+    "title": "What is your current language level?",
+    "subtitle": "Let's determine the right starting point; we'll always confirm together during your free introductory lesson."
+  },
+  "goalStep": {
+    "title": "What is your learning goal?",
+    "subtitle": "We'll shape your program around your goal and select content and practice accordingly."
+  },
+  "personalStep": {
+    "title": "One last step!",
+    "subtitle": "Share your contact details so we can create your personalized program and schedule your free introductory lesson."
+  },
+  "payment": {
+    "title": "Payment details",
+    "subtitle": "Complete the final step to secure your program. Your payment is processed through a secure infrastructure."
+  },
+  "success": {
+    "title": "Great, everything is ready!",
+    "subtitle": "Your payment has been received and your request has reached us. Our team will contact you shortly to launch your program."
+  },
+  "languages": [
+    { "id": "tr", "name": "Turkish", "native": "Türkçe" },
+    { "id": "en", "name": "English", "native": "English" },
+    { "id": "de", "name": "German", "native": "Deutsch" },
+    { "id": "fr", "name": "French", "native": "Français" },
+    { "id": "es", "name": "Spanish", "native": "Español" },
+    { "id": "ru", "name": "Russian", "native": "Русский" },
+    { "id": "zh", "name": "Chinese", "native": "中文" }
+  ],
+  "audiences": [
+    {
+      "id": "child",
+      "title": "For my child",
+      "subtitle": "Ages 4–18",
+      "description": "A game-based, age-appropriate, and fun curriculum.",
+      "icon": "Baby"
+    },
+    {
+      "id": "self",
+      "title": "For myself",
+      "subtitle": "18 and over",
+      "description": "Flexible programs focused on career, travel, and daily life.",
+      "icon": "GraduationCap"
+    }
+  ],
+  "goals": [
+    {
+      "id": "business",
+      "title": "Professional Life",
+      "description": "Focused on career and professional communication.",
+      "icon": "Briefcase"
+    },
+    {
+      "id": "daily",
+      "title": "Daily Communication",
+      "description": "Everyday conversation and social life.",
+      "icon": "MessageCircle"
+    },
+    {
+      "id": "travel",
+      "title": "Culture and Travel",
+      "description": "Travel and exploring different cultures.",
+      "icon": "Plane"
+    },
+    {
+      "id": "exam",
+      "title": "Exam Preparation",
+      "description": "IELTS, TOEFL, and academic exams.",
+      "icon": "FileText"
+    }
+  ],
+  "levels": {
+    "child": [
+      { "id": "none", "title": "No knowledge", "description": "Will be introduced to this language for the first time." },
+      { "id": "little", "title": "Knows a little", "description": "Recognizes a few words and phrases." },
+      { "id": "medium", "title": "Intermediate", "description": "Can communicate with simple sentences." },
+      { "id": "advanced", "title": "Advanced", "description": "Near fluent and communicates comfortably." }
+    ],
+    "self": [
+      { "id": "true-beginner", "title": "True Beginner", "description": "Starting from scratch." },
+      { "id": "beginner", "title": "Beginner", "description": "Knows basic words and phrases." },
+      { "id": "intermediate", "title": "Intermediate", "description": "Can communicate on everyday topics." },
+      { "id": "upper-intermediate", "title": "Upper Intermediate", "description": "Can speak comfortably on most topics." },
+      { "id": "advanced", "title": "Advanced", "description": "Can communicate fluently and confidently." }
+    ]
+  },
+  "ui": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "step": "Step {{current}} / {{total}}",
+    "successSignup": "Sign Up Now",
+    "successHome": "Back to Home",
+    "orderSummary": "Order Summary",
+    "perLessonAmount": "Price per lesson",
+    "paymentSecurity": "Your payment is encrypted with 256-bit SSL. Your card details are not stored.",
+    "summary": {
+      "language": "Language",
+      "program": "Program",
+      "level": "Level",
+      "goal": "Goal"
+    },
+    "form": {
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Your first name",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Your last name",
+      "email": "Email",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+90 5xx xxx xx xx",
+      "submit": "Create My Program",
+      "privacyNote": "Your information is used only to offer you the most suitable program."
+    },
+    "validation": {
+      "email": "Enter a valid email address.",
+      "phone": "Enter a valid phone number. (e.g. +90 5xx xxx xx xx)"
+    }
+  }
+}

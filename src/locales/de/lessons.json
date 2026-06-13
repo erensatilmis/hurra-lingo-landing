@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "eyebrow": "Unser Unterricht",
+    "title": "Wählen Sie das Unterrichtsformat, das am besten zu Ihnen passt",
+    "description": "Entdecken Sie unsere sprechorientierten, spielbasierten und professionellen Curriculum-Optionen – im Einzel-, Mini-Gruppen- oder Gruppenunterricht."
+  },
+  "lessonTypes": [
+    {
+      "id": "individual",
+      "badge": "Einzelunterricht",
+      "image": "/lessons/bireysel.jpg",
+      "title": "Einzelunterricht",
+      "description": "Personalisierte Einzelbildung: In unserem Einzelunterricht, der auf Ihr Lerntempo und Ihre Ziele zugeschnitten ist, wenden wir für Kinder ein spielbasiertes und für Erwachsene ein berufsorientiertes Curriculum an. Unsere Lernenden lassen die Fremdsprache nicht in der Theorie – sie lernen, sie im Alltag und im Berufsleben selbstbewusst einzusetzen."
+    },
+    {
+      "id": "mini-group",
+      "badge": "2–4 Personen",
+      "image": "/lessons/mini.jpg",
+      "title": "Mini-Gruppenunterricht",
+      "description": "Maximale Effizienz mit Boutique-Bildung: In unseren Mini-Gruppen von 2 bis 4 Lernenden maximieren wir die Sprechzeit für jeden Einzelnen. Mit vorteilhaften Mitgliedschaftspaketen von 1 bis 10 Monaten und wöchentlichen Unterrichtsplänen, die auf die Bedürfnisse der Gruppe abgestimmt sind, bieten wir interaktives Sprachenlernen in einem sozialen Umfeld."
+    },
+    {
+      "id": "group",
+      "badge": "5–8 Personen",
+      "image": "/lessons/grup.jpg",
+      "title": "Gruppenunterricht",
+      "description": "Dynamische und soziale Lernumgebung: In unseren Gruppenunterrichtsstunden mit 5 bis 8 Lernenden schaffen wir ein Klassenzimmer, das durch vielfältige Perspektiven bereichert wird. Mit wirtschaftlichen 3- oder 6-Monats-Mitgliedschaftsoptionen planen wir nachhaltige Bildung, die zu Ihrem Budget passt. Wir optimieren die wöchentliche Unterrichtsintensität entsprechend Tempo und Zielen der Gruppe."
+    }
+  ],
+  "experience": {
+    "eyebrow": "Hurra Lingo",
+    "title": "Die Zukunft der Sprachbildung!",
+    "pillars": [
+      {
+        "title": "Personalisierte Ausrichtung",
+        "items": [
+          {
+            "label": "Rollenbasiertes Curriculum",
+            "text": "Unterrichtsstunden sind gezielt auf Ihre Bedürfnisse im Alltag und im Berufsleben ausgerichtet."
+          },
+          {
+            "label": "Niveauspezifischer Ansatz",
+            "text": "Personalisierte Entwicklungspläne, die an GER-Standards (A1–C1) angeglichen sind, schließen die Lücke zwischen Ihrem aktuellen Niveau und Ihrer Zielkompetenz."
+          },
+          {
+            "label": "Maximale Sprechzeit",
+            "text": "Sie werden ermutigt, während der gesamten Unterrichtsstunde aktiv zu sprechen – so gewinnen Sie schnell Flüssigkeit und Selbstvertrauen."
+          }
+        ]
+      },
+      {
+        "title": "Flexibilität und digitale Integration",
+        "items": [
+          {
+            "label": "Flexible Terminplanung",
+            "text": "Die Möglichkeit, Unterrichtsstunden an Ihren vollen Arbeitsalltag anzupassen."
+          },
+          {
+            "label": "KI-gestützte Übung",
+            "text": "Digitale Infrastruktur, die das Lernen zwischen Live-Unterrichtsstunden mit themenspezifischen Vokabel- und Grammatikübungen unterstützt."
+          },
+          {
+            "label": "Überall zugänglich",
+            "text": "Nahtlose Bildung vollständig online mit benutzerfreundlicher Oberfläche – ohne an ein physisches Klassenzimmer gebunden zu sein."
+          }
+        ]
+      },
+      {
+        "title": "Qualität der Lehrkräfte",
+        "items": [
+          {
+            "label": "Zertifiziertes und erfahrenes Team",
+            "text": "Das Privileg, mit Expertinnen und Experten zu arbeiten, die über pädagogische Ausbildung verfügen – nicht nur über Sprachkenntnisse."
+          },
+          {
+            "label": "Kulturelle Kompetenz",
+            "text": "Orientierung zu sozialen Normen und kulturellen Codes in Ländern, in denen die Zielsprache gesprochen wird – neben der Sprachausbildung."
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "FREMDSPRACHEN LERNEN MIT HURRA LINGO",
+    "title": "Lassen Sie uns gemeinsam das passende Unterrichtsformat wählen",
+    "description": "Einschätzen Sie Ihr Niveau in einer kostenlosen Probestunde – und wir erstellen den besten Unterrichtsplan für Sie.",
+    "cta": "KOSTENLOSE PROBESTUNDE",
+    "variant": "primary"
+  },
+  "beyondLive": {
+    "eyebrow": "Digitales Ökosystem",
+    "title": "Was geht bei Hurra Lingo über Live-Unterricht hinaus?",
+    "items": [
+      {
+        "title": "Nie zurückfallen: Bibliothek mit aufgezeichneten Stunden",
+        "subtitle": "Bleiben Sie selbstbewusst mit Ihrer persönlichen Bibliothek",
+        "points": [
+          "Unbegrenzter Zugang: Live-Unterrichtsstunden, die mit Ihrer Zustimmung aufgezeichnet werden.",
+          "Unbegrenztes Wiederholen: Schauen Sie sich alles jederzeit erneut an.",
+          "Ihr eigenes Tempo: Schließen Sie Lücken in Ihrem Lernen und bestimmen Sie Ihr Tempo selbst."
+        ]
+      },
+      {
+        "title": "Aktiv in Ihrem eigenen Tempo lernen mit interaktiven Lektionen",
+        "subtitle": "Entwickeln Sie alle vier Kernfähigkeiten im Gleichgewicht",
+        "points": [
+          "Thema lernen: Niveaugerechte Themen klar und einfach erklärt.",
+          "Sofort üben: Festigen Sie Gelerntes, indem Sie es direkt anwenden.",
+          "Sofortiges Feedback: Das KI-gestützte System analysiert Ihre Fehler."
+        ],
+        "skills": [
+          "Hörverstehen",
+          "Sprechen",
+          "Lesen",
+          "Schreiben"
+        ]
+      },
+      {
+        "title": "Das Spiel in der Tasche: Hurra-Lingo-App",
+        "subtitle": "Tägliche Sprachgewohnheit",
+        "points": [
+          "Nachhaltiges Gedächtnis in 10 Minuten pro Tag.",
+          "Vollständig personalisierte Inhaltsempfehlungen.",
+          "Sehen Sie Ihre Erfolge in konkreten Zahlen."
+        ]
+      },
+      {
+        "title": "KI-gestütztes personalisiertes Lernen",
+        "subtitle": "Ein intelligentes System, das Sie kennt",
+        "points": [
+          "Echtzeitanalyse: Sekundengenaue Erfassung von Leistung und Sprachniveau.",
+          "Intelligente Erkennung: Fehler werden sofort mit Algorithmusunterstützung identifiziert.",
+          "Persönlicher Fokus: Inhalte, die vollständig für Sie erstellt werden und Ihre Lücken gezielt schließen.",
+          "Schneller Fortschritt: Nachhaltiges Lernerlebnis, indem Sie in Ihrem eigenen Tempo vorankommen.",
+          "Offizielle Dokumentation: Erfolg bestätigt mit einem GER-konformen, international anerkannten Zertifikat."
+        ]
+      }
+    ]
+  },
+  "imageAlt": "{{title}} Unterrichtsbild",
+  "speaking": {
+    "eyebrow": "Sprechunterricht",
+    "title": "Durchbrechen Sie Sprachbarrieren, sprechen Sie fließend!",
+    "description": "Wir beenden die Sorge „Wann fange ich endlich an zu sprechen?“ Ob für die Zukunft Ihres Kindes oder Ihre eigene Karriere:",
+    "highlights": [
+      "Unbegrenzte Übung: Nehmen Sie so oft teil, wie Sie möchten, an Sprechsessionen, die zu Ihrem Niveau passen.",
+      "Erfahrenes Lehrteam: Live-Übung mit qualifizierten und erfahrenen Lehrkräften.",
+      "Themen aus dem echten Leben: Drücken Sie sich in verschiedenen Szenarien aus – Beruf, Reisen, akademische Vorbereitung oder Alltag.",
+      "Korrekte Aussprache und Selbstvertrauen: Verbessern Sie Ihre Aussprache und gewinnen Sie Flüssigkeit in ansprechenden, interaktiven Umgebungen."
+    ]
+  }
+}

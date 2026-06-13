@@ -17,6 +17,7 @@ import {
   ShieldCheck,
   User,
 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Container from "../components/ui/Container";
 import Button from "../components/ui/Button";
 import Field from "../components/ui/Field";
@@ -24,10 +25,13 @@ import ParallaxBlobs from "../components/ui/ParallaxBlobs";
 import StripeCheckoutForm from "../components/payment/StripeCheckoutForm";
 import MockCheckoutForm from "../components/payment/MockCheckoutForm";
 import { assets } from "../assets";
-import { onboardingPage } from "../data/onboardingPage";
-import { pricingPage } from "../data/pricingPage";
-import { authUrls } from "../data/content";
+import {
+  authUrls,
+  languageFlags,
+  onboardingLanguageIds,
+} from "../data/metadata";
 import { isStripeConfigured, stripePromise } from "../lib/stripe";
+import { useLocalePath } from "../routing/useLocalePath";
 
 const audienceIcons = {
   Baby,
@@ -41,6 +45,21 @@ const goalIcons = {
   Plane,
   FileText,
 };
+
+const flagIndexByKey = {
+  turkish: 0,
+  english: 1,
+  german: 2,
+  french: 3,
+  spanish: 4,
+  russian: 5,
+  chinese: 6,
+};
+
+function getLanguageFlag(langId) {
+  const key = languageFlags[langId];
+  return assets.languageFlags[flagIndexByKey[key]];
+}
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
@@ -72,8 +91,24 @@ const birthYears = Array.from(
 export default function OnboardingPage() {
   const navigate = useNavigate();
   const location = useLocation();
+  const { localizedPath } = useLocalePath();
+  const { t } = useTranslation(["onboarding", "pricing"]);
+  const pricingTiers = useMemo(
+    () => t("pricing:tiers", { returnObjects: true }),
+    [t],
+  );
+  const languages = useMemo(() => {
+    const items = t("languages", { returnObjects: true });
+    return onboardingLanguageIds.map((id) => {
+      const language = items.find((item) => item.id === id);
+      return { ...language, flag: getLanguageFlag(id) };
+    });
+  }, [t]);
+  const audiences = t("audiences", { returnObjects: true });
+  const goals = t("goals", { returnObjects: true });
+
   const selectedTier =
-    pricingPage.tiers.find((tier) => tier.id === location.state?.tier) ?? null;
+    pricingTiers.find((tier) => tier.id === location.state?.tier) ?? null;
   const [stepIndex, setStepIndex] = useState(0);
   const [phase, setPhase] = useState("wizard");
   const [formErrors, setFormErrors] = useState({});
@@ -139,11 +174,10 @@ export default function OnboardingPage() {
 
     const errors = {};
     if (!isValidEmail(answers.email)) {
-      errors.email = "Geçerli bir e-posta adresi girin.";
+      errors.email = t("ui.validation.email");
     }
     if (!isValidPhone(answers.phone)) {
-      errors.phone =
-        "Geçerli bir telefon numarası girin. (örn. +90 5xx xxx xx xx)";
+      errors.phone = t("ui.validation.phone");
     }
 
     if (Object.keys(errors).length > 0) {
@@ -161,8 +195,8 @@ export default function OnboardingPage() {
 
   const levelOptions =
     answers.audience === "child"
-      ? onboardingPage.levels.child
-      : onboardingPage.levels.self;
+      ? t("levels.child", { returnObjects: true })
+      : t("levels.self", { returnObjects: true });
 
   if (phase === "payment") {
     return (
@@ -170,6 +204,10 @@ export default function OnboardingPage() {
         <PaymentScreen
           answers={answers}
           tier={selectedTier}
+          languages={languages}
+          audiences={audiences}
+          goals={goals}
+          levelOptions={levelOptions}
           onBack={() => setPhase("wizard")}
           onSubmit={handlePaymentSubmit}
         />
@@ -185,17 +223,21 @@ export default function OnboardingPage() {
             <CheckCircle2 className="h-9 w-9" />
           </div>
           <h1 className="mt-6 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-            {onboardingPage.success.title}
+            {t("success.title")}
           </h1>
           <p className="mt-4 text-lg leading-relaxed text-slate-600">
-            {onboardingPage.success.subtitle}
+            {t("success.subtitle")}
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Button href={authUrls.signup} size="lg">
-              Hemen Kayıt Ol
+              {t("ui.successSignup")}
             </Button>
-            <Button onClick={() => navigate("/")} variant="outline" size="lg">
-              Ana Sayfaya Dön
+            <Button
+              onClick={() => navigate(localizedPath("home"))}
+              variant="outline"
+              size="lg"
+            >
+              {t("ui.successHome")}
             </Button>
           </div>
         </div>
@@ -214,10 +256,10 @@ export default function OnboardingPage() {
             className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold text-slate-500 transition-colors hover:text-primary-700 disabled:pointer-events-none disabled:opacity-0"
           >
             <ArrowLeft className="h-4 w-4" />
-            Geri
+            {t("ui.back")}
           </button>
           <span className="rounded-full bg-white/70 px-3.5 py-1.5 text-xs font-bold uppercase tracking-[0.14em] text-primary-700 shadow-sm ring-1 ring-primary-100">
-            Adım {stepIndex + 1} / {totalSteps}
+            {t("ui.step", { current: stepIndex + 1, total: totalSteps })}
           </span>
         </div>
 
@@ -240,11 +282,11 @@ export default function OnboardingPage() {
         >
           {stepKey === "language" && (
             <StepContent
-              title={onboardingPage.languageStep.title}
-              subtitle={onboardingPage.languageStep.subtitle}
+              title={t("languageStep.title")}
+              subtitle={t("languageStep.subtitle")}
             >
               <div className="grid gap-3 sm:grid-cols-2">
-                {onboardingPage.languages.map((language) => (
+                {languages.map((language) => (
                   <OptionButton
                     key={language.id}
                     active={answers.language === language.id}
@@ -271,11 +313,11 @@ export default function OnboardingPage() {
 
           {stepKey === "audience" && (
             <StepContent
-              title={onboardingPage.audienceStep.title}
-              subtitle={onboardingPage.audienceStep.subtitle}
+              title={t("audienceStep.title")}
+              subtitle={t("audienceStep.subtitle")}
             >
               <div className="grid gap-4 sm:grid-cols-2">
-                {onboardingPage.audiences.map((audience) => {
+                {audiences.map((audience) => {
                   const Icon = audienceIcons[audience.icon] ?? User;
                   return (
                     <OptionButton
@@ -305,8 +347,8 @@ export default function OnboardingPage() {
 
           {stepKey === "birthYear" && (
             <StepContent
-              title={onboardingPage.birthYearStep.title}
-              subtitle={onboardingPage.birthYearStep.subtitle}
+              title={t("birthYearStep.title")}
+              subtitle={t("birthYearStep.subtitle")}
             >
               <div className="grid grid-cols-3 gap-3 sm:grid-cols-5">
                 {birthYears.map((year) => (
@@ -329,8 +371,8 @@ export default function OnboardingPage() {
 
           {stepKey === "level" && (
             <StepContent
-              title={onboardingPage.levelStep.title}
-              subtitle={onboardingPage.levelStep.subtitle}
+              title={t("levelStep.title")}
+              subtitle={t("levelStep.subtitle")}
             >
               <div className="grid gap-3">
                 {levelOptions.map((level) => (
@@ -355,11 +397,11 @@ export default function OnboardingPage() {
 
           {stepKey === "goal" && (
             <StepContent
-              title={onboardingPage.goalStep.title}
-              subtitle={onboardingPage.goalStep.subtitle}
+              title={t("goalStep.title")}
+              subtitle={t("goalStep.subtitle")}
             >
               <div className="grid gap-4 sm:grid-cols-2">
-                {onboardingPage.goals.map((goal) => {
+                {goals.map((goal) => {
                   const Icon = goalIcons[goal.icon] ?? Briefcase;
                   return (
                     <OptionButton
@@ -387,26 +429,26 @@ export default function OnboardingPage() {
 
           {stepKey === "personal" && (
             <StepContent
-              title={onboardingPage.personalStep.title}
-              subtitle={onboardingPage.personalStep.subtitle}
+              title={t("personalStep.title")}
+              subtitle={t("personalStep.subtitle")}
             >
               <form onSubmit={handleSubmit} className="mx-auto max-w-xl">
                 <div className="grid gap-5 sm:grid-cols-2">
                   <Field
                     id="firstName"
-                    label="Ad"
+                    label={t("ui.form.firstName")}
                     value={answers.firstName}
                     onChange={updateField("firstName")}
-                    placeholder="Adınız"
+                    placeholder={t("ui.form.firstNamePlaceholder")}
                     autoComplete="given-name"
                     icon={User}
                   />
                   <Field
                     id="lastName"
-                    label="Soyad"
+                    label={t("ui.form.lastName")}
                     value={answers.lastName}
                     onChange={updateField("lastName")}
-                    placeholder="Soyadınız"
+                    placeholder={t("ui.form.lastNamePlaceholder")}
                     autoComplete="family-name"
                     icon={User}
                   />
@@ -415,14 +457,14 @@ export default function OnboardingPage() {
                   <Field
                     id="email"
                     type="email"
-                    label="E-posta"
+                    label={t("ui.form.email")}
                     value={answers.email}
                     onChange={updateField("email")}
-                    placeholder="ornek@eposta.com"
+                    placeholder={t("ui.form.emailPlaceholder")}
                     autoComplete="email"
                     icon={Mail}
                     pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-                    title="Geçerli bir e-posta adresi girin."
+                    title={t("ui.validation.email")}
                     error={formErrors.email}
                   />
                 </div>
@@ -430,25 +472,24 @@ export default function OnboardingPage() {
                   <Field
                     id="phone"
                     type="tel"
-                    label="Telefon"
+                    label={t("ui.form.phone")}
                     value={answers.phone}
                     onChange={updateField("phone")}
-                    placeholder="+90 5xx xxx xx xx"
+                    placeholder={t("ui.form.phonePlaceholder")}
                     autoComplete="tel"
                     icon={Phone}
                     pattern="(\+90|0090|90)?[\s.-]?0?5\d{2}[\s.-]?\d{3}[\s.-]?\d{2}[\s.-]?\d{2}"
-                    title="Geçerli bir Türkiye cep telefonu numarası girin."
+                    title={t("ui.validation.phone")}
                     error={formErrors.phone}
                   />
                 </div>
 
                 <Button type="submit" size="lg" className="mt-8 w-full">
-                  Programımı Oluştur
+                  {t("ui.form.submit")}
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
                 <p className="mt-4 text-center text-xs leading-5 text-slate-400">
-                  Bilgileriniz yalnızca size en uygun programı sunmak için
-                  kullanılır.
+                  {t("ui.form.privacyNote")}
                 </p>
               </form>
             </StepContent>
@@ -460,12 +501,15 @@ export default function OnboardingPage() {
 }
 
 function Shell({ children }) {
+  const { t } = useTranslation("onboarding");
+  const { localizedPath } = useLocalePath();
+
   return (
     <main className="relative min-h-svh bg-surface-accent">
       <ParallaxBlobs variant="a" />
       <Container className="relative">
         <div className="flex min-h-16 items-center justify-between py-5">
-          <Link to="/" className="flex items-center gap-3">
+          <Link to={localizedPath("home")} className="flex items-center gap-3">
             {assets.logo ? (
               <img src={assets.logo} alt="Hurra Lingo" className="h-8 w-auto" />
             ) : (
@@ -475,10 +519,10 @@ function Shell({ children }) {
             )}
           </Link>
           <Link
-            to="/ucretler"
+            to={localizedPath("pricing")}
             className="text-sm font-semibold text-slate-500 transition-colors hover:text-primary-700"
           >
-            Vazgeç
+            {t("ui.cancel")}
           </Link>
         </div>
         <div className="py-8 md:py-12">{children}</div>
@@ -535,25 +579,27 @@ function OptionButton({ active, onClick, children, className = "" }) {
   );
 }
 
-function PaymentScreen({ answers, tier, onBack, onSubmit }) {
-  const language = onboardingPage.languages.find(
-    (item) => item.id === answers.language,
-  );
-  const audience = onboardingPage.audiences.find(
-    (item) => item.id === answers.audience,
-  );
-  const levelOptions =
-    answers.audience === "child"
-      ? onboardingPage.levels.child
-      : onboardingPage.levels.self;
+function PaymentScreen({
+  answers,
+  tier,
+  languages,
+  audiences,
+  goals,
+  levelOptions,
+  onBack,
+  onSubmit,
+}) {
+  const { t } = useTranslation(["onboarding", "pricing"]);
+  const language = languages.find((item) => item.id === answers.language);
+  const audience = audiences.find((item) => item.id === answers.audience);
   const level = levelOptions.find((item) => item.id === answers.level);
-  const goal = onboardingPage.goals.find((item) => item.id === answers.goal);
+  const goal = goals.find((item) => item.id === answers.goal);
 
   const summary = [
-    language && { label: "Dil", value: language.name },
-    audience && { label: "Program", value: audience.title },
-    level && { label: "Seviye", value: level.title },
-    goal && { label: "Hedef", value: goal.title },
+    language && { label: t("ui.summary.language"), value: language.name },
+    audience && { label: t("ui.summary.program"), value: audience.title },
+    level && { label: t("ui.summary.level"), value: level.title },
+    goal && { label: t("ui.summary.goal"), value: goal.title },
   ].filter(Boolean);
 
   return (
@@ -564,15 +610,15 @@ function PaymentScreen({ answers, tier, onBack, onSubmit }) {
         className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold text-slate-600 transition-colors hover:text-primary-700"
       >
         <ArrowLeft className="h-4 w-4" />
-        Geri
+        {t("ui.back")}
       </button>
 
       <div className="mt-6 text-center">
         <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-          {onboardingPage.payment.title}
+          {t("payment.title")}
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">
-          {onboardingPage.payment.subtitle}
+          {t("payment.subtitle")}
         </p>
       </div>
 
@@ -581,7 +627,7 @@ function PaymentScreen({ answers, tier, onBack, onSubmit }) {
           <aside className="lg:sticky lg:top-8">
             <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
               <h2 className="text-lg font-bold text-slate-900">
-                Sipariş Özeti
+                {t("ui.orderSummary")}
               </h2>
 
               {tier && (
@@ -599,7 +645,7 @@ function PaymentScreen({ answers, tier, onBack, onSubmit }) {
                       {tier.price}
                     </span>
                     <span className="pb-0.5 text-base font-semibold text-slate-900">
-                      TL
+                      {t("pricing:currency")}
                     </span>
                     <span className="pb-1 text-sm font-medium text-slate-400">
                       / {tier.unit}
@@ -643,20 +689,17 @@ function PaymentScreen({ answers, tier, onBack, onSubmit }) {
               {tier && (
                 <div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-5">
                   <span className="text-sm font-semibold text-slate-500">
-                    Ders başına tutar
+                    {t("ui.perLessonAmount")}
                   </span>
                   <span className="text-xl font-extrabold text-slate-900">
-                    {tier.price} TL
+                    {tier.price} {t("pricing:currency")}
                   </span>
                 </div>
               )}
 
               <div className="mt-6 flex items-start gap-2 rounded-2xl bg-primary-50 p-4 text-sm text-primary-700">
                 <ShieldCheck className="mt-0.5 h-5 w-5 shrink-0" />
-                <span>
-                  Ödemeniz 256-bit SSL ile şifrelenir. Kart bilgileriniz
-                  saklanmaz.
-                </span>
+                <span>{t("ui.paymentSecurity")}</span>
               </div>
             </div>
           </aside>

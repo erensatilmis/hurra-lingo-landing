@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "eyebrow": "Zertifizierung",
+    "title": "Verfolgen Sie Ihren Fortschritt, dokumentieren Sie Ihren Erfolg",
+    "description": "Bei Hurra Lingo begleiten wir die Sprachentwicklung mit akademischem und praxisorientiertem Ergebnisfokus und formalisieren Ihre Lernreise mit international anerkannten GER-konformen Zertifikaten."
+  },
+  "heroCard": {
+    "eyebrow": "GER-konform",
+    "title": "Englisch-Sprachkompetenz-Zertifikat",
+    "description": "Ein offizielles Dokument mit internationaler Gültigkeit, erstellt in Zusammenarbeit mit der Ankara University."
+  },
+  "pillars": [
+    {
+      "id": "tracking",
+      "title": "Fortschritts- und Tracking-System",
+      "description": "Wir verfolgen die Sprachentwicklung jedes Lernenden sorgfältig – mit akademischem und praxisorientiertem Ergebnisfokus.",
+      "points": [
+        {
+          "label": "Personalisierte Berichte",
+          "text": "Wir geben regelmäßiges Feedback, indem wir Lernergebnisse nach Altersgruppe und individuellen Zielen analysieren."
+        },
+        {
+          "label": "Schülerbericht",
+          "text": "Am Ende jedes Bildungszeitraums dokumentieren wir Erfolge und Ziele für das nächste Niveau in einem ausführlichen Bericht."
+        },
+        {
+          "label": "Motivation und Unterstützung",
+          "text": "Wir stärken die Motivation der Lernenden durch regelmäßige Updates und gestalten den Entwicklungsprozess transparent."
+        }
+      ]
+    },
+    {
+      "id": "self-assessment",
+      "title": "Selbsteinschätzungsmodell",
+      "description": "Unseren Lernenden zu helfen, ihren eigenen Lernprozess zu erkennen, ist der Schlüssel zu nachhaltigem Erfolg.",
+      "points": [
+        {
+          "label": "Bewusstsein",
+          "text": "Mit Selbsteinschätzungsmethoden im Unterricht helfen wir Lernenden, ihre Stärken zu entdecken."
+        },
+        {
+          "label": "Aktive Teilnahme",
+          "text": "Wir fördern aktives Engagement im Prozess und helfen Lernenden, Vertrauen beim Sprachenlernen aufzubauen."
+        }
+      ]
+    },
+    {
+      "id": "certification",
+      "title": "International standardisierte Zertifizierung",
+      "description": "Lernende, die unsere Bildungsprogramme erfolgreich abschließen, erhalten ein GER-konformes Englisch-Sprachkompetenz-Zertifikat, erstellt in Zusammenarbeit mit der Ankara University.",
+      "points": [
+        {
+          "label": "Offizielle Anerkennung",
+          "text": "Dokumentiert Ihre Sprachkenntnisse auf internationalem Niveau und bietet eine verlässliche Referenz für akademische Bewerbungen."
+        },
+        {
+          "label": "Greifbarer Erfolg",
+          "text": "Verwandeln Sie Ihre Sprachausbildung in einen konkreten akademischen Erfolg für Schulanmeldungen und Ihre Karriere."
+        }
+      ]
+    }
+  ],
+  "pdf": {
+    "eyebrow": "Informationen",
+    "label": "Ausführliche Informationen zum Zertifikatsprogramm und Prüfungsablauf",
+    "button": "Informations-PDF herunterladen",
+    "href": "https://www.hurralingo.com/wp-content/uploads/2025/12/Ingilizce-Sertifika-Programlari-veli-bilgilendirme-metni-2025-v4-1-1.pdf"
+  },
+  "testimonial": {
+    "title": "Leyla F. — TÖMER-Zertifikatsbewertung",
+    "role": "Elternteil von Yiğit R.",
+    "text": "Zunächst einmal war die Unterstützung, die wir in jeder Phase des Prozesses erhielten, äußerst professionell, und dafür möchte ich mich noch einmal bedanken. Ich finde, die Prüfung war ein guter Messwert, da sie sowohl im Inhalt als auch in der Methode Fragetypen wie Multiple Choice, Richtig/Falsch und Lückentexte enthielt. Ich kann sagen, dass es eine Prüfung war, die darauf abzielt, Verständnis- und Ausdrucksfähigkeiten zu messen. Für meinen Sohn war das wichtigste Bewusstsein, das sie bei mir geschaffen hat, im Bereich Schreiben. Sie machte mir bewusst, dass wir seit Jahren Aktivitäten und Unterricht mit Fokus auf Sprechen und Verständnis durchgeführt haben, und ich sah, dass er auch in Schreiben unterstützt werden muss. Mein Gesamteindruck ist äußerst positiv. Ich denke darüber nach, diese Prüfung im Laufe des Jahres ab und zu zu wiederholen, um seine Leistung und sein Lernniveau zu messen. Ich denke, mein Sohn wird sowohl das Konzept der Online-Prüfungen kennenlernen, das heute existiert und meiner Meinung nach in Zukunft weiter verbreitet sein wird, und erfolgreichere Ergebnisse erzielen, während ich den Spracherwerbsprozess konkret verfolgen kann. Vielen Dank noch einmal für alles."
+  },
+  "cta": {
+    "eyebrow": "Fremdsprachen lernen mit Hurra Lingo",
+    "title": "Entdecken Sie eine neue Sprache",
+    "description": "Starten Sie in ein Lernangebot, das von erfahrenen Lehrkräften und intelligenter Technologie getragen wird.",
+    "cta": "Kostenlos testen",
+    "variant": "primary"
+  },
+  "certificates": {
+    "eyebrow": "Bei Hurra Lingo",
+    "title": "Englisch-Sprachzertifikate",
+    "subtitle": "Internationales Sprachzertifikat",
+    "levels": [
+      "A1",
+      "A2",
+      "B1.1",
+      "B1.2"
+    ],
+    "image": "https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB1.png",
+    "description": "Unsere Zertifikatsprogramme decken Anfänger- und Mittelstufenniveaus ab, die an die GER-Standards (Gemeinsamer Europäischer Referenzrahmen für Sprachen) angeglichen sind. Wir bieten Zertifizierung auf den Anfängerniveaus A1 und A2 sowie auf den Mittelstufenniveaus B1.1 und B1.2.",
+    "imageAlt": "GER-Sprachniveaus A1, A2, B1",
+    "details": [
+      "Die Entwicklungsprozesse unserer Lernenden werden von unseren erfahrenen Lehrkräften sorgfältig begleitet, und der Hurra-Lingo-Lehrplan ist vollständig an die GER-Lernergebnisse angeglichen.",
+      "Um das Englisch-Sprachkompetenz-Zertifikat zu erhalten, nehmen Lernende an Online-Sprachprüfungen teil, die unter fachkundiger Aufsicht entwickelt wurden, um die Lernmotivation zu fördern.",
+      "In diesen Prüfungen, die alle Lernenden ab 4 Jahren absolvieren können, werden für die Altersgruppe 4–5 Hör- und Sprechfähigkeiten bewertet; für alle Altersgruppen ab 6 Jahren werden Lese-, Schreib-, Sprech- und Hörverständnis umfassend gemessen."
+    ]
+  },
+  "partnerships": [
+    {
+      "id": "ankara",
+      "eyebrow": "Akademische Partnerschaft",
+      "title": "Strategische Partnerschaft mit der Ankara University",
+      "image": "https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB3-1.png",
+      "paragraphs": [
+        "Möchten Sie Ihre Sprachkompetenz mit einem offiziell anerkannten internationalen Zertifikat bestätigen? Im Rahmen unserer akademischen Partnerschaft mit der Ankara University bieten wir Hurra-Lingo-Lernenden das Privileg, ein Englisch-Sprachkompetenz-Zertifikat zu erwerben.",
+        "Diese Zertifikate werden von allen Bildungs- und öffentlichen Einrichtungen in der Türkei anerkannt. Mit diesem Dokument können unsere Lernenden ihre Sprachkompetenz offiziell in jeder internationalen Bildung, jedem Austauschprogramm oder jeder beruflichen Plattform nachweisen, an der sie teilnehmen."
+      ]
+    },
+    {
+      "id": "cefr",
+      "eyebrow": "Internationale Akkreditierung",
+      "title": "GER-konformes und international akkreditiertes Zertifikat",
+      "image": "https://www.hurralingo.com/tr/wp-content/uploads/2025/04/WEB2.png",
+      "paragraphs": [
+        "Die von Hurra Lingo angebotenen Sprachkompetenzzertifikate verfügen über volle internationale Akkreditierung. Unsere Dokumente sind international vom Europarat im Rahmen des Gemeinsamen Europäischen Referenzrahmens für Sprachen (GER) akkreditiert.",
+        "Unsere Bewertungs-, Evaluierungs- und Methodenentwicklungsprozesse erfüllen die hohen Qualitätsstandards der Association of Language Testers in Europe (ALTE)."
+      ]
+    }
+  ],
+  "examCta": {
+    "title": "An Prüfungen teilnehmen",
+    "description": "Kontaktieren Sie uns für Informationen zur Teilnahme an Online-Sprachprüfungen und zum Zertifizierungsprozess.",
+    "button": "Hier klicken",
+    "href": "/iletisim"
+  }
+}

@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { useInView } from '../../hooks/useInView'
 
 const prefersReducedMotion = () =>
@@ -13,6 +14,7 @@ export default function CountUp({
   suffix = '',
   className = '',
 }) {
+  const { i18n } = useTranslation()
   const { ref, inView } = useInView({ threshold: 0.4 })
   const [value, setValue] = useState(0)
   const startedRef = useRef(false)
@@ -41,7 +43,7 @@ export default function CountUp({
   return (
     <span ref={ref} className={className}>
       {prefix}
-      {value.toLocaleString('tr-TR')}
+      {value.toLocaleString(i18n.language === 'en' ? 'en-US' : 'tr-TR')}
       {suffix}
     </span>
   )

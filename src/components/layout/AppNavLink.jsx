@@ -1,12 +1,15 @@
 import { Link, useLocation } from 'react-router-dom'
 
-function isNavActive(href, { pathname, hash }) {
-  if (href.startsWith('/#')) {
-    return pathname === '/' && hash === href.slice(1)
+function isNavActive(linkTarget, { pathname, hash }) {  if (!linkTarget) return false
+
+  if (linkTarget.includes('#')) {
+    const [path, hashPart] = linkTarget.split('#')
+    const expectedHash = hashPart ? `#${hashPart}` : ''
+    return pathname === path && hash === expectedHash
   }
 
-  if (href.startsWith('/') && !href.includes('#')) {
-    return pathname === href
+  if (linkTarget.startsWith('/') && !linkTarget.includes('#')) {
+    return pathname === linkTarget
   }
 
   return false
@@ -24,15 +27,28 @@ function getNavLinkClassName(isActive, mobile) {
     : 'text-sm font-medium text-slate-600 transition-colors hover:text-primary-700'
 }
 
-export default function AppNavLink({ href, className = '', onClick, children, mobile = false }) {
+export default function AppNavLink({
+  href,
+  to,
+  className = '',
+  onClick,
+  children,
+  mobile = false,
+}) {
   const location = useLocation()
-  const active = isNavActive(href, location)
-  const isRoute = href.startsWith('/') && !href.includes('#')
+  const linkTarget = to ?? href
+  const active = isNavActive(linkTarget, location)
+  const isInternalLink = Boolean(to) || href?.startsWith('/')
   const linkClassName = `${getNavLinkClassName(active, mobile)} ${className}`.trim()
 
-  if (isRoute) {
+  if (isInternalLink) {
     return (
-      <Link to={href} className={linkClassName} onClick={onClick} aria-current={active ? 'page' : undefined}>
+      <Link
+        to={linkTarget}
+        className={linkClassName}
+        onClick={onClick}
+        aria-current={active ? 'page' : undefined}
+      >
         {children}
       </Link>
     )
@@ -40,7 +56,7 @@ export default function AppNavLink({ href, className = '', onClick, children, mo
 
   return (
     <a
-      href={href}
+      href={linkTarget}
       className={linkClassName}
       onClick={onClick}
       aria-current={active ? 'page' : undefined}

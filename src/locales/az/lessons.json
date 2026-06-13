@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "eyebrow": "Dərslərimiz",
+    "title": "Sizə ən uyğun dərs formatını seçin",
+    "description": "Fərdi, mini qrup və ya qrup dərsləri ilə danışığa yönəlik, oyun əsaslı və peşəkar kurikulum seçimlərimizi kəşf edin."
+  },
+  "lessonTypes": [
+    {
+      "id": "individual",
+      "badge": "Fərdi",
+      "image": "/lessons/bireysel.jpg",
+      "title": "Fərdi Dərslər",
+      "description": "Fərdiləşdirilmiş Fərdi Təhsil: Öyrənmə sürətinizə və hədəflərinizə uyğun fərdi dərslərimizdə uşaqlar üçün oyun əsaslı, böyüklər üçün peşəkar fokuslu kurikulum tətbiq edirik. Tələbələrimiz xarici dili nəzəriyyədə qoymur — gündəlik həyatda və iş dünyasında özünə inamla istifadə etməyi öyrənir."
+    },
+    {
+      "id": "mini-group",
+      "badge": "2–4 nəfər",
+      "image": "/lessons/mini.jpg",
+      "title": "Mini Qrup Dərsləri",
+      "description": "Butik Təhsillə Maksimum Effektivlik: 2–4 tələbədən ibarət mini qruplarımızda hər tələbəyə ayrılan danışıq vaxtını maksimuma çatdırırıq. 1–10 aylıq üstünlüklü üzvlük paketləri və qrup ehtiyaclarına uyğun planlaşdırılmış həftəlik dərs cədvəlləri ilə sosial mühitdə interaktiv dil öyrənməsi təqdim edirik."
+    },
+    {
+      "id": "group",
+      "badge": "5–8 nəfər",
+      "image": "/lessons/grup.jpg",
+      "title": "Qrup Dərsləri",
+      "description": "Dinamik və Sosial Öyrənmə Müiti: 5–8 tələbədən ibarət qrup dərslərimizdə müxtəlif baxış bucaqları ilə zənginləşdirilmiş sinif təqdim edirik. İqtisadi 3 və ya 6 aylıq üzvlük seçimləri ilə büdcənizə uyğun davamlı təhsil planlaşdırırıq. Həftəlik dərs intensivliyini qrupun sürətinə və hədəflərinə uyğun optimallaşdırırıq."
+    }
+  ],
+  "experience": {
+    "eyebrow": "Hurra Lingo",
+    "title": "Dil Təhsilinin Gələcəyi!",
+    "pillars": [
+      {
+        "title": "Fərdiləşdirilmiş Fokus",
+        "items": [
+          {
+            "label": "Rol Əsaslı Kurikulum",
+            "text": "Dərslər gündəlik həyatda və iş dünyasında ehtiyaclarınıza xüsusi uyğunlaşdırılır."
+          },
+          {
+            "label": "Səviyyəyə Uyğun Yanaşma",
+            "text": "Cari səviyyəniz ilə hədəf kompetensiya arasındakı boşluğu aradan qaldırmaq üçün CEFR (A1–C1) standartlarına uyğun şəxsi inkişaf planları təqdim olunur."
+          },
+          {
+            "label": "Maksimum Danışıq Vaxtı",
+            "text": "Dərs boyu aktiv danışmağa təşviq olunursunuz; beləliklə, səlislik və özünə inam tez qazanılır."
+          }
+        ]
+      },
+      {
+        "title": "Çeviklik və Rəqəmsal İnteqrasiya",
+        "items": [
+          {
+            "label": "Çevik Cədvəl",
+            "text": "Məşğul iş rejiminizə uyğun dərs planlaşdırma imkanı."
+          },
+          {
+            "label": "Süni İntellekt Dəstəkli Təcrübə",
+            "text": "Canlı dərslər arasında mövzuya xas lüğət və qrammatika məşqləri ilə öyrənməni dəstəkləyən rəqəmsal infrastruktur."
+          },
+          {
+            "label": "Hər Yerdən Giriş",
+            "text": "Fiziki sinifə bağlı qalmadan, istifadəçi dostu interfeyslə tam onlayn fasiləsiz təhsil."
+          }
+        ]
+      },
+      {
+        "title": "Təlimatçı Keyfiyyəti",
+        "items": [
+          {
+            "label": "Sertifikatlı və Təcrübəli Komanda",
+            "text": "Yalnız dil bilikləri deyil, pedaqoji təhsilə malik peşəkar təlimatçılarla işləmək imtiyazı."
+          },
+          {
+            "label": "Mədəni Kompetensiya",
+            "text": "Dil təhsili ilə yanaşı, hədəf dilin danışıldığı ölkələrdə sosial normalar və mədəni kodlar barədə rəhbərlik."
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "HURRA LINGO İLƏ XARİCİ DİL ÖYRƏNİN",
+    "title": "Düzgün dərs formatını birlikdə seçək",
+    "description": "Pulsuz tanıtım dərsi ilə səviyyənizi qiymətləndirin və sizin üçün ən yaxşı dərs planını yaradaq.",
+    "cta": "PULSUZ TANITIM DƏRSİ",
+    "variant": "primary"
+  },
+  "beyondLive": {
+    "eyebrow": "Rəqəmsal ekosistem",
+    "title": "Hurra Lingo-da Canlı Dərslərdən Sonra Nə Var?",
+    "items": [
+      {
+        "title": "Heç Vaxt Geri Qalmayın: Qeydə Alınmış Dərs Kitabxanası",
+        "subtitle": "Şəxsi kitabxananızla özünüzə inamla irəliləyin",
+        "points": [
+          "Limitsiz Giriş: Razılığınızla qeydə alınan canlı dərslər.",
+          "Limitsiz Təkrar: İstədiyiniz vaxt yenidən izləyin.",
+          "Öz Sürətiniz: Öyrənmədəki boşluqları bağlayaraq sürətinizi təyin edin."
+        ]
+      },
+      {
+        "title": "İnteraktiv Dərslərlə Öz Sürətinizlə Aktiv Öyrənin",
+        "subtitle": "Dörd əsas bacarığı balanslı inkişaf etdirin",
+        "points": [
+          "Mövzunu Öyrənin: Səviyyəyə uyğun mövzular aydın və sadə izah olunur.",
+          "Dərhal Təcrübə Edin: Öyrəndiklərinizi dərhal tətbiq edərək möhkəmləndirin.",
+          "Ani Rəy Alın: Süni intellekt dəstəkli sistem səhvlərinizi analiz edir."
+        ],
+        "skills": [
+          "Dinləmə",
+          "Danışıq",
+          "Oxuma",
+          "Yazma"
+        ]
+      },
+      {
+        "title": "Cibinizdə Oyun: Hurra Lingo Tətbiqi",
+        "subtitle": "Gündəlik dil vərdişi",
+        "points": [
+          "Gündə 10 dəqiqə ilə davamlı yaddaş.",
+          "Tam fərdiləşdirilmiş məzmun tövsiyələri.",
+          "Nailiyyətlərinizi konkret şəkildə görün."
+        ]
+      },
+      {
+        "title": "Süni İntellekt Dəstəkli Fərdiləşdirilmiş Öyrənmə",
+        "subtitle": "Sizi tanıyan ağıllı sistem",
+        "points": [
+          "Real Vaxt Analizi: Performans və dil səviyyəsinin saniyə-saniyə skanlanması.",
+          "Ağıllı Aşkarlama: Alqoritm dəstəyi ilə səhvlərin dərhal müəyyən edilməsi.",
+          "Fərdi Fokus: Boşluqlarınızı hədəfləyən, tamamilə sizin üçün yaradılmış məzmun.",
+          "Sürətli İrəliləyiş: Öz sürətinizlə irəliləyərək davamlı öyrənmə təcrübəsi.",
+          "Rəsmi Sənədləşdirmə: CEFR uyğun, beynəlxalq tanınan sertifikatla uğurun təsdiqi."
+        ]
+      }
+    ]
+  },
+  "imageAlt": "{{title}} dərs şəkli",
+  "speaking": {
+    "eyebrow": "Danışıq Dərsləri",
+    "title": "Dil Sərhədlərini Aşın, Səlis Danışmağa Başlayın!",
+    "description": "«Nə vaxt danışmağa başlayacağam?» narahatlığına son qoyuruq. Uşağınızın gələcəyi və ya öz karyeranız üçün:",
+    "highlights": [
+      "Limitsiz Təcrübə: Səviyyənizə uyğun danışıq sessiyalarına istədiyiniz qədər qoşulun.",
+      "Peşəkar Tədris Komandası: İxtisaslı və təcrübəli müəllimlərlə canlı təcrübə.",
+      "Real Həyat Mövzuları: İş, səyahət, akademik hazırlıq və ya gündəlik həyat kimi müxtəlif ssenarilərdə özünüzü ifadə edin.",
+      "Düzgün Tələffüz və Özünə İnam: Cəlbedici, interaktiv mühitlərdə tələffüzü təkmilləşdirin və səlislik qazanın."
+    ]
+  }
+}

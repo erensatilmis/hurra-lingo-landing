@@ -1,13 +1,16 @@
-import Container from '../ui/Container'
-import SectionHeading from '../ui/SectionHeading'
-import Button from '../ui/Button'
-import Reveal from '../ui/Reveal'
-import ParallaxBlobs from '../ui/ParallaxBlobs'
-import BlogPostCard from '../blog/BlogPostCard'
-import { assets } from '../../assets'
-import { blog } from '../../data/content'
+import { useTranslation } from "react-i18next";
+import Container from "../ui/Container";
+import SectionHeading from "../ui/SectionHeading";
+import Button from "../ui/Button";
+import Reveal from "../ui/Reveal";
+import ParallaxBlobs from "../ui/ParallaxBlobs";
+import BlogPostCard from "../blog/BlogPostCard";
+import { assets } from "../../assets";
 
 export default function BlogPreview() {
+  const { t } = useTranslation("home");
+  const posts = t("blog.items", { returnObjects: true });
+
   return (
     <section
       id="blog"
@@ -16,20 +19,20 @@ export default function BlogPreview() {
       <ParallaxBlobs variant="a" />
       <Container className="relative">
         <Reveal>
-          <SectionHeading eyebrow={blog.eyebrow} title={blog.title} />
+          <SectionHeading
+            eyebrow={t("blog.eyebrow")}
+            title={t("blog.title")}
+          />
         </Reveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {blog.items.slice(0, 3).map((post, index) => (
+          {posts.slice(0, 3).map((post, index) => (
             <div
               key={post.id}
-              className={index > 0 ? 'hidden h-full md:block' : 'h-full'}
+              className={index > 0 ? "hidden h-full md:block" : "h-full"}
             >
               <Reveal delay={index * 90} className="h-full">
-                <BlogPostCard
-                  post={post}
-                  coverSrc={assets.blogCovers[index]}
-                />
+                <BlogPostCard post={post} coverSrc={assets.blogCovers[index]} />
               </Reveal>
             </div>
           ))}
@@ -37,10 +40,10 @@ export default function BlogPreview() {
 
         <Reveal className="mt-10 text-center" delay={120}>
           <Button to="/blog" variant="outline">
-            {blog.cta}
+            {t("blog.cta")}
           </Button>
         </Reveal>
       </Container>
     </section>
-  )
+  );
 }

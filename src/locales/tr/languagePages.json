@@ -1,0 +1,295 @@
+{
+  "order": ["tr", "en", "de", "fr", "es", "ru", "zh"],
+  "pages": {
+    "tr": {
+      "id": "tr",
+      "name": "Türkçe",
+      "nativeName": "Türkçe",
+      "hero": {
+        "eyebrow": "Hurra Lingo ile Türkçe",
+        "title": "Türkiye'nin kapılarını Türkçe ile aralayın",
+        "description": "Yabancı dil olarak Türkçe öğrenmek isteyenler için, günlük hayattan iş dünyasına kadar etkili iletişim kurmanızı sağlayan, kültür odaklı bir program sunuyoruz."
+      },
+      "stats": [
+        { "value": "85M+", "label": "Ana dili konuşan" },
+        { "value": "A1–C1", "label": "CEFR seviyeleri" },
+        { "value": "7/24", "label": "Online canlı ders" }
+      ],
+      "reasons": {
+        "title": "Neden Türkçe öğrenmelisiniz?",
+        "items": [
+          {
+            "title": "Köprü kuran bir dil",
+            "text": "Avrupa ile Asya'yı birbirine bağlayan, ticaret ve turizmde giderek değer kazanan bir dil."
+          },
+          {
+            "title": "Zengin kültür",
+            "text": "Edebiyat, müzik, sinema ve mutfak kültürüne ana dilinden erişin."
+          },
+          {
+            "title": "Düzenli yapı",
+            "text": "Kurallı ve düzenli dil bilgisiyle mantığını kavradıkça hızla ilerlersiniz."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu program kimler için?",
+        "items": [
+          "Türkiye'de yaşayan veya yaşamayı planlayan yabancılar",
+          "Türk iş ortaklarıyla çalışan profesyoneller",
+          "Türk kültürüne ve ailesine yakın olmak isteyenler"
+        ]
+      }
+    },
+    "en": {
+      "id": "en",
+      "name": "İngilizce",
+      "nativeName": "English",
+      "hero": {
+        "eyebrow": "Hurra Lingo ile İngilizce",
+        "title": "Dünyanın ortak dilinde özgüvenle konuşun",
+        "description": "İş, eğitim ve seyahat için en çok ihtiyaç duyulan dil olan İngilizceyi; konuşma odaklı derslerle, ilk günden itibaren pratik yaparak öğrenin."
+      },
+      "stats": [
+        { "value": "1.5M+", "label": "Dünya genelinde konuşan" },
+        { "value": "A1–C1", "label": "CEFR seviyeleri" },
+        { "value": "#1", "label": "En çok talep edilen dil" }
+      ],
+      "reasons": {
+        "title": "Neden İngilizce öğrenmelisiniz?",
+        "items": [
+          {
+            "title": "Kariyer fırsatı",
+            "text": "Global iş dünyasında en çok aranan yetkinliklerin başında gelir."
+          },
+          {
+            "title": "Sınırsız içerik",
+            "text": "İnternetteki bilgi, kurs ve eğlencenin büyük bölümüne erişim sağlar."
+          },
+          {
+            "title": "Akademik başarı",
+            "text": "IELTS, TOEFL gibi sınavlarla yurt dışı eğitim kapılarını açar."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu program kimler için?",
+        "items": [
+          "Okul müfredatını desteklemek isteyen öğrenciler",
+          "Kariyerinde fark yaratmak isteyen profesyoneller",
+          "Seyahat ve günlük iletişim için pratik arayanlar"
+        ]
+      }
+    },
+    "de": {
+      "id": "de",
+      "name": "Almanca",
+      "nativeName": "Deutsch",
+      "hero": {
+        "eyebrow": "Hurra Lingo ile Almanca",
+        "title": "Avrupa'nın güçlü ekonomisinin dilini öğrenin",
+        "description": "Almanya, Avusturya ve İsviçre'de eğitim ve kariyer fırsatlarının anahtarı olan Almancayı, adım adım ve uygulamalı bir programla öğrenin."
+      },
+      "stats": [
+        { "value": "130M+", "label": "Dünya genelinde konuşan" },
+        { "value": "A1–C1", "label": "CEFR seviyeleri" },
+        { "value": "3 ülke", "label": "Resmî dil olduğu" }
+      ],
+      "reasons": {
+        "title": "Neden Almanca öğrenmelisiniz?",
+        "items": [
+          {
+            "title": "Eğitim imkânı",
+            "text": "Almanya'daki çoğu devlet üniversitesinde ücretsiz eğitim şansı."
+          },
+          {
+            "title": "Güçlü ekonomi",
+            "text": "Avrupa'nın en büyük ekonomisinde iş ve staj fırsatları."
+          },
+          {
+            "title": "Mühendislik ve bilim",
+            "text": "Teknik alanlarda kaynaklara ve kariyere doğrudan erişim."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu program kimler için?",
+        "items": [
+          "Almanya'da eğitim almayı hedefleyenler",
+          "Çalışma vizesi ve kariyer planı yapanlar",
+          "Mühendislik ve bilim alanında ilerlemek isteyenler"
+        ]
+      }
+    },
+    "fr": {
+      "id": "fr",
+      "name": "Fransızca",
+      "nativeName": "Français",
+      "hero": {
+        "eyebrow": "Hurra Lingo ile Fransızca",
+        "title": "Diplomasinin ve sanatın zarif diliyle tanışın",
+        "description": "Beş kıtada konuşulan, kültür ve diplomasi dünyasının vazgeçilmez dili Fransızcayı, keyifli ve etkileşimli derslerle öğrenin."
+      },
+      "stats": [
+        { "value": "300M+", "label": "Dünya genelinde konuşan" },
+        { "value": "A1–C1", "label": "CEFR seviyeleri" },
+        { "value": "5 kıta", "label": "Konuşulduğu coğrafya" }
+      ],
+      "reasons": {
+        "title": "Neden Fransızca öğrenmelisiniz?",
+        "items": [
+          {
+            "title": "Uluslararası dil",
+            "text": "BM, AB ve birçok uluslararası kuruluşun resmî dillerinden biri."
+          },
+          {
+            "title": "Kültür ve sanat",
+            "text": "Edebiyat, sinema, moda ve gastronominin merkezindeki dil."
+          },
+          {
+            "title": "Kariyer ağı",
+            "text": "Afrika'dan Kanada'ya uzanan geniş bir iş ve seyahat ağı."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu program kimler için?",
+        "items": [
+          "Sanat, moda ve kültürle ilgilenenler",
+          "Frankofon ülkelerde eğitim veya kariyer hedefleyenler",
+          "Yeni bir dilin estetiğini keşfetmek isteyenler"
+        ]
+      }
+    },
+    "es": {
+      "id": "es",
+      "name": "İspanyolca",
+      "nativeName": "Español",
+      "hero": {
+        "eyebrow": "Hurra Lingo ile İspanyolca",
+        "title": "İki kıtanın enerjisini İspanyolca ile yaşayın",
+        "description": "Öğrenmesi keyifli, dünyada en çok konuşulan diller arasında yer alan İspanyolcayı, konuşma odaklı ve eğlenceli derslerle hızla öğrenin."
+      },
+      "stats": [
+        { "value": "550M+", "label": "Dünya genelinde konuşan" },
+        { "value": "A1–C1", "label": "CEFR seviyeleri" },
+        { "value": "20+ ülke", "label": "Resmî dil olduğu" }
+      ],
+      "reasons": {
+        "title": "Neden İspanyolca öğrenmelisiniz?",
+        "items": [
+          {
+            "title": "Hızlı ilerleme",
+            "text": "Okunduğu gibi yazılan yapısıyla öğrenmesi en kolay dillerden biri."
+          },
+          {
+            "title": "Geniş coğrafya",
+            "text": "İspanya ve Latin Amerika'da yüz milyonlarca insanla iletişim."
+          },
+          {
+            "title": "Kültür ve seyahat",
+            "text": "Müzik, dizi ve seyahat dünyasına renkli bir kapı açar."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu program kimler için?",
+        "items": [
+          "Latin kültürüne ve seyahate ilgi duyanlar",
+          "Hızlı sonuç almak isteyen yeni başlayanlar",
+          "İş ağını Latin Amerika'ya genişletmek isteyenler"
+        ]
+      }
+    },
+    "ru": {
+      "id": "ru",
+      "name": "Rusça",
+      "nativeName": "Русский",
+      "hero": {
+        "eyebrow": "Hurra Lingo ile Rusça",
+        "title": "Geniş bir coğrafyanın diline adım atın",
+        "description": "Avrasya'nın güçlü dili Rusçayı; alfabesinden günlük konuşmalara kadar, sabırlı ve yapılandırılmış bir programla baştan öğrenin."
+      },
+      "stats": [
+        { "value": "260M+", "label": "Dünya genelinde konuşan" },
+        { "value": "A1–C1", "label": "CEFR seviyeleri" },
+        { "value": "Kiril", "label": "Sıfırdan alfabe desteği" }
+      ],
+      "reasons": {
+        "title": "Neden Rusça öğrenmelisiniz?",
+        "items": [
+          {
+            "title": "Ticaret fırsatı",
+            "text": "Türkiye ile yoğun ticari ilişkilerde değerli bir avantaj."
+          },
+          {
+            "title": "Zengin edebiyat",
+            "text": "Dünya klasiklerini orijinal dilinden okuma imkânı."
+          },
+          {
+            "title": "Geniş kullanım",
+            "text": "Birçok ülkede iletişim kurabileceğiniz yaygın bir dil."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu program kimler için?",
+        "items": [
+          "Turizm ve ticaret sektöründe çalışanlar",
+          "Rusça konuşulan ülkelerle bağı olanlar",
+          "Yeni bir alfabe ve kültür keşfetmek isteyenler"
+        ]
+      }
+    },
+    "zh": {
+      "id": "zh",
+      "name": "Çince",
+      "nativeName": "中文",
+      "hero": {
+        "eyebrow": "Hurra Lingo ile Çince",
+        "title": "Dünyanın en çok konuşulan diliyle geleceğe yatırım yapın",
+        "description": "Mandarin Çincesini; tonlardan karakterlere kadar, görsel ve etkileşimli yöntemlerle adım adım ve eğlenceli bir şekilde öğrenin."
+      },
+      "stats": [
+        { "value": "1.1B+", "label": "Dünya genelinde konuşan" },
+        { "value": "HSK", "label": "Uluslararası seviye sistemi" },
+        { "value": "#1", "label": "En çok ana dili konuşan" }
+      ],
+      "reasons": {
+        "title": "Neden Çince öğrenmelisiniz?",
+        "items": [
+          {
+            "title": "Ekonomik güç",
+            "text": "Dünyanın en büyük pazarlarından biriyle iş yapma avantajı."
+          },
+          {
+            "title": "Rekabette öne çıkın",
+            "text": "Az kişinin bildiği bu dil özgeçmişinizde fark yaratır."
+          },
+          {
+            "title": "Kadim kültür",
+            "text": "Binlerce yıllık zengin bir kültür ve düşünce dünyasına erişim."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Bu program kimler için?",
+        "items": [
+          "Uluslararası ticaret hedefleyen profesyoneller",
+          "Farklı bir yazı sistemini öğrenmek isteyenler",
+          "Geleceğe yönelik stratejik bir dil arayanlar"
+        ]
+      }
+    }
+  },
+  "ui": {
+    "backToHome": "← Anasayfaya dön",
+    "trialCta": "Ücretsiz Tanışma Dersi",
+    "lessonsCta": "Ders Formatlarını Gör",
+    "levelNote": "Seviyeniz ne olursa olsun, ücretsiz tanışma dersinde mevcut düzeyinizi birlikte belirler ve size özel bir plan oluştururuz.",
+    "otherLanguages": "Diğer dilleri keşfedin",
+    "footerCtaTitle": "{{name}} öğrenmeye bugün başlayın",
+    "footerCtaDescription": "Uzman öğretmenler ve akıllı teknolojilerle desteklenen öğrenme deneyimine ücretsiz tanışma dersiyle adım atın.",
+    "flagAlt": "{{name}} bayrağı"
+  }
+}

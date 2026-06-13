@@ -1,0 +1,32 @@
+{
+  "aria": {
+    "dialog": "Kukilər üzrə seçimlər",
+    "closePreferences": "Seçimlər panelini bağla"
+  },
+  "preferences": {
+    "title": "Kukilər üzrə Seçimlər",
+    "description": "Hansı kuki kateqoriyalarına icazə vermək istədiyinizi seçin.",
+    "required": {
+      "label": "Zəruri Kukilər",
+      "description": "Saytın əsas funksionallığı üçün tələb olunur və söndürülə bilməz."
+    },
+    "analytics": {
+      "label": "Analitik Kukilər",
+      "description": "Ziyarət statistikalarını anlamağa və saytı təkmilləşdirməyə kömək edir."
+    },
+    "marketing": {
+      "label": "Marketinq Kukiləri",
+      "description": "Fərdiləşdirilmiş məzmun və reklam təcrübələri təqdim etmək üçün istifadə olunur."
+    },
+    "save": "Seçimləri Saxla",
+    "acceptAll": "Hamısını Qəbul Et"
+  },
+  "banner": {
+    "title": "Kukilərdən İstifadə",
+    "description": "Təcrübənizi təkmilləşdirmək üçün kukilərdən istifadə edirik. Saytın işləməsi üçün zəruri kukilər tələb olunur. Analitik və marketinq kukiləri üçün seçimlərinizi təyin edə bilərsiniz.",
+    "privacyPolicy": "Məxfilik Siyasəti",
+    "accept": "Qəbul Et",
+    "reject": "Rədd Et",
+    "manage": "Seçimləri İdarə Et"
+  }
+}

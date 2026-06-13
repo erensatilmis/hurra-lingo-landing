@@ -1,4 +1,5 @@
 import { Cookie, X } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import Button from '../ui/Button'
 import { useCookieConsent } from '../../hooks/useCookieConsent'
 
@@ -27,6 +28,7 @@ function Toggle({ checked, disabled, onChange, label, description }) {
 }
 
 export default function CookieConsent() {
+  const { t } = useTranslation('cookie')
   const {
     visible,
     showPreferences,
@@ -44,7 +46,7 @@ export default function CookieConsent() {
   return (
     <div
       role="dialog"
-      aria-label="Çerez tercihleri"
+      aria-label={t('aria.dialog')}
       className="fixed inset-x-0 bottom-0 z-[60] border-t border-slate-200 bg-white/95 p-4 shadow-2xl backdrop-blur-md sm:p-6"
     >
       <div className="mx-auto max-w-5xl">
@@ -53,16 +55,16 @@ export default function CookieConsent() {
             <div className="mb-4 flex items-start justify-between gap-4">
               <div>
                 <h2 className="text-lg font-bold text-slate-900">
-                  Çerez Tercihleri
+                  {t('preferences.title')}
                 </h2>
                 <p className="mt-1 text-sm leading-6 text-slate-600">
-                  Hangi çerez kategorilerine izin vermek istediğinizi seçin.
+                  {t('preferences.description')}
                 </p>
               </div>
               <button
                 type="button"
                 onClick={() => setShowPreferences(false)}
-                aria-label="Tercih panelini kapat"
+                aria-label={t('aria.closePreferences')}
                 className="rounded-lg p-1.5 text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-700"
               >
                 <X className="h-5 w-5" />
@@ -73,33 +75,33 @@ export default function CookieConsent() {
               <Toggle
                 checked
                 disabled
-                label="Zorunlu Çerezler"
-                description="Sitenin temel işlevleri için gereklidir ve kapatılamaz."
+                label={t('preferences.required.label')}
+                description={t('preferences.required.description')}
               />
               <Toggle
                 checked={preferences.analytics}
                 onChange={(value) =>
                   setPreferences((current) => ({ ...current, analytics: value }))
                 }
-                label="Analitik Çerezler"
-                description="Ziyaret istatistiklerini anlamamıza ve siteyi geliştirmemize yardımcı olur."
+                label={t('preferences.analytics.label')}
+                description={t('preferences.analytics.description')}
               />
               <Toggle
                 checked={preferences.marketing}
                 onChange={(value) =>
                   setPreferences((current) => ({ ...current, marketing: value }))
                 }
-                label="Pazarlama Çerezleri"
-                description="Kişiselleştirilmiş içerik ve reklam deneyimi sunmak için kullanılır."
+                label={t('preferences.marketing.label')}
+                description={t('preferences.marketing.description')}
               />
             </div>
 
             <div className="mt-5 flex flex-wrap gap-3">
               <Button size="sm" onClick={savePreferences}>
-                Tercihleri Kaydet
+                {t('preferences.save')}
               </Button>
               <Button size="sm" variant="outline" onClick={acceptAll}>
-                Tümünü Kabul Et
+                {t('preferences.acceptAll')}
               </Button>
             </div>
           </div>
@@ -111,17 +113,15 @@ export default function CookieConsent() {
               </div>
               <div>
                 <h2 className="text-base font-bold text-slate-900">
-                  Çerez Kullanımı
+                  {t('banner.title')}
                 </h2>
                 <p className="mt-1 max-w-3xl text-sm leading-6 text-slate-600">
-                  Deneyiminizi iyileştirmek için çerezler kullanıyoruz. Zorunlu
-                  çerezler siteyi çalıştırmak için gereklidir. Analitik ve
-                  pazarlama çerezleri için tercihinizi belirleyebilirsiniz.{' '}
+                  {t('banner.description')}{' '}
                   <a
                     href="#"
                     className="font-medium text-primary-700 underline-offset-2 hover:underline"
                   >
-                    Gizlilik Politikası
+                    {t('banner.privacyPolicy')}
                   </a>
                 </p>
               </div>
@@ -129,13 +129,13 @@ export default function CookieConsent() {
 
             <div className="flex flex-wrap gap-2 lg:shrink-0">
               <Button size="sm" onClick={acceptAll}>
-                Kabul Et
+                {t('banner.accept')}
               </Button>
               <Button size="sm" variant="outline" onClick={rejectAll}>
-                Reddet
+                {t('banner.reject')}
               </Button>
               <Button size="sm" variant="ghost" onClick={openPreferences}>
-                Tercihleri Yönet
+                {t('banner.manage')}
               </Button>
             </div>
           </div>

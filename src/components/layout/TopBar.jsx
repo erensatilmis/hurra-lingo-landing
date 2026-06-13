@@ -1,18 +1,21 @@
-import { useState } from "react";
-import { Download, Smartphone } from "lucide-react";
-import Container from "../ui/Container";
-import AppComingSoonModal from "../ui/AppComingSoonModal";
-import { WhatsAppIcon } from "../icons/SocialIcons";
-import { SocialIconButton } from "../icons/SocialLink";
-import {
-  mobileAppBanner,
-  mobileAppModal,
-  socialLinks,
-  whatsappUrl,
-} from "../../data/content";
+import { useState } from 'react'
+import { Download, Smartphone } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+import Container from '../ui/Container'
+import AppComingSoonModal from '../ui/AppComingSoonModal'
+import { WhatsAppIcon } from '../icons/SocialIcons'
+import { SocialIconButton } from '../icons/SocialLink'
+import { socialHrefs, whatsappUrl } from '../../data/metadata'
 
 export default function TopBar() {
-  const [appModalOpen, setAppModalOpen] = useState(false);
+  const [appModalOpen, setAppModalOpen] = useState(false)
+  const { t } = useTranslation('common')
+  const mobileAppBanner = t('mobileAppBanner', { returnObjects: true })
+  const mobileAppModal = t('mobileAppModal', { returnObjects: true })
+  const socialLinks = t('socialLinks', { returnObjects: true }).map((item) => ({
+    ...item,
+    href: socialHrefs[item.id] ?? '#',
+  }))
 
   return (
     <>
@@ -36,7 +39,7 @@ export default function TopBar() {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noreferrer noopener"
-                aria-label="WhatsApp ile iletişime geç"
+                aria-label={t('topBar.whatsappAria')}
                 className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#25D366] text-white transition-colors hover:bg-[#20BD5A]"
               >
                 <WhatsAppIcon className="h-6 w-6" />
@@ -59,5 +62,5 @@ export default function TopBar() {
         />
       )}
     </>
-  );
+  )
 }

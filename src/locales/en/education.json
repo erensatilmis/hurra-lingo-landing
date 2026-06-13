@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "eyebrow": "Our Education Model",
+    "title": "Break Boundaries in Your Career and Travels: Flexible Language Lessons for Adults!",
+    "description": "Whether you want to speak with professionalism in the business world or communicate freely while exploring the world. With our 24/7 online classes and AI-powered interactive content, you control your schedule and enjoy lasting language practice."
+  },
+  "personalizedPlans": {
+    "title": "Personalized Lesson Plans Tailored to You",
+    "items": [
+      {
+        "title": "Goal-Oriented Learning",
+        "description": "Do you want to speak fluently in daily life or stand out in the business world? With our expert teaching team, we offer lesson programs shaped entirely around your needs."
+      },
+      {
+        "title": "24/7 Flexible Scheduling",
+        "description": "Manage your education around your own schedule with live classes that fit your busy work routine and daily life."
+      },
+      {
+        "title": "Speaking-Focused Approach",
+        "description": "Don't just learn grammar — put what you learn into practice. Start speaking from day one with communication-focused lessons built on a \"speak from day one\" philosophy."
+      },
+      {
+        "title": "Internationally Standardized (CEFR) Curriculum",
+        "description": "We don't leave education quality to chance. All our lesson content and level system are fully aligned with globally recognized CEFR standards, so you develop your language skills within a practice-oriented framework."
+      }
+    ]
+  },
+  "tracking": {
+    "title": "Advanced Lesson Tracking and Continuous Practice",
+    "subtitle": "You are supported with tools that make your progress visible throughout your learning journey.",
+    "items": [
+      {
+        "title": "Uninterrupted Practice",
+        "description": "Accelerate your learning by continuing to practice between classes and during your free time."
+      },
+      {
+        "title": "User-Friendly Portal",
+        "description": "Easily track your progress, attended classes, and performance reports from a single dashboard."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "LEARN A FOREIGN LANGUAGE WITH HURRA LINGO",
+    "title": "An education plan that fits your goals",
+    "description": "Step into a learning experience supported by expert instructors and smart technology.",
+    "cta": "FREE INTRODUCTORY LESSON",
+    "variant": "primary"
+  },
+  "howItWorks": {
+    "eyebrow": "Process",
+    "title": "How Does Our System Work?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Goal and Level Assessment",
+        "description": "The right start is the key to success. During your free introductory lesson with our professional instructors, your current language level is determined and planning is made according to your expectations and language goals."
+      },
+      {
+        "number": "02",
+        "title": "Expert Teacher Matching",
+        "description": "Work with a guide who understands you and shares your goals. Begin your lessons with our expert teachers who prepare personalized lesson content suited to your goals and interests. Continue your learning between classes with practice and interactive content tailored to you."
+      },
+      {
+        "number": "03",
+        "title": "Easy and Transparent Progress Tracking",
+        "description": "Track your education process, attended classes, and performance reports in real time through your personal dashboard."
+      }
+    ]
+  }
+}

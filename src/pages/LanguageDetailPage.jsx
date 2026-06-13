@@ -1,22 +1,46 @@
-import { Link, Navigate, useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import { ArrowRight, CheckCircle2, Sparkles } from "lucide-react";
+import { useMemo } from "react";
+import { useTranslation } from "react-i18next";
 import Container from "../components/ui/Container";
 import Card from "../components/ui/Card";
 import Button from "../components/ui/Button";
-import { trialRequestUrl } from "../data/content";
-import { languagePages, languagePageOrder } from "../data/languagePages";
+import LocalizedLink from "../routing/LocalizedLink";
+import { useLocalePath } from "../routing/useLocalePath";
+import { languageFlags, languagePageOrder, trialRequestUrl } from "../data/metadata";
+import { assets } from "../assets";
+
+const flagIndexByKey = {
+  turkish: 0,
+  english: 1,
+  german: 2,
+  french: 3,
+  spanish: 4,
+  russian: 5,
+  chinese: 6,
+};
+
+function getLanguageFlag(langId) {
+  const key = languageFlags[langId];
+  return assets.languageFlags[flagIndexByKey[key]];
+}
 
 export default function LanguageDetailPage() {
   const { langId } = useParams();
-  const language = languagePages[langId];
+  const { t } = useTranslation("languagePages");
+  const { localizedPath } = useLocalePath();
+  const language = useMemo(
+    () => t(`pages.${langId}`, { returnObjects: true, defaultValue: null }),
+    [t, langId],
+  );
 
-  if (!language) {
-    return <Navigate to="/" replace />;
+  if (!language || typeof language !== "object" || !language.id) {
+    return <Navigate to={localizedPath("home")} replace />;
   }
 
   const otherLanguages = languagePageOrder
     .filter((id) => id !== language.id)
-    .map((id) => languagePages[id]);
+    .map((id) => t(`pages.${id}`, { returnObjects: true }));
 
   return (
     <main>
@@ -28,17 +52,17 @@ export default function LanguageDetailPage() {
         <Container className="relative">
           <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="max-w-3xl">
-              <Link
-                to="/"
+              <LocalizedLink
+                routeKey="home"
                 className="text-sm font-medium text-primary-600 transition-colors hover:text-primary-700"
               >
-                ← Anasayfaya dön
-              </Link>
+                {t("ui.backToHome")}
+              </LocalizedLink>
               <div className="mt-5 flex items-center gap-4">
                 <div className="h-16 w-16 overflow-hidden rounded-full border-2 border-primary-100 ring-4 ring-primary-50">
                   <img
-                    src={language.flag}
-                    alt={`${language.name} bayrağı`}
+                    src={getLanguageFlag(language.id)}
+                    alt={t("ui.flagAlt", { name: language.name })}
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -62,10 +86,14 @@ export default function LanguageDetailPage() {
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button href={trialRequestUrl} size="lg">
-                  Ücretsiz Tanışma Dersi
+                  {t("ui.trialCta")}
                 </Button>
-                <Button to="/dersler" variant="outline" size="lg">
-                  Ders Formatlarını Gör
+                <Button
+                  to={localizedPath("lessons")}
+                  variant="outline"
+                  size="lg"
+                >
+                  {t("ui.lessonsCta")}
                 </Button>
               </div>
             </div>
@@ -118,10 +146,7 @@ export default function LanguageDetailPage() {
             </div>
 
             <div>
-              <Card
-                hover={false}
-                className="h-full bg-surface-muted p-8"
-              >
+              <Card hover={false} className="h-full bg-surface-muted p-8">
                 <h2 className="text-2xl font-bold tracking-tight text-slate-900">
                   {language.useCases.title}
                 </h2>
@@ -138,9 +163,7 @@ export default function LanguageDetailPage() {
                 </ul>
                 <div className="mt-8 rounded-2xl border border-primary-100 bg-white p-5">
                   <p className="text-sm leading-7 text-slate-600">
-                    Seviyeniz ne olursa olsun, ücretsiz tanışma dersinde mevcut
-                    düzeyinizi birlikte belirler ve size özel bir plan
-                    oluştururuz.
+                    {t("ui.levelNote")}
                   </p>
                 </div>
               </Card>
@@ -152,26 +175,27 @@ export default function LanguageDetailPage() {
       <section className="bg-surface-muted py-16 md:py-24">
         <Container>
           <h2 className="text-center text-2xl font-bold tracking-tight text-slate-900">
-            Diğer dilleri keşfedin
+            {t("ui.otherLanguages")}
           </h2>
           <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
             {otherLanguages.map((item) => (
-              <Link
+              <LocalizedLink
                 key={item.id}
-                to={`/diller/${item.id}`}
+                routeKey="languageDetail"
+                params={{ langId: item.id }}
                 className="group flex flex-col items-center rounded-2xl border border-slate-200/80 bg-white p-4 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary-200 hover:shadow-md"
               >
                 <div className="h-12 w-12 overflow-hidden rounded-full border-2 border-primary-100 ring-4 ring-primary-50 transition-transform duration-300 group-hover:scale-110">
                   <img
-                    src={item.flag}
-                    alt={`${item.name} bayrağı`}
+                    src={getLanguageFlag(item.id)}
+                    alt={t("ui.flagAlt", { name: item.name })}
                     className="h-full w-full object-cover"
                   />
                 </div>
                 <p className="mt-3 text-sm font-semibold text-slate-900">
                   {item.name}
                 </p>
-              </Link>
+              </LocalizedLink>
             ))}
           </div>
         </Container>
@@ -184,15 +208,14 @@ export default function LanguageDetailPage() {
             className="overflow-hidden bg-linear-to-br from-slate-900 via-primary-900 to-primary-700 p-8 text-center text-white md:p-12"
           >
             <h2 className="text-3xl font-bold tracking-tight">
-              {language.name} öğrenmeye bugün başlayın
+              {t("ui.footerCtaTitle", { name: language.name })}
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-primary-100">
-              Uzman öğretmenler ve akıllı teknolojilerle desteklenen öğrenme
-              deneyimine ücretsiz tanışma dersiyle adım atın.
+              {t("ui.footerCtaDescription")}
             </p>
             <div className="mt-8 flex justify-center">
               <Button href={trialRequestUrl} variant="secondary" size="lg">
-                Ücretsiz Tanışma Dersi
+                {t("ui.trialCta")}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>

@@ -1,12 +1,20 @@
+import { useTranslation } from "react-i18next";
 import { ArrowRight, Sparkles, Star } from "lucide-react";
 import Container from "../ui/Container";
 import Button from "../ui/Button";
 import Reveal from "../ui/Reveal";
 import Parallax from "../ui/Parallax";
-import { trialRequestUrl } from "../../data/content";
+import { trialRequestUrl } from "../../data/metadata";
 
 export default function CtaBand({ data, id }) {
-  const isPrimary = data.variant === "primary";
+  const { t } = useTranslation("home");
+  const ctaData =
+    data ??
+    t("ctaBands", { returnObjects: true }).find(
+      (band) => band.variant === "primary",
+    );
+  const [primaryStat] = t("hero.stats", { returnObjects: true });
+  const isPrimary = ctaData.variant === "primary";
 
   const dotPattern = {
     backgroundImage: `radial-gradient(circle, ${
@@ -59,7 +67,7 @@ export default function CtaBand({ data, id }) {
               }`}
             >
               <Sparkles className="h-4 w-4" />
-              {data.eyebrow}
+              {ctaData.eyebrow}
             </span>
 
             <h2
@@ -67,7 +75,7 @@ export default function CtaBand({ data, id }) {
                 isPrimary ? "text-white" : "text-slate-900"
               }`}
             >
-              {data.title}
+              {ctaData.title}
             </h2>
 
             <p
@@ -75,7 +83,7 @@ export default function CtaBand({ data, id }) {
                 isPrimary ? "text-primary-50" : "text-slate-600"
               }`}
             >
-              {data.description}
+              {ctaData.description}
             </p>
 
             <div className="mt-7 flex flex-col items-center gap-4">
@@ -85,7 +93,7 @@ export default function CtaBand({ data, id }) {
                 size="lg"
                 className="group/btn gap-2 transition-all hover:-translate-y-0.5 hover:scale-[1.03] hover:shadow-2xl"
               >
-                {data.cta}
+                {ctaData.cta}
                 <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover/btn:translate-x-1" />
               </Button>
 
@@ -106,7 +114,9 @@ export default function CtaBand({ data, id }) {
                     />
                   ))}
                 </span>
-                <span className="font-medium">10.000+ mutlu öğrenci</span>
+                <span className="font-medium">
+                  {primaryStat.value} {primaryStat.label.toLowerCase()}
+                </span>
               </div>
             </div>
           </div>

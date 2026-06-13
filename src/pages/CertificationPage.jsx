@@ -8,16 +8,29 @@ import {
   Sparkles,
   UserCheck,
 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Container from "../components/ui/Container";
 import SectionHeading from "../components/ui/SectionHeading";
 import Card from "../components/ui/Card";
 import Badge from "../components/ui/Badge";
 import Button from "../components/ui/Button";
-import { certificationPage } from "../data/certificationPage";
+import { certificationAssets } from "../data/metadata";
+import { useLocalePath } from "../routing/useLocalePath";
 
 const pillarIcons = [BarChart3, UserCheck, Award];
 
+const partnershipImages = {
+  ankara: certificationAssets.ankaraImage,
+  cefr: certificationAssets.cefrImage,
+};
+
 export default function CertificationPage() {
+  const { t } = useTranslation("certification");
+  const { localizedPath } = useLocalePath();
+  const pillars = t("pillars", { returnObjects: true });
+  const partnerships = t("partnerships", { returnObjects: true });
+  const certificateDetails = t("certificates.details", { returnObjects: true });
+
   return (
     <main>
       <section className="relative overflow-hidden bg-surface-accent py-16 md:py-24">
@@ -29,13 +42,13 @@ export default function CertificationPage() {
           <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="max-w-3xl">
               <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary-600">
-                {certificationPage.hero.eyebrow}
+                {t("hero.eyebrow")}
               </p>
               <h1 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl">
-                {certificationPage.hero.title}
+                {t("hero.title")}
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-slate-600">
-                {certificationPage.hero.description}
+                {t("hero.description")}
               </p>
             </div>
 
@@ -49,14 +62,13 @@ export default function CertificationPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold uppercase tracking-wide text-primary-600">
-                    CEFR Uyumlu
+                    {t("heroCard.eyebrow")}
                   </p>
                   <p className="mt-2 text-2xl font-bold text-slate-900">
-                    İngilizce Dil Yeterlilik Sertifikası
+                    {t("heroCard.title")}
                   </p>
                   <p className="mt-3 text-sm leading-7 text-slate-600">
-                    Ankara Üniversitesi iş birliğiyle, uluslararası geçerliliği
-                    olan resmi belge.
+                    {t("heroCard.description")}
                   </p>
                 </div>
               </div>
@@ -68,7 +80,7 @@ export default function CertificationPage() {
       <section className="py-16 md:py-24">
         <Container>
           <div className="grid gap-6 lg:grid-cols-3">
-            {certificationPage.pillars.map((pillar, index) => {
+            {pillars.map((pillar, index) => {
               const Icon = pillarIcons[index];
 
               return (
@@ -109,14 +121,14 @@ export default function CertificationPage() {
           >
             <div className="max-w-2xl">
               <div className="inline-flex rounded-full bg-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-wide">
-                Bilgilendirme
+                {t("pdf.eyebrow")}
               </div>
               <p className="mt-4 text-lg font-medium leading-relaxed text-primary-50">
-                {certificationPage.pdf.label}
+                {t("pdf.label")}
               </p>
             </div>
             <Button
-              href={certificationPage.pdf.href}
+              href={certificationAssets.pdfHref}
               variant="secondary"
               size="lg"
               className="shrink-0"
@@ -124,7 +136,7 @@ export default function CertificationPage() {
               rel="noreferrer"
             >
               <Download className="mr-2 h-5 w-5" />
-              {certificationPage.pdf.button}
+              {t("pdf.button")}
             </Button>
           </Card>
         </Container>
@@ -137,15 +149,15 @@ export default function CertificationPage() {
               <div className="bg-linear-to-br from-primary-600 to-primary-700 p-8 text-white md:p-10">
                 <Quote className="h-10 w-10 text-primary-200" />
                 <p className="mt-6 text-sm font-semibold uppercase tracking-wide text-primary-100">
-                  {certificationPage.testimonial.title}
+                  {t("testimonial.title")}
                 </p>
                 <p className="mt-2 text-base font-medium text-white/90">
-                  {certificationPage.testimonial.role}
+                  {t("testimonial.role")}
                 </p>
               </div>
               <div className="p-8 md:p-10">
                 <p className="text-sm leading-8 text-slate-600 md:text-base">
-                  {certificationPage.testimonial.text}
+                  {t("testimonial.text")}
                 </p>
               </div>
             </div>
@@ -158,23 +170,23 @@ export default function CertificationPage() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="order-2 lg:order-1">
               <SectionHeading
-                eyebrow={certificationPage.certificates.eyebrow}
-                title={certificationPage.certificates.title}
-                subtitle={certificationPage.certificates.subtitle}
+                eyebrow={t("certificates.eyebrow")}
+                title={t("certificates.title")}
+                subtitle={t("certificates.subtitle")}
                 align="left"
               />
               <div className="mt-6 flex flex-wrap gap-2">
-                {certificationPage.certificates.levels.map((level) => (
+                {certificationAssets.levels.map((level) => (
                   <Badge key={level} className="px-4 py-1.5 text-sm">
                     {level}
                   </Badge>
                 ))}
               </div>
               <p className="mt-6 text-base leading-8 text-slate-600">
-                {certificationPage.certificates.description}
+                {t("certificates.description")}
               </p>
               <ul className="mt-6 space-y-4">
-                {certificationPage.certificates.details.map((detail) => (
+                {certificateDetails.map((detail) => (
                   <li
                     key={detail}
                     className="flex gap-3 text-sm leading-7 text-slate-600"
@@ -189,8 +201,8 @@ export default function CertificationPage() {
             <div className="order-1 lg:order-2">
               <div className="overflow-hidden rounded-4xl border border-slate-200 bg-white p-4 shadow-xl shadow-primary-100/40">
                 <img
-                  src={certificationPage.certificates.image}
-                  alt="CEFR dil seviyeleri A1, A2, B1"
+                  src={certificationAssets.certificateImage}
+                  alt={t("certificates.imageAlt")}
                   className="w-full rounded-3xl object-contain"
                 />
               </div>
@@ -199,7 +211,7 @@ export default function CertificationPage() {
         </Container>
       </section>
 
-      {certificationPage.partnerships.map((partnership, index) => (
+      {partnerships.map((partnership, index) => (
         <section
           key={partnership.id}
           className={
@@ -216,7 +228,7 @@ export default function CertificationPage() {
             >
               <div className="overflow-hidden rounded-4xl border border-slate-200 bg-white p-6 shadow-lg shadow-primary-100/30">
                 <img
-                  src={partnership.image}
+                  src={partnershipImages[partnership.id]}
                   alt={partnership.title}
                   className="mx-auto w-full max-w-sm object-contain"
                 />
@@ -250,19 +262,18 @@ export default function CertificationPage() {
           >
             <Globe2 className="mx-auto h-10 w-10 text-primary-200" />
             <h2 className="mt-5 text-3xl font-bold tracking-tight">
-              {certificationPage.examCta.title}
+              {t("examCta.title")}
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-primary-100">
-              Online dil sınavlarına katılım ve sertifika süreci hakkında bilgi
-              almak için bizimle iletişime geçin.
+              {t("examCta.description")}
             </p>
             <div className="mt-8">
               <Button
-                href={certificationPage.examCta.href}
+                href={localizedPath("contact")}
                 variant="secondary"
                 size="lg"
               >
-                {certificationPage.examCta.button}
+                {t("examCta.button")}
               </Button>
             </div>
           </Card>

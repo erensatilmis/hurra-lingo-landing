@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import Layout from './components/layout/Layout'
 import HomePage from './pages/HomePage'
 import ContactPage from './pages/ContactPage'
@@ -12,24 +12,58 @@ import ReferencesPage from './pages/ReferencesPage'
 import LanguageDetailPage from './pages/LanguageDetailPage'
 import OnboardingPage from './pages/OnboardingPage'
 import BlogPage from './pages/BlogPage'
+import LocaleLayout from './routing/LocaleLayout'
+import LocaleRedirect, { LegacySlugRedirect } from './routing/LocaleRedirect'
+import { LEGACY_REDIRECTS, uniqueSlugsForRoute } from './routing/routes'
+
+function slugRoutes(routeKey, element) {
+  return uniqueSlugsForRoute(routeKey).map((slug) => (
+    <Route key={`${routeKey}-${slug}`} path={slug} element={element} />
+  ))
+}
+
+function languageDetailRoutes() {
+  return uniqueSlugsForRoute('languageDetail').map((slug) => (
+    <Route
+      key={`languageDetail-${slug}`}
+      path={`${slug}/:langId`}
+      element={<LanguageDetailPage />}
+    />
+  ))
+}
 
 function App() {
   return (
     <Routes>
-      <Route element={<Layout />}>
-        <Route index element={<HomePage />} />
-        <Route path="egitim" element={<EducationPage />} />
-        <Route path="dersler" element={<LessonsPage />} />
-        <Route path="ogretmenler" element={<TeachersPage />} />
-        <Route path="ucretler" element={<PricingPage />} />
-        <Route path="sertifikasyon" element={<CertificationPage />} />
-        <Route path="sss" element={<FaqPage />} />
-        <Route path="referanslar" element={<ReferencesPage />} />
-        <Route path="diller/:langId" element={<LanguageDetailPage />} />
-        <Route path="iletisim" element={<ContactPage />} />
-        <Route path="blog" element={<BlogPage />} />
+      <Route path="/" element={<LocaleRedirect />} />
+
+      <Route path="/:locale" element={<LocaleLayout />}>
+        <Route element={<Layout />}>
+          <Route index element={<HomePage />} />
+          {slugRoutes('education', <EducationPage />)}
+          {slugRoutes('lessons', <LessonsPage />)}
+          {slugRoutes('teachers', <TeachersPage />)}
+          {slugRoutes('pricing', <PricingPage />)}
+          {slugRoutes('certification', <CertificationPage />)}
+          {slugRoutes('faq', <FaqPage />)}
+          {slugRoutes('references', <ReferencesPage />)}
+          {languageDetailRoutes()}
+          {slugRoutes('contact', <ContactPage />)}
+          {slugRoutes('blog', <BlogPage />)}
+        </Route>
+        {slugRoutes('onboarding', <OnboardingPage />)}
       </Route>
-      <Route path="onboarding" element={<OnboardingPage />} />
+
+      {Object.keys(LEGACY_REDIRECTS).map((slug) => (
+        <Route
+          key={`legacy-${slug}`}
+          path={slug}
+          element={<LegacySlugRedirect slug={slug} />}
+        />
+      ))}
+
+      <Route path="onboarding" element={<Navigate to="/tr/onboarding" replace />} />
+      <Route path="*" element={<Navigate to="/tr" replace />} />
     </Routes>
   )
 }

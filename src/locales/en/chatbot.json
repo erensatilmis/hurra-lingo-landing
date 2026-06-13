@@ -1,0 +1,18 @@
+{
+  "aria": {
+    "dialog": "Hurra Lingo chat assistant",
+    "close": "Close chat",
+    "send": "Send message",
+    "open": "Open chat"
+  },
+  "title": "Hurra Lingo Assistant",
+  "status": "Online",
+  "greeting": "Hello! I'm the Hurra Lingo assistant. How can I help you?",
+  "placeholder": "Type your message...",
+  "comingSoon": "Chat feature coming soon.",
+  "quickReplies": [
+    "Class schedule information",
+    "Free trial",
+    "Pricing information"
+  ]
+}

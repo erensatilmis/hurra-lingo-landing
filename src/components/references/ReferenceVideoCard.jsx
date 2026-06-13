@@ -16,9 +16,12 @@ export default function ReferenceVideoCard({
   activeVideoId,
   onPlay,
   onClose,
+  playAriaLabel,
 }) {
   const { name, role, videoId, photo } = item;
   const isOpen = activeVideoId === videoId;
+  const ariaLabel =
+    playAriaLabel ?? `${name} ${role ? `${role} ` : ""}videosunu izle`;
 
   return (
     <>
@@ -27,7 +30,7 @@ export default function ReferenceVideoCard({
           type="button"
           onClick={() => onPlay(videoId)}
           className="relative block aspect-4/5 w-full overflow-hidden bg-white"
-          aria-label={`${name} videosunu izle`}
+          aria-label={ariaLabel}
         >
           <img
             src={photo}

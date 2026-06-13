@@ -1,14 +1,30 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { HelpCircle, MessageCircle, Quote } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Container from "../components/ui/Container";
 import SectionHeading from "../components/ui/SectionHeading";
 import Card from "../components/ui/Card";
 import Accordion from "../components/ui/Accordion";
 import Button from "../components/ui/Button";
-import { faqPage } from "../data/faqPage";
+import { reviewAvatars } from "../data/metadata";
+import { useLocalePath } from "../routing/useLocalePath";
 
 export default function FaqPage() {
-  const [openId, setOpenId] = useState(faqPage.items[0].id);
+  const { t, i18n } = useTranslation("faq");
+  const { localizedPath } = useLocalePath();
+  const items = useMemo(
+    () => t("items", { returnObjects: true }),
+    [t, i18n.language],
+  );
+  const testimonials = useMemo(
+    () =>
+      t("testimonials.items", { returnObjects: true }).map((item) => ({
+        ...item,
+        avatar: reviewAvatars[item.id] ?? item.avatar,
+      })),
+    [t, i18n.language],
+  );
+  const [openId, setOpenId] = useState(items[0]?.id ?? null);
 
   const handleToggle = (id) => {
     setOpenId((current) => (current === id ? null : id));
@@ -25,13 +41,13 @@ export default function FaqPage() {
           <div className="grid items-center gap-10 lg:grid-cols-[1fr_auto]">
             <div className="max-w-3xl">
               <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary-600">
-                {faqPage.hero.eyebrow}
+                {t("hero.eyebrow")}
               </p>
               <h1 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl">
-                {faqPage.hero.title}
+                {t("hero.title")}
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-slate-600">
-                {faqPage.hero.description}
+                {t("hero.description")}
               </p>
             </div>
 
@@ -43,11 +59,10 @@ export default function FaqPage() {
                 <HelpCircle className="h-7 w-7" />
               </div>
               <p className="mt-4 text-sm font-semibold text-slate-900">
-                {faqPage.items.length} sık sorulan soru
+                {t("sidebar.count", { count: items.length })}
               </p>
               <p className="mt-2 text-sm leading-7 text-slate-600">
-                Eğitim süreci, ders formatları ve platform kullanımı hakkında
-                hızlı yanıtlar.
+                {t("sidebar.countDescription")}
               </p>
             </Card>
           </div>
@@ -59,8 +74,8 @@ export default function FaqPage() {
           <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
             <div className="lg:sticky lg:top-28">
               <SectionHeading
-                title="Merak edilenler"
-                subtitle="Sorulara tıklayarak yanıtları görüntüleyebilirsiniz."
+                title={t("sidebar.title")}
+                subtitle={t("sidebar.subtitle")}
                 align="left"
               />
               <Card
@@ -73,29 +88,25 @@ export default function FaqPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">
-                      Detaylı bilgi almak ister misiniz?
+                      {t("sidebar.contactTitle")}
                     </p>
                     <p className="mt-2 text-sm leading-7 text-slate-600">
-                      Ekibimiz size yardımcı olmaktan memnuniyet duyar.
+                      {t("sidebar.contactDescription")}
                     </p>
                     <Button
-                      href="/iletisim"
+                      to={localizedPath("contact")}
                       variant="outline"
                       size="sm"
                       className="mt-4"
                     >
-                      İletişime Geçin
+                      {t("sidebar.contactCta")}
                     </Button>
                   </div>
                 </div>
               </Card>
             </div>
 
-            <Accordion
-              items={faqPage.items}
-              openId={openId}
-              onToggle={handleToggle}
-            />
+            <Accordion items={items} openId={openId} onToggle={handleToggle} />
           </div>
         </Container>
       </section>
@@ -103,12 +114,12 @@ export default function FaqPage() {
       <section className="bg-surface-muted py-16 md:py-24">
         <Container>
           <SectionHeading
-            eyebrow={faqPage.testimonials.eyebrow}
-            title={faqPage.testimonials.title}
+            eyebrow={t("testimonials.eyebrow")}
+            title={t("testimonials.title")}
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-2">
-            {faqPage.testimonials.items.map((item) => (
+            {testimonials.map((item) => (
               <Card key={item.id} className="h-full">
                 <div className="flex items-start gap-4">
                   <img

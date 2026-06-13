@@ -1,0 +1,295 @@
+{
+  "order": ["tr", "en", "de", "fr", "es", "ru", "zh"],
+  "pages": {
+    "tr": {
+      "id": "tr",
+      "name": "Turkish",
+      "nativeName": "Türkçe",
+      "hero": {
+        "eyebrow": "Turkish with Hurra Lingo",
+        "title": "Open the doors to Turkey with Turkish",
+        "description": "For those who want to learn Turkish as a foreign language, we offer a culture-focused program that enables effective communication from daily life to the business world."
+      },
+      "stats": [
+        { "value": "85M+", "label": "Native speakers" },
+        { "value": "A1–C1", "label": "CEFR levels" },
+        { "value": "24/7", "label": "Online live classes" }
+      ],
+      "reasons": {
+        "title": "Why should you learn Turkish?",
+        "items": [
+          {
+            "title": "A bridging language",
+            "text": "A language connecting Europe and Asia, increasingly valued in trade and tourism."
+          },
+          {
+            "title": "Rich culture",
+            "text": "Access literature, music, cinema, and culinary culture in the original language."
+          },
+          {
+            "title": "Structured grammar",
+            "text": "With its regular and systematic grammar, you progress quickly as you grasp its logic."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Who is this program for?",
+        "items": [
+          "Foreigners living in or planning to live in Turkey",
+          "Professionals working with Turkish business partners",
+          "Those who want to connect with Turkish culture and family"
+        ]
+      }
+    },
+    "en": {
+      "id": "en",
+      "name": "English",
+      "nativeName": "English",
+      "hero": {
+        "eyebrow": "English with Hurra Lingo",
+        "title": "Speak confidently in the world's common language",
+        "description": "Learn English — the language most needed for work, education, and travel — through speaking-focused lessons with practice from day one."
+      },
+      "stats": [
+        { "value": "1.5B+", "label": "Speakers worldwide" },
+        { "value": "A1–C1", "label": "CEFR levels" },
+        { "value": "#1", "label": "Most requested language" }
+      ],
+      "reasons": {
+        "title": "Why should you learn English?",
+        "items": [
+          {
+            "title": "Career opportunity",
+            "text": "One of the most sought-after skills in the global business world."
+          },
+          {
+            "title": "Unlimited content",
+            "text": "Access the vast majority of information, courses, and entertainment on the internet."
+          },
+          {
+            "title": "Academic success",
+            "text": "Opens doors to international education through exams like IELTS and TOEFL."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Who is this program for?",
+        "items": [
+          "Students who want to support their school curriculum",
+          "Professionals who want to stand out in their careers",
+          "Those seeking practice for travel and daily communication"
+        ]
+      }
+    },
+    "de": {
+      "id": "de",
+      "name": "German",
+      "nativeName": "Deutsch",
+      "hero": {
+        "eyebrow": "German with Hurra Lingo",
+        "title": "Learn the language of Europe's strong economy",
+        "description": "Learn German — the key to education and career opportunities in Germany, Austria, and Switzerland — through a step-by-step, practice-oriented program."
+      },
+      "stats": [
+        { "value": "130M+", "label": "Speakers worldwide" },
+        { "value": "A1–C1", "label": "CEFR levels" },
+        { "value": "3 countries", "label": "Official language in" }
+      ],
+      "reasons": {
+        "title": "Why should you learn German?",
+        "items": [
+          {
+            "title": "Education opportunity",
+            "text": "The chance for free education at most public universities in Germany."
+          },
+          {
+            "title": "Strong economy",
+            "text": "Job and internship opportunities in Europe's largest economy."
+          },
+          {
+            "title": "Engineering and science",
+            "text": "Direct access to resources and careers in technical fields."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Who is this program for?",
+        "items": [
+          "Those aiming to study in Germany",
+          "Those planning work visas and careers",
+          "Those who want to advance in engineering and science"
+        ]
+      }
+    },
+    "fr": {
+      "id": "fr",
+      "name": "French",
+      "nativeName": "Français",
+      "hero": {
+        "eyebrow": "French with Hurra Lingo",
+        "title": "Discover the elegant language of diplomacy and art",
+        "description": "Learn French — spoken across five continents and essential in culture and diplomacy — through enjoyable and interactive lessons."
+      },
+      "stats": [
+        { "value": "300M+", "label": "Speakers worldwide" },
+        { "value": "A1–C1", "label": "CEFR levels" },
+        { "value": "5 continents", "label": "Geographic reach" }
+      ],
+      "reasons": {
+        "title": "Why should you learn French?",
+        "items": [
+          {
+            "title": "International language",
+            "text": "One of the official languages of the UN, EU, and many international organizations."
+          },
+          {
+            "title": "Culture and art",
+            "text": "The language at the center of literature, cinema, fashion, and gastronomy."
+          },
+          {
+            "title": "Career network",
+            "text": "A broad business and travel network stretching from Africa to Canada."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Who is this program for?",
+        "items": [
+          "Those interested in art, fashion, and culture",
+          "Those targeting education or careers in Francophone countries",
+          "Those who want to discover the aesthetics of a new language"
+        ]
+      }
+    },
+    "es": {
+      "id": "es",
+      "name": "Spanish",
+      "nativeName": "Español",
+      "hero": {
+        "eyebrow": "Spanish with Hurra Lingo",
+        "title": "Experience the energy of two continents in Spanish",
+        "description": "Learn Spanish — one of the most spoken languages in the world and enjoyable to learn — quickly through speaking-focused and fun lessons."
+      },
+      "stats": [
+        { "value": "550M+", "label": "Speakers worldwide" },
+        { "value": "A1–C1", "label": "CEFR levels" },
+        { "value": "20+ countries", "label": "Official language in" }
+      ],
+      "reasons": {
+        "title": "Why should you learn Spanish?",
+        "items": [
+          {
+            "title": "Fast progress",
+            "text": "One of the easiest languages to learn with its read-as-written structure."
+          },
+          {
+            "title": "Wide geography",
+            "text": "Communicate with hundreds of millions of people in Spain and Latin America."
+          },
+          {
+            "title": "Culture and travel",
+            "text": "Opens a colorful door to music, TV series, and the world of travel."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Who is this program for?",
+        "items": [
+          "Those interested in Latin culture and travel",
+          "Beginners who want fast results",
+          "Those who want to expand their business network to Latin America"
+        ]
+      }
+    },
+    "ru": {
+      "id": "ru",
+      "name": "Russian",
+      "nativeName": "Русский",
+      "hero": {
+        "eyebrow": "Russian with Hurra Lingo",
+        "title": "Step into the language of a vast geography",
+        "description": "Learn Russian — the powerful language of Eurasia — from scratch with a patient and structured program covering the alphabet through everyday conversation."
+      },
+      "stats": [
+        { "value": "260M+", "label": "Speakers worldwide" },
+        { "value": "A1–C1", "label": "CEFR levels" },
+        { "value": "Cyrillic", "label": "Alphabet support from scratch" }
+      ],
+      "reasons": {
+        "title": "Why should you learn Russian?",
+        "items": [
+          {
+            "title": "Trade opportunity",
+            "text": "A valuable advantage in intensive commercial relations with Turkey."
+          },
+          {
+            "title": "Rich literature",
+            "text": "The opportunity to read world classics in the original language."
+          },
+          {
+            "title": "Wide usage",
+            "text": "A widespread language you can use to communicate in many countries."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Who is this program for?",
+        "items": [
+          "Those working in tourism and trade sectors",
+          "Those with ties to Russian-speaking countries",
+          "Those who want to discover a new alphabet and culture"
+        ]
+      }
+    },
+    "zh": {
+      "id": "zh",
+      "name": "Chinese",
+      "nativeName": "中文",
+      "hero": {
+        "eyebrow": "Chinese with Hurra Lingo",
+        "title": "Invest in the future with the world's most spoken language",
+        "description": "Learn Mandarin Chinese step by step and enjoyably through visual and interactive methods — from tones to characters."
+      },
+      "stats": [
+        { "value": "1.1B+", "label": "Speakers worldwide" },
+        { "value": "HSK", "label": "International level system" },
+        { "value": "#1", "label": "Most native speakers" }
+      ],
+      "reasons": {
+        "title": "Why should you learn Chinese?",
+        "items": [
+          {
+            "title": "Economic power",
+            "text": "The advantage of doing business with one of the world's largest markets."
+          },
+          {
+            "title": "Stand out in competition",
+            "text": "This rarely known language makes a difference on your résumé."
+          },
+          {
+            "title": "Ancient culture",
+            "text": "Access to a rich culture and world of thought spanning thousands of years."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Who is this program for?",
+        "items": [
+          "Professionals targeting international trade",
+          "Those who want to learn a different writing system",
+          "Those seeking a strategic language for the future"
+        ]
+      }
+    }
+  },
+  "ui": {
+    "backToHome": "← Back to home",
+    "trialCta": "Free Introductory Lesson",
+    "lessonsCta": "View Lesson Formats",
+    "levelNote": "Whatever your level, we will assess it together in a free introductory lesson and create a personalized plan for you.",
+    "otherLanguages": "Explore other languages",
+    "footerCtaTitle": "Start learning {{name}} today",
+    "footerCtaDescription": "Take the first step with a free introductory lesson in a learning experience supported by expert teachers and smart technology.",
+    "flagAlt": "{{name}} flag"
+  }
+}

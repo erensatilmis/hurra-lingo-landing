@@ -1,0 +1,32 @@
+{
+  "aria": {
+    "dialog": "Çerez tercihleri",
+    "closePreferences": "Tercih panelini kapat"
+  },
+  "preferences": {
+    "title": "Çerez Tercihleri",
+    "description": "Hangi çerez kategorilerine izin vermek istediğinizi seçin.",
+    "required": {
+      "label": "Zorunlu Çerezler",
+      "description": "Sitenin temel işlevleri için gereklidir ve kapatılamaz."
+    },
+    "analytics": {
+      "label": "Analitik Çerezler",
+      "description": "Ziyaret istatistiklerini anlamamıza ve siteyi geliştirmemize yardımcı olur."
+    },
+    "marketing": {
+      "label": "Pazarlama Çerezleri",
+      "description": "Kişiselleştirilmiş içerik ve reklam deneyimi sunmak için kullanılır."
+    },
+    "save": "Tercihleri Kaydet",
+    "acceptAll": "Tümünü Kabul Et"
+  },
+  "banner": {
+    "title": "Çerez Kullanımı",
+    "description": "Deneyiminizi iyileştirmek için çerezler kullanıyoruz. Zorunlu çerezler siteyi çalıştırmak için gereklidir. Analitik ve pazarlama çerezleri için tercihinizi belirleyebilirsiniz.",
+    "privacyPolicy": "Gizlilik Politikası",
+    "accept": "Kabul Et",
+    "reject": "Reddet",
+    "manage": "Tercihleri Yönet"
+  }
+}

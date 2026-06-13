@@ -1,0 +1,18 @@
+{
+  "aria": {
+    "dialog": "Hurra Lingo Chat-Assistent",
+    "close": "Chat schließen",
+    "send": "Nachricht senden",
+    "open": "Chat öffnen"
+  },
+  "title": "Hurra Lingo Assistent",
+  "status": "Online",
+  "greeting": "Hallo! Ich bin der Hurra-Lingo-Assistent. Wie kann ich Ihnen helfen?",
+  "placeholder": "Nachricht eingeben...",
+  "comingSoon": "Chat-Funktion demnächst verfügbar.",
+  "quickReplies": [
+    "Informationen zum Unterrichtsplan",
+    "Kostenlose Probestunde",
+    "Preisinformationen"
+  ]
+}

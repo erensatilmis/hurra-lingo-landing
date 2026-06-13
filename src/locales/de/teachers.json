@@ -1,0 +1,197 @@
+{
+  "hero": {
+    "eyebrow": "Unsere Lehrkräfte",
+    "title": "Unser erfahrenes Lehrteam",
+    "description": "Das Herz von Hurra Lingo sind unsere inspirierenden Lehrkräfte. Mit unserem Team aus Fachexpertinnen und -experten sowie international erfahrenen Dozentinnen und Dozenten bieten wir ein personalisiertes Lernerlebnis für jede Altersgruppe.",
+    "subtitle": "Mit unseren Begleiterinnen und Begleitern, die moderne Methoden und Technologie effektiv einsetzen, vermitteln wir nicht nur Sprache – wir schaffen ein motivierendes Umfeld, in dem unsere Lernenden selbstbewusst üben können. Lernen bei uns ist mehr als ein akademischer Prozess; es ist eine professionelle und kulturelle Reise."
+  },
+  "showAllLabel": "Alle anzeigen",
+  "showLessLabel": "Weniger anzeigen",
+  "allGroupsLabel": "Alle",
+  "groups": [
+    {
+      "id": "english",
+      "label": "Englisch",
+      "role": "Englischlehrer/in",
+      "teachers": [
+        {
+          "name": "Ghazaleh Ghazalifard",
+          "highlights": [
+            "Englisch als Muttersprache",
+            "Internationale Bildungserfahrung",
+            "Hohe Schülerzufriedenheit"
+          ]
+        },
+        {
+          "name": "Adeniyi Peace",
+          "highlights": [
+            "Englisch als Muttersprache",
+            "Internationale Lehrkraft",
+            "Hohe Schülerzufriedenheit"
+          ]
+        },
+        {
+          "name": "Yolandi Bezuidenhout",
+          "highlights": [
+            "Englisch als Muttersprache",
+            "Mehrsprachige Lehrkraft",
+            "Erfahrene Sprechcoach"
+          ]
+        },
+        {
+          "name": "Adam Büyükbiçer"
+        },
+        {
+          "name": "Parisa Khalegni"
+        },
+        {
+          "name": "Saskia Douglas"
+        },
+        {
+          "name": "Ayberk Savaş"
+        },
+        {
+          "name": "Ayşegül Eskikurt"
+        },
+        {
+          "name": "Ayşegül Santur"
+        },
+        {
+          "name": "Ayşın Yaşa"
+        },
+        {
+          "name": "Bengü Kesen"
+        },
+        {
+          "name": "Betül Beyza"
+        },
+        {
+          "name": "Büşra Sürekçi"
+        },
+        {
+          "name": "Burak Santur"
+        },
+        {
+          "name": "Deniz Özlü"
+        },
+        {
+          "name": "Gizem Kenez"
+        },
+        {
+          "name": "Kayra Ağır"
+        },
+        {
+          "name": "Kübra Toral"
+        },
+        {
+          "name": "Mustafa Hakan"
+        },
+        {
+          "name": "Neslihan Kızılbayır"
+        },
+        {
+          "name": "Sedef Şen"
+        },
+        {
+          "name": "Yağmur Irmak Özarslan"
+        },
+        {
+          "name": "Yasemin Ürer"
+        },
+        {
+          "name": "Zeynep Akgül"
+        },
+        {
+          "name": "Zeynep Sarıibrahimoğlu"
+        },
+        {
+          "name": "Deniz Okumuş"
+        },
+        {
+          "name": "Müge Tınaz"
+        },
+        {
+          "name": "Duru Melek"
+        }
+      ]
+    },
+    {
+      "id": "spanish",
+      "label": "Spanisch",
+      "role": "Spanischlehrer/in",
+      "teachers": [
+        {
+          "name": "J. Luis Fernandez Salazar",
+          "highlights": [
+            "Spanisch als Muttersprache",
+            "Internationale Bildungserfahrung",
+            "Hohe Schülerzufriedenheit"
+          ]
+        },
+        {
+          "name": "Alexandra Çavuş"
+        }
+      ]
+    },
+    {
+      "id": "french",
+      "label": "Französisch",
+      "role": "Französischlehrer/in",
+      "teachers": [
+        {
+          "name": "Büşra Ağca"
+        }
+      ]
+    },
+    {
+      "id": "german",
+      "label": "Deutsch",
+      "role": "Deutschlehrer/in",
+      "teachers": [
+        {
+          "name": "Mehtap Taşçıoğlu"
+        },
+        {
+          "name": "Nesrin Yılmaz"
+        },
+        {
+          "name": "Sibel Bulut"
+        },
+        {
+          "name": "Elif Gizem Kaya"
+        }
+      ]
+    },
+    {
+      "id": "russian",
+      "label": "Russisch",
+      "role": "Russischlehrer/in",
+      "teachers": [
+        {
+          "name": "Ayzade Kahya"
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "label": "Chinesisch",
+      "role": "Chinesischlehrer/in",
+      "teachers": [
+        {
+          "name": "Yanshan Lin",
+          "highlights": [
+            "Chinesisch als Muttersprache",
+            "Internationale Bildungserfahrung",
+            "Hohe Schülerzufriedenheit"
+          ]
+        }
+      ]
+    }
+  ],
+  "career": {
+    "eyebrow": "Karriere",
+    "title": "Werden Sie Teil des Hurra-Lingo-Teams",
+    "description": "Wir laden erfahrene Fremdsprachenlehrkräfte ein, die unser Team bereichern, sich Hurra Lingo anzuschließen – unterstützt von Nesibe Aydın Eğitim Kurumları.",
+    "cta": "JETZT BEWERBEN!"
+  }
+}

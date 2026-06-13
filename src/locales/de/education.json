@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "eyebrow": "Unser Bildungsmodell",
+    "title": "Durchbrechen Sie Grenzen in Karriere und Reisen: Flexible Sprachkurse für Erwachsene!",
+    "description": "Ob Sie im Berufsleben professionell kommunizieren oder auf Reisen frei sprechen möchten – mit unserem 24/7-Online-Unterricht und KI-gestützten interaktiven Inhalten bestimmen Sie Ihren Zeitplan und genießen nachhaltige Sprachpraxis."
+  },
+  "personalizedPlans": {
+    "title": "Personalisierte Unterrichtspläne, zugeschnitten auf Sie",
+    "items": [
+      {
+        "title": "Zielorientiertes Lernen",
+        "description": "Möchten Sie im Alltag fließend sprechen oder im Berufsleben hervorstechen? Mit unserem erfahrenen Lehrteam bieten wir Unterrichtsprogramme, die vollständig auf Ihre Bedürfnisse zugeschnitten sind."
+      },
+      {
+        "title": "Flexible Terminplanung rund um die Uhr",
+        "description": "Gestalten Sie Ihre Bildung nach Ihrem eigenen Zeitplan – mit Live-Unterricht, der zu Ihrem vollen Arbeitsalltag und Ihrem Tagesleben passt."
+      },
+      {
+        "title": "Sprechen im Mittelpunkt",
+        "description": "Lernen Sie nicht nur Grammatik – setzen Sie Gelerntes in die Praxis um. Sprechen Sie vom ersten Tag an mit kommunikationsorientiertem Unterricht nach dem Prinzip „Vom ersten Tag an sprechen“."
+      },
+      {
+        "title": "International standardisierter (GER-) Lehrplan",
+        "description": "Wir überlassen Bildungsqualität nicht dem Zufall. Sämtliche Unterrichtsinhalte und unser Niveausystem sind vollständig an die weltweit anerkannten GER-Standards angeglichen – so entwickeln Sie Ihre Sprachkenntnisse in einem praxisorientierten Rahmen."
+      }
+    ]
+  },
+  "tracking": {
+    "title": "Fortschrittsverfolgung und kontinuierliche Übung",
+    "subtitle": "Während Ihrer gesamten Lernreise werden Sie mit Tools unterstützt, die Ihren Fortschritt sichtbar machen.",
+    "items": [
+      {
+        "title": "Ununterbrochene Übung",
+        "description": "Beschleunigen Sie Ihr Lernen, indem Sie zwischen den Unterrichtsstunden und in Ihrer Freizeit weiter üben."
+      },
+      {
+        "title": "Benutzerfreundliches Portal",
+        "description": "Verfolgen Sie Ihren Fortschritt, besuchte Unterrichtsstunden und Leistungsberichte bequem in einem Dashboard."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "FREMDSPRACHEN LERNEN MIT HURRA LINGO",
+    "title": "Ein Bildungsplan, der zu Ihren Zielen passt",
+    "description": "Starten Sie in ein Lernangebot, das von erfahrenen Lehrkräften und intelligenter Technologie getragen wird.",
+    "cta": "KOSTENLOSE PROBESTUNDE",
+    "variant": "primary"
+  },
+  "howItWorks": {
+    "eyebrow": "Ablauf",
+    "title": "Wie funktioniert unser System?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Ziel- und Niveaubestimmung",
+        "description": "Der richtige Start ist der Schlüssel zum Erfolg. In Ihrer kostenlosen Probestunde mit unseren professionellen Lehrkräften wird Ihr aktuelles Sprachniveau ermittelt und die Planung entsprechend Ihren Erwartungen und Sprachzielen vorgenommen."
+      },
+      {
+        "number": "02",
+        "title": "Passende Lehrkraft",
+        "description": "Arbeiten Sie mit einer Begleitung, die Sie versteht und Ihre Ziele teilt. Beginnen Sie Ihren Unterricht mit unseren erfahrenen Lehrkräften, die personalisierte Unterrichtsinhalte entsprechend Ihren Zielen und Interessen vorbereiten. Setzen Sie Ihr Lernen zwischen den Stunden mit auf Sie zugeschnittener Übung und interaktiven Inhalten fort."
+      },
+      {
+        "number": "03",
+        "title": "Einfache und transparente Fortschrittsverfolgung",
+        "description": "Verfolgen Sie Ihren Bildungsprozess, besuchte Unterrichtsstunden und Leistungsberichte in Echtzeit über Ihr persönliches Dashboard."
+      }
+    ]
+  }
+}

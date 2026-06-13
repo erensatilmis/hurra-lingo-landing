@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "eyebrow": "Eğitim Modelimiz",
+    "title": "Kariyerinizde ve Seyahatlerinizde Sınırları Kaldırın: Yetişkinler İçin Esnek Dil Dersleri!",
+    "description": "İster iş dünyasında profesyonelliğinizi konuşturun, ister dünyayı gezerken özgürce iletişim kurun. 7/24 erişilebilir online derslerimiz ve yapay zekâ destekli interaktif içeriklerimizle, zamanınızı siz yönetin, kalıcı dil pratiğinin keyfini çıkarın."
+  },
+  "personalizedPlans": {
+    "title": "Size Özel Kişiselleştirilmiş Ders Planları",
+    "items": [
+      {
+        "title": "Hedef Odaklı Öğrenme",
+        "description": "Günlük hayatta akıcı konuşmak mı istiyorsunuz yoksa iş dünyasında fark yaratmak mı? Uzman eğitim kadromuzla tamamen ihtiyaçlarınıza göre şekillendirilmiş ders programları sunuyoruz."
+      },
+      {
+        "title": "7/24 Esnek Planlama",
+        "description": "Yoğun iş temposuna ve günlük rutine uyum sağlayan canlı derslerle, eğitiminizi kendi zaman diliminize göre yönetin."
+      },
+      {
+        "title": "Konuşma Odaklı Yaklaşım",
+        "description": "Sadece dil bilgisini öğrenmekle kalmayın, öğrendiklerinizi hayata geçirin. \"Speak from day one\" felsefesiyle iletişim odaklı derslerde ilk günden itibaren konuşmaya başlayın."
+      },
+      {
+        "title": "Uluslararası Standartlarda (CEFR) Eğitim İçeriği",
+        "description": "Eğitim kalitemizi şansa bırakmıyoruz. Tüm ders içeriklerimiz ve seviye sistemimiz dünya çapında kabul gören CEFR standartlarına tam uyumludur. Böylece uygulama odaklı bir kapsamda dil becerilerinizi geliştirirsiniz."
+      }
+    ]
+  },
+  "tracking": {
+    "title": "Gelişmiş Ders Takibi ve Sürekli Pratik",
+    "subtitle": "Öğrenme yolculuğunuz boyunca gelişiminizi görünür kılan araçlarla desteklenirsiniz.",
+    "items": [
+      {
+        "title": "Kesintisiz Pratik",
+        "description": "Ders aralarında ve boş vakitlerinizde pratik yapmaya devam ederek öğrenme sürecini hızlandırın."
+      },
+      {
+        "title": "Kullanıcı Dostu Portal",
+        "description": "Gelişiminizi, katıldığınız dersleri ve performans raporlarınızı tek bir panel üzerinden kolayca takip edin."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "HURRA LİNGO İLE YABANCI DİL ÖĞREN",
+    "title": "Hedeflerinize uygun eğitim planı",
+    "description": "Uzman eğitmenler ve akıllı teknolojilerle desteklenen öğrenme deneyimine hemen adım atın.",
+    "cta": "ÜCRETSİZ TANIŞMA DERSİ",
+    "variant": "primary"
+  },
+  "howItWorks": {
+    "eyebrow": "Süreç",
+    "title": "Sistemimiz Nasıl Çalışır?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Hedef ve Seviye Analizi",
+        "description": "Doğru başlangıç, başarının anahtarıdır. Profesyonel eğitmenlerimizle gerçekleştireceğiniz ücretsiz tanışma dersinde mevcut dil düzeyiniz belirlenir. Beklentileriniz ve dil hedeflerinize uygun planlama yapılır."
+      },
+      {
+        "number": "02",
+        "title": "Uzman Eğitmen Eşleşmesi",
+        "description": "Sizi anlayan, hedeflerinize ortak olan bir rehberle çalışın. Hedeflerinize ve ilgi alanlarınıza uygun, size özel ders içerikleri hazırlayan uzman öğretmenlerimizle derslerinize başlayın. Ders aralarında size uygun pratikler ve interaktif içeriklerle öğrenme sürecini devam ettirin."
+      },
+      {
+        "number": "03",
+        "title": "Kolay ve Şeffaf Gelişim Takibi",
+        "description": "Eğitim sürecinizi, katıldığınız dersleri ve performans raporlarınızı size özel panelimiz üzerinden anlık olarak takip edin."
+      }
+    ]
+  }
+}

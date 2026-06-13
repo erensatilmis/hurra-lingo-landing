@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "Tez-tez verilən suallar",
+    "title": "Tez-tez Verilən Suallar",
+    "description": "Hurra Lingo təhsil modeli, dərs prosesləri və öyrənmə təcrübəsi haqqında ümumi suallara cavablar."
+  },
+  "items": [
+    {
+      "id": "online-lessons",
+      "title": "Onlayn dərslər effektivdirmi?",
+      "content": "Hurra Lingo-da onlayn təhsili tələbələrin mərkəzdə olduğu interaktiv təcrübəyə çeviririk. Yaş qruplarına uyğunlaşdırılmış oyun əsaslı fəaliyyətlər və dinamik məzmunla dərslərimizi həm yüksək motivasiyalı, həm də nəticəyə yönəlik edirik. Dil öyrənməsini hər yaş üçün yük deyil, zövqlü bir proses kimi dizayn edirik."
+    },
+    {
+      "id": "level-planning",
+      "title": "Tələbənin səviyyəsi və təhsil proqramı necə müəyyən edilir?",
+      "content": "Təhsil prosesinə başlamazdan əvvəl tələbələrimizin cari dil kompetensiyalarını və şəxsi hədəflərini ətraflı tanıtım və səviyyə qiymətləndirmə görüşləri vasitəsilə analiz edirik. Dərs məzmunumuzu bu məlumatlara əsasən yaş qrupu və öyrənmə ehtiyaclarına uyğun strukturlaşdırırıq."
+    },
+    {
+      "id": "private-or-group",
+      "title": "Fərdi dərs götürməliyəm, yoxsa qrup dərsi?",
+      "content": "Sosial öyrənmə və qarşılıqlı əlaqənin gücünə inansaq da, hər tələbənin öyrənmə tərzinin fərqli olduğunu bilirik. Buna görə fərdi və ya qrup dərsləri arasındakı seçimi tələbələrimizin ehtiyaclarına, akademik hədəflərinə və şəxsi prioritetlərinə əsasən birlikdə planlaşdırırıq."
+    },
+    {
+      "id": "teacher-communication",
+      "title": "Təlimatçımla necə əlaqə saxlaya bilərəm?",
+      "content": "Şəxsi tələbə/valideyn portalınız vasitəsilə təlimatçınızla istənilən vaxt əlaqə saxlaya bilərsiniz. Təlimatçınız həmçinin portal vasitəsilə dil inkişafı, əhatə olunan mövzular və irəliləyiş barədə müntəzəm və ətraflı rəy verir."
+    },
+    {
+      "id": "learning-gaps",
+      "title": "Öyrənmə prosesindəki boşluqlar necə aradan qaldırılır?",
+      "content": "Öyrənmə prosesi təlimatçılarımızın təqdim etdiyi fərdiləşdirilmiş əlavə işlər və interaktiv materiallarla davamlı dəstəklənir. Lazım olduqda müəyyən mövzuları möhkəmləndirmək və öyrənmə hədəflərinin itməməsini təmin etmək üçün fərdi dərslərlə prosesi dəstəkləyirik."
+    },
+    {
+      "id": "homework-duration",
+      "title": "Möhkəmləndirmə fəaliyyətləri (ev tapşırığı) nə qədər vaxt aparır?",
+      "content": "Dil öyrənməsində ardıcıllıq vacibdir. Dərs mövzularını daimi etmək üçün tələbənin yaşına və diqqət müddətinə uyğun gündə təxminən 5–15 dəqiqəlik qısa, lakin effektiv möhkəmləndirmə fəaliyyətləri tövsiyə edirik. Bu yanaşma dil mənimsəməsini gündəlik həyatın təbii bir hissəsinə çevirir."
+    }
+  ],
+  "sidebar": {
+    "title": "Ümumi suallar",
+    "subtitle": "Cavabı görmək üçün suala klik edin.",
+    "count": "{{count}} tez-tez verilən sual",
+    "countDescription": "Təhsil prosesi, dərs formatları və platformadan istifadə haqqında sürətli cavablar.",
+    "contactTitle": "Daha ətraflı məlumat istəyirsiniz?",
+    "contactDescription": "Komandamız sizə kömək etməkdən məmnundur.",
+    "contactCta": "Bizimlə Əlaqə Saxlayın"
+  },
+  "testimonials": {
+    "eyebrow": "Rəylər",
+    "title": "Hurra Lingo haqqında rəylər",
+    "items": [
+      {
+        "id": "ali-b",
+        "name": "Ali B.",
+        "text": "Qızım Hurra Lingo sayəsində ingilis dilini sevərək öyrənməyə başladı. Xüsusilə oyunlaşdırılmış məzmun diqqətini cəlb edir və hər gün öz istəyi ilə məşq edir. Bu yaşda bir uşaq üçün həm əyləncəli, həm də öyrədici bir üsul tapdığımız üçün çox məmnunam.",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-1.jpg"
+      },
+      {
+        "id": "emel-g",
+        "name": "Emel G.",
+        "text": "Oğlum Emir adətən dərs oxumağı sevmir, amma Hurra Lingo-ya çox vurulub. Rəngli interfeysi, interaktiv söhbətləri və uğur nişanları onu davamlı motivasiya edir. Dil öyrənməsi bu qədər zövqlü ola bilərmi, təəccüblənirəm!",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-3.jpg"
+      }
+    ]
+  }
+}

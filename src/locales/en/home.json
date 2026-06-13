@@ -1,0 +1,366 @@
+{
+  "hero": {
+    "title": "The Most Enjoyable Way to Learn a New Language!",
+    "description": "Hurra Lingo is the next-generation Online Language School that combines award-winning education technology with expert teachers and high-quality learning resources. Whether child or adult, students of all ages can join 24/7 online live classes from anywhere and access a rich learning environment with AI-powered interactive content and engaging lessons.",
+    "cta": "Try for Free",
+    "stats": [
+      {
+        "value": "10,000+",
+        "label": "Happy students"
+      },
+      {
+        "value": "50+",
+        "label": "Expert teachers"
+      },
+      {
+        "value": "7",
+        "label": "Foreign languages"
+      }
+    ],
+    "badge": {
+      "title": "24/7 Live Classes",
+      "subtitle": "Students of all ages"
+    },
+    "imageAlt": "Hurra Lingo online language education",
+    "imageLabel": "Hero image",
+    "welcomeMessages": [
+      {
+        "lang": "Türkçe",
+        "text": "Merhaba!"
+      },
+      {
+        "lang": "English",
+        "text": "Hello!"
+      },
+      {
+        "lang": "Deutsch",
+        "text": "Hallo!"
+      },
+      {
+        "lang": "Français",
+        "text": "Bonjour!"
+      },
+      {
+        "lang": "Español",
+        "text": "¡Hola!"
+      },
+      {
+        "lang": "Русский",
+        "text": "Привет!"
+      },
+      {
+        "lang": "Azərbaycan",
+        "text": "Salam!"
+      }
+    ],
+    "funKeyword": "Fun"
+  },
+  "mission": {
+    "eyebrow": "Our Goal",
+    "title": "To equip our students with the ability to communicate effectively in at least one foreign language.",
+    "offeredLanguages": [
+      {
+        "id": "tr",
+        "name": "Turkish",
+        "nativeName": "Türkçe"
+      },
+      {
+        "id": "en",
+        "name": "English",
+        "nativeName": "English"
+      },
+      {
+        "id": "de",
+        "name": "German",
+        "nativeName": "Deutsch"
+      },
+      {
+        "id": "fr",
+        "name": "French",
+        "nativeName": "Français"
+      },
+      {
+        "id": "es",
+        "name": "Spanish",
+        "nativeName": "Español"
+      },
+      {
+        "id": "ru",
+        "name": "Russian",
+        "nativeName": "Русский"
+      },
+      {
+        "id": "zh",
+        "name": "Chinese",
+        "nativeName": "中文"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Why Hurra Lingo?",
+    "title": "Advantages of Learning with Hurra Lingo",
+    "items": [
+      {
+        "id": "live",
+        "title": "Online Live Classes",
+        "description": "We offer speaking-focused and effective language learning with our field expert teachers through private and group lesson options."
+      },
+      {
+        "id": "ai",
+        "title": "AI-Powered Interactive Lessons",
+        "description": "Our AI-powered interactive lessons help you acquire new skills in just 15 minutes and reinforce them with fun practice activities."
+      },
+      {
+        "id": "app",
+        "title": "App Activities",
+        "description": "Make what you learn permanent with 5-minute fun activities and AI-powered feedback through daily practice."
+      },
+      {
+        "id": "teachers",
+        "title": "Expert Teachers",
+        "description": "Hurra Lingo teachers are field experts, certified, and among the most qualified educators on a global scale."
+      },
+      {
+        "id": "library",
+        "title": "Recorded Lesson Library",
+        "description": "Access all your lesson recordings anytime and review your learning journey at your own pace."
+      },
+      {
+        "id": "certificates",
+        "title": "International Certificates",
+        "description": "Document your language development with CEFR-aligned international certificates and crown your achievements with global standards."
+      }
+    ]
+  },
+  "ageGroups": {
+    "eyebrow": "Personalized Education for Every Age Group",
+    "subtitle": "We shape our education programs with strategies tailored to age groups:",
+    "groups": [
+      {
+        "id": "4-6",
+        "title": "Ages 4–6",
+        "subtitle": "Game-Based Natural Learning",
+        "description": "Thanks to our pedagogical model, children actively participate in play and rapidly develop listening and speaking skills in a natural flow."
+      },
+      {
+        "id": "7-12",
+        "title": "Ages 7–12",
+        "subtitle": "Active Learning Period",
+        "description": "Children in their core learning years develop all four main language skills through fun and interactive lessons, gaining the confidence to actively use what they learn in daily life."
+      },
+      {
+        "id": "13-18",
+        "title": "Ages 13–18",
+        "subtitle": "Academic Success and Future Focus",
+        "description": "Our program, fully integrated with the school curriculum and based on exam strategies, boosts young people's academic confidence while preparing them fully equipped for their goals."
+      },
+      {
+        "id": "18+",
+        "title": "Ages 18+",
+        "subtitle": "Personalized Solutions for Adults",
+        "description": "With our education model designed specifically for your career, travel, or personal development goals, we enable you to use a foreign language effectively in social and professional life."
+      }
+    ]
+  },
+  "cefrLevels": {
+    "eyebrow": "Programs We Offer",
+    "title": "Language Proficiency Levels",
+    "video": {
+      "label": "Hurra Lingo introduction video"
+    },
+    "levels": [
+      {
+        "id": "pre-a1",
+        "title": "Beginner Level Pre-A1",
+        "content": "Our students use basic expressions related to greetings, introductions, and farewells. They introduce themselves or someone else. They communicate with a person who speaks slowly and clearly. They follow instructions and participate harmoniously in group learning activities. Our students listen with focus. They give appropriate answers to simple questions. They recognize and use simple expressions related to the senses, colors, shapes, numbers, family members, parts of the house, common professions, plants, vegetables, fruits, seasons, clothing, games, toys, weather, emotions, illness, and means of transportation, as well as polite expressions."
+      },
+      {
+        "id": "a1",
+        "title": "Basic Level A1",
+        "content": "Our students use basic expressions related to greetings, introductions, and farewells and participate in dialogues. They follow instructions and participate harmoniously in group learning activities. Our students listen effectively. They ask and state the names of objects and places around them. They engage in dialogues related to daily life; they express their emotions, thoughts, and interests in simple sentences. During dialogues, they give appropriate answers to questions. They recognize and use words related to their body, professions, and school life; days, vehicles, types of transportation, traffic rules, expressions for directions and addresses, expressions indicating date and time, and units of measurement. They write words, simple short sentences, and texts they hear (posters, brochures, lists, notes, emails, etc.)."
+      },
+      {
+        "id": "a2",
+        "title": "Basic Level A2",
+        "content": "Our students show confidence in meeting different individuals. They carry out instructions with at least three steps and participate harmoniously in group learning activities. They can communicate with those around them on generally known topics or activities. They take short notes on what they hear, watch, and read, and identify their subject matter. They identify different perspectives in speech, repetition, guessing, suggestion, preference, offer, request, complaint, and advice expressions, and use them in their narrative skills (speaking and writing). They recognize their classroom, school supplies, household items, traffic signs, sports types and equipment, illnesses, hygiene and nutrition routines, environment, calendar, and parts of the day. They write sentences, paragraphs, and daily texts, announcements, ads, and biographies based on visuals."
+      },
+      {
+        "id": "b1",
+        "title": "Intermediate Level B1",
+        "content": "Our students participate in individual and group activities suited to their age level and developmental characteristics where they can develop their language skills. When a clear and common language is used, they understand main topics related to work, school, and daily life and can give coherent explanations on the subject. Our students summarize what they hear, watch, and read. They identify their subject matter and main idea. They engage in dialogues related to daily life and use idiomatic and figurative expressions in their speech. They express themselves clearly when facing a problem in daily life and explain their expectations. They can narrate a past event in outline. They can give brief information on a topic, idea, or event. They write letters, essays, narrative and descriptive texts, travel pieces, and petitions."
+      },
+      {
+        "id": "b2",
+        "title": "Intermediate Level B2",
+        "content": "Our students participate in individual and group activities suited to their interests and needs, putting their developed language skills into practice. They can communicate comfortably in natural conversation with people who use the language they have learned. Our students sequence what they hear and watch according to the flow of time and draw inferences from them. They plan their speech around a topic or idea, speak fluently, and give unprepared speeches. They identify implicit messages and text types in texts. They understand the essence of concrete or abstract topics in technical subjects requiring expertise or in complex texts. They write résumés, business letters, news articles, and advertising texts."
+      },
+      {
+        "id": "c1",
+        "title": "Advanced Level C1",
+        "content": "Our students participate in individual and group activities suited to their interests and needs, putting their developed language skills into practice. They converse naturally, fluently, and comfortably with native Turkish speakers in natural conversation. Our students comprehend and use formal and academic expressions in what they hear, watch, and read. They follow and apply instructions. They identify the content characteristics of narrative texts. They read extensive, technical, and long texts and understand implicit expressions. They express themselves flexibly and effectively in social, professional, and academic life on complex topics. They write scientific texts and project documents."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Hurra Lingo",
+    "title": "Hurra Lingo Reviews",
+    "subtitle": "Real experiences from our parents and students.",
+    "items": [
+      {
+        "id": "1",
+        "name": "Şebnem E.",
+        "lang": "English",
+        "text": "I'm so glad our paths crossed with the Hurra Lingo family. My son's lack of confidence in English has been replaced with real self-assurance. From the coordinators to the teachers, I can say it's a warm team that does its work very well and with genuine passion. Our dear teacher Mustafa Hakan Yanar — your dedication to teaching, your discipline, and the clear love you bring to your work are so evident. Thank you so much for everything you've contributed to my son."
+      },
+      {
+        "id": "2",
+        "name": "Fatoş A.",
+        "lang": "English",
+        "text": "Hello — I believe in the importance of learning a language at a young age, so I was looking for a way for my child to learn English early when I discovered Hurra Lingo. We've been on this journey with our teacher Bengü Kesen for about three years now. Over those three years, we've made wonderful progress together. Learning while having fun is truly wonderful. The online format is also a great advantage, as we can adjust lesson times with our teacher as needed. We thank our teacher for her loving approach, engaging teaching style, care, and dedication."
+      },
+      {
+        "id": "3",
+        "name": "Emel G.",
+        "lang": "English",
+        "text": "My son Emir generally doesn't enjoy studying, but he absolutely loves Hurra Lingo. The colorful interface, interactive conversations, and achievement badges keep him constantly motivated. I'm amazed that language learning can be this enjoyable!"
+      },
+      {
+        "id": "4",
+        "name": "Ali B.",
+        "lang": "English",
+        "text": "Thanks to Hurra Lingo, my daughter has started learning English with real enthusiasm. The gamified content especially captures her attention, and she practices every day on her own initiative. I'm thrilled that we've found a method that is both fun and educational for a child her age."
+      },
+      {
+        "id": "5",
+        "name": "Merve A.",
+        "lang": "English",
+        "text": "Two years ago, we were looking for a language school for our daughter's education, and that's how we found Hurra Lingo. We met Bengü Teacher and started lessons. We made wonderful progress in a short time. Her interest in English and her confidence in the language grew significantly. Thanks to Bengü Teacher's warm and motivating approach, lessons are enjoyable and enriching. Later, our son also started taking lessons with Bengü Teacher, and we continue to make progress every day. We recommended her to our friends' two children as well, and they also started taking lessons. We always want to continue benefiting from Bengü Teacher's knowledge and experience. Her communication with children, teaching style, and energy are truly excellent. We've been genuinely satisfied with the process from the very beginning. We wholeheartedly thank her for her efforts."
+      },
+      {
+        "id": "6",
+        "name": "Fatma Gül A.",
+        "lang": "English",
+        "text": "We started using Hurra Lingo for my eight-year-old daughter. It's wonderful how she learns English words like a game and improves her pronunciation with native-accent voiceovers. She's now even trying to watch cartoons with English subtitles!"
+      }
+    ]
+  },
+  "teachers": {
+    "eyebrow": "Our Teachers",
+    "title": "Meet the Hurra Lingo Teachers!",
+    "cta": "All Our Teachers",
+    "items": [
+      {
+        "id": "1",
+        "name": "Ghazaleh Ghazalifard",
+        "role": "English Teacher",
+        "highlights": [
+          "Native English speaker",
+          "International education experience",
+          "High student satisfaction"
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Adeniyi Peace",
+        "role": "English Teacher",
+        "highlights": [
+          "Native English speaker",
+          "International teacher",
+          "High student satisfaction"
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Yolandi Bezuidenhout",
+        "role": "English Teacher",
+        "highlights": [
+          "Native English speaker",
+          "Multilingual instructor",
+          "Experienced speaking coach"
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Hurra Lingo Blog",
+    "title": "Follow the Latest Hurra Lingo Blog Posts!",
+    "description": "Discover our latest blog posts on language learning, teaching methods, and motivation.",
+    "cta": "View All Blog Posts",
+    "sidebar": {
+      "postCount": "{{count}} blog posts",
+      "description": "Current content on language learning, education, and motivation."
+    },
+    "items": [
+      {
+        "id": "1",
+        "category": "Children's Education",
+        "readTime": "5 min read",
+        "title": "How Can Children's English Development Be Supported During the Eid Holiday?",
+        "excerpt": "The Eid holiday is a time for children to rest, spend time with their families, and step away from the daily school routine…"
+      },
+      {
+        "id": "2",
+        "category": "Motivation",
+        "readTime": "4 min read",
+        "title": "May 19 Commemoration of Atatürk, Youth and Sports Day and the Importance of Language Learning",
+        "excerpt": "May 19 Commemoration of Atatürk, Youth and Sports Day, the Republic of Turkey's…"
+      },
+      {
+        "id": "3",
+        "category": "Education",
+        "readTime": "6 min read",
+        "title": "The First Stop at the Heart of Education: A Mother, A Teacher",
+        "excerpt": "Where is the first step of a lifelong learning journey taken? In a classroom, or…"
+      },
+      {
+        "id": "4",
+        "category": "Language Learning",
+        "readTime": "7 min read",
+        "title": "A New Language in 6 Months: The Anatomy of an Adventure",
+        "excerpt": "Deciding to learn a new language is actually gifting yourself a new world. However…"
+      },
+      {
+        "id": "5",
+        "category": "Children's Education",
+        "readTime": "5 min read",
+        "title": "April 23 National Sovereignty and Children's Day: Children's World and the Power of Language Learning",
+        "excerpt": "April 23 National Sovereignty and Children's Day is not just a holiday; it is a special day when we celebrate children's imagination, creativity, and potential. Turkey…"
+      },
+      {
+        "id": "6",
+        "category": "Practical Tips",
+        "readTime": "3 min read",
+        "title": "Is It Possible to Speak English in 3 Minutes?",
+        "excerpt": "\"Learn English in 3 minutes!\" You may have come across headlines like this on the internet. Even let's think: minute 1: Hello. 2.…"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Snapshots from Our Classes",
+    "title": "Online Foreign Language Platform",
+    "captions": [
+      "Live class moment",
+      "Interactive activity",
+      "One-on-one with teacher",
+      "Group class fun"
+    ]
+  },
+  "ctaBands": [
+    {
+      "id": "cta-1",
+      "eyebrow": "Join the Hurra Lingo Family",
+      "title": "Reach your goals",
+      "description": "Reach your goals with a learning experience supported by expert teachers, live classes, and smart technology. Whether you want a foundation for your child or a new career opportunity for yourself, discover the most effective and enjoyable way to learn a new language.",
+      "cta": "Try for Free",
+      "variant": "primary"
+    },
+    {
+      "id": "cta-2",
+      "eyebrow": "Join the Hurra Lingo Family",
+      "title": "Discover a new language",
+      "description": "Discover the most enjoyable and effective way to learn a new language. Reach your goals with a learning experience supported by expert teachers and smart technology.",
+      "cta": "Try for Free",
+      "variant": "secondary"
+    }
+  ]
+}

@@ -1,11 +1,13 @@
+import { useTranslation } from "react-i18next";
 import Container from "../ui/Container";
 import Button from "../ui/Button";
 import CountUp from "../ui/CountUp";
 import TiltCard from "../ui/TiltCard";
 import Parallax from "../ui/Parallax";
 import HeroIllustration from "../illustrations/HeroIllustration";
+import { useLocalePath } from "../../routing/useLocalePath";
 import { assets } from "../../assets";
-import { hero, hurraLingoKidsUrl } from "../../data/content";
+import { hurraLingoKidsUrl } from "../../data/metadata";
 import turkishFlag from "../../assets/languages/turkish.svg";
 import englishFlag from "../../assets/languages/english.svg";
 import germanFlag from "../../assets/languages/german.svg";
@@ -14,26 +16,32 @@ import spanishFlag from "../../assets/languages/spanish.svg";
 import russianFlag from "../../assets/languages/russian.svg";
 import azerbaijaniFlag from "../../assets/languages/azerbaijani.svg";
 
-const welcomeMessages = [
-  { flag: turkishFlag, text: "Hurra Lingo'ya Hoş Geldiniz" },
-  { flag: englishFlag, text: "Welcome to Hurra Lingo" },
-  { flag: germanFlag, text: "Willkommen bei Hurra Lingo" },
-  { flag: frenchFlag, text: "Bienvenue chez Hurra Lingo" },
-  { flag: spanishFlag, text: "Bienvenido a Hurra Lingo" },
-  { flag: russianFlag, text: "Добро пожаловать в Hurra Lingo" },
-  { flag: azerbaijaniFlag, text: "Hurra Lingo-ya Xoş Gəldiniz" },
+const welcomeFlagAssets = [
+  turkishFlag,
+  englishFlag,
+  germanFlag,
+  frenchFlag,
+  spanishFlag,
+  russianFlag,
+  azerbaijaniFlag,
 ];
 
-const heroStats = [
-  { id: "students", end: 10000, suffix: "+", label: "Mutlu öğrenci" },
-  { id: "satisfaction", end: 98, suffix: "%", label: "Memnuniyet" },
-  { id: "languages", end: 7, suffix: "", label: "Farklı dil" },
-];
+function parseStatValue(value) {
+  const cleaned = value.replace(/\./g, "").replace(/,/g, "");
+  const match = cleaned.match(/^(\d+)(.*)$/);
 
-function renderHighlightedTitle(title) {
-  const keyword = "Eğlenceli";
+  if (!match) {
+    return { end: 0, suffix: "" };
+  }
+
+  return { end: Number.parseInt(match[1], 10), suffix: match[2] ?? "" };
+}
+
+function renderHighlightedTitle(title, keyword) {
   if (!title.includes(keyword)) return title;
+
   const [before, after] = title.split(keyword);
+
   return (
     <>
       {before}
@@ -46,6 +54,25 @@ function renderHighlightedTitle(title) {
 }
 
 export default function Hero() {
+  const { t } = useTranslation("home");
+  const { localizedPath } = useLocalePath();
+  const welcomeMessages = t("hero.welcomeMessages", { returnObjects: true }).map(
+    (message, index) => ({
+      ...message,
+      flag: welcomeFlagAssets[index],
+    }),
+  );
+  const heroStats = t("hero.stats", { returnObjects: true }).map((stat, index) => {
+    const { end, suffix } = parseStatValue(stat.value);
+
+    return {
+      id: `stat-${index}`,
+      end,
+      suffix,
+      label: stat.label,
+    };
+  });
+
   return (
     <section className="relative overflow-hidden bg-surface-accent">
       <div className="pointer-events-none absolute inset-0">
@@ -113,18 +140,18 @@ export default function Hero() {
               Online Yabancı Dil Eğitimi
             </p>
             <h1 className="text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-              {renderHighlightedTitle(hero.title)}
+              {renderHighlightedTitle(t("hero.title"), t("hero.funKeyword"))}
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-600">
-              {hero.description}
+              {t("hero.description")}
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Button
-                to="/onboarding"
+                to={localizedPath("onboarding")}
                 size="lg"
                 className="hover:-translate-y-0.5 hover:scale-[1.03] hover:shadow-xl hover:shadow-primary-600/30"
               >
-                Eğitime Başla
+                {t("hero.cta")}
               </Button>
             </div>
 
@@ -151,10 +178,10 @@ export default function Hero() {
             </TiltCard>
             <div className="absolute -bottom-4 -left-4 animate-float rounded-2xl border border-white bg-white px-4 py-3 shadow-lg">
               <p className="text-xs font-semibold uppercase tracking-wide text-primary-600">
-                7/24 Canlı Ders
+                {t("hero.badge.title")}
               </p>
               <p className="text-sm font-medium text-slate-700">
-                Her yaştan öğrenci
+                {t("hero.badge.subtitle")}
               </p>
             </div>
           </Parallax>

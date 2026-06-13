@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Check, Sparkles, Tag } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Container from "../components/ui/Container";
 import SectionHeading from "../components/ui/SectionHeading";
 import Button from "../components/ui/Button";
@@ -7,11 +8,16 @@ import Badge from "../components/ui/Badge";
 import Reveal from "../components/ui/Reveal";
 import SpotlightCard from "../components/ui/SpotlightCard";
 import ParallaxBlobs from "../components/ui/ParallaxBlobs";
-import { pricingPage } from "../data/pricingPage";
-import { trialRequestUrl } from "../data/content";
+import { trialRequestUrl } from "../data/metadata";
+import { useLocalePath } from "../routing/useLocalePath";
 
 export default function PricingPage() {
   const navigate = useNavigate();
+  const { localizedPath } = useLocalePath();
+  const { t } = useTranslation("pricing");
+  const languages = t("languages", { returnObjects: true });
+  const tiers = t("tiers", { returnObjects: true });
+  const benefitItems = t("benefits.items", { returnObjects: true });
 
   return (
     <main>
@@ -21,16 +27,16 @@ export default function PricingPage() {
           <div className="mx-auto max-w-3xl text-center">
             <span className="inline-flex items-center gap-2 rounded-full bg-secondary-500/10 px-4 py-1.5 text-sm font-semibold text-secondary-600">
               <Tag className="h-4 w-4" />
-              {pricingPage.hero.campaign}
+              {t("hero.campaign")}
             </span>
             <h1 className="mt-5 text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl">
-              {pricingPage.hero.title}
+              {t("hero.title")}
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-slate-600">
-              {pricingPage.hero.description}
+              {t("hero.description")}
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-2">
-              {pricingPage.languages.map((language) => (
+              {languages.map((language) => (
                 <span
                   key={language}
                   className="rounded-full border border-primary-100 bg-white/70 px-3 py-1 text-sm font-medium text-primary-700 shadow-sm backdrop-blur-sm"
@@ -46,7 +52,7 @@ export default function PricingPage() {
       <section className="py-16 md:py-24">
         <Container>
           <div className="grid items-stretch gap-6 lg:grid-cols-3">
-            {pricingPage.tiers.map((tier, index) => (
+            {tiers.map((tier, index) => (
               <Reveal key={tier.id} delay={index * 90} className="h-full">
                 <SpotlightCard
                   className={`flex h-full flex-col rounded-3xl p-7 shadow-sm transition-all duration-300 hover:-translate-y-1.5 ${
@@ -71,7 +77,7 @@ export default function PricingPage() {
                       {tier.price}
                     </span>
                     <span className="pb-1 text-lg font-semibold text-slate-900">
-                      TL
+                      {t("currency")}
                     </span>
                     <span className="pb-1.5 text-sm font-medium text-slate-400">
                       / {tier.unit}
@@ -97,7 +103,7 @@ export default function PricingPage() {
 
                   <Button
                     onClick={() =>
-                      navigate("/onboarding", {
+                      navigate(localizedPath("onboarding"), {
                         state: { tier: tier.id, tierName: tier.name },
                       })
                     }
@@ -105,7 +111,7 @@ export default function PricingPage() {
                     size="lg"
                     className="mt-8 w-full"
                   >
-                    Satın Al
+                    {t("buyCta")}
                   </Button>
                 </SpotlightCard>
               </Reveal>
@@ -118,13 +124,13 @@ export default function PricingPage() {
         <Container>
           <Reveal>
             <SectionHeading
-              eyebrow={pricingPage.benefits.eyebrow}
-              title={pricingPage.benefits.title}
+              eyebrow={t("benefits.eyebrow")}
+              title={t("benefits.title")}
             />
           </Reveal>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {pricingPage.benefits.items.map((item, index) => (
+            {benefitItems.map((item, index) => (
               <Reveal key={item.title} delay={(index % 3) * 80}>
                 <SpotlightCard className="group h-full rounded-3xl border border-slate-200/80 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-200 hover:shadow-xl hover:shadow-primary-100/50">
                   <div className="mb-5 inline-flex rounded-2xl bg-linear-to-br from-primary-500 to-primary-700 p-3.5 text-white shadow-lg shadow-primary-600/25 transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110">
@@ -143,7 +149,7 @@ export default function PricingPage() {
 
           <div className="mt-10 text-center">
             <Button href={trialRequestUrl} size="lg">
-              Ücretsiz Tanışma Dersi
+              {t("trialCta")}
             </Button>
           </div>
         </Container>

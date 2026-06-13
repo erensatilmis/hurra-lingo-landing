@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "eyebrow": "Derslerimiz",
+    "title": "Size en uygun ders formatını seçin",
+    "description": "Birebir, mini grup veya grup dersleriyle konuşma odaklı, oyun tabanlı ve profesyonel müfredat seçeneklerimizi keşfedin."
+  },
+  "lessonTypes": [
+    {
+      "id": "individual",
+      "badge": "Birebir",
+      "image": "/lessons/bireysel.jpg",
+      "title": "Bireysel Derslerimiz",
+      "description": "Kişiselleştirilmiş Birebir Eğitim: Öğrenme hızınıza ve hedeflerinize göre şekillenen bireysel derslerimizde; çocuklar için oyun tabanlı, yetişkinler için ise profesyonel odaklı bir müfredat uygulanır. Öğrencilerimiz, yabancı dili sadece teoride bırakmaz; günlük hayatta ve iş dünyasında özgüvenle kullanmayı öğrenirler."
+    },
+    {
+      "id": "mini-group",
+      "badge": "2–4 kişi",
+      "image": "/lessons/mini.jpg",
+      "title": "Mini Grup Derslerimiz",
+      "description": "Butik Eğitim ile Maksimum Verim: 2 ila 4 kişilik mini gruplarımızda, her öğrenciye ayrılan konuşma süresini maksimize ediyoruz. 1 aydan 10 aya kadar uzanan avantajlı üyelik paketleri ve grubun ihtiyacına göre planlanan haftalık ders programlarıyla, sosyal bir ortamda interaktif dil öğrenimi sunuyoruz."
+    },
+    {
+      "id": "group",
+      "badge": "5–8 kişi",
+      "image": "/lessons/grup.jpg",
+      "title": "Grup Derslerimiz",
+      "description": "Dinamik ve Sosyal Öğrenme Ortamı: 5 ila 8 kişilik grup derslerimizde, farklı bakış açılarıyla zenginleşen bir sınıf ortamı sağlıyoruz. 3 veya 6 aylık ekonomik üyelik seçenekleri ile bütçenize uygun, sürdürülebilir bir eğitim planlıyoruz. Haftalık ders yoğunluğunu, grubun gelişim hızına ve hedeflerine göre optimize ediyoruz."
+    }
+  ],
+  "experience": {
+    "eyebrow": "Hurra Lingo",
+    "title": "Geleceğin Dil Eğitimi Deneyimi!",
+    "pillars": [
+      {
+        "title": "Kişiselleştirilmiş Odak",
+        "items": [
+          {
+            "label": "Rol Odaklı Müfredat",
+            "text": "Dersler, günlük yaşam ve iş dünyasındaki spesifik ihtiyaçlarınıza göre özel olarak yapılandırılır."
+          },
+          {
+            "label": "Seviyeye Özel Yaklaşım",
+            "text": "CEFR (A1-C1) standartlarında, mevcut seviyeniz ile hedeflediğiniz yetkinlik arasındaki boşluğu kapatmaya yönelik kişisel gelişim planları sunulur."
+          },
+          {
+            "label": "Maksimum Konuşma Süresi",
+            "text": "Ders süresinin tamamında aktif olarak konuşmanız sağlanır; böylece akıcılık ve özgüven en kısa sürede kazanılır."
+          }
+        ]
+      },
+      {
+        "title": "Esneklik ve Dijital Entegrasyon",
+        "items": [
+          {
+            "label": "Esnek Planlama",
+            "text": "Yoğun iş temposuna uyum sağlayacak şekilde ders planlama fırsatı."
+          },
+          {
+            "label": "Yapay Zeka Destekli Pratik",
+            "text": "Canlı dersler arasındaki süreci destekleyen; konuya özel kelime ve dil bilgisi egzersizleriyle öğrenmeyi pekiştiren dijital altyapı."
+          },
+          {
+            "label": "Her Yerden Erişim",
+            "text": "Fiziksel bir sınıfa bağlı kalmadan, tamamen online ve kullanıcı dostu bir arayüzle kesintisiz eğitim."
+          }
+        ]
+      },
+      {
+        "title": "Eğitmen Kalitesi",
+        "items": [
+          {
+            "label": "Sertifikalı ve Deneyimli Kadro",
+            "text": "Sadece dil bilen değil, pedagojik formasyona sahip uzman eğitmenlerle çalışma ayrıcalığı."
+          },
+          {
+            "label": "Kültürel Yetkinlik",
+            "text": "Dil eğitiminin yanı sıra, hedef dilin konuşulduğu ülkelerdeki sosyal normlar ve kültürel kodlar hakkında rehberlik."
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "HURRA LİNGO İLE YABANCI DİL ÖĞREN",
+    "title": "Doğru ders formatını birlikte belirleyelim",
+    "description": "Ücretsiz tanışma dersiyle seviyenizi ölçün, size en uygun ders planını oluşturalım.",
+    "cta": "ÜCRETSİZ TANIŞMA DERSİ",
+    "variant": "primary"
+  },
+  "beyondLive": {
+    "eyebrow": "Dijital ekosistem",
+    "title": "Hurra Lingo'da Canlı Dersler Dışında Neler Var?",
+    "items": [
+      {
+        "title": "Asla Geri Kalmayın: Kayıtlı Ders Bankası",
+        "subtitle": "Kişisel kütüphanenizle güvende kalın",
+        "points": [
+          "Süresiz Erişim: Onayınızla kaydedilen canlı dersler.",
+          "Sınırsız Tekrar: Dilediğiniz an tekrar izleme fırsatı.",
+          "Kendi Hızınız: Eksiklerinizi kapatarak hızınızı belirleyin."
+        ]
+      },
+      {
+        "title": "İnteraktif Derslerle, Kendi Hızında, Aktif Öğren",
+        "subtitle": "Dört temel beceriyi dengeli geliştirin",
+        "points": [
+          "Konuyu Öğren: Seviyene uygun konular sade ve anlaşılır şekilde anlatılır.",
+          "Hemen Pratik Yap: Öğrendiklerini anında uygulayarak pekiştirirsin.",
+          "Anında Geri Bildirim Al: Yapay zekâ destekli sistem hatalarını analiz eder."
+        ],
+        "skills": [
+          "Dinleme",
+          "Konuşma",
+          "Okuma",
+          "Yazma"
+        ]
+      },
+      {
+        "title": "Cebindeki Oyun: Hurra Lingo App",
+        "subtitle": "Günlük dil alışkanlığı",
+        "points": [
+          "Günde 10 dakikada kalıcı hafıza.",
+          "Tamamen size özel içerik önerileri.",
+          "Başarılarınızı somut olarak görün."
+        ]
+      },
+      {
+        "title": "AI Destekli Kişiselleştirilmiş Öğrenme",
+        "subtitle": "Sizi tanıyan akıllı sistem",
+        "points": [
+          "Anlık Analiz: Performans ve dil seviyenizin saniye saniye taranması.",
+          "Akıllı Tespit: Hataların algoritma desteğiyle anında belirlenmesi.",
+          "Kişisel Odak: Eksiklere yönelik, tamamen size özel üretilen içerikler.",
+          "Hızlı Gelişim: Kendi hızınızda ilerleyerek kalıcı öğrenme deneyimi.",
+          "Resmi Belgelendirme: CEFR uyumlu, uluslararası geçerliliğe sahip sertifikayla tescillenen başarı."
+        ]
+      }
+    ]
+  },
+  "imageAlt": "{{title}} görseli",
+  "speaking": {
+    "eyebrow": "Konuşma Dersleri",
+    "title": "Dil Bariyerlerini Aşın, Akıcı Konuşmaya Başlayın!",
+    "description": "\"Ne zaman konuşmaya başlayacağım?\" endişesine son veriyoruz. İster çocuğunuzun geleceği, ister kendi kariyeriniz için:",
+    "highlights": [
+      "Sınırsız Pratik İmkanı: Seviyenize uygun konuşma oturumlarına dilediğinizce katılın.",
+      "Uzman Eğitmen Kadrosu: Nitelikli ve tecrübeli öğretmenlerle canlı pratik yapın.",
+      "Hayatın İçinden Konular: İş dünyası, seyahat, akademik hazırlık veya günlük yaşam gibi farklı senaryolarda kendinizi ifade edin.",
+      "Doğru Telaffuz ve Özgüven: İlgi çekici ve interaktif ortamlarda telaffuzunuzu iyileştirerek akıcılık kazanın."
+    ]
+  }
+}

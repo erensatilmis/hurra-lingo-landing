@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "eyebrow": "FAQ",
+    "title": "Häufig gestellte Fragen",
+    "description": "Antworten auf häufige Fragen zum Hurra-Lingo-Bildungsmodell, zu Unterrichtsabläufen und zum Lernerlebnis."
+  },
+  "items": [
+    {
+      "id": "online-lessons",
+      "title": "Sind Online-Unterrichtsstunden effektiv?",
+      "content": "Bei Hurra Lingo verwandeln wir Online-Bildung in ein interaktives Erlebnis, bei dem die Lernenden im Mittelpunkt stehen. Mit spielbasierten Aktivitäten und dynamischen Inhalten, die auf Altersgruppen zugeschnitten sind, gestalten wir unsere Unterrichtsstunden sowohl hoch motivierend als auch ergebnisorientiert. Wir gestalten Sprachenlernen für jedes Alter als angenehmen Prozess – nicht als Belastung."
+    },
+    {
+      "id": "level-planning",
+      "title": "Wie werden Niveau und Bildungsprogramm des Lernenden bestimmt?",
+      "content": "Bevor der Bildungsprozess beginnt, analysieren wir die aktuellen Sprachkompetenzen und persönlichen Ziele unserer Lernenden in ausführlichen Einführungs- und Niveaubestimmungsgesprächen. Auf dieser Grundlage strukturieren wir unsere Unterrichtsinhalte nach Altersgruppe und Lernbedarf."
+    },
+    {
+      "id": "private-or-group",
+      "title": "Soll ich Einzel- oder Gruppenunterricht nehmen?",
+      "content": "Wir glauben an die Kraft des sozialen Lernens und der Interaktion – und wissen zugleich, dass jeder Lernende einen anderen Lernstil hat. Deshalb planen wir die Wahl zwischen Einzel- oder Gruppenunterricht gemeinsam, basierend auf den Bedürfnissen, akademischen Zielen und persönlichen Prioritäten unserer Lernenden."
+    },
+    {
+      "id": "teacher-communication",
+      "title": "Wie kann ich mit meiner Lehrkraft kommunizieren?",
+      "content": "Sie können jederzeit über Ihr persönliches Schüler-/Elternportal mit Ihrer Lehrkraft kommunizieren. Ihre Lehrkraft gibt außerdem regelmäßig und ausführlich Feedback zu Sprachentwicklung, behandelten Themen und Fortschritt über das Portal."
+    },
+    {
+      "id": "learning-gaps",
+      "title": "Wie werden Lücken im Lernprozess geschlossen?",
+      "content": "Der Lernprozess wird kontinuierlich mit personalisierten Zusatzaufgaben und interaktiven Materialien unserer Lehrkräfte unterstützt. Bei Bedarf unterstützen wir den Prozess mit Einzelunterricht, um bestimmte Themen zu vertiefen und sicherzustellen, dass Lernziele nicht verloren gehen."
+    },
+    {
+      "id": "homework-duration",
+      "title": "Wie lange dauern Vertiefungsaktivitäten (Hausaufgaben)?",
+      "content": "Kontinuität ist beim Sprachenlernen unerlässlich. Um Unterrichtsthemen zu festigen, empfehlen wir kurze, aber wirkungsvolle Vertiefungsaktivitäten von etwa 5 bis 15 Minuten täglich – angepasst an Alter und Aufmerksamkeitsspanne des Lernenden. So wird Spracherwerb zu einem natürlichen Teil des Alltags."
+    }
+  ],
+  "sidebar": {
+    "title": "Häufige Fragen",
+    "subtitle": "Klicken Sie auf eine Frage, um die Antwort anzuzeigen.",
+    "count": "{{count}} häufig gestellte Fragen",
+    "countDescription": "Schnelle Antworten zum Bildungsprozess, zu Unterrichtsformaten und zur Plattformnutzung.",
+    "contactTitle": "Möchten Sie mehr Details?",
+    "contactDescription": "Unser Team hilft Ihnen gerne weiter.",
+    "contactCta": "Kontaktieren Sie uns"
+  },
+  "testimonials": {
+    "eyebrow": "Bewertungen",
+    "title": "Bewertungen über Hurra Lingo",
+    "items": [
+      {
+        "id": "ali-b",
+        "name": "Ali B.",
+        "text": "Dank Hurra Lingo hat meine Tochter begonnen, Englisch mit echter Begeisterung zu lernen. Besonders die gamifizierten Inhalte fesseln ihre Aufmerksamkeit, und sie übt jeden Tag aus eigenem Antrieb. Ich bin sehr glücklich, dass wir für ein Kind in diesem Alter eine Methode gefunden haben, die sowohl unterhaltsam als auch lehrreich ist.",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-1.jpg"
+      },
+      {
+        "id": "emel-g",
+        "name": "Emel G.",
+        "text": "Mein Sohn Emir mag es im Allgemeinen nicht zu lernen, aber er liebt Hurra Lingo absolut. Die farbenfrohe Oberfläche, die interaktiven Gespräche und die Erfolgsabzeichen motivieren ihn ständig. Ich bin erstaunt, dass Sprachenlernen so viel Spaß machen kann!",
+        "avatar": "https://www.hurralingo.com/wp-content/uploads/2020/08/testi-3.jpg"
+      }
+    ]
+  }
+}

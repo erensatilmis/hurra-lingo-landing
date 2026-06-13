@@ -1,10 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Container from "../ui/Container";
 import SectionHeading from "../ui/SectionHeading";
 import Reveal from "../ui/Reveal";
 import ParallaxBlobs from "../ui/ParallaxBlobs";
-import { testimonials } from "../../data/content";
+import { testimonialAvatars } from "../../data/metadata";
 
 const SQRT_5000 = Math.sqrt(5000);
 
@@ -126,10 +127,38 @@ function TestimonialCard({ position, item, handleMove, cardSize }) {
 }
 
 export default function Testimonials() {
+  const { t, i18n } = useTranslation(["home", "common"]);
+  const testimonialItems = useMemo(
+    () =>
+      t("testimonials.items", {
+        ns: "home",
+        returnObjects: true,
+      }).map((item) => ({
+        ...item,
+        avatar: testimonialAvatars[item.id],
+      })),
+    [t, i18n.language],
+  );
   const [cardSize, setCardSize] = useState(365);
   const [list, setList] = useState(() =>
-    testimonials.items.map((item, index) => ({ ...item, tempId: index })),
+    testimonialItems.map((item, index) => ({ ...item, tempId: index })),
   );
+
+  useEffect(() => {
+    setList((prev) => {
+      if (prev.length === 0) {
+        return testimonialItems.map((item, index) => ({
+          ...item,
+          tempId: index,
+        }));
+      }
+
+      return prev.map((oldItem) => {
+        const updated = testimonialItems.find((item) => item.id === oldItem.id);
+        return updated ? { ...updated, tempId: oldItem.tempId } : oldItem;
+      });
+    });
+  }, [testimonialItems]);
 
   const handleMove = (steps) => {
     const newList = [...list];
@@ -168,9 +197,9 @@ export default function Testimonials() {
       <Container className="relative">
         <Reveal>
           <SectionHeading
-            eyebrow={testimonials.eyebrow}
-            title={testimonials.title}
-            subtitle="Velilerimizin ve öğrencilerimizin gerçek deneyimleri."
+            eyebrow={t("testimonials.eyebrow", { ns: "home" })}
+            title={t("testimonials.title", { ns: "home" })}
+            subtitle={t("testimonials.subtitle", { ns: "home" })}
           />
         </Reveal>
 
@@ -191,7 +220,7 @@ export default function Testimonials() {
           <div className="absolute bottom-2 left-1/2 flex -translate-x-1/2 gap-3">
             <button
               type="button"
-              aria-label="Önceki yorum"
+              aria-label={t("aria.previousTestimonial", { ns: "common" })}
               onClick={() => handleMove(-1)}
               className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-200 bg-white text-slate-600 transition-colors hover:border-primary-600 hover:bg-primary-600 hover:text-white"
             >
@@ -199,7 +228,7 @@ export default function Testimonials() {
             </button>
             <button
               type="button"
-              aria-label="Sonraki yorum"
+              aria-label={t("aria.nextTestimonial", { ns: "common" })}
               onClick={() => handleMove(1)}
               className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-200 bg-white text-slate-600 transition-colors hover:border-primary-600 hover:bg-primary-600 hover:text-white"
             >

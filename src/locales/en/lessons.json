@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "eyebrow": "Our Lessons",
+    "title": "Choose the lesson format that suits you best",
+    "description": "Discover our speaking-focused, game-based, and professional curriculum options with one-on-one, mini group, or group lessons."
+  },
+  "lessonTypes": [
+    {
+      "id": "individual",
+      "badge": "One-on-One",
+      "image": "/lessons/bireysel.jpg",
+      "title": "Individual Lessons",
+      "description": "Personalized One-on-One Education: In our individual lessons shaped around your learning pace and goals, we apply a game-based curriculum for children and a professionally focused curriculum for adults. Our students don't leave the foreign language in theory — they learn to use it confidently in daily life and the business world."
+    },
+    {
+      "id": "mini-group",
+      "badge": "2–4 people",
+      "image": "/lessons/mini.jpg",
+      "title": "Mini Group Lessons",
+      "description": "Maximum Efficiency with Boutique Education: In our mini groups of 2 to 4 students, we maximize speaking time allocated to each student. With advantageous membership packages ranging from 1 to 10 months and weekly lesson schedules planned according to group needs, we offer interactive language learning in a social environment."
+    },
+    {
+      "id": "group",
+      "badge": "5–8 people",
+      "image": "/lessons/grup.jpg",
+      "title": "Group Lessons",
+      "description": "Dynamic and Social Learning Environment: In our group lessons of 5 to 8 students, we provide a classroom enriched with diverse perspectives. With economical 3- or 6-month membership options, we plan sustainable education that fits your budget. We optimize weekly lesson intensity according to the group's pace and goals."
+    }
+  ],
+  "experience": {
+    "eyebrow": "Hurra Lingo",
+    "title": "The Future of Language Education!",
+    "pillars": [
+      {
+        "title": "Personalized Focus",
+        "items": [
+          {
+            "label": "Role-Based Curriculum",
+            "text": "Lessons are specifically structured around your needs in daily life and the business world."
+          },
+          {
+            "label": "Level-Specific Approach",
+            "text": "Personal development plans aligned with CEFR (A1–C1) standards are offered to bridge the gap between your current level and your target competency."
+          },
+          {
+            "label": "Maximum Speaking Time",
+            "text": "You are encouraged to speak actively throughout the lesson, so fluency and confidence are gained quickly."
+          }
+        ]
+      },
+      {
+        "title": "Flexibility and Digital Integration",
+        "items": [
+          {
+            "label": "Flexible Scheduling",
+            "text": "The opportunity to schedule lessons to fit your busy work routine."
+          },
+          {
+            "label": "AI-Powered Practice",
+            "text": "Digital infrastructure that supports learning between live classes with topic-specific vocabulary and grammar exercises."
+          },
+          {
+            "label": "Access Anywhere",
+            "text": "Seamless education fully online with a user-friendly interface, without being tied to a physical classroom."
+          }
+        ]
+      },
+      {
+        "title": "Instructor Quality",
+        "items": [
+          {
+            "label": "Certified and Experienced Team",
+            "text": "The privilege of working with expert instructors who have pedagogical training, not just language knowledge."
+          },
+          {
+            "label": "Cultural Competence",
+            "text": "Guidance on social norms and cultural codes in countries where the target language is spoken, alongside language education."
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "LEARN A FOREIGN LANGUAGE WITH HURRA LINGO",
+    "title": "Let's choose the right lesson format together",
+    "description": "Assess your level with a free introductory lesson and let's create the best lesson plan for you.",
+    "cta": "FREE INTRODUCTORY LESSON",
+    "variant": "primary"
+  },
+  "beyondLive": {
+    "eyebrow": "Digital ecosystem",
+    "title": "What's Beyond Live Classes at Hurra Lingo?",
+    "items": [
+      {
+        "title": "Never Fall Behind: Recorded Lesson Library",
+        "subtitle": "Stay confident with your personal library",
+        "points": [
+          "Unlimited Access: Live classes recorded with your approval.",
+          "Unlimited Review: Watch again whenever you want.",
+          "Your Own Pace: Set your speed by closing gaps in your learning."
+        ]
+      },
+      {
+        "title": "Learn Actively at Your Own Pace with Interactive Lessons",
+        "subtitle": "Develop all four core skills in balance",
+        "points": [
+          "Learn the Topic: Level-appropriate topics explained clearly and simply.",
+          "Practice Immediately: Reinforce what you learn by applying it right away.",
+          "Get Instant Feedback: AI-powered system analyzes your mistakes."
+        ],
+        "skills": [
+          "Listening",
+          "Speaking",
+          "Reading",
+          "Writing"
+        ]
+      },
+      {
+        "title": "The Game in Your Pocket: Hurra Lingo App",
+        "subtitle": "Daily language habit",
+        "points": [
+          "Lasting memory in 10 minutes a day.",
+          "Fully personalized content recommendations.",
+          "See your achievements in concrete terms."
+        ]
+      },
+      {
+        "title": "AI-Powered Personalized Learning",
+        "subtitle": "A smart system that knows you",
+        "points": [
+          "Real-Time Analysis: Second-by-second scanning of performance and language level.",
+          "Smart Detection: Mistakes identified instantly with algorithm support.",
+          "Personal Focus: Content generated entirely for you, targeting your gaps.",
+          "Rapid Progress: Lasting learning experience by advancing at your own pace.",
+          "Official Documentation: Success validated with a CEFR-aligned, internationally recognized certificate."
+        ]
+      }
+    ]
+  },
+  "imageAlt": "{{title}} lesson image",
+  "speaking": {
+    "eyebrow": "Speaking Lessons",
+    "title": "Break Language Barriers, Start Speaking Fluently!",
+    "description": "We put an end to the worry of \"when will I start speaking?\" Whether for your child's future or your own career:",
+    "highlights": [
+      "Unlimited Practice: Join speaking sessions suited to your level as often as you like.",
+      "Expert Teaching Team: Live practice with qualified and experienced teachers.",
+      "Real-Life Topics: Express yourself in different scenarios such as business, travel, academic preparation, or daily life.",
+      "Correct Pronunciation and Confidence: Improve pronunciation and gain fluency in engaging, interactive environments."
+    ]
+  }
+}
