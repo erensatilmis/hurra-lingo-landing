@@ -1,6 +1,6 @@
-import { ArrowUpRight, Clock } from 'lucide-react'
-import Card from '../ui/Card'
-import ImageSlot from '../ui/ImageSlot'
+import { ArrowUpRight, Clock } from "lucide-react";
+import Card from "../ui/Card";
+import ImageSlot from "../ui/ImageSlot";
 
 export default function BlogPostCard({ post, coverSrc }) {
   return (
@@ -29,7 +29,9 @@ export default function BlogPostCard({ post, coverSrc }) {
         <h3 className="text-lg font-semibold leading-7 text-slate-900 transition-colors group-hover:text-primary-700">
           {post.title}
         </h3>
-        <p className="mt-3 flex-1 text-sm leading-7 text-slate-600">{post.excerpt}</p>
+        <p className="mt-3 flex-1 text-sm leading-7 text-slate-600">
+          {post.excerpt}
+        </p>
         <a
           href="#"
           className="mt-5 inline-flex items-center gap-2 pt-1 text-sm font-semibold text-primary-700 transition-colors hover:text-primary-800"
@@ -39,5 +41,5 @@ export default function BlogPostCard({ post, coverSrc }) {
         </a>
       </div>
     </Card>
-  )
+  );
 }
